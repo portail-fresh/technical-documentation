@@ -1,1 +1,18 @@
-site_name: My Docs
+site_name: FReSH catalog documentation
+
+nav:
+  - Home: index.md
+  - Controlled vocabularies:
+    - Data type: data-type.md
+    - Health theme: health-theme.md
+    
+
+theme:
+  name: material
+  palette:
+    primary: custom
+  logo: assets/logo.png
+  favicon: assets/logo.png
+
+extra_css:
+  - stylesheets/extra.css
