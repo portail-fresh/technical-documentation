@@ -3,7 +3,7 @@ hide:
   - toc
 ---
 
-# Data type
+# Type de données - Data type
 
 The DataType field describes the categories of data collected within the study.
 
