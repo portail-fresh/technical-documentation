@@ -1,0 +1,47 @@
+---
+hide:
+  - toc
+---
+
+# Accès aux données individuelles - Access to individual data
+
+Statut de disponibilité des données individuelles à la fin de la collecte.
+
+Individual data availability status at the end of the collect.
+<table>
+  <tr BGCOLOR="#00a6e2">
+    <th style="color:#FFFFFF;">French label</th>
+    <th style="color:#FFFFFF;">English label</th>
+    <th style="color:#FFFFFF;">French description</th>
+    <th style="color:#FFFFFF;">English description</th>
+  </tr>
+  <tr>
+    <td><b>Libre accès</b></td>
+    <td><b>Open access</b></td>
+    <td>Données immédiatement et en permanence en ligne, et gratuites pour tous sur le Web, sans barrières financières et techniques. </td>
+    <td>Data that are immediately and permanently online, and free for all on the Web, without financial and technical barriers.</td>
+  </tr>
+  <tr>
+    <td><b>À définir</b></td>
+    <td><b>To be defined</b></td>
+    <td>Les conditions d'accès ne sont pas encore déterminées.</td>
+    <td>Access conditions are not yet determined.</td>
+  </tr>
+    <tr>
+    <td><b>Accès réservé</b></td>
+    <td><b>Restricted access</b></td>
+    <td>Données disponibles dans un système, mais soumises à une restriction d'accès libre. Ce type d'accès peut se présenter dans différentes situations. Voici quelques exemples : l'utilisateur doit se connecter au système pour accéder aux données ; l'utilisateur doit envoyer un courriel à l'auteur ou à l'administrateur système pour accéder aux données ; l'accès aux données est réservé à une communauté spécifique (par exemple, une communauté universitaire).</td>
+    <td>Data that are available in a system but with some type of restriction for full open access. This type of access can occur in a number of different situations. Some examples are described below: The user must log-in to the system in order to access the data; The user must send an email to the author or system administrator to access the data ; Access to the data are restricted to a specific community (e.g. limited to a university community)</td>
+  </tr>
+    <tr>
+    <td><b>Accès aux seules métadonnées</b></td>
+    <td><b>Metadata-only access</b></td>
+    <td>Données dont l'accès est limité aux métadonnées. Les données sont décrites par les métadonnées, mais elles ne sont pas directement accessibles via le système ou la plateforme, et ne peuvent pas être mises à disposition dans une archive ou un entrepôt fiable.</td>
+    <td>Metadata only access refers to data in which access is limited to metadata only. Data are described by the metadata, but neither is directly available through the system or platform nor can be available in a trusted archive or repository.</td>
+  </tr>
+    <tr>
+    <td><b>Sous embargo</b></td>
+    <td><b>Embargoed access</b></td>
+    <td>Données avec accès limité aux métadonnées jusqu'à sa mise en libre accès à une date donnée. Les embargos peuvent être imposés par les politiques des institutions et des bailleurs de fonds, ou fixés par l'auteur (par exemple, pour les thèses et les mémoires).</td>
+    <td>Embargoed access refers to data that are metadata only access until released for open access on a certain date. Embargoes can be required by institutions and funders policies, or set by the author (e.g such as in the case of theses and dissertations).</td>
+  </table>
