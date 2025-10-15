@@ -9,10 +9,6 @@
       
       
       
-        <link rel="prev" href="../metadata-model/">
-      
-      
-        <link rel="next" href="../AllocationUnit/">
       
       
       <link rel="icon" href="../assets/logo.png">
@@ -20,7 +16,7 @@
     
     
       
-        <title>Portail Epidemiologie France (PEF) - FReSH catalog documentation</title>
+        <title>Etude interventionnelle : Schéma d’intervention - Interventional Study : Intervention model - FReSH catalog documentation</title>
       
     
     
@@ -71,6 +67,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#etude-interventionnelle-schema-dintervention-interventional-study-intervention-model" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -102,7 +103,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Portail Epidemiologie France (PEF)
+              Etude interventionnelle : Schéma d’intervention - Interventional Study : Intervention model
             
           </span>
         </div>
@@ -171,6 +172,8 @@
           
             
               
+                
+              
               <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
@@ -238,20 +241,18 @@
       
   
   
-    
   
   
-  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
         
           
           <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
@@ -267,7 +268,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             Metadata sources
@@ -278,17 +279,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../pef-migration/" class="md-nav__link">
         
   
   
@@ -299,7 +293,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -457,7 +450,9 @@
             
             
               
-              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" hidden>
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
                     
@@ -465,6 +460,8 @@
 <nav class="md-nav md-nav--secondary" aria-label="Table of contents">
   
   
+  
+    
   
   
 </nav>
@@ -478,21 +475,66 @@
               <article class="md-content__inner md-typeset">
                 
                   
-
-
-
-  <h1>Portail Epidemiologie France (PEF)</h1>
-
+  
 
 
 
 
+<h1 id="etude-interventionnelle-schema-dintervention-interventional-study-intervention-model">Etude interventionnelle : Schéma d’intervention - Interventional Study : Intervention model</h1>
+<p>Conception générale de la stratégie d'attribution des interventions aux participants d'une étude clinique.</p>
+<p>The general design of the strategy for assigning interventions to participants in a clinical study. </p>
+<table>
+  <tr BGCOLOR="#00a6e2">
+    <th style="color:#FFFFFF;">French label</th>
+    <th style="color:#FFFFFF;">English label</th>
+    <th style="color:#FFFFFF;">French description</th>
+    <th style="color:#FFFFFF;">English description</th>
+  </tr>
+  <tr>
+    <td><b>Simple bras</b></td>
+    <td><b>Single Group</b></td>
+    <td>Etude à bras unique : tous les participants reçoivent la même intervention.</td>
+    <td>Study with a single arm: all participants receive the same intervention.</td>
+  </tr>
+    <tr>
+    <td><b>Groupes parallèles</b></td>
+    <td><b>Parallel</b></td>
+    <td>Deux ou plus de groupes distincts de participants reçoivent différentes interventions, généralement attribuées de manière randomisée, et restent dans le même groupe pendant toute la durée de l’étude.</td>
+    <td>Two or more distinct groups of participants receive different interventions, usually assigned randomly, and remain in the same group for the study duration.</td>
+  </tr>
+    <tr>
+    <td><b>Schéma croisé</b></td>
+    <td><b>Crossover</b></td>
+    <td>Les participants reçoivent l'une des deux (ou plusieurs) interventions alternatives pendant la phase initiale de l'étude et reçoivent l'autre intervention pendant la deuxième phase de l'étude, dans un ordre prédéterminé.</td>
+    <td>Participants receive one of two (or more) alternative interventions during the initial phase of the study and receive the other intervention during the second phase of the study, in a pre-determined sequence.</td>
+  </tr>
+    <tr>
+    <td><b>Plan factoriel</b></td>
+    <td><b>Factorial</b></td>
+    <td>Deux interventions ou plus, chacune seule et en combinaison, sont évaluées en parallèle par rapport à un groupe témoin.</td>
+    <td>Two or more interventions, each alone and in combination, are evaluated in parallel against a control group.</td>
+  </tr>
+    <tr>
+    <td><b>Séquentiel</b></td>
+    <td><b>Sequential</b></td>
+    <td>Les groupes de participants sont répartis pour recevoir des interventions en fonction des étapes préalables atteintes dans l'étude, comme dans certaines études à doses croissantes et à conception adaptative.</td>
+    <td>Groups of participants are assigned to receive interventions based on prior milestones being reached in the study, such as in some dose escalation and adaptive design studies.</td>
+  </tr>
+  </table>
 
 
 
 
 
 
+
+  
+  
+
+
+
+
+  
 
 
 
