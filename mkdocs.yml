@@ -7,7 +7,6 @@ nav:
     - Portail Epidemiologie France (PEF): pef-migration.md
   - Controlled vocabularies:
     - Allocation Unit : AllocationUnit.md
-    - Authorization Agency :
     - Biobank Content : BiobankContent.md
     - Data type: data-type.md
     - Health theme: health-theme.md
