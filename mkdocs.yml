@@ -2,7 +2,12 @@ site_name: FReSH catalog documentation
 
 nav:
   - Home: index.md
+  - Metadata model: metadata-model.md
+  - Metadata sources:
+    - Portail Epidemiologie France (PEF): pef-migration.md
   - Controlled vocabularies:
+    - Allocation Unit : AllocationUnit.md
+    - Biobank Content : BiobankContent.md
     - Data type: data-type.md
     - Health theme: health-theme.md
     
@@ -11,7 +16,7 @@ theme:
   name: material
   palette:
     primary: custom
-  logo: assets/logo.png
+  logo: assets/logo-white.png
   favicon: assets/logo.png
 
 extra_css:
