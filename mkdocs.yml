@@ -6,14 +6,9 @@ nav:
   - Metadata sources:
     - Portail Epidemiologie France (PEF): pef-migration.md
   - Controlled vocabularies:
-    - Age :
-    - Allocation mode :
     - Allocation Unit : AllocationUnit.md
-    - Arm Type :
     - Authorization Agency :
     - Biobank Content : BiobankContent.md
-    - Blinded Masking :
-    - Collection mode :
     - Data type: data-type.md
     - Health theme: health-theme.md
     
