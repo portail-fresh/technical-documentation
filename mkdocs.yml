@@ -6,10 +6,44 @@ nav:
   - Metadata sources:
     - Portail Epidemiologie France (PEF): pef-migration.md
   - Controlled vocabularies:
+    - Access to individual data : IndividualDataAccess.md
+    - Age : Aged.md
+    - Allocation Type : AllocationMode.md
     - Allocation Unit : AllocationUnit.md
-    - Biobank Content : BiobankContent.md
-    - Data type: data-type.md
-    - Health theme: health-theme.md
+    - Arm Type : ArmType.md
+    - Authorization Agency : AuthorizationAgency.md
+    - Blinded Masking Details : BlindedMaskingDetails.md
+    - Collection Mode : collectionMode.md
+    - Data Type: data-type.md
+    - Declaration of conformity : ConformityDeclaration.md 
+    - Document Type : DocumentType.md
+    - Expected number of participants : PlannedSampleSize.md
+    - Factor/Exposure Type : InterventionType.md
+    - Follow-up Method : FollowUpMode.md
+    - Geographical Coverage : GeographicalCoverage.md
+    - Health Determinant : Health-determinant.md
+    - Health Theme: health-theme.md
+    - Identifier type of the dataset : DatasetPIDSchema.md
+    - Interventional Study ; Intervention model : InterventionalStudyModel.md
+    - Masking Type : MaskingType.md
+    - Nature of samples in the biobanque : BiobankContent.md
+    - Observational Study Design : ObservationalStudy.md
+    - Organisation Identifier Type : PIDSchema.md
+    - Organisation Status : SponsorType.md
+    - Participant Recruitment Source : RecruitmentSource.md
+    - Population Type : populationType.md
+    - Purpose of using the source in the study : SourcePurpose.md
+    - Record Status : Status.md
+    - Research Purpose : ResearchPurpose.md
+    - Sampling Procedure : SamplingMode.md
+    - Sex : Sex.md
+    - Source Type : SourceType.md
+    - Study Status : StudyStatus.md
+    - Study Type : ResearchType.md
+    - Time perspective : RecrutmentTiming.md
+    - Trial Phase : trial-phase.md
+
+
     
 
 theme:

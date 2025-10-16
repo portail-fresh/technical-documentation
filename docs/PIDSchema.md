@@ -3,7 +3,7 @@ hide:
   - toc
 ---
 
-# Type d'identifiants (organisme, financeur, sponsor) - Identifier type
+# Type d'identifiant - Identifier type 
 Type d'identifiant pour les organismes, financeurs et promoteurs.
 
 Identifier type of organisation, funder and sponsor.
@@ -17,19 +17,22 @@ Identifier type of organisation, funder and sponsor.
   <tr>
     <td><b>SIRENE</b></td>
     <td><b>SIRENE</b></td>
-    <td>Système national d’identification et du répertoire des entreprises et de leurs établissements <i>(https://sirene.fr/sirene/public/accueil)</i></td>
-    <td>Computer system for the business and establishment register <i>(https://sirene.fr/sirene/public/accueil)</i></td>
+    <td>Système national d’identification et du répertoire des entreprises et de leurs établissements. <i><a href="https://sirene.fr/sirene/public/accueil">https://sirene.fr/sirene/public/accueil</a></i></td>
+    <td>Computer system for the business and establishment register. <i><a href="https://sirene.fr/sirene/public/accueil">https://sirene.fr/sirene/public/accueil</i></a></i></td>
   </tr>
     <tr>
     <td><b>RNSR</b></td>
     <td><b>RNSR</b></td>
-    <td>Répertoire national des structures de recherche <i>(https://rnsr.adc.education.fr/)</i></td>
-    <td>National directory of research structures<i>(https://rnsr.adc.education.fr/)</i></td>
+    <td>Répertoire national des structures de recherche. <i><a href="https://rnsr.adc.education.fr/">https://rnsr.adc.education.fr/</a></i></td>
+    <td>National directory of research structures.
+    <i><a href="https://rnsr.adc.education.fr/">https://rnsr.adc.education.fr/</a></i></td>
   </tr>
     <tr>
     <td><b>ROR</b></td>
     <td><b>ROR</b></td>
-    <td>Registre des organisations de recherche <i>(https://ror.org/)</i></td>
-    <td>Research Organization Registry <i>(https://ror.org/)</i></td>
+    <td>Registre des organisations de recherche.
+    <p><i><a href="https://ror.org/">https://ror.org/</a></i></p></td>
+    <td>Research Organization Registry.
+   <i><a href="https://ror.org/">https://ror.org/</a></i></td>
   </tr>
   </table>

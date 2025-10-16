@@ -3,7 +3,7 @@ hide:
   - toc
 ---
 
-# Type d'intervention/exposition - Intervention/Exposition Type
+# Type de facteur ou d'exposition - Factor/Exposure Type
 Tout processus, action ou facteur auquel les participants sont soumis ou exposés, et qui fait l’objet d’une étude clinique ou observationnelle afin d’évaluer ses effets sur la santé.
 
 Any process, action or factor to which participants are subjected or exposed, and which is the subject of a clinical or observational study to assess its effects on health.
