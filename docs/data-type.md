@@ -3,10 +3,10 @@ hide:
   - toc
 ---
 
-# Type de données - Data type
+# Type de données - Data Type
 Le champ Type de données décrit les catégories de données collectées dans le cadre de l’étude.
 
-The Data type field describes the categories of data collected within the study.
+The Data Type field describes the categories of data collected within the study.
 <table>
   <tr BGCOLOR="#00a6e2">
     <th style="color:#FFFFFF;">French label</th>

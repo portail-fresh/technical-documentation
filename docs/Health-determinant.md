@@ -3,7 +3,7 @@ hide:
   - toc
 ---
 
-# Déterminants de santé - Health determinant
+# Déterminants de santé - Health Determinant
 Facteurs personnels, sociaux, économiques et environnementaux qui déterminent l’état de santé des individus ou des populations.
 
 Personal, social, economic, and environmental factors that determine the health status of individuals or populations.

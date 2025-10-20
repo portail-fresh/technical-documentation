@@ -40,3 +40,4 @@ Main category of persons concerned by the study (general population, patients, p
     <td>À utiliser lorsque le type de population est connu, mais introuvable dans la liste.</td>
     <td>Use when the population type is known but cannot be found in the list.</td>
   </tr>
+  </table>

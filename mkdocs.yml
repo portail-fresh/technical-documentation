@@ -28,7 +28,9 @@ nav:
     - Organisation Identifier Type : PIDSchema.md
     - Organisation Status : SponsorType.md
     - Participant Recruitment Source : RecruitmentSource.md
+    - Pathology : Pathology.md
     - Population Type : populationType.md
+    - Provenance : Provenance.md
     - Purpose of using the source in the study : SourcePurpose.md
     - Record Status : Status.md
     - Research Purpose : ResearchPurpose.md

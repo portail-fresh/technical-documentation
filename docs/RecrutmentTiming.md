@@ -4,8 +4,9 @@ hide:
 ---
 
 # Perspective temporelle - Time perspective
+Indication sur la dimension temporelle de la collecte des données dans l’étude observationnelle.
 
-
+Indication of the time perspective for data collection in the observational study.
 <table>
   <tr BGCOLOR="#00a6e2">
     <th style="color:#FFFFFF;">French label</th>

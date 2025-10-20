@@ -3,7 +3,7 @@ hide:
   - toc
 ---
 
-# Type d'identifiant - Identifier type 
+# Type d'identifiant - Identifier Type 
 Type d'identifiant pour les organismes, financeurs et promoteurs.
 
 Identifier type of organisation, funder and sponsor.

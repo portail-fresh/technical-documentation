@@ -13,6 +13,7 @@ The method used to collect data.
     <th style="color:#FFFFFF;">English label</th>
     <th style="color:#FFFFFF;">French description</th>
     <th style="color:#FFFFFF;">English description</th>
+    <th style="color:#FFFFFF;">CESSDA URI</th>
   </tr>
  <tr>
   <td><b>Examens
@@ -24,6 +25,7 @@ The method used to collect data.
   <td>Assessing specific properties
   (or characteristics) by applying pre-established standards and/or specialized
   instruments or techniques.</td>
+  <td><a href="http://rdf-vocabulary.ddialliance.org/cv/ModeOfCollection/4.0.3/38ceaa4">MeasurementsAndTests</a></td>
  </tr>
  <tr>
   <td align=right><i>Tests
@@ -42,6 +44,7 @@ The method used to collect data.
   tests.For example, assessing a
   patient's knowledge or skills through structured tests (self-management of a chronic
   condition, ability to interpret health-related information, etc.).</td>
+  <td><a href="http://rdf-vocabulary.ddialliance.org/cv/ModeOfCollection/4.0.3/4b9776b">MeasurementsAndTests.Educational</a></td>
  </tr>
  <tr>
   <td align=right><i>Mesures
@@ -58,6 +61,7 @@ The method used to collect data.
   palpation or auscultation), clinical measurements and lab tests like blood
   analysis, blood pressure, heart rate or body weight and height. The results
   of these tests can be recorded in a patient file or in a CRF/eCRF.</td>
+  <td><a href="http://rdf-vocabulary.ddialliance.org/cv/ModeOfCollection/4.0.3/c2a25a6">MeasurementsAndTests.Physical</a></td>
  </tr>
  <tr>
   <td align=right><i>Tests
@@ -70,6 +74,7 @@ The method used to collect data.
   <td>Assessment of personality traits
   or psychological/behavioral responses by means of specialized measures or
   tests.</td>
+  <td><a href="http://rdf-vocabulary.ddialliance.org/cv/ModeOfCollection/4.0.3/27daf03">MeasurementsAndTests.Psychological</a></td>
  </tr>
  <tr>
   <td><b>Entretien
@@ -87,6 +92,7 @@ The method used to collect data.
   which information is obtained by the interviewer(s) from the interviewee(s).
   For example, nurse asks patient symptom questions during clinic visit and
   enters answers. These informaions can be entered directly into a CRF/eCRF.</td>
+  <td><a href="http://rdf-vocabulary.ddialliance.org/cv/ModeOfCollection/4.0.3/cb20d17">Interview</a></td>
  </tr>
  <tr>
   <td><b>Questionnaire
@@ -104,6 +110,7 @@ The method used to collect data.
   questionnaire administration. For example, before their visit to the hospital,
   patients fill out a pre-consultation questionnaire listing their medical
   history and current treatments.</td>
+  <td><a href="http://rdf-vocabulary.ddialliance.org/cv/ModeOfCollection/4.0.3/35e4248">SelfAdministeredQuestionnaire</a></td>
  </tr>
  <tr>
   <td><b>Expérimentation
@@ -115,12 +122,13 @@ The method used to collect data.
   <td>Research method involving the
   manipulation of some or all of the independent variables included in the
   hypotheses.</td>
+  <td><a href="http://rdf-vocabulary.ddialliance.org/cv/ModeOfCollection/4.0.3/05aeba4">Experiment</a></td>
  </tr>
  <tr>
-  <td><b>Experimentation
-  en laboratoire (conditions contrôlées)</b></td>
-  <td><b>Laboratory experimentation
-  (controlled conditions)</b></td>
+  <td align=right><i>Experimentation
+  en laboratoire (conditions contrôlées)</i></td>
+  <td align=right><i>Laboratory experimentation
+  (controlled conditions)</i></td>
   <td>Une expérimentation conduite
   dans une configuration physique contrôlée, créée artificiellement, dans
   laquelle un chercheur manipule une ou plusieurs variables indépendantes et
@@ -134,12 +142,13 @@ The method used to collect data.
   effect on the dependent variable. For example, exercise physiology tests
   conducted in a controlled environment, while researchers monitor heart rate,
   oxygen consumption, etc.</td>
+  <td><a href="http://rdf-vocabulary.ddialliance.org/cv/ModeOfCollection/4.0.3/28a60a6">Experiment.Laboratory</a></td>
  </tr>
  <tr>
-  <td><b>Experimentation
-  sur le terrain (intervention clinique ou de santé publique)</b></td>
-  <td><b>Field experimentation (clinical
-  or public health intervention)</b></td>
+  <td align=right><i>Experimentation
+  sur le terrain (intervention clinique ou de santé publique)</i></td>
+  <td align=right><i>Field experimentation (clinical
+  or public health intervention)</i></td>
   <td>Une expérimentation conduite
   dans une configuration naturelle, non contrôlée, dans laquelle le chercheur
   manipule une ou plusieurs variables indépendantes. Les études cliniques sont
@@ -149,12 +158,14 @@ The method used to collect data.
   natural, uncontrolled setting, in which the researcher manipulates one or
   several independent variables. Intervention/clinical studies are one example
   of field experiments. One such example is an interventional clinical trial.</td>
+  <td><a href="http://rdf-vocabulary.ddialliance.org/cv/ModeOfCollection/4.0.3/5ff61de">Experiment.FieldIntervention</a></td> 
  </tr>
+
  <tr>
-  <td><b>Expérimentation
+  <td align=right><i>Expérimentation
   en ligne à l'aide des outils numériques</b></td>
-  <td><b>Online experimentation using
-  digital tools</b></td>
+  <td align=right><i>Online experimentation using
+  digital tools</i></td>
   <td>Une expérience en ligne dans
   laquelle des matériaux sont programmés pour créer des situations ou des
   événements artificiels contrôlés. Les participants interagissent à distance
@@ -164,6 +175,7 @@ The method used to collect data.
   materials are programmed to create controlled, artificial situations or
   events. Participants interact with these materials remotely, allowing the
   study of behavior or responses from participants in a distributed digital environment.</td>
+  <td><a href="http://rdf-vocabulary.ddialliance.org/cv/ModeOfCollection/4.0.3/ed0d083">Experiment.WebBased</a></td>
  </tr>
  <tr>
   <td><b>Enregistrement
@@ -176,6 +188,7 @@ The method used to collect data.
   <td>Registering by mechanical or
   electronic means, in a form that allows the information to be retrieved
   and/or reproduced. One such example is medical imaging.</td>
+  <td><a href="http://rdf-vocabulary.ddialliance.org/cv/ModeOfCollection/4.0.3/c5564d2">Recording</a></td>
  </tr>
  <tr>
   <td><b>Observation
@@ -193,6 +206,7 @@ The method used to collect data.
   development of condition or disease, etc.), without attempting to manipulate
   any of the independent variables. A clinician observes a patient’s gait and
   records it directly into the CRF.</td>
+  <td><a href="http://rdf-vocabulary.ddialliance.org/cv/ModeOfCollection/4.0.3/c680d43">Observation</a></td>
  </tr>
  <tr>
   <td><b>Transcription et saisie d’informations
@@ -210,6 +224,7 @@ The method used to collect data.
   sources (e.g., patient records, notes) and transferring it into a written or
   digital record, such as a case report form or database. For example, copying
   information from medical records into a CRF/eCRF.</td>
+  <td><a href="http://rdf-vocabulary.ddialliance.org/cv/ModeOfCollection/4.0.3/df9aac3">Transcription</a></td>
  </tr>
  <tr>
   <td><b>Autre</b></td>
@@ -218,5 +233,6 @@ The method used to collect data.
   est connu, mais pas présent dans la liste.</td>
   <td>Use if the mode of data
   collection is known, but not found in the list above.</td>
+  <td><a href="http://rdf-vocabulary.ddialliance.org/cv/ModeOfCollection/4.0.3/6311ae1">Other</a></td>
  </tr>
  </table>

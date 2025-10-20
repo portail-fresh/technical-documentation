@@ -3,7 +3,7 @@ hide:
   - toc
 ---
 
-# Statut de l'étude - Study status
+# Statut de l'étude - Study Status
 
 <table>
   <tr BGCOLOR="#00a6e2">
@@ -36,3 +36,4 @@ hide:
     <td>Le statut de l'étude n'est pas connu.</td>
     <td>The status of the study is unknown.</td>
   </tr>
+  </table>
