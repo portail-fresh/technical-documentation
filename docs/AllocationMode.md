@@ -3,11 +3,11 @@ hide:
   - toc
 ---
 
-# Mode d'allocation - Allocation Type
+# 🇫🇷 Mode d'allocation - Allocation Type
 
-Stratégie pour affecter des participants en bras d'une étude clinique.
+<p>🇫🇷 Stratégie pour affecter des participants en bras d'une étude clinique.</p>
+<p>🇬🇧 Strategy to assign participants to an arm of a clinical study.</p>
 
-Strategy to assign participants to an arm of a clinical study.
 
 <table>
   <tr BGCOLOR="#00a6e2">
