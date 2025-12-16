@@ -1,3 +1,8 @@
+---
+hide:
+  - toc
+---
+
 # 0. Technical Metadata - Métadonnées Techniques
 
 | Element ID | PID   | Parent              | Nom Variable           | Libellé FR                               | Description FR                                                                                                                           | Libellé EN                                      | Description EN                                                                                                           | Variable Type | Min Occur | Max Occur |
