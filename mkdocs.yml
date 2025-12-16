@@ -2,6 +2,10 @@ site_name: FReSH catalog documentation
 
 nav:
   - Home: index.md
+  - Metadata schema:
+    - Introduction: MetadataSchemaIntro.md
+    - Sections:
+      - 0. Metadonnées Techniques: Schema_0.md
   - Controlled vocabularies:
     - Access to individual data : IndividualDataAccess.md
     - Age : Age.md
