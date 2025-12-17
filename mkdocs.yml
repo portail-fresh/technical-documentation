@@ -6,7 +6,7 @@ nav:
     - Introduction: MetadataSchemaIntro.md
     - Sections:
       - 0. Technical metadata: Schema_0.md
-      - 0. Study related information: Schema_1.md
+      - 1. Study related information: Schema_1.md
   - Controlled vocabularies:
     - Access to individual data : IndividualDataAccess.md
     - Age : Age.md
