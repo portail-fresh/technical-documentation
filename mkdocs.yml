@@ -57,7 +57,7 @@ theme:
   name: material
   palette:
     primary: custom
-  logo: assets/logo-white.png
+  logo: assets/logo-white - Copie.png
   favicon: assets/logo.png
 
 extra_css:

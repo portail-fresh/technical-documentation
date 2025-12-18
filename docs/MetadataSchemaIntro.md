@@ -20,23 +20,23 @@ Each section groups metadata fields that describe a specific aspect of a resourc
 
 ### Sections
 
-- **0. Technical metadata**  
+0. **Technical metadata**  
   Defines the technical characteristics of the metadata record itself, including identifiers, schema versioning, and machine-readable properties required for processing and validation.  
   See: [`Schema_0.md`](Schema_0.md)
 
-- **1. Study related information**  
+1. **Study related information**  
   Describes the study or resource at a conceptual level, including titles, abstracts, keywords, thematic classifications, and high-level contextual information.  
   See: [`Study related information`](Schema_1.md)
 
-- **2. Administrative information**  
+1. **Administrative information**  
   Covers governance and responsibility aspects, such as creators, publishers, contacts, roles, and administrative metadata needed for catalog management.  
   See: [`Administrative information`](Schema_2.md)
 
-- **3. Study methodology**  
+1. **Study methodology**  
   Documents methodological aspects of the study, including design, methods, instruments, and other information necessary to understand how the data were produced.  
   See: [`Study methodology`](Schema_3.md)
 
-- **4. Data collection and access**  
+1. **Data collection and access**  
   Describes how data were collected, stored, and made available, including access conditions, formats, distributions, and licensing information.  
   See: [`Data collection and access`](Schema_4.md)
 
@@ -58,4 +58,4 @@ Data types follow commonly adopted definitions (e.g. `string`, `boolean`, `date`
 
 ## Versioning and Compatibility
 
-The latest version of the schema can be found in the [FReSH metadata schema repository](https://github.com/portail-fresh/fresh-metadata-schema)
+An XSD representation of the metadata schema is versioned under the [FReSH metadata schema repository](https://github.com/portail-fresh/fresh-metadata-schema).
