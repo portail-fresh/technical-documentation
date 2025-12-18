@@ -7,6 +7,9 @@ nav:
     - Sections:
       - 0. Technical metadata: Schema_0.md
       - 1. Study related information: Schema_1.md
+      - 2. Administrative information: Schema_2.md
+      - 3. Study methodology: Schema_3.md
+      - 4. Data collection and access: Schema_4.md
   - Controlled vocabularies:
     - Access to individual data : IndividualDataAccess.md
     - Age : Age.md
