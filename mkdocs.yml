@@ -7,7 +7,7 @@ nav:
     - Sections:
       - 0. Technical metadata: Schema_0.md
       - 1. Study related information: Schema_1.md
-  - Controlled vocabularies:
+  - Vocabulaires contrôlés:
     - Access to individual data : IndividualDataAccess.md
     - Age : Age.md
     - Allocation Type : AllocationMode.md
