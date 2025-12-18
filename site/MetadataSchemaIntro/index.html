@@ -273,6 +273,19 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Introduction
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -284,6 +297,76 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      Overview
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#schema-structure" class="md-nav__link">
+    <span class="md-ellipsis">
+      Schema Structure
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Schema Structure">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#sections" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sections
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cardinality-and-data-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cardinality and Data Types
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#versioning-and-compatibility" class="md-nav__link">
+    <span class="md-ellipsis">
+      Versioning and Compatibility
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -364,6 +447,75 @@
   
   <span class="md-ellipsis">
     1. Study related information
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Schema_2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2. Administrative information
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Schema_3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    3. Study methodology
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Schema_4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    4. Data collection and access
     
   </span>
   
@@ -1328,6 +1480,65 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      Overview
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#schema-structure" class="md-nav__link">
+    <span class="md-ellipsis">
+      Schema Structure
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Schema Structure">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#sections" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sections
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cardinality-and-data-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cardinality and Data Types
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#versioning-and-compatibility" class="md-nav__link">
+    <span class="md-ellipsis">
+      Versioning and Compatibility
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -1343,6 +1554,57 @@
 
 
 <h1 id="fresh-metadata-schema">FReSH Metadata Schema</h1>
+<h2 id="overview">Overview</h2>
+<p>The <strong>FReSH Metadata Schema</strong> defines the structure and constraints of the metadata used by the <strong>FReSH metadata catalog</strong>.  </p>
+<p>The schema specifies:
+- Metadata fields and their semantics
+- Data types and allowed values
+- Cardinality and mandatory/optional constraints</p>
+<hr />
+<h2 id="schema-structure">Schema Structure</h2>
+<p>The FReSH Metadata Schema is organized into a set of thematic sections.<br />
+Each section groups metadata fields that describe a specific aspect of a resource in the FReSH catalog and is documented in a dedicated file.</p>
+<h3 id="sections">Sections</h3>
+<ul>
+<li>
+<p><strong>0. Technical metadata</strong><br />
+  Defines the technical characteristics of the metadata record itself, including identifiers, schema versioning, and machine-readable properties required for processing and validation.<br />
+  See: <a href="../Schema_0/"><code>Schema_0.md</code></a></p>
+</li>
+<li>
+<p><strong>1. Study related information</strong><br />
+  Describes the study or resource at a conceptual level, including titles, abstracts, keywords, thematic classifications, and high-level contextual information.<br />
+  See: <a href="../Schema_1/"><code>Study related information</code></a></p>
+</li>
+<li>
+<p><strong>2. Administrative information</strong><br />
+  Covers governance and responsibility aspects, such as creators, publishers, contacts, roles, and administrative metadata needed for catalog management.<br />
+  See: <a href="../Schema_2/"><code>Administrative information</code></a></p>
+</li>
+<li>
+<p><strong>3. Study methodology</strong><br />
+  Documents methodological aspects of the study, including design, methods, instruments, and other information necessary to understand how the data were produced.<br />
+  See: <a href="../Schema_3/"><code>Study methodology</code></a></p>
+</li>
+<li>
+<p><strong>4. Data collection and access</strong><br />
+  Describes how data were collected, stored, and made available, including access conditions, formats, distributions, and licensing information.<br />
+  See: <a href="../Schema_4/"><code>Data collection and access</code></a></p>
+</li>
+</ul>
+<hr />
+<h2 id="cardinality-and-data-types">Cardinality and Data Types</h2>
+<p>Cardinality is expressed using standard conventions:</p>
+<ul>
+<li><code>1</code> – exactly one value (mandatory)</li>
+<li><code>0..1</code> – zero or one value (optional)</li>
+<li><code>0..n</code> – zero or more values</li>
+<li><code>1..n</code> – one or more values</li>
+</ul>
+<p>Data types follow commonly adopted definitions (e.g. <code>string</code>, <code>boolean</code>, <code>date</code>, <code>URI</code>) and may reference external standards where appropriate.</p>
+<hr />
+<h2 id="versioning-and-compatibility">Versioning and Compatibility</h2>
+<p>The latest version of the schema can be found in the <a href="https://github.com/portail-fresh/fresh-metadata-schema">FReSH metadata schema repository</a></p>
 
 
 

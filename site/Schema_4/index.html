@@ -1,0 +1,2413 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../Schema_3/">
+      
+      
+        <link rel="next" href="../IndividualDataAccess/">
+      
+      
+      <link rel="icon" href="../assets/logo.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.20">
+    
+    
+      
+        <title>4. Data collection and access - FReSH catalog documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.e53b48f4.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#4-data-collection-and-access-collecte-et-acces-aux-donnees" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="FReSH catalog documentation" class="md-header__button md-logo" aria-label="FReSH catalog documentation" data-md-component="logo">
+      
+  <img src="../assets/logo-white.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            FReSH catalog documentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              4. Data collection and access
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+                
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="FReSH catalog documentation" class="md-nav__button md-logo" aria-label="FReSH catalog documentation" data-md-component="logo">
+      
+  <img src="../assets/logo-white.png" alt="logo">
+
+    </a>
+    FReSH catalog documentation
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    FReSH Metadata schema
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            FReSH Metadata schema
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../MetadataSchemaIntro/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Introduction
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Sections
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            Sections
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Schema_0/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    0. Technical metadata
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Schema_1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    1. Study related information
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Schema_2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2. Administrative information
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Schema_3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    3. Study methodology
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    4. Data collection and access
+    
+  </span>
+  
+
+      </a>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Controlled vocabularies
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Controlled vocabularies
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../IndividualDataAccess/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Access to individual data
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Age/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Age
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../AllocationMode/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Allocation Type
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../AllocationUnit/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Allocation Unit
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ArmType/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Arm Type
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../AuthorizationAgency/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Authorization Agency
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../BlindedMaskingDetails/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Blinded Masking Details
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../collectionMode/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Collection Mode
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../data-type/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Data Type
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ConformityDeclaration/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Declaration of conformity
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../DocumentType/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Document Type
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../PlannedSampleSize/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Expected number of participants
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../InterventionType/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Factor/Exposure Type
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../FollowUpMode/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Follow-up Method
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../GeographicalCoverage/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Geographical Coverage
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Health-determinant/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Health Determinant
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../health-theme/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Health Theme
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../DatasetPIDSchema/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Identifier type of the dataset
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../InterventionalStudyModel/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Interventional Study ; Intervention model
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../MaskingType/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Masking Type
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../BiobankContent/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Nature of samples in the biobanque
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ObservationalStudy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Observational Study Design
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../PIDSchema/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Organisation Identifier Type
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../SponsorType/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Organisation Status
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../RecruitmentSource/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Participant Recruitment Source
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Pathology/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Pathology
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../populationType/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Population Type
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Provenance/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Provenance
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../SourcePurpose/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Purpose of using the source in the study
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Status/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Record Status
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ResearchPurpose/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Research Purpose
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../SamplingMode/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Sampling Procedure
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Sex/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Sex
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../SourceType/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Source Type
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../StudyStatus/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Study Status
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ResearchType/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Study Type
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../RecrutmentTiming/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Time perspective
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../trial-phase/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Trial Phase
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+                
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" hidden>
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+  
+
+
+
+
+<h1 id="4-data-collection-and-access-collecte-et-acces-aux-donnees">4. Data collection and access - Collecte et accès aux données</h1>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Element ID</th>
+<th style="text-align: left;">Variable Name</th>
+<th style="text-align: left;">Label FR</th>
+<th style="text-align: left;">Description FR</th>
+<th style="text-align: left;">Label EN</th>
+<th style="text-align: left;">Description EN</th>
+<th style="text-align: left;">Variable Type</th>
+<th style="text-align: left;">Min Occur</th>
+<th style="text-align: left;">Max Occur</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">5.</td>
+<td style="text-align: left;"><strong>DataCollectionAccess</strong></td>
+<td style="text-align: left;">Collecte et accès aux données</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Data collection and access</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">section</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">5.1</td>
+<td style="text-align: left;"><strong>DataCollectionIntegration</strong></td>
+<td style="text-align: left;">Collecte et réutilisation de données</td>
+<td style="text-align: left;">Cette section décrit les données utilisées dans l’étude, qu’elles soient collectées spécifiquement pour celle-ci ou réutilisées à partir de sources tierces préexistantes.</td>
+<td style="text-align: left;">Data collection and reuse</td>
+<td style="text-align: left;">This section describes the data used in the study, whether collected specifically for this study or reused from pre-existing third-party sources.</td>
+<td style="text-align: left;">section</td>
+<td style="text-align: left;">1.0</td>
+<td style="text-align: left;">1</td>
+</tr>
+<tr>
+<td style="text-align: left;">5.1</td>
+<td style="text-align: left;"><strong>SampleSize</strong></td>
+<td style="text-align: left;">Nombre de participants</td>
+<td style="text-align: left;">Nombre de participants prévus et effectifs</td>
+<td style="text-align: left;">Number of participants</td>
+<td style="text-align: left;">Planned and actual number of participants</td>
+<td style="text-align: left;">section</td>
+<td style="text-align: left;">1.0</td>
+<td style="text-align: left;">1</td>
+</tr>
+<tr>
+<td style="text-align: left;">5.1.a</td>
+<td style="text-align: left;"><strong>PlannedSampleSize</strong></td>
+<td style="text-align: left;">Nombre prévu de participants</td>
+<td style="text-align: left;">Nombre de participants spécifié dans le plan d'étude ou le protocole</td>
+<td style="text-align: left;">Target number of participants</td>
+<td style="text-align: left;">Number of participants specified in the study design or protocol</td>
+<td style="text-align: left;">choix unique</td>
+<td style="text-align: left;">1.0</td>
+<td style="text-align: left;">1</td>
+</tr>
+<tr>
+<td style="text-align: left;">5.1.b</td>
+<td style="text-align: left;"><strong>FinalSampleSize</strong></td>
+<td style="text-align: left;">Nombre actuel de participants</td>
+<td style="text-align: left;">Nombre de participants qui ont effectivement été inclus ou ont participé</td>
+<td style="text-align: left;">Actual number of participants</td>
+<td style="text-align: left;">Number of participants who were actually included or participated</td>
+<td style="text-align: left;">texte libre</td>
+<td style="text-align: left;">0.0</td>
+<td style="text-align: left;">1</td>
+</tr>
+<tr>
+<td style="text-align: left;">5.2</td>
+<td style="text-align: left;"><strong>CollectionChronology</strong></td>
+<td style="text-align: left;">Chronologie de la collecte</td>
+<td style="text-align: left;">Indique la période pendant laquelle les données de l’étude ont été recueillies.</td>
+<td style="text-align: left;">Collection chronology</td>
+<td style="text-align: left;">Indicates the period during which the study data were collected.</td>
+<td style="text-align: left;">section</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">5.2.a</td>
+<td style="text-align: left;"><strong>CollectionStart</strong></td>
+<td style="text-align: left;">Date de début de la collecte (recrutement du premier participant)</td>
+<td style="text-align: left;">la date à laquelle la collecte des données individuelles a commencé dans le cadre de l’étude</td>
+<td style="text-align: left;">Collection start date (recruitment of the first participant)</td>
+<td style="text-align: left;">the date on which the collection of individual data began as part of the study</td>
+<td style="text-align: left;">date</td>
+<td style="text-align: left;">1.0</td>
+<td style="text-align: left;">1</td>
+</tr>
+<tr>
+<td style="text-align: left;">5.2.b</td>
+<td style="text-align: left;"><strong>CollectionEnd</strong></td>
+<td style="text-align: left;">Date de fin de la collecte (dernier suivi du dernier participant)</td>
+<td style="text-align: left;">la date à laquelle la collecte des données individuelles a été terminée dans le cadre de l’étude</td>
+<td style="text-align: left;">Collection end date (last follow-up of the last participant)</td>
+<td style="text-align: left;">the date on which the collection of individual data was completed as part of the study</td>
+<td style="text-align: left;">date</td>
+<td style="text-align: left;">1.0</td>
+<td style="text-align: left;">1</td>
+</tr>
+<tr>
+<td style="text-align: left;">5.2.c</td>
+<td style="text-align: left;"><strong>CollectionFrequency</strong></td>
+<td style="text-align: left;">Fréquence de la collecte</td>
+<td style="text-align: left;">Intervalles ou nombre de mesures réalisées au cours de l’étude</td>
+<td style="text-align: left;">Collection frequency</td>
+<td style="text-align: left;">Intervals or number of measurements performed during the study</td>
+<td style="text-align: left;">texte libre</td>
+<td style="text-align: left;">1.0</td>
+<td style="text-align: left;">1</td>
+</tr>
+<tr>
+<td style="text-align: left;">5.3</td>
+<td style="text-align: left;"><strong>DataCollection</strong></td>
+<td style="text-align: left;">Informations concernant les données collectées auprès des participants dans le cadre de l'étude</td>
+<td style="text-align: left;">Ensemble des informations recueillies directement auprès des participants au cours de l’étude, que ce soit par observation, mesure, examen, prélèvement, entretien, questionnaire ou suivi.</td>
+<td style="text-align: left;">Information concerning data collected from participants during the study</td>
+<td style="text-align: left;">All information collected directly from study participants during the course of the study, through observation, measurement, examination, sampling, interview, questionnaire, or follow-up.</td>
+<td style="text-align: left;">section</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">ST : Les informations concernant la réutilisation de données existantes seront à renseigner dans la prochaine section</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">ST: Information concerning the reuse of existing data will be provided in the next section.</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">5.3.1</td>
+<td style="text-align: left;"><strong>CollectionProcess</strong></td>
+<td style="text-align: left;">Procédure de collecte</td>
+<td style="text-align: left;">Section décrivant la manière dont les données sont recueillies dans le cadre de l’étude.</td>
+<td style="text-align: left;">Collection procedure</td>
+<td style="text-align: left;">Section describing how data are collected in the study.</td>
+<td style="text-align: left;">section</td>
+<td style="text-align: left;">1.0</td>
+<td style="text-align: left;">1</td>
+</tr>
+<tr>
+<td style="text-align: left;">5.3.1.a</td>
+<td style="text-align: left;"><strong>CollectionMode</strong></td>
+<td style="text-align: left;">Mode de collecte</td>
+<td style="text-align: left;">Méthode utilisée pour recueillir les données</td>
+<td style="text-align: left;">Collection mode</td>
+<td style="text-align: left;">The method used to collect data</td>
+<td style="text-align: left;">choix unique</td>
+<td style="text-align: left;">1.0</td>
+<td style="text-align: left;">Inf.</td>
+</tr>
+<tr>
+<td style="text-align: left;">5.3.1.b</td>
+<td style="text-align: left;"><strong>CollectionModeOther</strong></td>
+<td style="text-align: left;">Autre mode de collecte, précisions</td>
+<td style="text-align: left;">Spécifie le mode de collecte si « Autre » a été sélectionné ci-dessus.</td>
+<td style="text-align: left;">Other collection mode, details</td>
+<td style="text-align: left;">Specifies the collection mode if ‘Other’ was selected above.</td>
+<td style="text-align: left;">texte libre</td>
+<td style="text-align: left;">0.0</td>
+<td style="text-align: left;">1</td>
+</tr>
+<tr>
+<td style="text-align: left;">5.3.1.c</td>
+<td style="text-align: left;"><strong>CollectionModeDetails</strong></td>
+<td style="text-align: left;">Mode de collecte, précisions</td>
+<td style="text-align: left;">Informations complémentaires sur la collecte, comme le contexte, les instruments ou protocoles utilisés.</td>
+<td style="text-align: left;">Collection mode, details</td>
+<td style="text-align: left;">Additional information about the collection, such as context, instruments, or protocols used.</td>
+<td style="text-align: left;">texte libre</td>
+<td style="text-align: left;">0.0</td>
+<td style="text-align: left;">1</td>
+</tr>
+<tr>
+<td style="text-align: left;">5.3.1.d</td>
+<td style="text-align: left;"><strong>SamplingMode</strong></td>
+<td style="text-align: left;">Procédure d'échantillonage à l'inclusion</td>
+<td style="text-align: left;">Décrit la méthode utilisée pour sélectionner les participants lors de leur inclusion dans l’étude</td>
+<td style="text-align: left;">Sampling procedure at inclusion</td>
+<td style="text-align: left;">Describes the method used to select participants when they were included in the study.</td>
+<td style="text-align: left;">choix unique</td>
+<td style="text-align: left;">1.0</td>
+<td style="text-align: left;">Inf.</td>
+</tr>
+<tr>
+<td style="text-align: left;">5.3.1.e</td>
+<td style="text-align: left;"><strong>SamplingModeOther</strong></td>
+<td style="text-align: left;">Autre procédure d'échantillonnage, précisions</td>
+<td style="text-align: left;">Spécifie la procédure d'échantillonnage si « Autre » a été sélectionné ci-dessus.</td>
+<td style="text-align: left;">Other sampling mode, details</td>
+<td style="text-align: left;">Specifies the sampling procedure if ‘Other’ was selected above.</td>
+<td style="text-align: left;">texte libre</td>
+<td style="text-align: left;">0.0</td>
+<td style="text-align: left;">1</td>
+</tr>
+<tr>
+<td style="text-align: left;">5.3.2.a</td>
+<td style="text-align: left;"><strong>RecruitmentSource</strong></td>
+<td style="text-align: left;">Source de recrutement des participants</td>
+<td style="text-align: left;">Décrit l’origine ou le canal utilisé pour identifier et inclure les participants dans l’étude</td>
+<td style="text-align: left;">Participants recruitment source</td>
+<td style="text-align: left;">Describes the origin or channel used to identify and include participants in the study.</td>
+<td style="text-align: left;">choix multiple</td>
+<td style="text-align: left;">1.0</td>
+<td style="text-align: left;">Inf.</td>
+</tr>
+<tr>
+<td style="text-align: left;">5.3.2.a</td>
+<td style="text-align: left;"><strong>RecruitmentSourceOther</strong></td>
+<td style="text-align: left;">Autre source de recrutement, précisions</td>
+<td style="text-align: left;">Spécifie la source de recrutement si « Autre » a été sélectionné ci-dessus.</td>
+<td style="text-align: left;">Other recruitment source, details</td>
+<td style="text-align: left;">Specify the recruitment source if ‘Other’ was selected above.</td>
+<td style="text-align: left;">texte libre</td>
+<td style="text-align: left;">0.0</td>
+<td style="text-align: left;">1</td>
+</tr>
+<tr>
+<td style="text-align: left;">5.3.3</td>
+<td style="text-align: left;"><strong>ActiveFollowUp</strong></td>
+<td style="text-align: left;">Suivi actif des participants</td>
+<td style="text-align: left;">Le suivi actif désigne une procédure systématique de collecte d’informations auprès des participants après leur inclusion dans l’étude, à l’initiative de l’équipe de recherche.</td>
+<td style="text-align: left;">Active follow-up</td>
+<td style="text-align: left;">Active follow-up refers to a systematic process of collecting information from participants after their inclusion in the study, initiated by the research team.</td>
+<td style="text-align: left;">section</td>
+<td style="text-align: left;">0.0</td>
+<td style="text-align: left;">1</td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Il implique un contact direct ou organisé (par visite, appel, questionnaire, examen, etc.) visant à recueillir régulièrement des données sur l’état de santé, l’exposition, ou les événements survenus pendant la période d’observation.</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">It involves direct or organised contact (through visits, phone calls, questionnaires, examinations, etc.) to regularly obtain data on health status, exposures, or events occurring during the observation period.</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">5.3.3.a</td>
+<td style="text-align: left;"><strong>IsActiveFollowUp</strong></td>
+<td style="text-align: left;">Un suivi actif des participants est-il réalisé ?</td>
+<td style="text-align: left;">Indique si les participants font l’objet d’un suivi actif dans le cadre de l’étude et la modalité du suivi</td>
+<td style="text-align: left;">It is an active follow-up?</td>
+<td style="text-align: left;">Indicates whether participants are followed over time within the study and the method used.</td>
+<td style="text-align: left;">boolean</td>
+<td style="text-align: left;">1.0</td>
+<td style="text-align: left;">1</td>
+</tr>
+<tr>
+<td style="text-align: left;">5.3.3.b</td>
+<td style="text-align: left;"><strong>FollowUpMode</strong></td>
+<td style="text-align: left;">Modalités du suivi actif</td>
+<td style="text-align: left;">Indique les modalités du suivi actif des participants</td>
+<td style="text-align: left;">Follow-up method</td>
+<td style="text-align: left;">Indicates the ways of active follow-up of participants.</td>
+<td style="text-align: left;">choix multiple</td>
+<td style="text-align: left;">1.0</td>
+<td style="text-align: left;">Inf.</td>
+</tr>
+<tr>
+<td style="text-align: left;">5.3.3.c</td>
+<td style="text-align: left;"><strong>FollowUpModeOther</strong></td>
+<td style="text-align: left;">Autre modalité de suivi, précisions</td>
+<td style="text-align: left;">Spécifie la modalité de suivi si « Autre » a été sélectionné ci-dessus.</td>
+<td style="text-align: left;">Other follow-up method, details</td>
+<td style="text-align: left;">Specifies the follow-up method if ‘Other’ was selected above.</td>
+<td style="text-align: left;">texte libre</td>
+<td style="text-align: left;">0.0</td>
+<td style="text-align: left;">1</td>
+</tr>
+<tr>
+<td style="text-align: left;">5.3.4</td>
+<td style="text-align: left;"><strong>DataTypes</strong></td>
+<td style="text-align: left;">Types de données</td>
+<td style="text-align: left;">Décrit les types de données recueillies au cours de l'étude auprès des participants</td>
+<td style="text-align: left;">Data types</td>
+<td style="text-align: left;">Describes the types of data collected directly from study participants during the study</td>
+<td style="text-align: left;">section</td>
+<td style="text-align: left;">1.0</td>
+<td style="text-align: left;">1</td>
+</tr>
+<tr>
+<td style="text-align: left;">5.3.4.a</td>
+<td style="text-align: left;"><strong>DataType</strong></td>
+<td style="text-align: left;">Type de données</td>
+<td style="text-align: left;">Sélection, à partir d’une liste prédéfinie, du ou des types de données collectées dans l’étude</td>
+<td style="text-align: left;">Data type</td>
+<td style="text-align: left;">Selection, from a predefined list, of the type(s) of data collected in the study</td>
+<td style="text-align: left;">choix multiple</td>
+<td style="text-align: left;">1.0</td>
+<td style="text-align: left;">Inf.</td>
+</tr>
+<tr>
+<td style="text-align: left;">5.3.4.b</td>
+<td style="text-align: left;"><strong>DataTypeOther</strong></td>
+<td style="text-align: left;">Autre type de données, précisions</td>
+<td style="text-align: left;">Spécifie le type de données si « Autre » a été sélectionné ci-dessus.</td>
+<td style="text-align: left;">Other data type, details</td>
+<td style="text-align: left;">Specifies the data type if “Other” was selected above.</td>
+<td style="text-align: left;">texte libre</td>
+<td style="text-align: left;">0.0</td>
+<td style="text-align: left;">1</td>
+</tr>
+<tr>
+<td style="text-align: left;">5.3.4.c</td>
+<td style="text-align: left;"><strong>ClinicalDataDetails</strong></td>
+<td style="text-align: left;">Données cliniques, précisions</td>
+<td style="text-align: left;">Précisions concernant les données cliniques collectées</td>
+<td style="text-align: left;">Clinical data, details</td>
+<td style="text-align: left;">Details regarding the clinical data collected</td>
+<td style="text-align: left;">texte libre</td>
+<td style="text-align: left;">0.0</td>
+<td style="text-align: left;">1</td>
+</tr>
+<tr>
+<td style="text-align: left;">5.3.4.d</td>
+<td style="text-align: left;"><strong>ParaclinicalDataOther</strong></td>
+<td style="text-align: left;">Autres données paracliniques (hors biologiques), précisions</td>
+<td style="text-align: left;">Spécifie le type de données paracliniques (hors biologiques) si « Autre » a été sélectionné ci-dessus.</td>
+<td style="text-align: left;">Other paraclinical data (non-biological), details</td>
+<td style="text-align: left;">Specify the type of paraclinical data (non-biological)</td>
+<td style="text-align: left;">texte libre</td>
+<td style="text-align: left;">0.0</td>
+<td style="text-align: left;">1</td>
+</tr>
+<tr>
+<td style="text-align: left;">5.3.4.e</td>
+<td style="text-align: left;"><strong>BiologicalDataDetails</strong></td>
+<td style="text-align: left;">Données biologiques, précisions</td>
+<td style="text-align: left;">Précisions concernant les données biologiques collectées</td>
+<td style="text-align: left;">Biological data, details</td>
+<td style="text-align: left;">Details regarding the biological data collected</td>
+<td style="text-align: left;">texte libre</td>
+<td style="text-align: left;">0.0</td>
+<td style="text-align: left;">1</td>
+</tr>
+<tr>
+<td style="text-align: left;">5.3.4.f</td>
+<td style="text-align: left;"><strong>isDataInBiobank</strong></td>
+<td style="text-align: left;">Présence d'échantillons de données biologiques dans une biobanque ?</td>
+<td style="text-align: left;">Indique si une collection d’échantillons biologiques est conservée et mis à disposition au sein d'une biobanque</td>
+<td style="text-align: left;">Presence of biological data samples in a biobank ?</td>
+<td style="text-align: left;">Indicates whether a collection of biological samples is stored and made available in a biobank.</td>
+<td style="text-align: left;">boolean</td>
+<td style="text-align: left;">0.0</td>
+<td style="text-align: left;">1</td>
+</tr>
+<tr>
+<td style="text-align: left;">5.3.4.g</td>
+<td style="text-align: left;"><strong>BiobankContent</strong></td>
+<td style="text-align: left;">Nature des échantillons</td>
+<td style="text-align: left;">Sélection, à partir d’une liste prédéfinie, du ou des types d'échantillons contenus dans la biobanque</td>
+<td style="text-align: left;">Nature of samples</td>
+<td style="text-align: left;">Selection, from a predefined list, of the type(s) of samples contained in the biobank</td>
+<td style="text-align: left;">choix unique</td>
+<td style="text-align: left;">1.0</td>
+<td style="text-align: left;">Inf.</td>
+</tr>
+<tr>
+<td style="text-align: left;">5.3.4.h</td>
+<td style="text-align: left;"><strong>BiobankContentOther</strong></td>
+<td style="text-align: left;">Autre échantillon, précisions</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Other sample, details</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">texte libre</td>
+<td style="text-align: left;">0.0</td>
+<td style="text-align: left;">1</td>
+</tr>
+<tr>
+<td style="text-align: left;">5.3.4.i</td>
+<td style="text-align: left;"><strong>OtherLiquidsDetails</strong></td>
+<td style="text-align: left;">Autres liquides ou sécrétions biologiques, précisions</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Other fluids and secretions, details</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">texte libre</td>
+<td style="text-align: left;">0.0</td>
+<td style="text-align: left;">1</td>
+</tr>
+<tr>
+<td style="text-align: left;">5.3.5</td>
+<td style="text-align: left;"><strong>IsDataIntegration</strong></td>
+<td style="text-align: left;">Des données individuelles provenant d'autres sources sont-elles réutilisées dans le cadre de cette étude ?</td>
+<td style="text-align: left;">Indique si les données individuelles préexistantes issues de sources tierces ont été utilisées dans le cadre de l'étude</td>
+<td style="text-align: left;">Are individual data from other sources reused in this study?</td>
+<td style="text-align: left;">Indicates whether pre-existing individual data from third-party sources were used in the study.</td>
+<td style="text-align: left;">boolean</td>
+<td style="text-align: left;">1.0</td>
+<td style="text-align: left;">1</td>
+</tr>
+<tr>
+<td style="text-align: left;">5.4</td>
+<td style="text-align: left;"><strong>DataIntegration</strong></td>
+<td style="text-align: left;">Réutilisation de données existantes</td>
+<td style="text-align: left;">La réutilisation de données existantes désigne le recours, dans le cadre de l’étude, à des données déjà collectées pour un autre objectif (recherche antérieure, registre, base administrative, dossier médical, etc.), sans nouvelle collecte directe auprès des participants.</td>
+<td style="text-align: left;">Reuse of existing data</td>
+<td style="text-align: left;">The reuse of existing data refers to the use, within the study, of data previously collected for another purpose (such as a prior research project, registry, administrative database, or medical record), without new data collection directly from participants.</td>
+<td style="text-align: left;">section</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">5.4.a</td>
+<td style="text-align: left;"><strong>ConformityDeclaration</strong></td>
+<td style="text-align: left;">Déclaration de conformité</td>
+<td style="text-align: left;">Engagement formel qu’un projet de recherche respecte l’ensemble des conditions fixées par une Méthodologie de Référence (MR) de la CNIL, permettant d’utiliser des données de santé sans autorisation spécifique.</td>
+<td style="text-align: left;">Declaration of conformity</td>
+<td style="text-align: left;">Formal statement that a research project complies with all requirements of a CNIL Reference Methodology, allowing the use of health data without specific authorisation.</td>
+<td style="text-align: left;">choix unique</td>
+<td style="text-align: left;">0.0</td>
+<td style="text-align: left;">1</td>
+</tr>
+<tr>
+<td style="text-align: left;">5.4.1</td>
+<td style="text-align: left;"><strong>ThirdPartySource</strong></td>
+<td style="text-align: left;">Informations concernant les données réutilisées pour l'étude</td>
+<td style="text-align: left;">Cette section décrit les sources des données préexistantes réutilisées dans le cadre de l'étude</td>
+<td style="text-align: left;">Information concerning data reused for the study</td>
+<td style="text-align: left;">This section describes the sources of pre-existing data reused in the study</td>
+<td style="text-align: left;">section</td>
+<td style="text-align: left;">1.0</td>
+<td style="text-align: left;">Inf.</td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">ST : Plusieurs sources possibles</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">ST: Several possible sources</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">5.4.1.c</td>
+<td style="text-align: left;"><strong>SourceName</strong></td>
+<td style="text-align: left;">Description de la source</td>
+<td style="text-align: left;">Toute information supplémentaire caractérisant la source ( nom, origine, qualité, modalités d'accès, liens eventuels)</td>
+<td style="text-align: left;">Source description</td>
+<td style="text-align: left;">Any additional information characterising the source (name, origin, quality, access methods, any links)</td>
+<td style="text-align: left;">texte libre</td>
+<td style="text-align: left;">0.0</td>
+<td style="text-align: left;">1</td>
+</tr>
+<tr>
+<td style="text-align: left;">5.4.1.d</td>
+<td style="text-align: left;"><strong>SourceId</strong></td>
+<td style="text-align: left;">Identifiant de la source</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Source identifier</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">texte libre</td>
+<td style="text-align: left;">0.0</td>
+<td style="text-align: left;">1</td>
+</tr>
+<tr>
+<td style="text-align: left;">5.4.1.a</td>
+<td style="text-align: left;"><strong>SourceType</strong></td>
+<td style="text-align: left;">Type de source</td>
+<td style="text-align: left;">Type de source des données utilisées</td>
+<td style="text-align: left;">Source type</td>
+<td style="text-align: left;">Type of data source used</td>
+<td style="text-align: left;">choix multiple</td>
+<td style="text-align: left;">1.0</td>
+<td style="text-align: left;">Inf.</td>
+</tr>
+<tr>
+<td style="text-align: left;">5.4.1.e</td>
+<td style="text-align: left;"><strong>SourcePurpose</strong></td>
+<td style="text-align: left;">Objectif de l'intégration de la source</td>
+<td style="text-align: left;">Finalité de l’utilisation de la source dans le cadre de l'étude</td>
+<td style="text-align: left;">Source integration purpose</td>
+<td style="text-align: left;">Purpose of using the source in the study</td>
+<td style="text-align: left;">choix unique</td>
+<td style="text-align: left;">1.0</td>
+<td style="text-align: left;">1</td>
+</tr>
+<tr>
+<td style="text-align: left;">5.4.1.b</td>
+<td style="text-align: left;"><strong>OtherSourceType</strong></td>
+<td style="text-align: left;">Autre type de source, précisions</td>
+<td style="text-align: left;">Indique le type de source lorsqu’il ne correspond pas aux options proposées</td>
+<td style="text-align: left;">Other source type, details</td>
+<td style="text-align: left;">Indicate the type of source when it does not correspond to the options provided</td>
+<td style="text-align: left;">texte libre</td>
+<td style="text-align: left;">0.0</td>
+<td style="text-align: left;">1</td>
+</tr>
+<tr>
+<td style="text-align: left;">6.</td>
+<td style="text-align: left;"><strong>DataAccess</strong></td>
+<td style="text-align: left;">Accès aux données</td>
+<td style="text-align: left;">Cette section décrit différents aspects d'accès aux données recueillies au cours de l'étude.</td>
+<td style="text-align: left;">Data access</td>
+<td style="text-align: left;">This section describes various aspects of accessing the data collected during the study.</td>
+<td style="text-align: left;">section</td>
+<td style="text-align: left;">1.0</td>
+<td style="text-align: left;">1</td>
+</tr>
+<tr>
+<td style="text-align: left;">6.1</td>
+<td style="text-align: left;"><strong>DataQuality</strong></td>
+<td style="text-align: left;">Qualité des données</td>
+<td style="text-align: left;">Informations sur les procédures et outils mis en place pour assurer la qualité, la cohérence et la traçabilité des données collectées dans l’étude.</td>
+<td style="text-align: left;">Data quality</td>
+<td style="text-align: left;">Information on the procedures and tools implemented to ensure the quality, consistency, and traceability of data collected in the study.</td>
+<td style="text-align: left;">section</td>
+<td style="text-align: left;">1.0</td>
+<td style="text-align: left;">1</td>
+</tr>
+<tr>
+<td style="text-align: left;">6.1.a</td>
+<td style="text-align: left;"><strong>UsedStandards</strong></td>
+<td style="text-align: left;">Standard(s) ou nomenclature(s) employé(s)</td>
+<td style="text-align: left;">Normes, classifications ou terminologies utilisées pour coder et structurer les données (ex. : ICD-10, LOINC, SNOMED CT)</td>
+<td style="text-align: left;">Standard(s) or nomenclature(s) used</td>
+<td style="text-align: left;">Standards, classifications, or terminologies used to code and structure data (e.g., ICD-10, LOINC, SNOMED CT)</td>
+<td style="text-align: left;">texte libre</td>
+<td style="text-align: left;">0.0</td>
+<td style="text-align: left;">Inf.</td>
+</tr>
+<tr>
+<td style="text-align: left;">6.1.b</td>
+<td style="text-align: left;"><strong>QualityProcedure</strong></td>
+<td style="text-align: left;">Procédure qualité utilisée</td>
+<td style="text-align: left;">Méthodes et contrôles appliqués pour garantir l’exactitude, la complétude et la cohérence des données (ex. : validation, audit, double saisie)</td>
+<td style="text-align: left;">Quality procedure used</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">texte libre</td>
+<td style="text-align: left;">0.0</td>
+<td style="text-align: left;">Inf.</td>
+</tr>
+<tr>
+<td style="text-align: left;">6.2</td>
+<td style="text-align: left;"><strong>DataAvailability</strong></td>
+<td style="text-align: left;">Disponibilité du jeu de données</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Data availability</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">section</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">6.2.a</td>
+<td style="text-align: left;"><strong>IndividualDataAccess</strong></td>
+<td style="text-align: left;">Accès aux données individuelles</td>
+<td style="text-align: left;">Statut de disponibilité des données individuelles à la fin de la collecte</td>
+<td style="text-align: left;">Access to individual data</td>
+<td style="text-align: left;">Individual data availability status at the end of the collect</td>
+<td style="text-align: left;">choix unique</td>
+<td style="text-align: left;">1.0</td>
+<td style="text-align: left;">1</td>
+</tr>
+<tr>
+<td style="text-align: left;">6.2.b</td>
+<td style="text-align: left;"><strong>AggregatedDataAccess</strong></td>
+<td style="text-align: left;">Modalités de mise à disposition des données agrégées</td>
+<td style="text-align: left;">Modalités de mise à disposition des données agrégées</td>
+<td style="text-align: left;">Conditions under which the aggregated data are made available</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">texte libre</td>
+<td style="text-align: left;">0.0</td>
+<td style="text-align: left;">1</td>
+</tr>
+<tr>
+<td style="text-align: left;">6.2.1</td>
+<td style="text-align: left;"><strong>DataAccessRequestTool</strong></td>
+<td style="text-align: left;">Outil de demande d'accès aux données</td>
+<td style="text-align: left;">Cette section regroupe les informations relatives à l’existence éventuelle d’un outil d'accès aux données</td>
+<td style="text-align: left;">Data access request tool</td>
+<td style="text-align: left;">This section contains information about the possible presence of a data access request tool</td>
+<td style="text-align: left;">section</td>
+<td style="text-align: left;">0.0</td>
+<td style="text-align: left;">1</td>
+</tr>
+<tr>
+<td style="text-align: left;">6.2.1.a</td>
+<td style="text-align: left;"><strong>DataAccessRequestToolAvailable</strong></td>
+<td style="text-align: left;">Existe-t-il un outil de demande d'accès aux données ?</td>
+<td style="text-align: left;">Indique si un outil (plateforme, formulaire en ligne ou autre système) permettant de formuler une demande d’accès aux données est disponible.</td>
+<td style="text-align: left;">A data access request tool is it available ?</td>
+<td style="text-align: left;">Indicates whether a tool (platform, online form, or other system) is available for submitting a request for access to data.</td>
+<td style="text-align: left;">boolean</td>
+<td style="text-align: left;">0.0</td>
+<td style="text-align: left;">1</td>
+</tr>
+<tr>
+<td style="text-align: left;">6.2.1.b</td>
+<td style="text-align: left;"><strong>DataAccessRequestToolLocation</strong></td>
+<td style="text-align: left;">Lien vers l'outil de demande d'accès</td>
+<td style="text-align: left;">Fournit l’URL ou la référence donnant accès à cet outil lorsque celui-ci est disponible.</td>
+<td style="text-align: left;">Link to the data access request tool</td>
+<td style="text-align: left;">Provides the URL or reference giving access to this tool when it is available.</td>
+<td style="text-align: left;">texte libre</td>
+<td style="text-align: left;">0.0</td>
+<td style="text-align: left;">1</td>
+</tr>
+<tr>
+<td style="text-align: left;">6.2.c</td>
+<td style="text-align: left;"><strong>DataFileCompleteness</strong></td>
+<td style="text-align: left;">Complétude des fichiers des données</td>
+<td style="text-align: left;">Indique l'écart éventuel entre les données collectées et les données disponibles. Il permet de préciser, le cas échéant, les raisons pour lesquelles certains éléments collectés n’ont pas été inclus dans le fichier de données partagées (par exemple, les éléments directement identifiants).</td>
+<td style="text-align: left;">Data file completeness</td>
+<td style="text-align: left;">Indicates any discrepancy between the data collected and the data available. It allows you to specify, where applicable, the reasons why certain items collected have not been included in the shared data file (e.g. items that directly identify individuals).</td>
+<td style="text-align: left;">texte libre</td>
+<td style="text-align: left;">0.0</td>
+<td style="text-align: left;">1</td>
+</tr>
+<tr>
+<td style="text-align: left;">6.2.d</td>
+<td style="text-align: left;"><strong>DataLocation</strong></td>
+<td style="text-align: left;">Localisation des données</td>
+<td style="text-align: left;">Emplacement où les données collectées sont actuellement stockées.</td>
+<td style="text-align: left;">Data location</td>
+<td style="text-align: left;">Location where the data collection is currently stored.</td>
+<td style="text-align: left;">texte libre</td>
+<td style="text-align: left;">0.0</td>
+<td style="text-align: left;">1</td>
+</tr>
+<tr>
+<td style="text-align: left;">6.3</td>
+<td style="text-align: left;"><strong>UseStatement</strong></td>
+<td style="text-align: left;">Conditions d'usage</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Use conditions</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">section</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">6.3.a</td>
+<td style="text-align: left;"><strong>AccessConditions</strong></td>
+<td style="text-align: left;">Conditions d'accès aux données</td>
+<td style="text-align: left;">Toute information supplémentaire susceptible d'aider l'utilisateur à comprendre les conditions d'accès et d'utilisation de la collecte de données (par exemple, contacter l'investigateur principal pour plus d'information)</td>
+<td style="text-align: left;">Data access conditions</td>
+<td style="text-align: left;">Any additional information that will assist the user in understanding the access and use conditions of the data collection (for example, contact the principal investigator for more information).</td>
+<td style="text-align: left;">texte libre</td>
+<td style="text-align: left;">0.0</td>
+<td style="text-align: left;">1</td>
+</tr>
+<tr>
+<td style="text-align: left;">6.3.b</td>
+<td style="text-align: left;"><strong>AccessRestrictions</strong></td>
+<td style="text-align: left;">Restrictions d'accès</td>
+<td style="text-align: left;">Toute restriction relative à l'accès ou à l'utilisation du recueil de données, telle que la certification de confidentialité ou les restrictions de distribution, doit être indiquée ici. Il peut s'agir de restrictions appliquées par l'auteur, le producteur ou le diffuseur des données.</td>
+<td style="text-align: left;">Access restrictions</td>
+<td style="text-align: left;">Any restrictions on access to or use of the data collection such as privacy certification or distribution restrictions should be indicated here. These can be restrictions applied by the author, producer, or disseminator of the data.</td>
+<td style="text-align: left;">texte libre</td>
+<td style="text-align: left;">0.0</td>
+<td style="text-align: left;">1</td>
+</tr>
+<tr>
+<td style="text-align: left;">6.3.c</td>
+<td style="text-align: left;"><strong>AdditionalDataAccessLink</strong></td>
+<td style="text-align: left;">Lien vers le plan de partage des données ou vers une documentation relative à l'accès aux données</td>
+<td style="text-align: left;">Indique une URL ou une référence pointant vers le plan de partage ou vers une page ou un document décrivant plus en détail les conditions et procédures d’accès aux données.</td>
+<td style="text-align: left;">Link to sharing plan or to documentation relating to data access.</td>
+<td style="text-align: left;">Provides a URL or reference to a sharing plan or to a page or document that describes in more detail the conditions and procedures for accessing the data.</td>
+<td style="text-align: left;">texte libre</td>
+<td style="text-align: left;">0.0</td>
+<td style="text-align: left;">1</td>
+</tr>
+<tr>
+<td style="text-align: left;">6.3.d</td>
+<td style="text-align: left;"><strong>NonDisclosureAgreement</strong></td>
+<td style="text-align: left;">Accord de confidentialité</td>
+<td style="text-align: left;">Indique si la signature d’une déclaration de confidentialité est requise pour accéder à la ressource.</td>
+<td style="text-align: left;">Non-disclosure agreement</td>
+<td style="text-align: left;">Indicates whether a confidentiality agreement must be signed in order to access the resource.</td>
+<td style="text-align: left;">texte libre</td>
+<td style="text-align: left;">0.0</td>
+<td style="text-align: left;">1</td>
+</tr>
+<tr>
+<td style="text-align: left;">6.3.1</td>
+<td style="text-align: left;"><strong>DataInformationContact</strong></td>
+<td style="text-align: left;">Personne à contacter pour des renseignements concernant les données</td>
+<td style="text-align: left;">Noms et adresses des personnes impliquées dans l'étude, à contacter pour obtenir les renseignements concernant les données. Elles peuvent être sollicitées en tant que personnes ressources pour les problèmes ou questions soulevés par les utilisateurs.</td>
+<td style="text-align: left;">Contact person for data information</td>
+<td style="text-align: left;">Names and addresses of individuals involved in the study who can be contacted for information about the data. They can be consulted as resource persons for problems or questions raised by users.</td>
+<td style="text-align: left;">section</td>
+<td style="text-align: left;">0.0</td>
+<td style="text-align: left;">Inf.</td>
+</tr>
+<tr>
+<td style="text-align: left;">6.3.1.a</td>
+<td style="text-align: left;"><strong>DIContactName</strong></td>
+<td style="text-align: left;">Prénom NOM du contact</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">First name LAST NAME of the contact</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">texte libre</td>
+<td style="text-align: left;">1.0</td>
+<td style="text-align: left;">1</td>
+</tr>
+<tr>
+<td style="text-align: left;">6.3.1.b</td>
+<td style="text-align: left;"><strong>DIContactMail</strong></td>
+<td style="text-align: left;">Email du contact</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Contact email</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">email</td>
+<td style="text-align: left;">0.0</td>
+<td style="text-align: left;">1</td>
+</tr>
+<tr>
+<td style="text-align: left;">6.4</td>
+<td style="text-align: left;"><strong>DataCitation</strong></td>
+<td style="text-align: left;">Obligations liées à l’usage des données</td>
+<td style="text-align: left;">Indique les responsabilités de l’utilisateur vis-à-vis des données</td>
+<td style="text-align: left;">Obligations related to data use</td>
+<td style="text-align: left;">Indicates the user's responsibilities with regard to data</td>
+<td style="text-align: left;">section</td>
+<td style="text-align: left;">0.0</td>
+<td style="text-align: left;">1</td>
+</tr>
+<tr>
+<td style="text-align: left;">6.4.a</td>
+<td style="text-align: left;"><strong>DataCitationRequirement</strong></td>
+<td style="text-align: left;">Obligation de transmission des travaux</td>
+<td style="text-align: left;">Indique l’obligation pour les utilisateurs d’informer le producteur et le distibuteur des données de toute utilisation des données, en fournissant les références des publications ou des copies des papiers s’appuyant sur ces données.</td>
+<td style="text-align: left;">Reporting requirement</td>
+<td style="text-align: left;">Indicates the obligation for users to inform the data producer and distributor of any use of the data, providing references to publications or copies of papers based on this data.</td>
+<td style="text-align: left;">texte libre</td>
+<td style="text-align: left;">0.0</td>
+<td style="text-align: left;">1</td>
+</tr>
+<tr>
+<td style="text-align: left;">6.4.b</td>
+<td style="text-align: left;"><strong>DataCitationStatement</strong></td>
+<td style="text-align: left;">Obligation de citation</td>
+<td style="text-align: left;">Exigence selon laquelle un recueil de données doit être correctement cité dans les articles ou autres publications basés sur l'analyse de ces données.</td>
+<td style="text-align: left;">Citation requirement</td>
+<td style="text-align: left;">Requirement that a data collection should be cited properly in articles or other publications that are based on analysis of the data.</td>
+<td style="text-align: left;">texte libre</td>
+<td style="text-align: left;">0.0</td>
+<td style="text-align: left;">1</td>
+</tr>
+<tr>
+<td style="text-align: left;">6.5</td>
+<td style="text-align: left;"><strong>VariableDictionnary</strong></td>
+<td style="text-align: left;">Dictionnaire des variables</td>
+<td style="text-align: left;">Document listant et décrivant toutes les variables collectées, leur format, unités et modalités de codage.</td>
+<td style="text-align: left;">Data dictionary</td>
+<td style="text-align: left;">Document listing and describing all collected variables, their format, units, and coding modalities.</td>
+<td style="text-align: left;">section</td>
+<td style="text-align: left;">0.0</td>
+<td style="text-align: left;">1</td>
+</tr>
+<tr>
+<td style="text-align: left;">6.5.a</td>
+<td style="text-align: left;"><strong>VariableDictionnaryAvailable</strong></td>
+<td style="text-align: left;">Existe-t-il un dictionnaire des variables ?</td>
+<td style="text-align: left;">Existence d’un dictionnaire des variables</td>
+<td style="text-align: left;">A data dictionary is it available ?</td>
+<td style="text-align: left;">Presence of a data dictionary</td>
+<td style="text-align: left;">boolean</td>
+<td style="text-align: left;">1.0</td>
+<td style="text-align: left;">1</td>
+</tr>
+<tr>
+<td style="text-align: left;">6.5.b</td>
+<td style="text-align: left;"><strong>VariableDictionnaryLink</strong></td>
+<td style="text-align: left;">Lien vers le dictionnaire des variables</td>
+<td style="text-align: left;">URL ou adresse permettant d’accéder au dictionnaire des variables lorsque celui-ci est disponible.</td>
+<td style="text-align: left;">Link to the data dictionary</td>
+<td style="text-align: left;">URL or address providing access to the data dictionary when it is available.</td>
+<td style="text-align: left;">texte libre</td>
+<td style="text-align: left;">0.0</td>
+<td style="text-align: left;">1</td>
+</tr>
+<tr>
+<td style="text-align: left;">6.6</td>
+<td style="text-align: left;"><strong>MockSample</strong></td>
+<td style="text-align: left;">Echantillon fictif</td>
+<td style="text-align: left;">Cette section regroupe les informations relatives à l’existence éventuelle d’un échantillon fictif (données simulées ou anonymisées à des fins de test ou de démonstration)</td>
+<td style="text-align: left;">Mock sample</td>
+<td style="text-align: left;">This section contains information about the possible existence of a synthetic sample (simulated or anonymised data for testing or demonstration purposes).</td>
+<td style="text-align: left;">section</td>
+<td style="text-align: left;">0.0</td>
+<td style="text-align: left;">1</td>
+</tr>
+<tr>
+<td style="text-align: left;">6.6.a</td>
+<td style="text-align: left;"><strong>MockSampleAvailable</strong></td>
+<td style="text-align: left;">Un échantillon fictif du jeu de données est-il disponible ?</td>
+<td style="text-align: left;">Indique si un échantillon fictif du jeu de données est disponible</td>
+<td style="text-align: left;">A mock sample is it available ?</td>
+<td style="text-align: left;">Indicate whether a synthetic sample of the dataset is available.</td>
+<td style="text-align: left;">boolean</td>
+<td style="text-align: left;">0.0</td>
+<td style="text-align: left;">1</td>
+</tr>
+<tr>
+<td style="text-align: left;">6.6.b</td>
+<td style="text-align: left;"><strong>MockSampleLocation</strong></td>
+<td style="text-align: left;">Lien vers l'échantillon fictif ou vers les renseignements pour y accéder</td>
+<td style="text-align: left;">Si un échantillon fictif est disponible, fournir un lien ou des précisions pour y accéder.</td>
+<td style="text-align: left;">Link to the sample of to information on how to access it</td>
+<td style="text-align: left;">If a synthetic sample is available, provide a link or details on how to access it.</td>
+<td style="text-align: left;">texte libre</td>
+<td style="text-align: left;">0.0</td>
+<td style="text-align: left;">1</td>
+</tr>
+<tr>
+<td style="text-align: left;">6.a</td>
+<td style="text-align: left;"><strong>OtherDocumentation</strong></td>
+<td style="text-align: left;">Documentation complémentaire sur les données</td>
+<td style="text-align: left;">Tout autre document utile pour comprendre et réutiliser les données (protocoles de collecte, guides de codage, procédures de nettoyage, métadonnées complémentaires)</td>
+<td style="text-align: left;">Additional documentation on data</td>
+<td style="text-align: left;">Any other document useful for understanding and reusing the data (collection protocols, coding guides, cleaning procedures, additional metadata)</td>
+<td style="text-align: left;">texte libre</td>
+<td style="text-align: left;">0.0</td>
+<td style="text-align: left;">1</td>
+</tr>
+<tr>
+<td style="text-align: left;">6.7</td>
+<td style="text-align: left;"><strong>DatasetPID</strong></td>
+<td style="text-align: left;">Identification pérenne du jeu de données</td>
+<td style="text-align: left;">Identifiant unique et stable permettant de référencer durablement le jeu de données, indépendamment de son emplacement technique</td>
+<td style="text-align: left;">Persistent identifier of the dataset</td>
+<td style="text-align: left;">A unique and stable identifier that allows the dataset to be referenced permanently, regardless of its technical location.</td>
+<td style="text-align: left;">section</td>
+<td style="text-align: left;">0.0</td>
+<td style="text-align: left;">Inf.</td>
+</tr>
+<tr>
+<td style="text-align: left;">6.7.a</td>
+<td style="text-align: left;"><strong>PIDSchema</strong></td>
+<td style="text-align: left;">Type d'identifiant du jeu de données</td>
+<td style="text-align: left;">Type de l’identifiant pérenne utilisé</td>
+<td style="text-align: left;">Identifier type of the dataset</td>
+<td style="text-align: left;">Type of persistent identifier used</td>
+<td style="text-align: left;">choix unique</td>
+<td style="text-align: left;">0.0</td>
+<td style="text-align: left;">1</td>
+</tr>
+<tr>
+<td style="text-align: left;">6.7.d</td>
+<td style="text-align: left;"><strong>URI</strong></td>
+<td style="text-align: left;">Identifiant du jeu de données</td>
+<td style="text-align: left;">Code ou référence unique permettant d’identifier et de retrouver le jeu de données.</td>
+<td style="text-align: left;">Dataset identifier</td>
+<td style="text-align: left;">Unique code or reference used to identify and locate the dataset.</td>
+<td style="text-align: left;">url</td>
+<td style="text-align: left;">0.0</td>
+<td style="text-align: left;">1</td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Il peut être attribué par le producteur ou par l’hébergeur des données, ou correspondre à un identifiant persistant international (ex. DOI).</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">It may be assigned by the data producer or the data host, or correspond to an international persistent identifier (e.g., DOI).</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">7.</td>
+<td style="text-align: left;"><strong>RelatedDocument</strong></td>
+<td style="text-align: left;">Documents connexes</td>
+<td style="text-align: left;">Dans cette section, vous pouvez signaler tout document pertinent relatif à l’étude et accessible sur le web.</td>
+<td style="text-align: left;">Related documents</td>
+<td style="text-align: left;">In this section, you can report any relevant documents related to the study available on the web.</td>
+<td style="text-align: left;">section</td>
+<td style="text-align: left;">0.0</td>
+<td style="text-align: left;">Inf.</td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Il peut s’agir de protocoles, publications, rapports ou tout autre document utile pour mieux comprendre l’étude ou ses résultats.</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">These may include protocols, publications, reports, or any other documents that are useful for better understanding the study or its results.</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">7.a</td>
+<td style="text-align: left;"><strong>DocumentType</strong></td>
+<td style="text-align: left;">Type de document</td>
+<td style="text-align: left;">Type du document connexe</td>
+<td style="text-align: left;">Document type</td>
+<td style="text-align: left;">Type of related document</td>
+<td style="text-align: left;">choix unique</td>
+<td style="text-align: left;">0.0</td>
+<td style="text-align: left;">1</td>
+</tr>
+<tr>
+<td style="text-align: left;">7.b</td>
+<td style="text-align: left;"><strong>DocumentTitle</strong></td>
+<td style="text-align: left;">Titre du document</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Document title</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">texte libre</td>
+<td style="text-align: left;">0.0</td>
+<td style="text-align: left;">1</td>
+</tr>
+<tr>
+<td style="text-align: left;">7.c</td>
+<td style="text-align: left;"><strong>DocumentLink</strong></td>
+<td style="text-align: left;">Lien vers le document</td>
+<td style="text-align: left;">Lien permettant d’accéder au document</td>
+<td style="text-align: left;">Document link</td>
+<td style="text-align: left;">Link to access the document</td>
+<td style="text-align: left;">texte libre</td>
+<td style="text-align: left;">0.0</td>
+<td style="text-align: left;">1</td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+  
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.f55a23d4.min.js"></script>
+      
+    
+  </body>
+</html>
