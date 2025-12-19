@@ -1,21 +1,60 @@
-site_name: FReSH catalog documentation
+site_name: Catalogue FReSH - documentation technique
 
 nav:
-  - Home: index.md
-  - FReSH Metadata schema:
+  - Accueil: index.md
+  - Schéma des métadonnées FReSH:
     - Introduction: MetadataSchemaIntro.md
     - Sections:
-      - 0. Technical metadata: Schema_0.md
-      - 1. Study related information: Schema_1.md
-      - 2. Administrative information: Schema_2.md
-      - 3. Study methodology: Schema_3.md
-      - 4. Data collection and access: Schema_4.md
-  - Controlled vocabularies:
-    - Access to individual data : IndividualDataAccess.md
+      - 0. Métadonnées techniques: Schema_0.md
+      - 1. Informations relatives à l'étude: Schema_1.md
+      - 2. Renseignements administratifs : Schema_2.md
+      - 3. Méthodologie de l'étude : Schema_3.md
+      - 4. Collecte et accès aux données : Schema_4.md
+  - Vocabulaires contrôlés:
+    - Accès aux données individuelles : IndividualDataAccess.md
     - Age : Age.md
-    - Allocation Type : AllocationMode.md
-    - Allocation Unit : AllocationUnit.md
-    - Arm Type : ArmType.md
+    - Mode d'allocation : AllocationMode.md
+    - Unité d'allocation : AllocationUnit.md
+    - Type de bras : ArmType.md
+    - Authorization Agency : AuthorizationAgency.md
+    - Blinded Masking Details : BlindedMaskingDetails.md
+    - Collection Mode : collectionMode.md
+    - Data Type: data-type.md
+    - Declaration of conformity : ConformityDeclaration.md 
+    - Document Type : DocumentType.md
+    - Expected number of participants : PlannedSampleSize.md
+    - Factor/Exposure Type : InterventionType.md
+    - Follow-up Method : FollowUpMode.md
+    - Geographical Coverage : GeographicalCoverage.md
+    - Health Determinant : Health-determinant.md
+    - Health Theme: health-theme.md
+    - Identifier type of the dataset : DatasetPIDSchema.md
+    - Interventional Study ; Intervention model : InterventionalStudyModel.md
+    - Masking Type : MaskingType.md
+    - Nature of samples in the biobanque : BiobankContent.md
+    - Observational Study Design : ObservationalStudy.md
+    - Organisation Identifier Type : PIDSchema.md
+    - Organisation Status : SponsorType.md
+    - Participant Recruitment Source : RecruitmentSource.md
+    - Pathology : Pathology.md
+    - Population Type : populationType.md
+    - Provenance : Provenance.md
+    - Purpose of using the source in the study : SourcePurpose.md
+    - Record Status : Status.md
+    - Research Purpose : ResearchPurpose.md
+    - Sampling Procedure : SamplingMode.md
+    - Sex : Sex.md
+    - Source Type : SourceType.md
+    - Study Status : StudyStatus.md
+    - Study Type : ResearchType.md
+    - Time perspective : RecrutmentTiming.md
+    - Trial Phase : trial-phase.md
+  - Controlled vocabularies:
+    - Accès aux données individuelles : IndividualDataAccess.md
+    - Age : Age.md
+    - Mode d'allocation : AllocationMode.md
+    - Unité d'allocation : AllocationUnit.md
+    - Type de bras : ArmType.md
     - Authorization Agency : AuthorizationAgency.md
     - Blinded Masking Details : BlindedMaskingDetails.md
     - Collection Mode : collectionMode.md
