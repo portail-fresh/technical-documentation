@@ -3,9 +3,7 @@ hide:
   - toc
 ---
 
-# Objectif principal de la recherche - Research Purpose
-
-Finalité principale de l’étude.
+# Research Purpose
 
 The main reason for the study.
 

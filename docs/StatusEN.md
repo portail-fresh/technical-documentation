@@ -3,7 +3,7 @@ hide:
   - toc
 ---
 
-# Statut de la fiche - Record Status
+# Record Status
 
 <table>
   <tr BGCOLOR="#00a6e2">

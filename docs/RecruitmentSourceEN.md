@@ -3,7 +3,7 @@ hide:
   - toc
 ---
 
-# Source de recrutement des participants - Participant Recruitment Source
+# Participant Recruitment Source
 
 
 <table>

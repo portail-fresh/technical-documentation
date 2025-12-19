@@ -3,9 +3,7 @@ hide:
   - toc
 ---
 
-# Accès aux données individuelles - Access to individual data
-
-Statut de disponibilité des données individuelles à la fin de la collecte.
+# Access to individual data
 
 Individual data availability status at the end of the collect.
 <table>

@@ -3,9 +3,7 @@ hide:
   - toc
 ---
 
-# Type de source - Source type
-
-Type de source des données utilisées.
+# Source type
 
 Type of data source used.
 

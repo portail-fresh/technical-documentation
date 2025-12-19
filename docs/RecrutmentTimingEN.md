@@ -3,8 +3,7 @@ hide:
   - toc
 ---
 
-# Perspective temporelle - Time perspective
-Indication sur la dimension temporelle de la collecte des données dans l’étude observationnelle.
+# Time perspective
 
 Indication of the time perspective for data collection in the observational study.
 <table>

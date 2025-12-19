@@ -3,9 +3,7 @@ hide:
   - toc
 ---
 
-# Provenance de l'étude - Study Provenance
-
-Source d'origine des métadonnées.
+# Study Provenance
 
 Original source of the metadata.
 <table>

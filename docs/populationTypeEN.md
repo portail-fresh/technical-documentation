@@ -3,9 +3,7 @@ hide:
   - toc
 ---
 
-# Type de population - Population Type
-
-Catégorie principale des personnes concernées par l’étude (population générale, patients, personnes en situation de handicap).
+# Population Type
 
 Main category of persons concerned by the study (general population, patients, persons with disabilities).
 

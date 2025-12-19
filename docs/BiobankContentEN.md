@@ -3,7 +3,7 @@ hide:
   - toc
 ---
 
-# Nature des échantillons dans la biobanque - Nature of samples in the biobanque
+# Nature of samples in the biobanque
 
 <table>
   <tr BGCOLOR="#00a6e2">

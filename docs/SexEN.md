@@ -3,7 +3,7 @@ hide:
   - toc
 ---
 
-# Sexe - Sex
+# Sex
 
 
 <table>

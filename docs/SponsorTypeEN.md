@@ -3,9 +3,7 @@ hide:
   - toc
 ---
 
-# Statut de l'organisation - Organisation Status
-
-Type à renseigner pour le promoteur et le financeur.
+# Organisation Status
 
 Type to be filled for the sponsor and the funding agency.
 <table>

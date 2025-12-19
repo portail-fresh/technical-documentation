@@ -3,9 +3,7 @@ hide:
   - toc
 ---
 
-# Unité d'allocation - Allocation Unit
-
-Unité de répartition des participants en bras d'une étude clinique.
+# Allocation Unit
 
 Unit to assign participants to an arm of a clinical study.
 

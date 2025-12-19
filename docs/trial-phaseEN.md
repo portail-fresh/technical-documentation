@@ -3,8 +3,7 @@ hide:
   - toc
 ---
 
-# Phase de l'essai - Trial Phase
-Stade d’un essai clinique définissant les objectifs et méthodes de l’évaluation d’un médicament ou produit biologique (tolérance, efficacité, comparaison, suivi).
+# Trial Phase
 
 The stage of a clinical trial defining the objectives and methods of evaluating a drug or biological product (tolerance, efficacy, comparison, follow-up).
 

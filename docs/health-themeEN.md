@@ -3,9 +3,7 @@ hide:
   - toc
 ---
 
-# Spécialité médicale - Health Theme 
-
-Spécialités médicales auxquelles se rapporte l'étude.
+# Health Theme 
 
 Medical specialties relevant to the study.
 

@@ -3,8 +3,7 @@ hide:
   - toc
 ---
 
-# Type de bras - Arm Type
-Description générale du bras participant à l'essai clinique identifiant le rôle de l'intervention dont bénéficient les participants
+# Arm Type
 
 A general description of the clinical trial arm identifying the role of the intervention that participants receive. 
 <table>

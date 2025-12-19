@@ -3,7 +3,7 @@ hide:
   - toc
 ---
 
-# Nombre prévu de participants - Expected number of participants
+# Expected number of participants
 
 
 <table>

@@ -3,7 +3,7 @@ hide:
   - toc
 ---
 
-# Statut de l'étude - Study Status
+# Study Status
 
 <table>
   <tr BGCOLOR="#00a6e2">

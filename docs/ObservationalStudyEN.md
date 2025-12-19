@@ -3,8 +3,7 @@ hide:
   - toc
 ---
 
-# Modèle de l’étude observationnelle - Observational Study Design
-Indique l’approche méthodologique de l’étude observationnelle, précisant comment les participants sont sélectionnés et suivis ou observés.
+# Observational Study Design
 
 Describes the methodological approach of the observational study, specifying how participants are selected and monitored or observed.
 <table>

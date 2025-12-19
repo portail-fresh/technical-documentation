@@ -3,8 +3,7 @@ hide:
   - toc
 ---
 
-# Type d'insu - Masking Type
-Stratégie de conception d'un essai clinique dans laquelle une ou plusieurs parties impliquées dans l'essai, telles que l'investigateur ou les participants, ne savent pas quels participants ont été assignés à quelles interventions. 
+# Masking Type
 
 A clinical trial design strategy in which one or more parties involved in the trial, such as the investigator or participants, do not know which participants have been assigned which interventions.
 <table>

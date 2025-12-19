@@ -3,8 +3,7 @@ hide:
   - toc
 ---
 
-# Procédure d'échantillonnage - Sampling Procedure
-Décrit la méthode utilisée pour sélectionner les participants lors de leur inclusion dans l’étude.
+# Sampling Procedure
 
 Describes the method used to select participants when they were included in the study.
 <table>

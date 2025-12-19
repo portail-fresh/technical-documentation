@@ -3,9 +3,7 @@ hide:
   - toc
 ---
 
-# Modèle d'étude - Study Type
-
-Indique la nature de la recherche comprenant les études interventionnelles (également appelées expérimentales) et les études observationnelles.
+# Study Type
 
 Indicates the type of the research, including interventional (also known as experimental) studies and observational studies.
 

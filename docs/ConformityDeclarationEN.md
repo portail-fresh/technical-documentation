@@ -3,8 +3,7 @@ hide:
   - toc
 ---
 
-# Déclaration de conformité - Declaration of conformity
-Engagement formel qu’un projet de recherche respecte l’ensemble des conditions fixées par une Méthodologie de Référence (MR) de la CNIL, permettant d’utiliser des données de santé sans autorisation spécifique.
+# Declaration of conformity
 
 Formal statement that a research project complies with all requirements of a CNIL Reference Methodology, allowing the use of health data without specific authorization.
 

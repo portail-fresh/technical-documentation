@@ -3,8 +3,7 @@ hide:
   - toc
 ---
 
-# Type d'identifiant du jeu de données - Identifier type of the dataset
-Identifiant unique et stable permettant de référencer durablement le jeu de données, indépendamment de son emplacement technique.
+# Identifier type of the dataset
 
 A unique and stable identifier that allows the dataset to be referenced permanently, regardless of its technical location.
 <table>

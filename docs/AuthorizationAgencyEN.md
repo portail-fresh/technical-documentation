@@ -3,9 +3,7 @@ hide:
   - toc
 ---
 
-# Agence d'autorisation - Auhorization Agency
-
-Autorité compétente ayant délivré l'autorisation ou l'avis de validité de l'étude.
+# Auhorization Agency
 
 Competent authority that issued the authorisation or notice of validity for the study.
 <table>

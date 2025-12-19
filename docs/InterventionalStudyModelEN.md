@@ -3,8 +3,8 @@ hide:
   - toc
 ---
 
-# Etude interventionnelle : Schéma d’intervention - Interventional Study : Intervention model
-Conception générale de la stratégie d'attribution des interventions aux participants d'une étude clinique.
+# Interventional Study : Intervention model
+
 
 The general design of the strategy for assigning interventions to participants in a clinical study. 
 <table>

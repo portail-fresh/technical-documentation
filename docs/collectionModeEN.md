@@ -3,8 +3,7 @@ hide:
   - toc
 ---
 
-# Mode de collecte - Collection Mode
-Méthode utilisée pour recueillir les données.
+# Collection Mode
 
 The method used to collect data.
 <table>

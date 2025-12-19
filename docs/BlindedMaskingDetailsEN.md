@@ -3,8 +3,7 @@ hide:
   - toc
 ---
 
-# Groupe avec insu (en aveugle) - Blinded Masking Details
-Précise quelles parties prenantes de l’essai (participant, personnel soignant, investigateur, analyste des données) ignorent l’intervention attribuée, afin de limiter les biais.
+# Blinded Masking Details
 
 Specifies which stakeholders in the trial (participant, care provider, investigator, outcome assessor ) are unaware of the assigned intervention, in order to reduce bias.
 

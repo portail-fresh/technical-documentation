@@ -3,7 +3,7 @@ hide:
   - toc
 ---
 
-# Type de document - Document Type
+# Document Type
 
 
 <table>

@@ -3,8 +3,7 @@ hide:
   - toc
 ---
 
-# Modalités de suivi - Follow-up Method
-Modalités de suivi actif des participants.
+# Follow-up Method
 
 Method of active follow-up of participants.
 

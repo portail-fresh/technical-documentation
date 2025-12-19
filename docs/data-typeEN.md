@@ -3,8 +3,7 @@ hide:
   - toc
 ---
 
-# Type de données - Data Type
-Le champ Type de données décrit les catégories de données collectées dans le cadre de l’étude.
+# Data Type
 
 The Data Type field describes the categories of data collected within the study.
 <table>

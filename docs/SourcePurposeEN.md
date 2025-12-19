@@ -3,8 +3,7 @@ hide:
   - toc
 ---
 
-# Objectif de l'intégration de la source - Purpose of using the source in the study
-Finalité de l’utilisation de la source dans le cadre de l'étude
+# Purpose of using the source in the study
 
 Purpose of using the source in the study
 <table>

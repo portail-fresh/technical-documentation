@@ -51,7 +51,7 @@ nav:
     - Phase de l'essai : trial-phase.md
   - Documentation - English version:
     - FReSH Metadata schema:
-      - Introduction: MetadataSchemaIntro.md
+      - Introduction: MetadataSchemaIntroEN.md
       - Sections:
         - 0. Technical metadata: Schema_0EN.md
         - 1. Study related information: Schema_1EN.md
