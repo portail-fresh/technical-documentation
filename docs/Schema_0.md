@@ -3,9 +3,9 @@ hide:
   - toc
 ---
 
-# 0. Technical metadata - Métadonnées techniques
+# 0. Métadonnées techniques
 
-| Element ID   | Variable Name              | Label FR                                 | Description FR                                                                                                                           | Label EN                                        | Description EN                                                                                                           | Variable Type   |   Min Occur |   Max Occur |
+| ID Element   | Nom Variable              | Titre FR                                 | Description FR                                                                                                                           | Titre EN                                        | Description EN                                                                                                           | Type Variable   |   Min Occur |   Max Occur |
 |:-------------|:---------------------------|:-----------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------|:----------------|------------:|------------:|
 | 1.           | **TechnicalInfo**          | Métadonnées techniques de la fiche       |                                                                                                                                          | Technical metadata                              |                                                                                                                          | section         |           1 |           1 |
 | 1.1          | **StudyID**                | Identifiant de l'étude                   | Section contenant l'identifiant  provenant de la source des métadonnées importées                                                        | Study ID                                        | Section containing the identifier  from the source of the imported metadata                                              | section         |           1 |           1 |

@@ -3,10 +3,8 @@ hide:
   - toc
 ---
 
-# Champ géographique - Geographical Coverage
+# Champ géographique
 Aire géographique couverte par la population étudiée.
-
-Geographical area covered by the population studied.
 
 ## Pays
 Liste des pays définis par la norme <a href="https://www.iso.org/obp/ui/fr/#search">ISO 3166</a>.

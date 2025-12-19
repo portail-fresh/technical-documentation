@@ -3,18 +3,16 @@ hide:
   - toc
 ---
 
-# Type de population - Population Type
+# Type de population
 
 Catégorie principale des personnes concernées par l’étude (population générale, patients, personnes en situation de handicap).
 
-Main category of persons concerned by the study (general population, patients, persons with disabilities).
-
 <table>
   <tr BGCOLOR="#00a6e2">
-    <th style="color:#FFFFFF;">French label</th>
-    <th style="color:#FFFFFF;">English label</th>
-    <th style="color:#FFFFFF;">French description</th>
-    <th style="color:#FFFFFF;">English description</th>
+    <th style="color:#FFFFFF;">Terme français</th>
+    <th style="color:#FFFFFF;">Terme anglais</th>
+    <th style="color:#FFFFFF;">Description en français</th>
+    <th style="color:#FFFFFF;">Description en anglais</th>
   </tr>
   <tr>
     <td><b>Population générale</b></td>

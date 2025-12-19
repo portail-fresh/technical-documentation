@@ -3,13 +3,13 @@ hide:
   - toc
 ---
 
-# Type de document - Document Type
+# Type de document
 
 
 <table>
   <tr BGCOLOR="#00a6e2">
-    <th style="color:#FFFFFF;">French label</th>
-    <th style="color:#FFFFFF;">English label</th>
+    <th style="color:#FFFFFF;">Terme français</th>
+    <th style="color:#FFFFFF;">Terme anglais</th>
   </tr>
   <tr>
     <td>Publication définissant la base de données et/ou son protocole de collecte (data paper, cohort profile, method/protocol paper, resource paper, data note, registered report...).</td>

@@ -16,78 +16,87 @@ nav:
     - Mode d'allocation : AllocationMode.md
     - Unité d'allocation : AllocationUnit.md
     - Type de bras : ArmType.md
-    - Authorization Agency : AuthorizationAgency.md
-    - Blinded Masking Details : BlindedMaskingDetails.md
-    - Collection Mode : collectionMode.md
-    - Data Type: data-type.md
-    - Declaration of conformity : ConformityDeclaration.md 
-    - Document Type : DocumentType.md
-    - Expected number of participants : PlannedSampleSize.md
-    - Factor/Exposure Type : InterventionType.md
-    - Follow-up Method : FollowUpMode.md
-    - Geographical Coverage : GeographicalCoverage.md
-    - Health Determinant : Health-determinant.md
-    - Health Theme: health-theme.md
-    - Identifier type of the dataset : DatasetPIDSchema.md
-    - Interventional Study ; Intervention model : InterventionalStudyModel.md
-    - Masking Type : MaskingType.md
-    - Nature of samples in the biobanque : BiobankContent.md
-    - Observational Study Design : ObservationalStudy.md
-    - Organisation Identifier Type : PIDSchema.md
-    - Organisation Status : SponsorType.md
-    - Participant Recruitment Source : RecruitmentSource.md
-    - Pathology : Pathology.md
-    - Population Type : populationType.md
-    - Provenance : Provenance.md
-    - Purpose of using the source in the study : SourcePurpose.md
-    - Record Status : Status.md
-    - Research Purpose : ResearchPurpose.md
-    - Sampling Procedure : SamplingMode.md
-    - Sex : Sex.md
-    - Source Type : SourceType.md
-    - Study Status : StudyStatus.md
-    - Study Type : ResearchType.md
-    - Time perspective : RecrutmentTiming.md
-    - Trial Phase : trial-phase.md
-  - Controlled vocabularies:
-    - Accès aux données individuelles : IndividualDataAccess.md
-    - Age : Age.md
-    - Mode d'allocation : AllocationMode.md
-    - Unité d'allocation : AllocationUnit.md
-    - Type de bras : ArmType.md
-    - Authorization Agency : AuthorizationAgency.md
-    - Blinded Masking Details : BlindedMaskingDetails.md
-    - Collection Mode : collectionMode.md
-    - Data Type: data-type.md
-    - Declaration of conformity : ConformityDeclaration.md 
-    - Document Type : DocumentType.md
-    - Expected number of participants : PlannedSampleSize.md
-    - Factor/Exposure Type : InterventionType.md
-    - Follow-up Method : FollowUpMode.md
-    - Geographical Coverage : GeographicalCoverage.md
-    - Health Determinant : Health-determinant.md
-    - Health Theme: health-theme.md
-    - Identifier type of the dataset : DatasetPIDSchema.md
-    - Interventional Study ; Intervention model : InterventionalStudyModel.md
-    - Masking Type : MaskingType.md
-    - Nature of samples in the biobanque : BiobankContent.md
-    - Observational Study Design : ObservationalStudy.md
-    - Organisation Identifier Type : PIDSchema.md
-    - Organisation Status : SponsorType.md
-    - Participant Recruitment Source : RecruitmentSource.md
-    - Pathology : Pathology.md
-    - Population Type : populationType.md
-    - Provenance : Provenance.md
-    - Purpose of using the source in the study : SourcePurpose.md
-    - Record Status : Status.md
-    - Research Purpose : ResearchPurpose.md
-    - Sampling Procedure : SamplingMode.md
-    - Sex : Sex.md
-    - Source Type : SourceType.md
-    - Study Status : StudyStatus.md
-    - Study Type : ResearchType.md
-    - Time perspective : RecrutmentTiming.md
-    - Trial Phase : trial-phase.md
+    - Agence d'autorisation : AuthorizationAgency.md
+    - Groupe avec insu (en aveugle) : BlindedMaskingDetails.md
+    - Mode de collecte: collectionMode.md
+    - Type de données: data-type.md
+    - Déclaration de conformité : ConformityDeclaration.md 
+    - Type de document : DocumentType.md
+    - Nombre prévu de participants : PlannedSampleSize.md
+    - Type de facteur ou d'exposition  : InterventionType.md
+    - Modalités de suivi : FollowUpMode.md
+    - Champ géographique : GeographicalCoverage.md
+    - Déterminants de santé : Health-determinant.md
+    - Spécialité médicale: health-theme.md
+    - Type d'identifiant du jeu de données : DatasetPIDSchema.md
+    - Etude interventionnelle ; Schéma d’intervention : InterventionalStudyModel.md
+    - Type d'insu : MaskingType.md
+    - Nature des échantillons dans la biobanque : BiobankContent.md
+    - Modèle de l’étude observationnelle  : ObservationalStudy.md
+    - Type d'identifiant de l'organisation : PIDSchema.md
+    - Statut de l'organisation : SponsorType.md
+    - Source de recrutement des participants : RecruitmentSource.md
+    - Pathologie : Pathology.md
+    - Type de population : populationType.md
+    - Provenance de l'étude : Provenance.md
+    - Objectif de l'intégration de la source : SourcePurpose.md
+    - Statut de la fiche : Status.md
+    - Objectif principal de la recherche : ResearchPurpose.md
+    - Procédure d'échantillonnage : SamplingMode.md
+    - Sexe : Sex.md
+    - Type de source : SourceType.md
+    - Statut de l'étude : StudyStatus.md
+    - Modèle d'étude : ResearchType.md
+    - Perspective temporelle : RecrutmentTiming.md
+    - Phase de l'essai : trial-phase.md
+  - Documentation - English version:
+    - FReSH Metadata schema:
+      - Introduction: MetadataSchemaIntro.md
+      - Sections:
+        - 0. Technical metadata: Schema_0EN.md
+        - 1. Study related information: Schema_1EN.md
+        - 2. Administrative information : Schema_2EN.md
+        - 3. Study methodology : Schema_3EN.md
+        - 4. Data collection and access : Schema_4EN.md
+    - Controlled vocabularies:
+      - Access to individual data: IndividualDataAccessEN.md
+      - Age : AgeEN.md
+      - Allocation Type : AllocationModeEN.md
+      - Allocation Unit : AllocationUnitEN.md
+      - Arm Type : ArmTypeEN.md
+      - Authorization Agency : AuthorizationAgencyEN.md
+      - Blinded Masking Details : BlindedMaskingDetailsEN.md
+      - Collection Mode : collectionModeEN.md
+      - Data Type: data-typeEN.md
+      - Declaration of conformity : ConformityDeclarationEN.md 
+      - Document Type : DocumentTypeEN.md
+      - Expected number of participants : PlannedSampleSizeEN.md
+      - Factor/Exposure Type : InterventionTypeEN.md
+      - Follow-up Method : FollowUpModeEN.md
+      - Geographical Coverage : GeographicalCoverageEN.md
+      - Health Determinant : Health-determinantEN.md
+      - Health Theme: health-themeEN.md
+      - Identifier type of the dataset : DatasetPIDSchemaEN.md
+      - Interventional Study ; Intervention model : InterventionalStudyModelEN.md
+      - Masking Type : MaskingTypeEN.md
+      - Nature of samples in the biobanque : BiobankContentEN.md
+      - Observational Study Design : ObservationalStudyEN.md
+      - Organisation Identifier Type : PIDSchemaEN.md
+      - Organisation Status : SponsorTypeEN.md
+      - Participant Recruitment Source : RecruitmentSourceEN.md
+      - Pathology : PathologyEN.md
+      - Population Type : populationTypeEN.md
+      - Study Provenance : ProvenanceEN.md
+      - Purpose of using the source in the study : SourcePurposeEN.md
+      - Record Status : StatusEN.md
+      - Research Purpose : ResearchPurposeEN.md
+      - Sampling Procedure : SamplingModeEN.md
+      - Sex : SexEN.md
+      - Source Type : SourceTypeEN.md
+      - Study Status : StudyStatusEN.md
+      - Study Type : ResearchTypeEN.md
+      - Time perspective : RecrutmentTimingEN.md
+      - Trial Phase : trial-phaseEN.md
 
 
     

@@ -3,17 +3,17 @@ hide:
   - toc
 ---
 
-# Procédure d'échantillonnage - Sampling Procedure
+# Procédure d'échantillonnage
 Décrit la méthode utilisée pour sélectionner les participants lors de leur inclusion dans l’étude.
 
-Describes the method used to select participants when they were included in the study.
+
 <table>
   <tr BGCOLOR="#00a6e2">
-    <th style="color:#FFFFFF;">French label</th>
-    <th style="color:#FFFFFF;">English label</th>
-    <th style="color:#FFFFFF;">French description</th>
-    <th style="color:#FFFFFF;">English description</th>
-    <th style="color:#FFFFFF;">CESSDA URI</th>
+    <th style="color:#FFFFFF;">Terme français</th>
+    <th style="color:#FFFFFF;">Terme anglais</th>
+    <th style="color:#FFFFFF;">Description en français</th>
+    <th style="color:#FFFFFF;">Description en anglais</th>
+    <th style="color:#FFFFFF;">URI CESSDA</th>
   </tr>
   <tr  BGCOLOR="#e2e9f2">
     <td><b>Dénombrement complet (dont recrutement consécutif)</b></td>

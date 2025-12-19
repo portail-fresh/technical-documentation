@@ -3,18 +3,17 @@ hide:
   - toc
 ---
 
-# Modèle d'étude - Study Type
+# Modèle d'étude 
 
 Indique la nature de la recherche comprenant les études interventionnelles (également appelées expérimentales) et les études observationnelles.
 
-Indicates the type of the research, including interventional (also known as experimental) studies and observational studies.
 
 <table>
   <tr BGCOLOR="#00a6e2">
-    <th style="color:#FFFFFF;">French label</th>
-    <th style="color:#FFFFFF;">English label</th>
-    <th style="color:#FFFFFF;">French description</th>
-    <th style="color:#FFFFFF;">English description</th>
+    <th style="color:#FFFFFF;">Terme français</th>
+    <th style="color:#FFFFFF;">Terme anglais</th>
+    <th style="color:#FFFFFF;">Description en français</th>
+    <th style="color:#FFFFFF;">Description en anglais</th>
   </tr>
   <tr>
     <td><b>Etude observationnelle</b></td>

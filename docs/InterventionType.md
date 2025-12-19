@@ -3,16 +3,15 @@ hide:
   - toc
 ---
 
-# Type de facteur ou d'exposition - Factor/Exposure Type
+# Type de facteur ou d'exposition
 Tout processus, action ou facteur auquel les participants sont soumis ou exposés, et qui fait l’objet d’une étude clinique ou observationnelle afin d’évaluer ses effets sur la santé.
 
-Any process, action or factor to which participants are subjected or exposed, and which is the subject of a clinical or observational study to assess its effects on health.
 <table>
   <tr BGCOLOR="#00a6e2">
-    <th style="color:#FFFFFF;">French label</th>
-    <th style="color:#FFFFFF;">English label</th>
-    <th style="color:#FFFFFF;">French description</th>
-    <th style="color:#FFFFFF;">English description</th>
+    <th style="color:#FFFFFF;">Terme français</th>
+    <th style="color:#FFFFFF;">Terme anglais</th>
+    <th style="color:#FFFFFF;">Description en français</th>
+    <th style="color:#FFFFFF;">Description en anglais</th>
   </tr>
   <tr>
     <td><b>Médicament</b></td>

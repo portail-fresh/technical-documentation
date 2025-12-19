@@ -3,18 +3,17 @@ hide:
   - toc
 ---
 
-# Accès aux données individuelles - Access to individual data
+# Accès aux données individuelles
 
 Statut de disponibilité des données individuelles à la fin de la collecte.
 
-Individual data availability status at the end of the collect.
 <table>
   <tr BGCOLOR="#00a6e2">
-    <th style="color:#FFFFFF;">French label</th>
-    <th style="color:#FFFFFF;">English label</th>
-    <th style="color:#FFFFFF;">French description</th>
-    <th style="color:#FFFFFF;">English description</th>
-    <th style="color:#FFFFFF;">COAR URI</th>
+    <th style="color:#FFFFFF;">Terme français</th>
+    <th style="color:#FFFFFF;">Terme anglais</th>
+    <th style="color:#FFFFFF;">Description en français</th>
+    <th style="color:#FFFFFF;">Description en anglais</th>
+    <th style="color:#FFFFFF;">URI COAR</th>
   </tr>
   <tr>
     <td><b>Libre accès</b></td>

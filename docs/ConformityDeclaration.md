@@ -3,17 +3,16 @@ hide:
   - toc
 ---
 
-# Déclaration de conformité - Declaration of conformity
+# Déclaration de conformité
 Engagement formel qu’un projet de recherche respecte l’ensemble des conditions fixées par une Méthodologie de Référence (MR) de la CNIL, permettant d’utiliser des données de santé sans autorisation spécifique.
 
-Formal statement that a research project complies with all requirements of a CNIL Reference Methodology, allowing the use of health data without specific authorization.
 
 <table>
   <tr BGCOLOR="#00a6e2">
-    <th style="color:#FFFFFF;">French label</th>
-    <th style="color:#FFFFFF;">English label</th>
-    <th style="color:#FFFFFF;">French description</th>
-    <th style="color:#FFFFFF;">English description</th>
+    <th style="color:#FFFFFF;">Terme français</th>
+    <th style="color:#FFFFFF;">Terme anglais</th>
+    <th style="color:#FFFFFF;">Description en français</th>
+    <th style="color:#FFFFFF;">Description en anglais</th>
   </tr>
   <tr>
     <td><b>MR-001</b></td>

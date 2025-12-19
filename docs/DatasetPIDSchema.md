@@ -3,16 +3,15 @@ hide:
   - toc
 ---
 
-# Type d'identifiant du jeu de données - Identifier type of the dataset
+# Type d'identifiant du jeu de données
 Identifiant unique et stable permettant de référencer durablement le jeu de données, indépendamment de son emplacement technique.
 
-A unique and stable identifier that allows the dataset to be referenced permanently, regardless of its technical location.
 <table>
   <tr BGCOLOR="#00a6e2">
-    <th style="color:#FFFFFF;">French label</th>
-    <th style="color:#FFFFFF;">English label</th>
-    <th style="color:#FFFFFF;">French description</th>
-    <th style="color:#FFFFFF;">English description</th>
+    <th style="color:#FFFFFF;">Terme français</th>
+    <th style="color:#FFFFFF;">Terme anglais</th>
+    <th style="color:#FFFFFF;">Description en français</th>
+    <th style="color:#FFFFFF;">Description en anglais</th>
   </tr>
   <tr>
     <td><b>DOI</b></td>

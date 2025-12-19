@@ -3,15 +3,14 @@ hide:
   - toc
 ---
 
-# Statut de l'organisme - Organisation Status
+# Statut de l'organisation 
 
 Type à renseigner pour le promoteur et le financeur.
 
-Type to be filled for the sponsor and the funding agency.
 <table>
   <tr BGCOLOR="#00a6e2">
-    <th style="color:#FFFFFF;">French label</th>
-    <th style="color:#FFFFFF;">English label</th>
+    <th style="color:#FFFFFF;">Terme français</th>
+    <th style="color:#FFFFFF;">Terme anglais</th>
   </tr>
   <tr>
     <td><b>Public (France)</b></td>

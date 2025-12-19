@@ -3,20 +3,19 @@ hide:
   - toc
 ---
 
-# Spécialité médicale - Health Theme 
+# Spécialité médicale
 
 Spécialités médicales auxquelles se rapporte l'étude.
 
-Medical specialties relevant to the study.
 
 <table>
   <tr BGCOLOR="#00a6e2">
-    <th style="color:#FFFFFF;">French label</th>
-    <th style="color:#FFFFFF;">English label</th>
-    <th style="color:#FFFFFF;">French description</th>
-    <th style="color:#FFFFFF;">English description</th>
-    <th style="color:#FFFFFF;">MeSH URI</th>
-    <th style="color:#FFFFFF;">EuroSciVoc URI</th>
+    <th style="color:#FFFFFF;">Terme français</th>
+    <th style="color:#FFFFFF;">Terme anglais</th>
+    <th style="color:#FFFFFF;">Description en français</th>
+    <th style="color:#FFFFFF;">Description en anglais</th>
+    <th style="color:#FFFFFF;">URI MeSH</th>
+    <th style="color:#FFFFFF;">URI EuroSciVoc</th>
   </tr>
   <tr>
     <td><b>Addictologie</b></td>

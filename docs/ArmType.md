@@ -3,16 +3,15 @@ hide:
   - toc
 ---
 
-# Type de bras - Arm Type
+# Type de bras
 Description générale du bras participant à l'essai clinique identifiant le rôle de l'intervention dont bénéficient les participants
 
-A general description of the clinical trial arm identifying the role of the intervention that participants receive. 
 <table>
   <tr BGCOLOR="#00a6e2">
-    <th style="color:#FFFFFF;">French label</th>
-    <th style="color:#FFFFFF;">English label</th>
-    <th style="color:#FFFFFF;">French description</th>
-    <th style="color:#FFFFFF;">English description</th>
+    <th style="color:#FFFFFF;">Terme français</th>
+    <th style="color:#FFFFFF;">Terme anglais</th>
+    <th style="color:#FFFFFF;">Description en français</th>
+    <th style="color:#FFFFFF;">Description en anglais</th>
   </tr>
   <tr>
     <td><b>Expérimental</b></td>

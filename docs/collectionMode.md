@@ -3,17 +3,16 @@ hide:
   - toc
 ---
 
-# Mode de collecte - Collection Mode
+# Mode de collecte
 Méthode utilisée pour recueillir les données.
 
-The method used to collect data.
 <table>
   <tr BGCOLOR="#00a6e2">
-    <th style="color:#FFFFFF;">French label</th>
-    <th style="color:#FFFFFF;">English label</th>
-    <th style="color:#FFFFFF;">French description</th>
-    <th style="color:#FFFFFF;">English description</th>
-    <th style="color:#FFFFFF;">CESSDA URI</th>
+    <th style="color:#FFFFFF;">Terme français</th>
+    <th style="color:#FFFFFF;">Terme anglais</th>
+    <th style="color:#FFFFFF;">Description en français</th>
+    <th style="color:#FFFFFF;">Description en anglais</th>
+    <th style="color:#FFFFFF;">URI CESSDA</th>
   </tr>
  <tr>
   <td><b>Examens

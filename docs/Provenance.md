@@ -3,17 +3,16 @@ hide:
   - toc
 ---
 
-# Provenance de l'étude - Study Provenance
+# Provenance de l'étude
 
 Source d'origine des métadonnées.
 
-Original source of the metadata.
 <table>
   <tr BGCOLOR="#00a6e2">
-    <th style="color:#FFFFFF;">French label</th>
-    <th style="color:#FFFFFF;">English label</th>
-    <th style="color:#FFFFFF;">French description</th>
-    <th style="color:#FFFFFF;">English description</th>
+    <th style="color:#FFFFFF;">Terme français</th>
+    <th style="color:#FFFFFF;">Terme anglais</th>
+    <th style="color:#FFFFFF;">Description en français</th>
+    <th style="color:#FFFFFF;">Description en anglais</th>
   </tr>
     <tr>
     <td><b>FReSH</b> <i>(France Recherche en Santé Humaine)</i></td>

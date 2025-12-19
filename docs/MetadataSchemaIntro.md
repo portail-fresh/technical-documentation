@@ -1,61 +1,61 @@
-# FReSH Metadata Schema
+# Schéma de métadonnées FReSH
 
-## Overview
+## Présentation
 
-The **FReSH Metadata Schema** defines the structure and constraints of the metadata used by the **FReSH metadata catalog**.  
+Le **schéma de métadonnées FReSH** définit la structure et les contraintes des métadonnées utilisées par le **catalogue de métadonnées FReSH**.  
 
-The schema specifies:
-- Metadata fields and their semantics
-- Data types and allowed values
-- Cardinality and mandatory/optional constraints
+Le schéma spécifie :
+- Les champs de métadonnées et leur sémantique
+- Les types de données et les valeurs autorisées
+- La cardinalité et les contraintes obligatoires/facultatives
 
 
 ---
 
 
-## Schema Structure
+## Structure du schéma
 
-The FReSH Metadata Schema is organized into a set of thematic sections.  
-Each section groups metadata fields that describe a specific aspect of a resource in the FReSH catalog and is documented in a dedicated file.
+Le schéma de métadonnées FReSH est organisé en une série de sections thématiques.  
+Chaque section regroupe les champs de métadonnées qui décrivent un aspect spécifique d'une ressource dans le catalogue FReSH et est documentée dans un fichier dédié.
 
 ### Sections
 
-0. **Technical metadata**  
-  Defines the technical characteristics of the metadata record itself, including identifiers, schema versioning, and machine-readable properties required for processing and validation.  
-  See: [`Schema_0.md`](Schema_0.md)
+0. **Métadonnées techniques**  
+  Définit les caractéristiques techniques de l'enregistrement de métadonnées lui-même, y compris les identifiants, les versions du schéma et les propriétés lisibles par machine nécessaires au traitement et à la validation.  
+  Voir : [`Métadonnées techniques`](Schema_0.md)
 
-1. **Study related information**  
-  Describes the study or resource at a conceptual level, including titles, abstracts, keywords, thematic classifications, and high-level contextual information.  
-  See: [`Study related information`](Schema_1.md)
+1. **Informations relatives à l'étude**  
+  Décrit l'étude ou la ressource à un niveau conceptuel, y compris les titres, les résumés, les mots-clés, les classifications thématiques et les informations contextuelles de haut niveau.  
+  Voir : [`Informations relatives à l'étude`](Schema_1.md)
 
-1. **Administrative information**  
-  Covers governance and responsibility aspects, such as creators, publishers, contacts, roles, and administrative metadata needed for catalog management.  
-  See: [`Administrative information`](Schema_2.md)
+2. **Renseignements administratifs**  
+  Couvre les aspects liés à la gouvernance et à la responsabilité, tels que les créateurs, les éditeurs, les contacts, les rôles et les métadonnées administratives nécessaires à la gestion du catalogue.  
+  Voir : [`Renseignements administratifs`](Schema_2.md)
 
-1. **Study methodology**  
-  Documents methodological aspects of the study, including design, methods, instruments, and other information necessary to understand how the data were produced.  
-  See: [`Study methodology`](Schema_3.md)
+3. **Méthodologie de l'étude**  
+  Documente les aspects méthodologiques de l'étude, y compris la conception, les méthodes, les instruments et autres informations nécessaires pour comprendre comment les données ont été produites.  
+  Voir : [`Méthodologie de l'étude`](Schema_3.md)
 
-1. **Data collection and access**  
-  Describes how data were collected, stored, and made available, including access conditions, formats, distributions, and licensing information.  
-  See: [`Data collection and access`](Schema_4.md)
+4. **Collecte et accès aux données**  
+  Décrit comment les données ont été collectées, stockées et mises à disposition, y compris les conditions d'accès, les formats, les distributions et les informations relatives aux licences.  
+  Voir : [`Collecte et accès aux données`](Schema_4.md)
 
+
+
+---
+## Cardinalité et types de données
+
+La cardinalité est exprimée à l'aide de conventions standard :
+
+- `1` – exactement une valeur (obligatoire)
+- `0..1` – zéro ou une valeur (facultatif)
+- `0..n` – zéro ou plusieurs valeurs
+- `1..n` – une ou plusieurs valeurs
+
+Les types de données suivent les définitions couramment adoptées (par exemple `string`, `boolean`, `date`, `URI`) et peuvent faire référence à des normes externes si nécessaire.
 
 ---
 
-## Cardinality and Data Types
+## Gestion des versions et compatibilité
 
-Cardinality is expressed using standard conventions:
-
-- `1` – exactly one value (mandatory)
-- `0..1` – zero or one value (optional)
-- `0..n` – zero or more values
-- `1..n` – one or more values
-
-Data types follow commonly adopted definitions (e.g. `string`, `boolean`, `date`, `URI`) and may reference external standards where appropriate.
-
----
-
-## Versioning and Compatibility
-
-An XSD representation of the metadata schema is versioned under the [FReSH metadata schema repository](https://github.com/portail-fresh/fresh-metadata-schema).
+Une représentation XSD du schéma de métadonnées est versionnée dans le [référentiel de schémas de métadonnées FReSH](https://github.com/portail-fresh/fresh-metadata-schema).

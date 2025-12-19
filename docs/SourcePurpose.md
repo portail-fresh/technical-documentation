@@ -3,16 +3,16 @@ hide:
   - toc
 ---
 
-# Objectif de l'intégration de la source - Purpose of using the source in the study
+# Objectif de l'intégration de la source
 Finalité de l’utilisation de la source dans le cadre de l'étude
 
-Purpose of using the source in the study
+
 <table>
   <tr BGCOLOR="#00a6e2">
-    <th style="color:#FFFFFF;">French label</th>
-    <th style="color:#FFFFFF;">English label</th>
-    <th style="color:#FFFFFF;">French description</th>
-    <th style="color:#FFFFFF;">English description</th>
+    <th style="color:#FFFFFF;">Terme français</th>
+    <th style="color:#FFFFFF;">Terme anglais</th>
+    <th style="color:#FFFFFF;">Description en français</th>
+    <th style="color:#FFFFFF;">Description en anglais</th>
   </tr>
   <tr>
     <td><b>Ajout d'individus</b></td>

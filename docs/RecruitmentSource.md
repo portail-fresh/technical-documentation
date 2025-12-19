@@ -3,13 +3,13 @@ hide:
   - toc
 ---
 
-# Source de recrutement des participants - Participant Recruitment Source
+# Source de recrutement des participants
 
 
 <table>
   <tr BGCOLOR="#00a6e2">
-    <th style="color:#FFFFFF;">French label</th>
-    <th style="color:#FFFFFF;">English label</th>
+    <th style="color:#FFFFFF;">Terme français</th>
+    <th style="color:#FFFFFF;">Terme anglais</th>
   </tr>
   <tr>
     <td>Via les professionnels de santé d'exercice libéral</td>

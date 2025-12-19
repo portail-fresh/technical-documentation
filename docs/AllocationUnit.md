@@ -3,18 +3,16 @@ hide:
   - toc
 ---
 
-# Unité d'allocation - Allocation Unit
+# Unité d'allocation
 
 Unité de répartition des participants en bras d'une étude clinique.
 
-Unit to assign participants to an arm of a clinical study.
-
 <table>
   <tr BGCOLOR="#00a6e2">
-    <th style="color:#FFFFFF;">French label</th>
-    <th style="color:#FFFFFF;">English label</th>
-    <th style="color:#FFFFFF;">French description</th>
-    <th style="color:#FFFFFF;">English description</th>
+    <th style="color:#FFFFFF;">Terme français</th>
+    <th style="color:#FFFFFF;">Terme anglais</th>
+    <th style="color:#FFFFFF;">Description en français</th>
+    <th style="color:#FFFFFF;">Description en anglais</th>
   </tr>
   <tr>
     <td><b>Individuelle</b></td>
