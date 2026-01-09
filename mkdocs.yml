@@ -63,6 +63,12 @@ nav:
         - 2. Administrative information : Schema_2EN.md
         - 3. Study methodology : Schema_3EN.md
         - 4. Data collection and access : Schema_4EN.md
+    - Variable dictionary :
+      - 0. Technical metadata: DicVar_Part0EN.md
+      - 1. Study related information: DicVar_Part1EN.md
+      - 2. Administrative information : DicVar_Part2EN.md
+      - 3. Study methodology : DicVar_Part3EN.md
+      - 4. Data collection and access : DicVar_Part4EN.md
     - Controlled vocabularies:
       - 0. Technical metadata: 
         - Study Provenance : ProvenanceEN.md
