@@ -1,15 +1,188 @@
-|    | ID    | Adress   | Element                | Name                                            | Name in the FReSH form                          | Allowed Data Types   | Description                                                                           |   Constraints | Allowed Values                                                                                        |   Cardinality |   Cardinality_End |
-|---:|:------|:---------|:-----------------------|:------------------------------------------------|:------------------------------------------------|:---------------------|:--------------------------------------------------------------------------------------|--------------:|:------------------------------------------------------------------------------------------------------|--------------:|------------------:|
-|  0 | E-001 | 1.1.a    | Identifier             | Study ID code                                   | Study ID code                                   | string               | Identifier value                                                                      |           nan | nan                                                                                                   |             1 |                 1 |
-|  1 | E-002 | 1.1.b    | IDSchema               | Study ID source                                 | Study ID source                                 | string               | Source name                                                                           |           nan | nan                                                                                                   |             1 |                 1 |
-|  2 | E-003 | 1.a      | Provenance             | Provenance                                      | Provenance                                      | enumerated           | Indicates the source of the metadata                                                  |           nan | PEF (Epidemiology France Portal);Clinical Trials;FReSH (France Recherche en Santé Humaine)            |             0 |                 1 |
-|  3 | E-004 | 1.b      | VersionLang            | Version language                                | Version language                                | enumerated           | Language of the current version of the record                                         |           nan | French;English                                                                                        |             1 |                 1 |
-|  4 | E-005 | 1.c      | OriginLang             | Original language                               | Original language                               | enumerated           | Language of the original record                                                       |           nan | French;English                                                                                        |             1 |                 1 |
-|  5 | E-006 | 1.d      | CreationDate           | First record date                               | First record date                               | date                 | Indicates the date on which the record was first registered in the FReSH catalogue    |           nan | nan                                                                                                   |             1 |                 1 |
-|  6 | E-007 | 1.e      | LastUpdatedAuto        | Last automatic update date                      | Last automatic update date                      | date                 | Indicates the date of the last automatic update (import) of the record                |           nan | nan                                                                                                   |             1 |                 1 |
-|  7 | E-008 | 1.f      | LastUpdatedManual      | Last manual update date                         | Last manual update date                         | date                 | Indicates the date of the last manual update of the record                            |           nan | nan                                                                                                   |             1 |                 1 |
-|  8 | E-009 | 1.g      | RespValidation         | Completion/validation by the responsible person | Completion/validation by the responsible person | boolean              | Indicates whether the record has been validated by the study's principal investigator |           nan | nan                                                                                                   |             1 |                 1 |
-|  9 | E-010 | 1.h      | AutoTranslation        | Automatic translation                           | Automatic translation                           | boolean              | Indicates whether the record has been automatically translated                        |           nan | nan                                                                                                   |             1 |                 1 |
-| 10 | E-011 | 1.i      | Status                 | Status                                          | Status                                          | enumerated           | Current status of the metadata record in the catalogue                                |           nan | Draft;Awaiting validation;Returned;Rejected;Published;Imported;Updated automatically;Updated manually |             1 |                 1 |
-| 11 | E-014 | 1.2.a    | ContributorName        | Contributor Name                                | Contributor Name                                | string               | Full name of the person entering the metadata record                                  |           nan | nan                                                                                                   |             1 |                 1 |
-| 12 | E-015 | 1.2.b    | ContributorAffiliation | Contributor Affiliation                         | Contributor Affiliation                         | string               | Affiliation of the person entering the metadata record                                |           nan | nan                                                                                                   |             0 |                 1 |
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Adress</th>
+            <th>Element</th>
+            <th>Name</th>
+            <th>Name in the FReSH form</th>
+            <th>Allowed Data Types</th>
+            <th>Description</th>
+            <th>Constraints</th>
+            <th>Allowed Values</th>
+            <th>Cardinality</th>
+            <th>Cardinality_End</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th>E-001</th>
+            <td>1.1.a</td>
+            <td>Identifier</td>
+            <td>Study ID code</td>
+            <td>Study ID code</td>
+            <td>string</td>
+            <td>Identifier value</td>
+            <td>nan</td>
+            <td>nan</td>
+            <td>1</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <th>E-002</th>
+            <td>1.1.b</td>
+            <td>IDSchema</td>
+            <td>Study ID source</td>
+            <td>Study ID source</td>
+            <td>string</td>
+            <td>Source name</td>
+            <td>nan</td>
+            <td>nan</td>
+            <td>1</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <th>E-003</th>
+            <td>1.a</td>
+            <td>Provenance</td>
+            <td>Provenance</td>
+            <td>Provenance</td>
+            <td>enumerated</td>
+            <td>Indicates the source of the metadata</td>
+            <td>nan</td>
+            <td>PEF (Epidemiology France Portal);Clinical Trials;FReSH (France Recherche en Santé Humaine)</td>
+            <td>0</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <th>E-004</th>
+            <td>1.b</td>
+            <td>VersionLang</td>
+            <td>Version language</td>
+            <td>Version language</td>
+            <td>enumerated</td>
+            <td>Language of the current version of the record</td>
+            <td>nan</td>
+            <td>French;English</td>
+            <td>1</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <th>E-005</th>
+            <td>1.c</td>
+            <td>OriginLang</td>
+            <td>Original language</td>
+            <td>Original language</td>
+            <td>enumerated</td>
+            <td>Language of the original record</td>
+            <td>nan</td>
+            <td>French;English</td>
+            <td>1</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <th>E-006</th>
+            <td>1.d</td>
+            <td>CreationDate</td>
+            <td>First record date</td>
+            <td>First record date</td>
+            <td>date</td>
+            <td>Indicates the date on which the record was first registered in the FReSH catalogue</td>
+            <td>nan</td>
+            <td>nan</td>
+            <td>1</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <th>E-007</th>
+            <td>1.e</td>
+            <td>LastUpdatedAuto</td>
+            <td>Last automatic update date</td>
+            <td>Last automatic update date</td>
+            <td>date</td>
+            <td>Indicates the date of the last automatic update (import) of the record</td>
+            <td>nan</td>
+            <td>nan</td>
+            <td>1</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <th>E-008</th>
+            <td>1.f</td>
+            <td>LastUpdatedManual</td>
+            <td>Last manual update date</td>
+            <td>Last manual update date</td>
+            <td>date</td>
+            <td>Indicates the date of the last manual update of the record</td>
+            <td>nan</td>
+            <td>nan</td>
+            <td>1</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <th>E-009</th>
+            <td>1.g</td>
+            <td>RespValidation</td>
+            <td>Completion/validation by the responsible person</td>
+            <td>Completion/validation by the responsible person</td>
+            <td>boolean</td>
+            <td>Indicates whether the record has been validated by the study&#39;s principal investigator</td>
+            <td>nan</td>
+            <td>nan</td>
+            <td>1</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <th>E-010</th>
+            <td>1.h</td>
+            <td>AutoTranslation</td>
+            <td>Automatic translation</td>
+            <td>Automatic translation</td>
+            <td>boolean</td>
+            <td>Indicates whether the record has been automatically translated</td>
+            <td>nan</td>
+            <td>nan</td>
+            <td>1</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <th>E-011</th>
+            <td>1.i</td>
+            <td>Status</td>
+            <td>Status</td>
+            <td>Status</td>
+            <td>enumerated</td>
+            <td>Current status of the metadata record in the catalogue</td>
+            <td>nan</td>
+            <td>Draft;Awaiting validation;Returned;Rejected;Published;Imported;Updated automatically;Updated manually</td>
+            <td>1</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <th>E-014</th>
+            <td>1.2.a</td>
+            <td>ContributorName</td>
+            <td>Contributor Name</td>
+            <td>Contributor Name</td>
+            <td>string</td>
+            <td>Full name of the person entering the metadata record</td>
+            <td>nan</td>
+            <td>nan</td>
+            <td>1</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <th>E-015</th>
+            <td>1.2.b</td>
+            <td>ContributorAffiliation</td>
+            <td>Contributor Affiliation</td>
+            <td>Contributor Affiliation</td>
+            <td>string</td>
+            <td>Affiliation of the person entering the metadata record</td>
+            <td>nan</td>
+            <td>nan</td>
+            <td>0</td>
+            <td>1</td>
+        </tr>
+    </tbody>
+</table>
