@@ -3858,206 +3858,192 @@
   <h1>0. Technical metadata</h1>
 
 <table>
-<thead>
-<tr>
-<th style="text-align: right;"></th>
-<th style="text-align: left;">ID</th>
-<th style="text-align: left;">Adress</th>
-<th style="text-align: left;">Element</th>
-<th style="text-align: left;">Name</th>
-<th style="text-align: left;">Name in the FReSH form</th>
-<th style="text-align: left;">Allowed Data Types</th>
-<th style="text-align: left;">Description</th>
-<th style="text-align: right;">Constraints</th>
-<th style="text-align: left;">Allowed Values</th>
-<th style="text-align: right;">Cardinality</th>
-<th style="text-align: right;">Cardinality_End</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: right;">0</td>
-<td style="text-align: left;">E-001</td>
-<td style="text-align: left;">1.1.a</td>
-<td style="text-align: left;">Identifier</td>
-<td style="text-align: left;">Study ID code</td>
-<td style="text-align: left;">Study ID code</td>
-<td style="text-align: left;">string</td>
-<td style="text-align: left;">Identifier value</td>
-<td style="text-align: right;">nan</td>
-<td style="text-align: left;">nan</td>
-<td style="text-align: right;">1</td>
-<td style="text-align: right;">1</td>
-</tr>
-<tr>
-<td style="text-align: right;">1</td>
-<td style="text-align: left;">E-002</td>
-<td style="text-align: left;">1.1.b</td>
-<td style="text-align: left;">IDSchema</td>
-<td style="text-align: left;">Study ID source</td>
-<td style="text-align: left;">Study ID source</td>
-<td style="text-align: left;">string</td>
-<td style="text-align: left;">Source name</td>
-<td style="text-align: right;">nan</td>
-<td style="text-align: left;">nan</td>
-<td style="text-align: right;">1</td>
-<td style="text-align: right;">1</td>
-</tr>
-<tr>
-<td style="text-align: right;">2</td>
-<td style="text-align: left;">E-003</td>
-<td style="text-align: left;">1.a</td>
-<td style="text-align: left;">Provenance</td>
-<td style="text-align: left;">Provenance</td>
-<td style="text-align: left;">Provenance</td>
-<td style="text-align: left;">enumerated</td>
-<td style="text-align: left;">Indicates the source of the metadata</td>
-<td style="text-align: right;">nan</td>
-<td style="text-align: left;">PEF (Epidemiology France Portal);Clinical Trials;FReSH (France Recherche en Santé Humaine)</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">1</td>
-</tr>
-<tr>
-<td style="text-align: right;">3</td>
-<td style="text-align: left;">E-004</td>
-<td style="text-align: left;">1.b</td>
-<td style="text-align: left;">VersionLang</td>
-<td style="text-align: left;">Version language</td>
-<td style="text-align: left;">Version language</td>
-<td style="text-align: left;">enumerated</td>
-<td style="text-align: left;">Language of the current version of the record</td>
-<td style="text-align: right;">nan</td>
-<td style="text-align: left;">French;English</td>
-<td style="text-align: right;">1</td>
-<td style="text-align: right;">1</td>
-</tr>
-<tr>
-<td style="text-align: right;">4</td>
-<td style="text-align: left;">E-005</td>
-<td style="text-align: left;">1.c</td>
-<td style="text-align: left;">OriginLang</td>
-<td style="text-align: left;">Original language</td>
-<td style="text-align: left;">Original language</td>
-<td style="text-align: left;">enumerated</td>
-<td style="text-align: left;">Language of the original record</td>
-<td style="text-align: right;">nan</td>
-<td style="text-align: left;">French;English</td>
-<td style="text-align: right;">1</td>
-<td style="text-align: right;">1</td>
-</tr>
-<tr>
-<td style="text-align: right;">5</td>
-<td style="text-align: left;">E-006</td>
-<td style="text-align: left;">1.d</td>
-<td style="text-align: left;">CreationDate</td>
-<td style="text-align: left;">First record date</td>
-<td style="text-align: left;">First record date</td>
-<td style="text-align: left;">date</td>
-<td style="text-align: left;">Indicates the date on which the record was first registered in the FReSH catalogue</td>
-<td style="text-align: right;">nan</td>
-<td style="text-align: left;">nan</td>
-<td style="text-align: right;">1</td>
-<td style="text-align: right;">1</td>
-</tr>
-<tr>
-<td style="text-align: right;">6</td>
-<td style="text-align: left;">E-007</td>
-<td style="text-align: left;">1.e</td>
-<td style="text-align: left;">LastUpdatedAuto</td>
-<td style="text-align: left;">Last automatic update date</td>
-<td style="text-align: left;">Last automatic update date</td>
-<td style="text-align: left;">date</td>
-<td style="text-align: left;">Indicates the date of the last automatic update (import) of the record</td>
-<td style="text-align: right;">nan</td>
-<td style="text-align: left;">nan</td>
-<td style="text-align: right;">1</td>
-<td style="text-align: right;">1</td>
-</tr>
-<tr>
-<td style="text-align: right;">7</td>
-<td style="text-align: left;">E-008</td>
-<td style="text-align: left;">1.f</td>
-<td style="text-align: left;">LastUpdatedManual</td>
-<td style="text-align: left;">Last manual update date</td>
-<td style="text-align: left;">Last manual update date</td>
-<td style="text-align: left;">date</td>
-<td style="text-align: left;">Indicates the date of the last manual update of the record</td>
-<td style="text-align: right;">nan</td>
-<td style="text-align: left;">nan</td>
-<td style="text-align: right;">1</td>
-<td style="text-align: right;">1</td>
-</tr>
-<tr>
-<td style="text-align: right;">8</td>
-<td style="text-align: left;">E-009</td>
-<td style="text-align: left;">1.g</td>
-<td style="text-align: left;">RespValidation</td>
-<td style="text-align: left;">Completion/validation by the responsible person</td>
-<td style="text-align: left;">Completion/validation by the responsible person</td>
-<td style="text-align: left;">boolean</td>
-<td style="text-align: left;">Indicates whether the record has been validated by the study's principal investigator</td>
-<td style="text-align: right;">nan</td>
-<td style="text-align: left;">nan</td>
-<td style="text-align: right;">1</td>
-<td style="text-align: right;">1</td>
-</tr>
-<tr>
-<td style="text-align: right;">9</td>
-<td style="text-align: left;">E-010</td>
-<td style="text-align: left;">1.h</td>
-<td style="text-align: left;">AutoTranslation</td>
-<td style="text-align: left;">Automatic translation</td>
-<td style="text-align: left;">Automatic translation</td>
-<td style="text-align: left;">boolean</td>
-<td style="text-align: left;">Indicates whether the record has been automatically translated</td>
-<td style="text-align: right;">nan</td>
-<td style="text-align: left;">nan</td>
-<td style="text-align: right;">1</td>
-<td style="text-align: right;">1</td>
-</tr>
-<tr>
-<td style="text-align: right;">10</td>
-<td style="text-align: left;">E-011</td>
-<td style="text-align: left;">1.i</td>
-<td style="text-align: left;">Status</td>
-<td style="text-align: left;">Status</td>
-<td style="text-align: left;">Status</td>
-<td style="text-align: left;">enumerated</td>
-<td style="text-align: left;">Current status of the metadata record in the catalogue</td>
-<td style="text-align: right;">nan</td>
-<td style="text-align: left;">Draft;Awaiting validation;Returned;Rejected;Published;Imported;Updated automatically;Updated manually</td>
-<td style="text-align: right;">1</td>
-<td style="text-align: right;">1</td>
-</tr>
-<tr>
-<td style="text-align: right;">11</td>
-<td style="text-align: left;">E-014</td>
-<td style="text-align: left;">1.2.a</td>
-<td style="text-align: left;">ContributorName</td>
-<td style="text-align: left;">Contributor Name</td>
-<td style="text-align: left;">Contributor Name</td>
-<td style="text-align: left;">string</td>
-<td style="text-align: left;">Full name of the person entering the metadata record</td>
-<td style="text-align: right;">nan</td>
-<td style="text-align: left;">nan</td>
-<td style="text-align: right;">1</td>
-<td style="text-align: right;">1</td>
-</tr>
-<tr>
-<td style="text-align: right;">12</td>
-<td style="text-align: left;">E-015</td>
-<td style="text-align: left;">1.2.b</td>
-<td style="text-align: left;">ContributorAffiliation</td>
-<td style="text-align: left;">Contributor Affiliation</td>
-<td style="text-align: left;">Contributor Affiliation</td>
-<td style="text-align: left;">string</td>
-<td style="text-align: left;">Affiliation of the person entering the metadata record</td>
-<td style="text-align: right;">nan</td>
-<td style="text-align: left;">nan</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">1</td>
-</tr>
-</tbody>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Adress</th>
+            <th>Element</th>
+            <th>Name</th>
+            <th>Name in the FReSH form</th>
+            <th>Allowed Data Types</th>
+            <th>Description</th>
+            <th>Constraints</th>
+            <th>Allowed Values</th>
+            <th>Cardinality</th>
+            <th>Cardinality_End</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th>E-001</th>
+            <td>1.1.a</td>
+            <td>Identifier</td>
+            <td>Study ID code</td>
+            <td>Study ID code</td>
+            <td>string</td>
+            <td>Identifier value</td>
+            <td>nan</td>
+            <td>nan</td>
+            <td>1</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <th>E-002</th>
+            <td>1.1.b</td>
+            <td>IDSchema</td>
+            <td>Study ID source</td>
+            <td>Study ID source</td>
+            <td>string</td>
+            <td>Source name</td>
+            <td>nan</td>
+            <td>nan</td>
+            <td>1</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <th>E-003</th>
+            <td>1.a</td>
+            <td>Provenance</td>
+            <td>Provenance</td>
+            <td>Provenance</td>
+            <td>enumerated</td>
+            <td>Indicates the source of the metadata</td>
+            <td>nan</td>
+            <td>PEF (Epidemiology France Portal);Clinical Trials;FReSH (France Recherche en Santé Humaine)</td>
+            <td>0</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <th>E-004</th>
+            <td>1.b</td>
+            <td>VersionLang</td>
+            <td>Version language</td>
+            <td>Version language</td>
+            <td>enumerated</td>
+            <td>Language of the current version of the record</td>
+            <td>nan</td>
+            <td>French;English</td>
+            <td>1</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <th>E-005</th>
+            <td>1.c</td>
+            <td>OriginLang</td>
+            <td>Original language</td>
+            <td>Original language</td>
+            <td>enumerated</td>
+            <td>Language of the original record</td>
+            <td>nan</td>
+            <td>French;English</td>
+            <td>1</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <th>E-006</th>
+            <td>1.d</td>
+            <td>CreationDate</td>
+            <td>First record date</td>
+            <td>First record date</td>
+            <td>date</td>
+            <td>Indicates the date on which the record was first registered in the FReSH catalogue</td>
+            <td>nan</td>
+            <td>nan</td>
+            <td>1</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <th>E-007</th>
+            <td>1.e</td>
+            <td>LastUpdatedAuto</td>
+            <td>Last automatic update date</td>
+            <td>Last automatic update date</td>
+            <td>date</td>
+            <td>Indicates the date of the last automatic update (import) of the record</td>
+            <td>nan</td>
+            <td>nan</td>
+            <td>1</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <th>E-008</th>
+            <td>1.f</td>
+            <td>LastUpdatedManual</td>
+            <td>Last manual update date</td>
+            <td>Last manual update date</td>
+            <td>date</td>
+            <td>Indicates the date of the last manual update of the record</td>
+            <td>nan</td>
+            <td>nan</td>
+            <td>1</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <th>E-009</th>
+            <td>1.g</td>
+            <td>RespValidation</td>
+            <td>Completion/validation by the responsible person</td>
+            <td>Completion/validation by the responsible person</td>
+            <td>boolean</td>
+            <td>Indicates whether the record has been validated by the study&#39;s principal investigator</td>
+            <td>nan</td>
+            <td>nan</td>
+            <td>1</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <th>E-010</th>
+            <td>1.h</td>
+            <td>AutoTranslation</td>
+            <td>Automatic translation</td>
+            <td>Automatic translation</td>
+            <td>boolean</td>
+            <td>Indicates whether the record has been automatically translated</td>
+            <td>nan</td>
+            <td>nan</td>
+            <td>1</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <th>E-011</th>
+            <td>1.i</td>
+            <td>Status</td>
+            <td>Status</td>
+            <td>Status</td>
+            <td>enumerated</td>
+            <td>Current status of the metadata record in the catalogue</td>
+            <td>nan</td>
+            <td>Draft;Awaiting validation;Returned;Rejected;Published;Imported;Updated automatically;Updated manually</td>
+            <td>1</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <th>E-014</th>
+            <td>1.2.a</td>
+            <td>ContributorName</td>
+            <td>Contributor Name</td>
+            <td>Contributor Name</td>
+            <td>string</td>
+            <td>Full name of the person entering the metadata record</td>
+            <td>nan</td>
+            <td>nan</td>
+            <td>1</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <th>E-015</th>
+            <td>1.2.b</td>
+            <td>ContributorAffiliation</td>
+            <td>Contributor Affiliation</td>
+            <td>Contributor Affiliation</td>
+            <td>string</td>
+            <td>Affiliation of the person entering the metadata record</td>
+            <td>nan</td>
+            <td>nan</td>
+            <td>0</td>
+            <td>1</td>
+        </tr>
+    </tbody>
 </table>
 
 
