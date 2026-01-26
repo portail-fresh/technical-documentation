@@ -1,3 +1,8 @@
+---
+hide:
+  - toc
+---
+
 |    | ID    | Address    | Element                | Name                                         | Name in the FReSH form                                                                | Allowed Data Types   | Description                                                                                                   | Constraints        | Allowed Values                                                    |   Cardinality |   Cardinality_End |
 |---:|:------|:----------|:-----------------------|:---------------------------------------------|:--------------------------------------------------------------------------------------|:---------------------|:--------------------------------------------------------------------------------------------------------------|:-------------------|:------------------------------------------------------------------|--------------:|------------------:|
 |  0 | E-018 | 3.1.1.a   | AuthorizingAgency      | Authorising agency                           | Competent authority that issued the authorisation or notice of validity for the study | enumerated           | Competent authority that issued the authorisation or notice of validity for the study                         | nan                | ANSM;CNIL;CESREES;CPP;Other                                       |             1 |                 1 |
