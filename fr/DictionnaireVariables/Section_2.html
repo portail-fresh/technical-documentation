@@ -1,0 +1,838 @@
+<!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>2&period; Renseignements administratifs</title>
+            <style>
+/* From extension vscode.github */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+.vscode-dark img[src$=\#gh-light-mode-only],
+.vscode-light img[src$=\#gh-dark-mode-only],
+.vscode-high-contrast:not(.vscode-high-contrast-light) img[src$=\#gh-light-mode-only],
+.vscode-high-contrast-light img[src$=\#gh-dark-mode-only] {
+	display: none;
+}
+
+</style>
+            
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
+<style>
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif;
+                font-size: 14px;
+                line-height: 1.6;
+            }
+        </style>
+        <style>
+.task-list-item {
+    list-style-type: none;
+}
+
+.task-list-item-checkbox {
+    margin-left: -20px;
+    vertical-align: middle;
+    pointer-events: none;
+}
+</style>
+<style>
+:root {
+  --color-note: #0969da;
+  --color-tip: #1a7f37;
+  --color-warning: #9a6700;
+  --color-severe: #bc4c00;
+  --color-caution: #d1242f;
+  --color-important: #8250df;
+}
+
+</style>
+<style>
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-note: #2f81f7;
+    --color-tip: #3fb950;
+    --color-warning: #d29922;
+    --color-severe: #db6d28;
+    --color-caution: #f85149;
+    --color-important: #a371f7;
+  }
+}
+
+</style>
+<style>
+.markdown-alert {
+  padding: 0.5rem 1rem;
+  margin-bottom: 16px;
+  color: inherit;
+  border-left: .25em solid #888;
+}
+
+.markdown-alert>:first-child {
+  margin-top: 0
+}
+
+.markdown-alert>:last-child {
+  margin-bottom: 0
+}
+
+.markdown-alert .markdown-alert-title {
+  display: flex;
+  font-weight: 500;
+  align-items: center;
+  line-height: 1
+}
+
+.markdown-alert .markdown-alert-title .octicon {
+  margin-right: 0.5rem;
+  display: inline-block;
+  overflow: visible !important;
+  vertical-align: text-bottom;
+  fill: currentColor;
+}
+
+.markdown-alert.markdown-alert-note {
+  border-left-color: var(--color-note);
+}
+
+.markdown-alert.markdown-alert-note .markdown-alert-title {
+  color: var(--color-note);
+}
+
+.markdown-alert.markdown-alert-important {
+  border-left-color: var(--color-important);
+}
+
+.markdown-alert.markdown-alert-important .markdown-alert-title {
+  color: var(--color-important);
+}
+
+.markdown-alert.markdown-alert-warning {
+  border-left-color: var(--color-warning);
+}
+
+.markdown-alert.markdown-alert-warning .markdown-alert-title {
+  color: var(--color-warning);
+}
+
+.markdown-alert.markdown-alert-tip {
+  border-left-color: var(--color-tip);
+}
+
+.markdown-alert.markdown-alert-tip .markdown-alert-title {
+  color: var(--color-tip);
+}
+
+.markdown-alert.markdown-alert-caution {
+  border-left-color: var(--color-caution);
+}
+
+.markdown-alert.markdown-alert-caution .markdown-alert-title {
+  color: var(--color-caution);
+}
+
+</style>
+        
+        </head>
+        <body class="vscode-body vscode-light">
+            <hr>
+<p>hide:</p>
+<ul>
+<li>toc</li>
+</ul>
+<hr>
+<h1 id="2-renseignements-administratifs">2. Renseignements administratifs</h1>
+<table>
+<thead>
+<tr>
+<th>PID</th>
+<th>Nom Variable</th>
+<th>Titre FR</th>
+<th>Description FR</th>
+<th>Titre EN</th>
+<th>Description EN</th>
+<th>Type Variable</th>
+<th>Cardinalité</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>S-006</td>
+<td><strong>AdministrativeInformation</strong></td>
+<td>Renseignements administratifs</td>
+<td></td>
+<td>Administrative information</td>
+<td></td>
+<td>section</td>
+<td>1</td>
+</tr>
+<tr>
+<td>S-008</td>
+<td><strong>RegulatoryRequirements</strong></td>
+<td>Pré-requis réglementaires</td>
+<td>Cette section rassemble les informations relatives aux procédures réglementaires encadrant la mise en place de la recherche</td>
+<td>Regulatory requirements</td>
+<td>This section contains information on the regulatory procedures involved in setting up  the study</td>
+<td>section</td>
+<td>0-1</td>
+</tr>
+<tr>
+<td>S-009</td>
+<td><strong>ObtainedAuthorization</strong></td>
+<td>Autorisation(s) ou avi(s) obtenu(s)</td>
+<td>Cette section indique quelles autorisations réglementaires ou avis éthiques ont été obtenus pour la recherche.</td>
+<td>Authorisation(s) or approval(s) obtained</td>
+<td>This section indicates which regulatory approvals or ethical approvals have been obtained for the research.</td>
+<td>section</td>
+<td>0-n</td>
+</tr>
+<tr>
+<td>E-018</td>
+<td><strong>AuthorizingAgency</strong></td>
+<td>Autorité compétente ayant délivré l'autorisation ou l'avis de validité de l'étude</td>
+<td></td>
+<td>Competent authority that issued the authorisation or notice of validity for the study</td>
+<td></td>
+<td><a href="https://portail-fresh.github.io/technical-documentation/fr/VocabulairesControles/AuthorizationAgency/">choix unique</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td>E-019</td>
+<td><strong>OtherAuthorizingAgency</strong></td>
+<td>Autre autorité compétente, précisions</td>
+<td>Si l'instance n'est pas dans la liste, spécifier</td>
+<td>Other competent authority, details</td>
+<td>Other authorities not included in the list</td>
+<td>string ''</td>
+<td>0-1</td>
+</tr>
+<tr>
+<td>E-152</td>
+<td><strong>IsContributorPI</strong></td>
+<td>Etes-vous l'investigateur principal (PI) de l'étude ?</td>
+<td></td>
+<td>Are you the Principal Investigator (PI) of the study ?</td>
+<td></td>
+<td>boolean</td>
+<td>1</td>
+</tr>
+<tr>
+<td>S-010</td>
+<td><strong>PrimaryInvestigator</strong></td>
+<td>Investigateur principal</td>
+<td>Cette section contient les informations concernant l'investigateur principal de l'étude</td>
+<td>Principal investigator</td>
+<td>This section contains information about the principal investigator of the study.</td>
+<td>section</td>
+<td>1-n</td>
+</tr>
+<tr>
+<td>E-021</td>
+<td><strong>PIName</strong></td>
+<td>Prénom NOM de l'investigateur principal</td>
+<td></td>
+<td>First name LAST NAME of the principal investigator</td>
+<td></td>
+<td>string ''</td>
+<td>1</td>
+</tr>
+<tr>
+<td>E-197</td>
+<td><strong>PIMail</strong></td>
+<td>Email de l'investigateur principal</td>
+<td></td>
+<td>Principal investigator's email</td>
+<td></td>
+<td>email</td>
+<td>1</td>
+</tr>
+<tr>
+<td>E-158</td>
+<td><strong>PIORCID</strong></td>
+<td>ORCID de l'investigateur principal</td>
+<td></td>
+<td>Principal investigator's ORCID</td>
+<td></td>
+<td>string ''</td>
+<td>0-1</td>
+</tr>
+<tr>
+<td>E-159</td>
+<td><strong>PIIdRef</strong></td>
+<td>Identifiant IdRef</td>
+<td></td>
+<td>IdRef Identifier</td>
+<td></td>
+<td>string ''</td>
+<td>0-1</td>
+</tr>
+<tr>
+<td>S-069</td>
+<td><strong>PIAffiliation</strong></td>
+<td>Affiliation(s) de l'investigateur principal</td>
+<td>Section identifiant l'organisation ou l'institution d'appartenance de l'investigateur principal</td>
+<td>Principal investigator affiliation(s)</td>
+<td></td>
+<td>section</td>
+<td>1</td>
+</tr>
+<tr>
+<td>E-024</td>
+<td><strong>OrganisationName</strong></td>
+<td>Nom de l'organisation d'affiliation principale</td>
+<td>Nom de l'organisation d'affiliation</td>
+<td>Main affiliated organisation name</td>
+<td>Affiliated institution name</td>
+<td>string ''</td>
+<td>1</td>
+</tr>
+<tr>
+<td>S-013</td>
+<td><strong>OrganisationPID</strong></td>
+<td>Identification de l'organisation d'affiliation principale</td>
+<td>Identifiant de l’organisation d’affiliation</td>
+<td>Main affiliated organisation identification</td>
+<td>Affiliated organisation identifier</td>
+<td>section</td>
+<td>0-1</td>
+</tr>
+<tr>
+<td>E-022</td>
+<td><strong>PIDSchema</strong></td>
+<td>Type d'identifiant de l'organisation d'affiliation principale</td>
+<td>Type d'identifiant d'organisation d'affiliation</td>
+<td>Main affiliated organisation identifier type</td>
+<td>Affiliated organisation identifier type</td>
+<td><a href="https://portail-fresh.github.io/technical-documentation/fr/VocabulairesControles/PIDSchema/">choix unique</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td>E-023</td>
+<td><strong>URI</strong></td>
+<td>Identifiant de l’organisation d’affiliation principale</td>
+<td></td>
+<td>Main affiliated organisation identifier</td>
+<td></td>
+<td>url</td>
+<td>1</td>
+</tr>
+<tr>
+<td>E-160</td>
+<td><strong>PILabo</strong></td>
+<td>Affiliation(s), précisions</td>
+<td></td>
+<td>Affiliation(s), details</td>
+<td></td>
+<td>string ''</td>
+<td>0-1</td>
+</tr>
+<tr>
+<td>E-161</td>
+<td><strong>PILaboId</strong></td>
+<td>Identifiant RNSR du laboratoire d'appartenance</td>
+<td></td>
+<td>Affiliated laboratory RNSR identifier</td>
+<td></td>
+<td>string ''</td>
+<td>0-1</td>
+</tr>
+<tr>
+<td>E-179</td>
+<td><strong>IsPIContact</strong></td>
+<td>L'investigateur principal est-il un point de contact ?</td>
+<td></td>
+<td>Is the principal investigator a contact point?</td>
+<td></td>
+<td>boolean</td>
+<td>0-1</td>
+</tr>
+<tr>
+<td>E-196</td>
+<td><strong>AddTeamMember</strong></td>
+<td>D'autres équipes sont-elles impliquées dans cette étude ?</td>
+<td></td>
+<td>Are other teams involved in this study?</td>
+<td></td>
+<td>boolean</td>
+<td>0-1</td>
+</tr>
+<tr>
+<td>S-070</td>
+<td><strong>TeamMember</strong></td>
+<td>Responsable de l'équipe partenaire</td>
+<td>Cette section décrit les personnes ayant contribué à l'étude</td>
+<td>Partner team leader</td>
+<td>This section describes the persons who contributed to the study.</td>
+<td>section</td>
+<td>0-n</td>
+</tr>
+<tr>
+<td>E-162</td>
+<td><strong>TeamMemberName</strong></td>
+<td>Prénom NOM du responsable de l'équipe</td>
+<td>Nom et prénom de la personne ayant contribué à l'étude</td>
+<td>First name LAST NAME of the team leader</td>
+<td>Full name of the person who contributed to the study</td>
+<td>string ''</td>
+<td>1</td>
+</tr>
+<tr>
+<td>E-163</td>
+<td><strong>TeamMemberORCID</strong></td>
+<td>ORCID du responsable de l'équipe</td>
+<td></td>
+<td>Team leader's ORCID</td>
+<td></td>
+<td>string ''</td>
+<td>0-1</td>
+</tr>
+<tr>
+<td>E-164</td>
+<td><strong>TeamMemberIdRef</strong></td>
+<td>Identifiant IdRef</td>
+<td></td>
+<td>IdRef Identifier</td>
+<td></td>
+<td>string ''</td>
+<td>0-1</td>
+</tr>
+<tr>
+<td>S-071</td>
+<td><strong>TeamMemberAffiliation</strong></td>
+<td>Affiliation(s) du responsable de l'équipe</td>
+<td>Cette section précise l'affiliation institutionnelle de la personne ayant contribué à l'étude</td>
+<td>Team leader affiliation(s)</td>
+<td></td>
+<td>section</td>
+<td>0-1</td>
+</tr>
+<tr>
+<td>E-024</td>
+<td><strong>OrganisationName</strong></td>
+<td>Nom de l'organisation d'affiliation principale</td>
+<td>Nom de l'organisation d'affiliation</td>
+<td>Main affiliated organisation name</td>
+<td>Affiliated institution name</td>
+<td>string ''</td>
+<td>1</td>
+</tr>
+<tr>
+<td>S-013</td>
+<td><strong>OrganisationPID</strong></td>
+<td>Identification de l'organisation d'affiliation principale</td>
+<td>Identifiant de l’organisation d’affiliation</td>
+<td>Main affiliated organisation identification</td>
+<td>Affiliated organisation identifier</td>
+<td>section</td>
+<td>0-1</td>
+</tr>
+<tr>
+<td>E-022</td>
+<td><strong>PIDSchema</strong></td>
+<td>Type d'identifiant de l'organisation d'affiliation principale</td>
+<td>Type d'identifiant d'organisation d'affiliation</td>
+<td>Main affiliated organisation identifier type</td>
+<td>Affiliated organisation identifier type</td>
+<td><a href="https://portail-fresh.github.io/technical-documentation/fr/VocabulairesControles/PIDSchema/">choix unique</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td>E-023</td>
+<td><strong>URI</strong></td>
+<td>Identifiant de l’organisation d’affiliation principale</td>
+<td></td>
+<td>Main affiliated organisation identifier</td>
+<td></td>
+<td>url</td>
+<td>1</td>
+</tr>
+<tr>
+<td>E-165</td>
+<td><strong>TeamMemberLabo</strong></td>
+<td>Affiliation(s), précisions</td>
+<td></td>
+<td>Affiliation(s), details</td>
+<td></td>
+<td>string ''</td>
+<td>0-1</td>
+</tr>
+<tr>
+<td>E-166</td>
+<td><strong>TeamMemberLaboId</strong></td>
+<td>Identifiant RNSR du laboratoire d'appartenance</td>
+<td></td>
+<td>Affiliated laboratory RNSR identifier</td>
+<td></td>
+<td>string ''</td>
+<td>0-1</td>
+</tr>
+<tr>
+<td>E-180</td>
+<td><strong>IsTeamMemberContact</strong></td>
+<td>Le responsable de l'équipe est-il un point de contact ?</td>
+<td></td>
+<td>Is the team leader a contact point ?</td>
+<td></td>
+<td>boolean</td>
+<td>0-1</td>
+</tr>
+<tr>
+<td>S-018</td>
+<td><strong>ContactPoint</strong></td>
+<td>Point(s) de contact</td>
+<td>Cette section contient les informations concernant les personnes référentes pour l’étude</td>
+<td>Contact point(s)</td>
+<td>This section contains information about the contact persons for the study.</td>
+<td>section</td>
+<td>1-n</td>
+</tr>
+<tr>
+<td>E-033</td>
+<td><strong>ContactName</strong></td>
+<td>Prénom NOM du contact</td>
+<td>Nom de la personne référente</td>
+<td>First name LAST NAME of the contact</td>
+<td>Name of the contact person</td>
+<td>string ''</td>
+<td>1</td>
+</tr>
+<tr>
+<td>E-034</td>
+<td><strong>EMail</strong></td>
+<td>Email du contact</td>
+<td>Adresse mail de la personne référente</td>
+<td>Contact email</td>
+<td>Email addresse of the contact person</td>
+<td>email</td>
+<td>1</td>
+</tr>
+<tr>
+<td>S-072</td>
+<td><strong>ContactPointAffiliation</strong></td>
+<td>Affiliation(s) du contact</td>
+<td>Cette section précise l'affiliation institutionnelle de la personne réfrente</td>
+<td>Contact affiliation(s)</td>
+<td>This section specifies the institutional affiliation of the contact person.</td>
+<td>section</td>
+<td>0-1</td>
+</tr>
+<tr>
+<td>E-024</td>
+<td><strong>OrganisationName</strong></td>
+<td>Nom de l'organisation d'affiliation principale</td>
+<td>Nom de l'organisation d'affiliation</td>
+<td>Main affiliated organisation name</td>
+<td>Affiliated organisation name</td>
+<td>string ''</td>
+<td>1</td>
+</tr>
+<tr>
+<td>S-013</td>
+<td><strong>OrganisationPID</strong></td>
+<td>Identification de l'organisation d'affiliation principale</td>
+<td>Identifiant de l’organisation d’affiliation</td>
+<td>Main affiliated organisation identification</td>
+<td>Affiliated organisation identifier</td>
+<td>section</td>
+<td>0-1</td>
+</tr>
+<tr>
+<td>E-022</td>
+<td><strong>PIDSchema</strong></td>
+<td>Type d'identifiant de l'organisation d'affiliation principale</td>
+<td>Type d'identifiant d'organisation d'affiliation</td>
+<td>Main affiliated organisation identifier type</td>
+<td>Affiliated organisation identifier type</td>
+<td><a href="https://portail-fresh.github.io/technical-documentation/fr/VocabulairesControles/PIDSchema/">choix unique</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td>E-023</td>
+<td><strong>URI</strong></td>
+<td>Identifiant de l’organisation d’affiliation principale</td>
+<td></td>
+<td>Main affiliated organisation identifier</td>
+<td></td>
+<td>url</td>
+<td>1</td>
+</tr>
+<tr>
+<td>E-167</td>
+<td><strong>ContactPointLabo</strong></td>
+<td>Affiliation(s), précisions</td>
+<td></td>
+<td>Affiliation(s), details</td>
+<td></td>
+<td>string ''</td>
+<td>0-1</td>
+</tr>
+<tr>
+<td>E-168</td>
+<td><strong>ContactPointLaboId</strong></td>
+<td>Identifiant RNSR du laboratoire d'appartenance</td>
+<td></td>
+<td>Affiliated laboratory RNSR identifier</td>
+<td></td>
+<td>string ''</td>
+<td>0-1</td>
+</tr>
+<tr>
+<td>S-021</td>
+<td><strong>FundingAgent</strong></td>
+<td>Financeur</td>
+<td>Cette section contient les informations concernant les financeurs de l'étude</td>
+<td>Funder</td>
+<td>This section contains information about the study's funders</td>
+<td>section</td>
+<td>0-n</td>
+</tr>
+<tr>
+<td>E-038</td>
+<td><strong>FundingAgentName</strong></td>
+<td>Nom du financeur</td>
+<td>Nom de l'organisme financeur</td>
+<td>Funder name</td>
+<td>Funding body name</td>
+<td>string ''</td>
+<td>1</td>
+</tr>
+<tr>
+<td>E-039</td>
+<td><strong>FundingAgentType</strong></td>
+<td>Type de financeur</td>
+<td>Type d'organisme financeur</td>
+<td>Funder type</td>
+<td>Funding body type</td>
+<td>choix unique</td>
+<td>1</td>
+</tr>
+<tr>
+<td>E-181</td>
+<td><strong>OtherFundingAgentType</strong></td>
+<td>Autre type de financeur, précisions</td>
+<td></td>
+<td>Other funder type, details</td>
+<td></td>
+<td>string ''</td>
+<td>0-1</td>
+</tr>
+<tr>
+<td>S-022</td>
+<td><strong>FundingAgentPID</strong></td>
+<td>Identification du financeur</td>
+<td>Section identifiant l'organisme financeur</td>
+<td>Funder identification</td>
+<td>Section identifying the funding body</td>
+<td>section</td>
+<td>0-1</td>
+</tr>
+<tr>
+<td>E-022</td>
+<td><strong>PIDSchema</strong></td>
+<td>Type d'identifiant du financeur</td>
+<td>Type d'identifiant d'organisme financeur</td>
+<td>Funder identifier type</td>
+<td>Type of funding body identifier</td>
+<td><a href="https://portail-fresh.github.io/technical-documentation/fr/VocabulairesControles/PIDSchema/">choix unique</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td>E-023</td>
+<td><strong>URI</strong></td>
+<td>Identifiant du financeur</td>
+<td>Identifiant de l'organisme financeur</td>
+<td>Funder identifier</td>
+<td>Funder identifier URI</td>
+<td>url</td>
+<td>1</td>
+</tr>
+<tr>
+<td>S-023</td>
+<td><strong>OrganisationGovernance</strong></td>
+<td>Organisation et gouvernance</td>
+<td>Cette section rassemble les informations sur la gouvernance du projet, incluant le promoteur de l’étude, l’organisation responsable du traitement des données et les collaborations associées.</td>
+<td>Organisation and governance</td>
+<td>This section contains information about the governance of the project, including the study sponsor, the organisation responsible for data processing, and associated collaborations.</td>
+<td>section</td>
+<td>1</td>
+</tr>
+<tr>
+<td>S-024</td>
+<td><strong>Sponsor</strong></td>
+<td>Promoteur de l'étude (Organisation responsable)</td>
+<td>Cette section contient les informations concernant le promoteur de l'étude</td>
+<td>Sponsor (Responsible organisation)</td>
+<td></td>
+<td>section</td>
+<td>1-n</td>
+</tr>
+<tr>
+<td>E-042</td>
+<td><strong>SponsorName</strong></td>
+<td>Nom du promoteur</td>
+<td>Nom de l'organisme promoteur de l'étude</td>
+<td>Sponsor name</td>
+<td>Name of the sponsor institution</td>
+<td>string ''</td>
+<td>1</td>
+</tr>
+<tr>
+<td>E-043</td>
+<td><strong>SponsorType</strong></td>
+<td>Statut du promoteur</td>
+<td>Statut de l'organisme promoteur</td>
+<td>Sponsor type</td>
+<td>Sponsor institution type</td>
+<td>choix unique</td>
+<td>1</td>
+</tr>
+<tr>
+<td>E-182</td>
+<td><strong>OtherSponsorType</strong></td>
+<td>Autre statut du promoteur, précisions</td>
+<td></td>
+<td>Other sponsor type, details</td>
+<td></td>
+<td>string ''</td>
+<td>0-1</td>
+</tr>
+<tr>
+<td>S-025</td>
+<td><strong>SponsorPID</strong></td>
+<td>Identification du promoteur</td>
+<td>Section identifiant l'organisme promoteur de l'étude</td>
+<td>Sponsor identification</td>
+<td>Section identifying the sponsor institution</td>
+<td>section</td>
+<td>0-1</td>
+</tr>
+<tr>
+<td>E-022</td>
+<td><strong>PIDSchema</strong></td>
+<td>Type d'identifiant du promoteur</td>
+<td>Type d'identifiant de l'organisme promoteur</td>
+<td>Sponsor identifier type</td>
+<td>Type of identifier of the sponsor institution</td>
+<td><a href="https://portail-fresh.github.io/technical-documentation/fr/VocabulairesControles/PIDSchema/">choix unique</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td>E-045</td>
+<td><strong>URL</strong></td>
+<td>Identifiant du promoteur</td>
+<td>Identifiant de l'organisme promoteur</td>
+<td>Sponsor identifier</td>
+<td>Identifier of the sponsor institution</td>
+<td>url</td>
+<td>1</td>
+</tr>
+<tr>
+<td>S-026</td>
+<td><strong>Governance</strong></td>
+<td>Gouvernance</td>
+<td>Section qui décrit la gouvernance de l'étude</td>
+<td>Governance</td>
+<td>Section describing the governance of the study</td>
+<td>section</td>
+<td>0-1</td>
+</tr>
+<tr>
+<td>E-046</td>
+<td><strong>Committee</strong></td>
+<td>Comité scientifique ou de pilotage</td>
+<td>Indique l'existance d’un comité scientifique ou d’un comité de pilotage associé au projet ou à l’étude</td>
+<td>Scientific or steering committee</td>
+<td>Indicates the existence of a scientific committee or steering committee associated with the project or study.</td>
+<td>boolean</td>
+<td>1</td>
+</tr>
+<tr>
+<td>E-047</td>
+<td><strong>CommitteeDetail</strong></td>
+<td>Comité, précisions</td>
+<td>Précisions sur la comitologie associée à l'étude</td>
+<td>Committee details</td>
+<td>Details on the comitology associated with the study</td>
+<td>string ''</td>
+<td>0-1</td>
+</tr>
+<tr>
+<td>E-048</td>
+<td><strong>OtherGovernance</strong></td>
+<td>Autre modalité de gouvernance, précisions</td>
+<td>Autres modalités de gouvernance</td>
+<td>Other form of gouvernance, details</td>
+<td>Other  forms of governance</td>
+<td>string ''</td>
+<td>0-1</td>
+</tr>
+<tr>
+<td>S-027</td>
+<td><strong>Collaborations</strong></td>
+<td>Collaborations</td>
+<td>Section qui décrit les collaborations impliquées</td>
+<td>Collaborations</td>
+<td>Section describing the collaborations involved</td>
+<td>section</td>
+<td>0-1</td>
+</tr>
+<tr>
+<td>E-049</td>
+<td><strong>NetworkConsortium</strong></td>
+<td>Réseaux, consortiums</td>
+<td>Indique si le projet fait partie d'un réseau ou d'un consirtium</td>
+<td>Networks, consortia</td>
+<td>Indicates whether the project is part of a network or consortium.</td>
+<td>boolean</td>
+<td>1</td>
+</tr>
+<tr>
+<td>E-050</td>
+<td><strong>CollaborationsDetails</strong></td>
+<td>Collaboration(s) impliquée(s), précisions</td>
+<td>Précisions sur les collaborations impliquées</td>
+<td>Collaboration(s) involved, details</td>
+<td>Details on the collaborations involved</td>
+<td>string ''</td>
+<td>1</td>
+</tr>
+<tr>
+<td>S-003</td>
+<td><strong>OtherStudyId</strong></td>
+<td>Autre(s) identifiant(s) de l'étude</td>
+<td>Autres identifiants connus de l'étude</td>
+<td>Other(s) identifier(s) for the study</td>
+<td>Other(s) study identifiers known</td>
+<td>section</td>
+<td>0-n</td>
+</tr>
+<tr>
+<td>E-013</td>
+<td><strong>IDSchema</strong></td>
+<td>Type d'identifiant de l'étude</td>
+<td>Type d'identifiant de l'étude (promoteur ou registre des essais cliniques)</td>
+<td>Study identifier type</td>
+<td>Type of study identifier (sponsor or clinical trial registry)</td>
+<td>string ''</td>
+<td>1</td>
+</tr>
+<tr>
+<td>E-012</td>
+<td><strong>Identifier</strong></td>
+<td>Identifiant de l'étude</td>
+<td>Identifiant de l'étude</td>
+<td>Study identifier</td>
+<td>Study identifier</td>
+<td>string ''</td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+
+            
+            
+        </body>
+        </html>
