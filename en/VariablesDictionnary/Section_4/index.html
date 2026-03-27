@@ -76,7 +76,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#4-data-collection-and-access-collecte-et-acces-aux-donnees" class="md-skip">
+        <a href="#4-data-collection-and-access" class="md-skip">
           Skip to content
         </a>
       
@@ -1335,934 +1335,810 @@
 
 
 
-<h1 id="4-data-collection-and-access-collecte-et-acces-aux-donnees">4. Data collection and access - Collecte et accès aux données</h1>
+<h1 id="4-data-collection-and-access">4. Data collection and access</h1>
 <table>
 <thead>
-<tr>
-<th style="text-align: left;">Element ID</th>
-<th style="text-align: left;">Variable Name</th>
-<th style="text-align: left;">Label FR</th>
-<th style="text-align: left;">Description FR</th>
-<th style="text-align: left;">Label EN</th>
-<th style="text-align: left;">Description EN</th>
-<th style="text-align: left;">Variable Type</th>
-<th style="text-align: left;">Min Occur</th>
-<th style="text-align: left;">Max Occur</th>
+<tr BGCOLOR="#00a6e2">
+<th style="color:#FFFFFF;">FReSH PID</th>
+<th style="color:#FFFFFF;">Variable Name</th>
+<th style="color:#FFFFFF;">Label FR</th>
+<th style="color:#FFFFFF;">Description FR</th>
+<th style="color:#FFFFFF;">Label EN</th>
+<th style="color:#FFFFFF;">Description EN</th>
+<th style="color:#FFFFFF;">Data Type</th>
+<th style="color:#FFFFFF;">Cardinality</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align: left;">5.</td>
-<td style="text-align: left;"><strong>DataCollectionAccess</strong></td>
-<td style="text-align: left;">Collecte et accès aux données</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;">Data collection and access</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;">section</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-</tr>
-<tr>
-<td style="text-align: left;">5.1</td>
-<td style="text-align: left;"><strong>DataCollectionIntegration</strong></td>
-<td style="text-align: left;">Collecte et réutilisation de données</td>
-<td style="text-align: left;">Cette section décrit les données utilisées dans l’étude, qu’elles soient collectées spécifiquement pour celle-ci ou réutilisées à partir de sources tierces préexistantes.</td>
-<td style="text-align: left;">Data collection and reuse</td>
-<td style="text-align: left;">This section describes the data used in the study, whether collected specifically for this study or reused from pre-existing third-party sources.</td>
-<td style="text-align: left;">section</td>
-<td style="text-align: left;">1.0</td>
-<td style="text-align: left;">1</td>
-</tr>
-<tr>
-<td style="text-align: left;">5.1</td>
-<td style="text-align: left;"><strong>SampleSize</strong></td>
-<td style="text-align: left;">Nombre de participants</td>
-<td style="text-align: left;">Nombre de participants prévus et effectifs</td>
-<td style="text-align: left;">Number of participants</td>
-<td style="text-align: left;">Planned and actual number of participants</td>
-<td style="text-align: left;">section</td>
-<td style="text-align: left;">1.0</td>
-<td style="text-align: left;">1</td>
-</tr>
-<tr>
-<td style="text-align: left;">5.1.a</td>
-<td style="text-align: left;"><strong>PlannedSampleSize</strong></td>
-<td style="text-align: left;">Nombre prévu de participants</td>
-<td style="text-align: left;">Nombre de participants spécifié dans le plan d'étude ou le protocole</td>
-<td style="text-align: left;">Target number of participants</td>
-<td style="text-align: left;">Number of participants specified in the study design or protocol</td>
-<td style="text-align: left;">choix unique</td>
-<td style="text-align: left;">1.0</td>
-<td style="text-align: left;">1</td>
-</tr>
-<tr>
-<td style="text-align: left;">5.1.b</td>
-<td style="text-align: left;"><strong>FinalSampleSize</strong></td>
-<td style="text-align: left;">Nombre actuel de participants</td>
-<td style="text-align: left;">Nombre de participants qui ont effectivement été inclus ou ont participé</td>
-<td style="text-align: left;">Actual number of participants</td>
-<td style="text-align: left;">Number of participants who were actually included or participated</td>
-<td style="text-align: left;">texte libre</td>
-<td style="text-align: left;">0.0</td>
-<td style="text-align: left;">1</td>
-</tr>
-<tr>
-<td style="text-align: left;">5.2</td>
-<td style="text-align: left;"><strong>CollectionChronology</strong></td>
-<td style="text-align: left;">Chronologie de la collecte</td>
-<td style="text-align: left;">Indique la période pendant laquelle les données de l’étude ont été recueillies.</td>
-<td style="text-align: left;">Collection chronology</td>
-<td style="text-align: left;">Indicates the period during which the study data were collected.</td>
-<td style="text-align: left;">section</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-</tr>
-<tr>
-<td style="text-align: left;">5.2.a</td>
-<td style="text-align: left;"><strong>CollectionStart</strong></td>
-<td style="text-align: left;">Date de début de la collecte (recrutement du premier participant)</td>
-<td style="text-align: left;">la date à laquelle la collecte des données individuelles a commencé dans le cadre de l’étude</td>
-<td style="text-align: left;">Collection start date (recruitment of the first participant)</td>
-<td style="text-align: left;">the date on which the collection of individual data began as part of the study</td>
-<td style="text-align: left;">date</td>
-<td style="text-align: left;">1.0</td>
-<td style="text-align: left;">1</td>
-</tr>
-<tr>
-<td style="text-align: left;">5.2.b</td>
-<td style="text-align: left;"><strong>CollectionEnd</strong></td>
-<td style="text-align: left;">Date de fin de la collecte (dernier suivi du dernier participant)</td>
-<td style="text-align: left;">la date à laquelle la collecte des données individuelles a été terminée dans le cadre de l’étude</td>
-<td style="text-align: left;">Collection end date (last follow-up of the last participant)</td>
-<td style="text-align: left;">the date on which the collection of individual data was completed as part of the study</td>
-<td style="text-align: left;">date</td>
-<td style="text-align: left;">1.0</td>
-<td style="text-align: left;">1</td>
-</tr>
-<tr>
-<td style="text-align: left;">5.2.c</td>
-<td style="text-align: left;"><strong>CollectionFrequency</strong></td>
-<td style="text-align: left;">Fréquence de la collecte</td>
-<td style="text-align: left;">Intervalles ou nombre de mesures réalisées au cours de l’étude</td>
-<td style="text-align: left;">Collection frequency</td>
-<td style="text-align: left;">Intervals or number of measurements performed during the study</td>
-<td style="text-align: left;">texte libre</td>
-<td style="text-align: left;">1.0</td>
-<td style="text-align: left;">1</td>
-</tr>
-<tr>
-<td style="text-align: left;">5.3</td>
-<td style="text-align: left;"><strong>DataCollection</strong></td>
-<td style="text-align: left;">Informations concernant les données collectées auprès des participants dans le cadre de l'étude</td>
-<td style="text-align: left;">Ensemble des informations recueillies directement auprès des participants au cours de l’étude, que ce soit par observation, mesure, examen, prélèvement, entretien, questionnaire ou suivi.</td>
-<td style="text-align: left;">Information concerning data collected from participants during the study</td>
-<td style="text-align: left;">All information collected directly from study participants during the course of the study, through observation, measurement, examination, sampling, interview, questionnaire, or follow-up.</td>
-<td style="text-align: left;">section</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-</tr>
-<tr>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;">ST : Les informations concernant la réutilisation de données existantes seront à renseigner dans la prochaine section</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;">ST: Information concerning the reuse of existing data will be provided in the next section.</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-</tr>
-<tr>
-<td style="text-align: left;">5.3.1</td>
-<td style="text-align: left;"><strong>CollectionProcess</strong></td>
-<td style="text-align: left;">Procédure de collecte</td>
-<td style="text-align: left;">Section décrivant la manière dont les données sont recueillies dans le cadre de l’étude.</td>
-<td style="text-align: left;">Collection procedure</td>
-<td style="text-align: left;">Section describing how data are collected in the study.</td>
-<td style="text-align: left;">section</td>
-<td style="text-align: left;">1.0</td>
-<td style="text-align: left;">1</td>
-</tr>
-<tr>
-<td style="text-align: left;">5.3.1.a</td>
-<td style="text-align: left;"><strong>CollectionMode</strong></td>
-<td style="text-align: left;">Mode de collecte</td>
-<td style="text-align: left;">Méthode utilisée pour recueillir les données</td>
-<td style="text-align: left;">Collection mode</td>
-<td style="text-align: left;">The method used to collect data</td>
-<td style="text-align: left;">choix unique</td>
-<td style="text-align: left;">1.0</td>
-<td style="text-align: left;">Inf.</td>
-</tr>
-<tr>
-<td style="text-align: left;">5.3.1.b</td>
-<td style="text-align: left;"><strong>CollectionModeOther</strong></td>
-<td style="text-align: left;">Autre mode de collecte, précisions</td>
-<td style="text-align: left;">Spécifie le mode de collecte si « Autre » a été sélectionné ci-dessus.</td>
-<td style="text-align: left;">Other collection mode, details</td>
-<td style="text-align: left;">Specifies the collection mode if ‘Other’ was selected above.</td>
-<td style="text-align: left;">texte libre</td>
-<td style="text-align: left;">0.0</td>
-<td style="text-align: left;">1</td>
-</tr>
-<tr>
-<td style="text-align: left;">5.3.1.c</td>
-<td style="text-align: left;"><strong>CollectionModeDetails</strong></td>
-<td style="text-align: left;">Mode de collecte, précisions</td>
-<td style="text-align: left;">Informations complémentaires sur la collecte, comme le contexte, les instruments ou protocoles utilisés.</td>
-<td style="text-align: left;">Collection mode, details</td>
-<td style="text-align: left;">Additional information about the collection, such as context, instruments, or protocols used.</td>
-<td style="text-align: left;">texte libre</td>
-<td style="text-align: left;">0.0</td>
-<td style="text-align: left;">1</td>
-</tr>
-<tr>
-<td style="text-align: left;">5.3.1.d</td>
-<td style="text-align: left;"><strong>SamplingMode</strong></td>
-<td style="text-align: left;">Procédure d'échantillonage à l'inclusion</td>
-<td style="text-align: left;">Décrit la méthode utilisée pour sélectionner les participants lors de leur inclusion dans l’étude</td>
-<td style="text-align: left;">Sampling procedure at inclusion</td>
-<td style="text-align: left;">Describes the method used to select participants when they were included in the study.</td>
-<td style="text-align: left;">choix unique</td>
-<td style="text-align: left;">1.0</td>
-<td style="text-align: left;">Inf.</td>
-</tr>
-<tr>
-<td style="text-align: left;">5.3.1.e</td>
-<td style="text-align: left;"><strong>SamplingModeOther</strong></td>
-<td style="text-align: left;">Autre procédure d'échantillonnage, précisions</td>
-<td style="text-align: left;">Spécifie la procédure d'échantillonnage si « Autre » a été sélectionné ci-dessus.</td>
-<td style="text-align: left;">Other sampling mode, details</td>
-<td style="text-align: left;">Specifies the sampling procedure if ‘Other’ was selected above.</td>
-<td style="text-align: left;">texte libre</td>
-<td style="text-align: left;">0.0</td>
-<td style="text-align: left;">1</td>
-</tr>
-<tr>
-<td style="text-align: left;">5.3.2.a</td>
-<td style="text-align: left;"><strong>RecruitmentSource</strong></td>
-<td style="text-align: left;">Source de recrutement des participants</td>
-<td style="text-align: left;">Décrit l’origine ou le canal utilisé pour identifier et inclure les participants dans l’étude</td>
-<td style="text-align: left;">Participants recruitment source</td>
-<td style="text-align: left;">Describes the origin or channel used to identify and include participants in the study.</td>
-<td style="text-align: left;">choix multiple</td>
-<td style="text-align: left;">1.0</td>
-<td style="text-align: left;">Inf.</td>
-</tr>
-<tr>
-<td style="text-align: left;">5.3.2.a</td>
-<td style="text-align: left;"><strong>RecruitmentSourceOther</strong></td>
-<td style="text-align: left;">Autre source de recrutement, précisions</td>
-<td style="text-align: left;">Spécifie la source de recrutement si « Autre » a été sélectionné ci-dessus.</td>
-<td style="text-align: left;">Other recruitment source, details</td>
-<td style="text-align: left;">Specify the recruitment source if ‘Other’ was selected above.</td>
-<td style="text-align: left;">texte libre</td>
-<td style="text-align: left;">0.0</td>
-<td style="text-align: left;">1</td>
-</tr>
-<tr>
-<td style="text-align: left;">5.3.3</td>
-<td style="text-align: left;"><strong>ActiveFollowUp</strong></td>
-<td style="text-align: left;">Suivi actif des participants</td>
-<td style="text-align: left;">Le suivi actif désigne une procédure systématique de collecte d’informations auprès des participants après leur inclusion dans l’étude, à l’initiative de l’équipe de recherche.</td>
-<td style="text-align: left;">Active follow-up</td>
-<td style="text-align: left;">Active follow-up refers to a systematic process of collecting information from participants after their inclusion in the study, initiated by the research team.</td>
-<td style="text-align: left;">section</td>
-<td style="text-align: left;">0.0</td>
-<td style="text-align: left;">1</td>
-</tr>
-<tr>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;">Il implique un contact direct ou organisé (par visite, appel, questionnaire, examen, etc.) visant à recueillir régulièrement des données sur l’état de santé, l’exposition, ou les événements survenus pendant la période d’observation.</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;">It involves direct or organised contact (through visits, phone calls, questionnaires, examinations, etc.) to regularly obtain data on health status, exposures, or events occurring during the observation period.</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-</tr>
-<tr>
-<td style="text-align: left;">5.3.3.a</td>
-<td style="text-align: left;"><strong>IsActiveFollowUp</strong></td>
-<td style="text-align: left;">Un suivi actif des participants est-il réalisé ?</td>
-<td style="text-align: left;">Indique si les participants font l’objet d’un suivi actif dans le cadre de l’étude et la modalité du suivi</td>
-<td style="text-align: left;">It is an active follow-up?</td>
-<td style="text-align: left;">Indicates whether participants are followed over time within the study and the method used.</td>
-<td style="text-align: left;">boolean</td>
-<td style="text-align: left;">1.0</td>
-<td style="text-align: left;">1</td>
-</tr>
-<tr>
-<td style="text-align: left;">5.3.3.b</td>
-<td style="text-align: left;"><strong>FollowUpMode</strong></td>
-<td style="text-align: left;">Modalités du suivi actif</td>
-<td style="text-align: left;">Indique les modalités du suivi actif des participants</td>
-<td style="text-align: left;">Follow-up method</td>
-<td style="text-align: left;">Indicates the ways of active follow-up of participants.</td>
-<td style="text-align: left;">choix multiple</td>
-<td style="text-align: left;">1.0</td>
-<td style="text-align: left;">Inf.</td>
-</tr>
-<tr>
-<td style="text-align: left;">5.3.3.c</td>
-<td style="text-align: left;"><strong>FollowUpModeOther</strong></td>
-<td style="text-align: left;">Autre modalité de suivi, précisions</td>
-<td style="text-align: left;">Spécifie la modalité de suivi si « Autre » a été sélectionné ci-dessus.</td>
-<td style="text-align: left;">Other follow-up method, details</td>
-<td style="text-align: left;">Specifies the follow-up method if ‘Other’ was selected above.</td>
-<td style="text-align: left;">texte libre</td>
-<td style="text-align: left;">0.0</td>
-<td style="text-align: left;">1</td>
-</tr>
-<tr>
-<td style="text-align: left;">5.3.4</td>
-<td style="text-align: left;"><strong>DataTypes</strong></td>
-<td style="text-align: left;">Types de données</td>
-<td style="text-align: left;">Décrit les types de données recueillies au cours de l'étude auprès des participants</td>
-<td style="text-align: left;">Data types</td>
-<td style="text-align: left;">Describes the types of data collected directly from study participants during the study</td>
-<td style="text-align: left;">section</td>
-<td style="text-align: left;">1.0</td>
-<td style="text-align: left;">1</td>
-</tr>
-<tr>
-<td style="text-align: left;">5.3.4.a</td>
-<td style="text-align: left;"><strong>DataType</strong></td>
-<td style="text-align: left;">Type de données</td>
-<td style="text-align: left;">Sélection, à partir d’une liste prédéfinie, du ou des types de données collectées dans l’étude</td>
-<td style="text-align: left;">Data type</td>
-<td style="text-align: left;">Selection, from a predefined list, of the type(s) of data collected in the study</td>
-<td style="text-align: left;">choix multiple</td>
-<td style="text-align: left;">1.0</td>
-<td style="text-align: left;">Inf.</td>
-</tr>
-<tr>
-<td style="text-align: left;">5.3.4.b</td>
-<td style="text-align: left;"><strong>DataTypeOther</strong></td>
-<td style="text-align: left;">Autre type de données, précisions</td>
-<td style="text-align: left;">Spécifie le type de données si « Autre » a été sélectionné ci-dessus.</td>
-<td style="text-align: left;">Other data type, details</td>
-<td style="text-align: left;">Specifies the data type if “Other” was selected above.</td>
-<td style="text-align: left;">texte libre</td>
-<td style="text-align: left;">0.0</td>
-<td style="text-align: left;">1</td>
-</tr>
-<tr>
-<td style="text-align: left;">5.3.4.c</td>
-<td style="text-align: left;"><strong>ClinicalDataDetails</strong></td>
-<td style="text-align: left;">Données cliniques, précisions</td>
-<td style="text-align: left;">Précisions concernant les données cliniques collectées</td>
-<td style="text-align: left;">Clinical data, details</td>
-<td style="text-align: left;">Details regarding the clinical data collected</td>
-<td style="text-align: left;">texte libre</td>
-<td style="text-align: left;">0.0</td>
-<td style="text-align: left;">1</td>
-</tr>
-<tr>
-<td style="text-align: left;">5.3.4.d</td>
-<td style="text-align: left;"><strong>ParaclinicalDataOther</strong></td>
-<td style="text-align: left;">Autres données paracliniques (hors biologiques), précisions</td>
-<td style="text-align: left;">Spécifie le type de données paracliniques (hors biologiques) si « Autre » a été sélectionné ci-dessus.</td>
-<td style="text-align: left;">Other paraclinical data (non-biological), details</td>
-<td style="text-align: left;">Specify the type of paraclinical data (non-biological)</td>
-<td style="text-align: left;">texte libre</td>
-<td style="text-align: left;">0.0</td>
-<td style="text-align: left;">1</td>
-</tr>
-<tr>
-<td style="text-align: left;">5.3.4.e</td>
-<td style="text-align: left;"><strong>BiologicalDataDetails</strong></td>
-<td style="text-align: left;">Données biologiques, précisions</td>
-<td style="text-align: left;">Précisions concernant les données biologiques collectées</td>
-<td style="text-align: left;">Biological data, details</td>
-<td style="text-align: left;">Details regarding the biological data collected</td>
-<td style="text-align: left;">texte libre</td>
-<td style="text-align: left;">0.0</td>
-<td style="text-align: left;">1</td>
-</tr>
-<tr>
-<td style="text-align: left;">5.3.4.f</td>
-<td style="text-align: left;"><strong>isDataInBiobank</strong></td>
-<td style="text-align: left;">Présence d'échantillons de données biologiques dans une biobanque ?</td>
-<td style="text-align: left;">Indique si une collection d’échantillons biologiques est conservée et mis à disposition au sein d'une biobanque</td>
-<td style="text-align: left;">Presence of biological data samples in a biobank ?</td>
-<td style="text-align: left;">Indicates whether a collection of biological samples is stored and made available in a biobank.</td>
-<td style="text-align: left;">boolean</td>
-<td style="text-align: left;">0.0</td>
-<td style="text-align: left;">1</td>
-</tr>
-<tr>
-<td style="text-align: left;">5.3.4.g</td>
-<td style="text-align: left;"><strong>BiobankContent</strong></td>
-<td style="text-align: left;">Nature des échantillons</td>
-<td style="text-align: left;">Sélection, à partir d’une liste prédéfinie, du ou des types d'échantillons contenus dans la biobanque</td>
-<td style="text-align: left;">Nature of samples</td>
-<td style="text-align: left;">Selection, from a predefined list, of the type(s) of samples contained in the biobank</td>
-<td style="text-align: left;">choix unique</td>
-<td style="text-align: left;">1.0</td>
-<td style="text-align: left;">Inf.</td>
-</tr>
-<tr>
-<td style="text-align: left;">5.3.4.h</td>
-<td style="text-align: left;"><strong>BiobankContentOther</strong></td>
-<td style="text-align: left;">Autre échantillon, précisions</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;">Other sample, details</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;">texte libre</td>
-<td style="text-align: left;">0.0</td>
-<td style="text-align: left;">1</td>
-</tr>
-<tr>
-<td style="text-align: left;">5.3.4.i</td>
-<td style="text-align: left;"><strong>OtherLiquidsDetails</strong></td>
-<td style="text-align: left;">Autres liquides ou sécrétions biologiques, précisions</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;">Other fluids and secretions, details</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;">texte libre</td>
-<td style="text-align: left;">0.0</td>
-<td style="text-align: left;">1</td>
-</tr>
-<tr>
-<td style="text-align: left;">5.3.5</td>
-<td style="text-align: left;"><strong>IsDataIntegration</strong></td>
-<td style="text-align: left;">Des données individuelles provenant d'autres sources sont-elles réutilisées dans le cadre de cette étude ?</td>
-<td style="text-align: left;">Indique si les données individuelles préexistantes issues de sources tierces ont été utilisées dans le cadre de l'étude</td>
-<td style="text-align: left;">Are individual data from other sources reused in this study?</td>
-<td style="text-align: left;">Indicates whether pre-existing individual data from third-party sources were used in the study.</td>
-<td style="text-align: left;">boolean</td>
-<td style="text-align: left;">1.0</td>
-<td style="text-align: left;">1</td>
-</tr>
-<tr>
-<td style="text-align: left;">5.4</td>
-<td style="text-align: left;"><strong>DataIntegration</strong></td>
-<td style="text-align: left;">Réutilisation de données existantes</td>
-<td style="text-align: left;">La réutilisation de données existantes désigne le recours, dans le cadre de l’étude, à des données déjà collectées pour un autre objectif (recherche antérieure, registre, base administrative, dossier médical, etc.), sans nouvelle collecte directe auprès des participants.</td>
-<td style="text-align: left;">Reuse of existing data</td>
-<td style="text-align: left;">The reuse of existing data refers to the use, within the study, of data previously collected for another purpose (such as a prior research project, registry, administrative database, or medical record), without new data collection directly from participants.</td>
-<td style="text-align: left;">section</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-</tr>
-<tr>
-<td style="text-align: left;">5.4.a</td>
-<td style="text-align: left;"><strong>ConformityDeclaration</strong></td>
-<td style="text-align: left;">Déclaration de conformité</td>
-<td style="text-align: left;">Engagement formel qu’un projet de recherche respecte l’ensemble des conditions fixées par une Méthodologie de Référence (MR) de la CNIL, permettant d’utiliser des données de santé sans autorisation spécifique.</td>
-<td style="text-align: left;">Declaration of conformity</td>
-<td style="text-align: left;">Formal statement that a research project complies with all requirements of a CNIL Reference Methodology, allowing the use of health data without specific authorisation.</td>
-<td style="text-align: left;">choix unique</td>
-<td style="text-align: left;">0.0</td>
-<td style="text-align: left;">1</td>
-</tr>
-<tr>
-<td style="text-align: left;">5.4.1</td>
-<td style="text-align: left;"><strong>ThirdPartySource</strong></td>
-<td style="text-align: left;">Informations concernant les données réutilisées pour l'étude</td>
-<td style="text-align: left;">Cette section décrit les sources des données préexistantes réutilisées dans le cadre de l'étude</td>
-<td style="text-align: left;">Information concerning data reused for the study</td>
-<td style="text-align: left;">This section describes the sources of pre-existing data reused in the study</td>
-<td style="text-align: left;">section</td>
-<td style="text-align: left;">1.0</td>
-<td style="text-align: left;">Inf.</td>
-</tr>
-<tr>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;">ST : Plusieurs sources possibles</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;">ST: Several possible sources</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-</tr>
-<tr>
-<td style="text-align: left;">5.4.1.c</td>
-<td style="text-align: left;"><strong>SourceName</strong></td>
-<td style="text-align: left;">Description de la source</td>
-<td style="text-align: left;">Toute information supplémentaire caractérisant la source ( nom, origine, qualité, modalités d'accès, liens eventuels)</td>
-<td style="text-align: left;">Source description</td>
-<td style="text-align: left;">Any additional information characterising the source (name, origin, quality, access methods, any links)</td>
-<td style="text-align: left;">texte libre</td>
-<td style="text-align: left;">0.0</td>
-<td style="text-align: left;">1</td>
-</tr>
-<tr>
-<td style="text-align: left;">5.4.1.d</td>
-<td style="text-align: left;"><strong>SourceId</strong></td>
-<td style="text-align: left;">Identifiant de la source</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;">Source identifier</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;">texte libre</td>
-<td style="text-align: left;">0.0</td>
-<td style="text-align: left;">1</td>
-</tr>
-<tr>
-<td style="text-align: left;">5.4.1.a</td>
-<td style="text-align: left;"><strong>SourceType</strong></td>
-<td style="text-align: left;">Type de source</td>
-<td style="text-align: left;">Type de source des données utilisées</td>
-<td style="text-align: left;">Source type</td>
-<td style="text-align: left;">Type of data source used</td>
-<td style="text-align: left;">choix multiple</td>
-<td style="text-align: left;">1.0</td>
-<td style="text-align: left;">Inf.</td>
-</tr>
-<tr>
-<td style="text-align: left;">5.4.1.e</td>
-<td style="text-align: left;"><strong>SourcePurpose</strong></td>
-<td style="text-align: left;">Objectif de l'intégration de la source</td>
-<td style="text-align: left;">Finalité de l’utilisation de la source dans le cadre de l'étude</td>
-<td style="text-align: left;">Source integration purpose</td>
-<td style="text-align: left;">Purpose of using the source in the study</td>
-<td style="text-align: left;">choix unique</td>
-<td style="text-align: left;">1.0</td>
-<td style="text-align: left;">1</td>
-</tr>
-<tr>
-<td style="text-align: left;">5.4.1.b</td>
-<td style="text-align: left;"><strong>OtherSourceType</strong></td>
-<td style="text-align: left;">Autre type de source, précisions</td>
-<td style="text-align: left;">Indique le type de source lorsqu’il ne correspond pas aux options proposées</td>
-<td style="text-align: left;">Other source type, details</td>
-<td style="text-align: left;">Indicate the type of source when it does not correspond to the options provided</td>
-<td style="text-align: left;">texte libre</td>
-<td style="text-align: left;">0.0</td>
-<td style="text-align: left;">1</td>
-</tr>
-<tr>
-<td style="text-align: left;">6.</td>
-<td style="text-align: left;"><strong>DataAccess</strong></td>
-<td style="text-align: left;">Accès aux données</td>
-<td style="text-align: left;">Cette section décrit différents aspects d'accès aux données recueillies au cours de l'étude.</td>
-<td style="text-align: left;">Data access</td>
-<td style="text-align: left;">This section describes various aspects of accessing the data collected during the study.</td>
-<td style="text-align: left;">section</td>
-<td style="text-align: left;">1.0</td>
-<td style="text-align: left;">1</td>
-</tr>
-<tr>
-<td style="text-align: left;">6.1</td>
-<td style="text-align: left;"><strong>DataQuality</strong></td>
-<td style="text-align: left;">Qualité des données</td>
-<td style="text-align: left;">Informations sur les procédures et outils mis en place pour assurer la qualité, la cohérence et la traçabilité des données collectées dans l’étude.</td>
-<td style="text-align: left;">Data quality</td>
-<td style="text-align: left;">Information on the procedures and tools implemented to ensure the quality, consistency, and traceability of data collected in the study.</td>
-<td style="text-align: left;">section</td>
-<td style="text-align: left;">1.0</td>
-<td style="text-align: left;">1</td>
-</tr>
-<tr>
-<td style="text-align: left;">6.1.a</td>
-<td style="text-align: left;"><strong>UsedStandards</strong></td>
-<td style="text-align: left;">Standard(s) ou nomenclature(s) employé(s)</td>
-<td style="text-align: left;">Normes, classifications ou terminologies utilisées pour coder et structurer les données (ex. : ICD-10, LOINC, SNOMED CT)</td>
-<td style="text-align: left;">Standard(s) or nomenclature(s) used</td>
-<td style="text-align: left;">Standards, classifications, or terminologies used to code and structure data (e.g., ICD-10, LOINC, SNOMED CT)</td>
-<td style="text-align: left;">texte libre</td>
-<td style="text-align: left;">0.0</td>
-<td style="text-align: left;">Inf.</td>
-</tr>
-<tr>
-<td style="text-align: left;">6.1.b</td>
-<td style="text-align: left;"><strong>QualityProcedure</strong></td>
-<td style="text-align: left;">Procédure qualité utilisée</td>
-<td style="text-align: left;">Méthodes et contrôles appliqués pour garantir l’exactitude, la complétude et la cohérence des données (ex. : validation, audit, double saisie)</td>
-<td style="text-align: left;">Quality procedure used</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;">texte libre</td>
-<td style="text-align: left;">0.0</td>
-<td style="text-align: left;">Inf.</td>
-</tr>
-<tr>
-<td style="text-align: left;">6.2</td>
-<td style="text-align: left;"><strong>DataAvailability</strong></td>
-<td style="text-align: left;">Disponibilité du jeu de données</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;">Data availability</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;">section</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-</tr>
-<tr>
-<td style="text-align: left;">6.2.a</td>
-<td style="text-align: left;"><strong>IndividualDataAccess</strong></td>
-<td style="text-align: left;">Accès aux données individuelles</td>
-<td style="text-align: left;">Statut de disponibilité des données individuelles à la fin de la collecte</td>
-<td style="text-align: left;">Access to individual data</td>
-<td style="text-align: left;">Individual data availability status at the end of the collect</td>
-<td style="text-align: left;">choix unique</td>
-<td style="text-align: left;">1.0</td>
-<td style="text-align: left;">1</td>
-</tr>
-<tr>
-<td style="text-align: left;">6.2.b</td>
-<td style="text-align: left;"><strong>AggregatedDataAccess</strong></td>
-<td style="text-align: left;">Modalités de mise à disposition des données agrégées</td>
-<td style="text-align: left;">Modalités de mise à disposition des données agrégées</td>
-<td style="text-align: left;">Conditions under which the aggregated data are made available</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;">texte libre</td>
-<td style="text-align: left;">0.0</td>
-<td style="text-align: left;">1</td>
-</tr>
-<tr>
-<td style="text-align: left;">6.2.1</td>
-<td style="text-align: left;"><strong>DataAccessRequestTool</strong></td>
-<td style="text-align: left;">Outil de demande d'accès aux données</td>
-<td style="text-align: left;">Cette section regroupe les informations relatives à l’existence éventuelle d’un outil d'accès aux données</td>
-<td style="text-align: left;">Data access request tool</td>
-<td style="text-align: left;">This section contains information about the possible presence of a data access request tool</td>
-<td style="text-align: left;">section</td>
-<td style="text-align: left;">0.0</td>
-<td style="text-align: left;">1</td>
-</tr>
-<tr>
-<td style="text-align: left;">6.2.1.a</td>
-<td style="text-align: left;"><strong>DataAccessRequestToolAvailable</strong></td>
-<td style="text-align: left;">Existe-t-il un outil de demande d'accès aux données ?</td>
-<td style="text-align: left;">Indique si un outil (plateforme, formulaire en ligne ou autre système) permettant de formuler une demande d’accès aux données est disponible.</td>
-<td style="text-align: left;">A data access request tool is it available ?</td>
-<td style="text-align: left;">Indicates whether a tool (platform, online form, or other system) is available for submitting a request for access to data.</td>
-<td style="text-align: left;">boolean</td>
-<td style="text-align: left;">0.0</td>
-<td style="text-align: left;">1</td>
-</tr>
-<tr>
-<td style="text-align: left;">6.2.1.b</td>
-<td style="text-align: left;"><strong>DataAccessRequestToolLocation</strong></td>
-<td style="text-align: left;">Lien vers l'outil de demande d'accès</td>
-<td style="text-align: left;">Fournit l’URL ou la référence donnant accès à cet outil lorsque celui-ci est disponible.</td>
-<td style="text-align: left;">Link to the data access request tool</td>
-<td style="text-align: left;">Provides the URL or reference giving access to this tool when it is available.</td>
-<td style="text-align: left;">texte libre</td>
-<td style="text-align: left;">0.0</td>
-<td style="text-align: left;">1</td>
-</tr>
-<tr>
-<td style="text-align: left;">6.2.c</td>
-<td style="text-align: left;"><strong>DataFileCompleteness</strong></td>
-<td style="text-align: left;">Complétude des fichiers des données</td>
-<td style="text-align: left;">Indique l'écart éventuel entre les données collectées et les données disponibles. Il permet de préciser, le cas échéant, les raisons pour lesquelles certains éléments collectés n’ont pas été inclus dans le fichier de données partagées (par exemple, les éléments directement identifiants).</td>
-<td style="text-align: left;">Data file completeness</td>
-<td style="text-align: left;">Indicates any discrepancy between the data collected and the data available. It allows you to specify, where applicable, the reasons why certain items collected have not been included in the shared data file (e.g. items that directly identify individuals).</td>
-<td style="text-align: left;">texte libre</td>
-<td style="text-align: left;">0.0</td>
-<td style="text-align: left;">1</td>
-</tr>
-<tr>
-<td style="text-align: left;">6.2.d</td>
-<td style="text-align: left;"><strong>DataLocation</strong></td>
-<td style="text-align: left;">Localisation des données</td>
-<td style="text-align: left;">Emplacement où les données collectées sont actuellement stockées.</td>
-<td style="text-align: left;">Data location</td>
-<td style="text-align: left;">Location where the data collection is currently stored.</td>
-<td style="text-align: left;">texte libre</td>
-<td style="text-align: left;">0.0</td>
-<td style="text-align: left;">1</td>
-</tr>
-<tr>
-<td style="text-align: left;">6.3</td>
-<td style="text-align: left;"><strong>UseStatement</strong></td>
-<td style="text-align: left;">Conditions d'usage</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;">Use conditions</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;">section</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-</tr>
-<tr>
-<td style="text-align: left;">6.3.a</td>
-<td style="text-align: left;"><strong>AccessConditions</strong></td>
-<td style="text-align: left;">Conditions d'accès aux données</td>
-<td style="text-align: left;">Toute information supplémentaire susceptible d'aider l'utilisateur à comprendre les conditions d'accès et d'utilisation de la collecte de données (par exemple, contacter l'investigateur principal pour plus d'information)</td>
-<td style="text-align: left;">Data access conditions</td>
-<td style="text-align: left;">Any additional information that will assist the user in understanding the access and use conditions of the data collection (for example, contact the principal investigator for more information).</td>
-<td style="text-align: left;">texte libre</td>
-<td style="text-align: left;">0.0</td>
-<td style="text-align: left;">1</td>
-</tr>
-<tr>
-<td style="text-align: left;">6.3.b</td>
-<td style="text-align: left;"><strong>AccessRestrictions</strong></td>
-<td style="text-align: left;">Restrictions d'accès</td>
-<td style="text-align: left;">Toute restriction relative à l'accès ou à l'utilisation du recueil de données, telle que la certification de confidentialité ou les restrictions de distribution, doit être indiquée ici. Il peut s'agir de restrictions appliquées par l'auteur, le producteur ou le diffuseur des données.</td>
-<td style="text-align: left;">Access restrictions</td>
-<td style="text-align: left;">Any restrictions on access to or use of the data collection such as privacy certification or distribution restrictions should be indicated here. These can be restrictions applied by the author, producer, or disseminator of the data.</td>
-<td style="text-align: left;">texte libre</td>
-<td style="text-align: left;">0.0</td>
-<td style="text-align: left;">1</td>
-</tr>
-<tr>
-<td style="text-align: left;">6.3.c</td>
-<td style="text-align: left;"><strong>AdditionalDataAccessLink</strong></td>
-<td style="text-align: left;">Lien vers le plan de partage des données ou vers une documentation relative à l'accès aux données</td>
-<td style="text-align: left;">Indique une URL ou une référence pointant vers le plan de partage ou vers une page ou un document décrivant plus en détail les conditions et procédures d’accès aux données.</td>
-<td style="text-align: left;">Link to sharing plan or to documentation relating to data access.</td>
-<td style="text-align: left;">Provides a URL or reference to a sharing plan or to a page or document that describes in more detail the conditions and procedures for accessing the data.</td>
-<td style="text-align: left;">texte libre</td>
-<td style="text-align: left;">0.0</td>
-<td style="text-align: left;">1</td>
-</tr>
-<tr>
-<td style="text-align: left;">6.3.d</td>
-<td style="text-align: left;"><strong>NonDisclosureAgreement</strong></td>
-<td style="text-align: left;">Accord de confidentialité</td>
-<td style="text-align: left;">Indique si la signature d’une déclaration de confidentialité est requise pour accéder à la ressource.</td>
-<td style="text-align: left;">Non-disclosure agreement</td>
-<td style="text-align: left;">Indicates whether a confidentiality agreement must be signed in order to access the resource.</td>
-<td style="text-align: left;">texte libre</td>
-<td style="text-align: left;">0.0</td>
-<td style="text-align: left;">1</td>
-</tr>
-<tr>
-<td style="text-align: left;">6.3.1</td>
-<td style="text-align: left;"><strong>DataInformationContact</strong></td>
-<td style="text-align: left;">Personne à contacter pour des renseignements concernant les données</td>
-<td style="text-align: left;">Noms et adresses des personnes impliquées dans l'étude, à contacter pour obtenir les renseignements concernant les données. Elles peuvent être sollicitées en tant que personnes ressources pour les problèmes ou questions soulevés par les utilisateurs.</td>
-<td style="text-align: left;">Contact person for data information</td>
-<td style="text-align: left;">Names and addresses of individuals involved in the study who can be contacted for information about the data. They can be consulted as resource persons for problems or questions raised by users.</td>
-<td style="text-align: left;">section</td>
-<td style="text-align: left;">0.0</td>
-<td style="text-align: left;">Inf.</td>
-</tr>
-<tr>
-<td style="text-align: left;">6.3.1.a</td>
-<td style="text-align: left;"><strong>DIContactName</strong></td>
-<td style="text-align: left;">Prénom NOM du contact</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;">First name LAST NAME of the contact</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;">texte libre</td>
-<td style="text-align: left;">1.0</td>
-<td style="text-align: left;">1</td>
-</tr>
-<tr>
-<td style="text-align: left;">6.3.1.b</td>
-<td style="text-align: left;"><strong>DIContactMail</strong></td>
-<td style="text-align: left;">Email du contact</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;">Contact email</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;">email</td>
-<td style="text-align: left;">0.0</td>
-<td style="text-align: left;">1</td>
-</tr>
-<tr>
-<td style="text-align: left;">6.4</td>
-<td style="text-align: left;"><strong>DataCitation</strong></td>
-<td style="text-align: left;">Obligations liées à l’usage des données</td>
-<td style="text-align: left;">Indique les responsabilités de l’utilisateur vis-à-vis des données</td>
-<td style="text-align: left;">Obligations related to data use</td>
-<td style="text-align: left;">Indicates the user's responsibilities with regard to data</td>
-<td style="text-align: left;">section</td>
-<td style="text-align: left;">0.0</td>
-<td style="text-align: left;">1</td>
-</tr>
-<tr>
-<td style="text-align: left;">6.4.a</td>
-<td style="text-align: left;"><strong>DataCitationRequirement</strong></td>
-<td style="text-align: left;">Obligation de transmission des travaux</td>
-<td style="text-align: left;">Indique l’obligation pour les utilisateurs d’informer le producteur et le distibuteur des données de toute utilisation des données, en fournissant les références des publications ou des copies des papiers s’appuyant sur ces données.</td>
-<td style="text-align: left;">Reporting requirement</td>
-<td style="text-align: left;">Indicates the obligation for users to inform the data producer and distributor of any use of the data, providing references to publications or copies of papers based on this data.</td>
-<td style="text-align: left;">texte libre</td>
-<td style="text-align: left;">0.0</td>
-<td style="text-align: left;">1</td>
-</tr>
-<tr>
-<td style="text-align: left;">6.4.b</td>
-<td style="text-align: left;"><strong>DataCitationStatement</strong></td>
-<td style="text-align: left;">Obligation de citation</td>
-<td style="text-align: left;">Exigence selon laquelle un recueil de données doit être correctement cité dans les articles ou autres publications basés sur l'analyse de ces données.</td>
-<td style="text-align: left;">Citation requirement</td>
-<td style="text-align: left;">Requirement that a data collection should be cited properly in articles or other publications that are based on analysis of the data.</td>
-<td style="text-align: left;">texte libre</td>
-<td style="text-align: left;">0.0</td>
-<td style="text-align: left;">1</td>
-</tr>
-<tr>
-<td style="text-align: left;">6.5</td>
-<td style="text-align: left;"><strong>VariableDictionnary</strong></td>
-<td style="text-align: left;">Dictionnaire des variables</td>
-<td style="text-align: left;">Document listant et décrivant toutes les variables collectées, leur format, unités et modalités de codage.</td>
-<td style="text-align: left;">Data dictionary</td>
-<td style="text-align: left;">Document listing and describing all collected variables, their format, units, and coding modalities.</td>
-<td style="text-align: left;">section</td>
-<td style="text-align: left;">0.0</td>
-<td style="text-align: left;">1</td>
-</tr>
-<tr>
-<td style="text-align: left;">6.5.a</td>
-<td style="text-align: left;"><strong>VariableDictionnaryAvailable</strong></td>
-<td style="text-align: left;">Existe-t-il un dictionnaire des variables ?</td>
-<td style="text-align: left;">Existence d’un dictionnaire des variables</td>
-<td style="text-align: left;">A data dictionary is it available ?</td>
-<td style="text-align: left;">Presence of a data dictionary</td>
-<td style="text-align: left;">boolean</td>
-<td style="text-align: left;">1.0</td>
-<td style="text-align: left;">1</td>
-</tr>
-<tr>
-<td style="text-align: left;">6.5.b</td>
-<td style="text-align: left;"><strong>VariableDictionnaryLink</strong></td>
-<td style="text-align: left;">Lien vers le dictionnaire des variables</td>
-<td style="text-align: left;">URL ou adresse permettant d’accéder au dictionnaire des variables lorsque celui-ci est disponible.</td>
-<td style="text-align: left;">Link to the data dictionary</td>
-<td style="text-align: left;">URL or address providing access to the data dictionary when it is available.</td>
-<td style="text-align: left;">texte libre</td>
-<td style="text-align: left;">0.0</td>
-<td style="text-align: left;">1</td>
-</tr>
-<tr>
-<td style="text-align: left;">6.6</td>
-<td style="text-align: left;"><strong>MockSample</strong></td>
-<td style="text-align: left;">Echantillon fictif</td>
-<td style="text-align: left;">Cette section regroupe les informations relatives à l’existence éventuelle d’un échantillon fictif (données simulées ou anonymisées à des fins de test ou de démonstration)</td>
-<td style="text-align: left;">Mock sample</td>
-<td style="text-align: left;">This section contains information about the possible existence of a synthetic sample (simulated or anonymised data for testing or demonstration purposes).</td>
-<td style="text-align: left;">section</td>
-<td style="text-align: left;">0.0</td>
-<td style="text-align: left;">1</td>
-</tr>
-<tr>
-<td style="text-align: left;">6.6.a</td>
-<td style="text-align: left;"><strong>MockSampleAvailable</strong></td>
-<td style="text-align: left;">Un échantillon fictif du jeu de données est-il disponible ?</td>
-<td style="text-align: left;">Indique si un échantillon fictif du jeu de données est disponible</td>
-<td style="text-align: left;">A mock sample is it available ?</td>
-<td style="text-align: left;">Indicate whether a synthetic sample of the dataset is available.</td>
-<td style="text-align: left;">boolean</td>
-<td style="text-align: left;">0.0</td>
-<td style="text-align: left;">1</td>
-</tr>
-<tr>
-<td style="text-align: left;">6.6.b</td>
-<td style="text-align: left;"><strong>MockSampleLocation</strong></td>
-<td style="text-align: left;">Lien vers l'échantillon fictif ou vers les renseignements pour y accéder</td>
-<td style="text-align: left;">Si un échantillon fictif est disponible, fournir un lien ou des précisions pour y accéder.</td>
-<td style="text-align: left;">Link to the sample of to information on how to access it</td>
-<td style="text-align: left;">If a synthetic sample is available, provide a link or details on how to access it.</td>
-<td style="text-align: left;">texte libre</td>
-<td style="text-align: left;">0.0</td>
-<td style="text-align: left;">1</td>
-</tr>
-<tr>
-<td style="text-align: left;">6.a</td>
-<td style="text-align: left;"><strong>OtherDocumentation</strong></td>
-<td style="text-align: left;">Documentation complémentaire sur les données</td>
-<td style="text-align: left;">Tout autre document utile pour comprendre et réutiliser les données (protocoles de collecte, guides de codage, procédures de nettoyage, métadonnées complémentaires)</td>
-<td style="text-align: left;">Additional documentation on data</td>
-<td style="text-align: left;">Any other document useful for understanding and reusing the data (collection protocols, coding guides, cleaning procedures, additional metadata)</td>
-<td style="text-align: left;">texte libre</td>
-<td style="text-align: left;">0.0</td>
-<td style="text-align: left;">1</td>
-</tr>
-<tr>
-<td style="text-align: left;">6.7</td>
-<td style="text-align: left;"><strong>DatasetPID</strong></td>
-<td style="text-align: left;">Identification pérenne du jeu de données</td>
-<td style="text-align: left;">Identifiant unique et stable permettant de référencer durablement le jeu de données, indépendamment de son emplacement technique</td>
-<td style="text-align: left;">Persistent identifier of the dataset</td>
-<td style="text-align: left;">A unique and stable identifier that allows the dataset to be referenced permanently, regardless of its technical location.</td>
-<td style="text-align: left;">section</td>
-<td style="text-align: left;">0.0</td>
-<td style="text-align: left;">Inf.</td>
-</tr>
-<tr>
-<td style="text-align: left;">6.7.a</td>
-<td style="text-align: left;"><strong>PIDSchema</strong></td>
-<td style="text-align: left;">Type d'identifiant du jeu de données</td>
-<td style="text-align: left;">Type de l’identifiant pérenne utilisé</td>
-<td style="text-align: left;">Identifier type of the dataset</td>
-<td style="text-align: left;">Type of persistent identifier used</td>
-<td style="text-align: left;">choix unique</td>
-<td style="text-align: left;">0.0</td>
-<td style="text-align: left;">1</td>
-</tr>
-<tr>
-<td style="text-align: left;">6.7.d</td>
-<td style="text-align: left;"><strong>URI</strong></td>
-<td style="text-align: left;">Identifiant du jeu de données</td>
-<td style="text-align: left;">Code ou référence unique permettant d’identifier et de retrouver le jeu de données.</td>
-<td style="text-align: left;">Dataset identifier</td>
-<td style="text-align: left;">Unique code or reference used to identify and locate the dataset.</td>
-<td style="text-align: left;">url</td>
-<td style="text-align: left;">0.0</td>
-<td style="text-align: left;">1</td>
-</tr>
-<tr>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;">Il peut être attribué par le producteur ou par l’hébergeur des données, ou correspondre à un identifiant persistant international (ex. DOI).</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;">It may be assigned by the data producer or the data host, or correspond to an international persistent identifier (e.g., DOI).</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-</tr>
-<tr>
-<td style="text-align: left;">7.</td>
-<td style="text-align: left;"><strong>RelatedDocument</strong></td>
-<td style="text-align: left;">Documents connexes</td>
-<td style="text-align: left;">Dans cette section, vous pouvez signaler tout document pertinent relatif à l’étude et accessible sur le web.</td>
-<td style="text-align: left;">Related documents</td>
-<td style="text-align: left;">In this section, you can report any relevant documents related to the study available on the web.</td>
-<td style="text-align: left;">section</td>
-<td style="text-align: left;">0.0</td>
-<td style="text-align: left;">Inf.</td>
-</tr>
-<tr>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;">Il peut s’agir de protocoles, publications, rapports ou tout autre document utile pour mieux comprendre l’étude ou ses résultats.</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;">These may include protocols, publications, reports, or any other documents that are useful for better understanding the study or its results.</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-</tr>
-<tr>
-<td style="text-align: left;">7.a</td>
-<td style="text-align: left;"><strong>DocumentType</strong></td>
-<td style="text-align: left;">Type de document</td>
-<td style="text-align: left;">Type du document connexe</td>
-<td style="text-align: left;">Document type</td>
-<td style="text-align: left;">Type of related document</td>
-<td style="text-align: left;">choix unique</td>
-<td style="text-align: left;">0.0</td>
-<td style="text-align: left;">1</td>
-</tr>
-<tr>
-<td style="text-align: left;">7.b</td>
-<td style="text-align: left;"><strong>DocumentTitle</strong></td>
-<td style="text-align: left;">Titre du document</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;">Document title</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;">texte libre</td>
-<td style="text-align: left;">0.0</td>
-<td style="text-align: left;">1</td>
-</tr>
-<tr>
-<td style="text-align: left;">7.c</td>
-<td style="text-align: left;"><strong>DocumentLink</strong></td>
-<td style="text-align: left;">Lien vers le document</td>
-<td style="text-align: left;">Lien permettant d’accéder au document</td>
-<td style="text-align: left;">Document link</td>
-<td style="text-align: left;">Link to access the document</td>
-<td style="text-align: left;">texte libre</td>
-<td style="text-align: left;">0.0</td>
-<td style="text-align: left;">1</td>
+<td>S-074</td>
+<td><strong>DataCollectionAccess</strong></td>
+<td>Collecte et accès aux données</td>
+<td></td>
+<td>Data collection and access</td>
+<td></td>
+<td><i>section</i></td>
+<td>-</td>
+</tr>
+<tr>
+<td>S-051</td>
+<td><strong>DataCollectionIntegration</strong></td>
+<td>Collecte et réutilisation de données</td>
+<td>Cette section décrit les données utilisées dans l’étude, qu’elles soient collectées spécifiquement pour celle-ci ou réutilisées à partir de sources tierces préexistantes.</td>
+<td>Data collection and reuse</td>
+<td>This section describes the data used in the study, whether collected specifically for this study or reused from pre-existing third-party sources.</td>
+<td><i>section</i></td>
+<td>1</td>
+</tr>
+<tr>
+<td>S-051</td>
+<td><strong>SampleSize</strong></td>
+<td>Nombre de participants</td>
+<td>Nombre de participants prévus et effectifs</td>
+<td>Number of participants</td>
+<td>Planned and actual number of participants</td>
+<td><i>section</i></td>
+<td>1</td>
+</tr>
+<tr>
+<td>E-117</td>
+<td><strong>PlannedSampleSize</strong></td>
+<td>Nombre prévu de participants</td>
+<td>Nombre de participants spécifié dans le plan d'étude ou le protocole</td>
+<td>Target number of participants</td>
+<td>Number of participants specified in the study design or protocol</td>
+<td><a href="https://portail-fresh.github.io/technical-documentation/en/ControlledVocabularies/PlannedSampleSize/"><i>Expected number of participants</i></a></td>
+<td>1</td>
+</tr>
+<tr>
+<td>E-118</td>
+<td><strong>FinalSampleSize</strong></td>
+<td>Nombre actuel de participants</td>
+<td>Nombre de participants qui ont effectivement été inclus ou ont participé</td>
+<td>Actual number of participants</td>
+<td>Number of participants who were actually included or participated</td>
+<td><i>string</i></td>
+<td>0-1</td>
+</tr>
+<tr>
+<td>S-043</td>
+<td><strong>CollectionChronology</strong></td>
+<td>Chronologie de la collecte</td>
+<td>Indique la période pendant laquelle les données de l’étude ont été recueillies.</td>
+<td>Collection chronology</td>
+<td>Indicates the period during which the study data were collected.</td>
+<td><i>section</i></td>
+<td>-</td>
+</tr>
+<tr>
+<td>E-096</td>
+<td><strong>CollectionStart</strong></td>
+<td>Date de début de la collecte (recrutement du premier participant)</td>
+<td>la date à laquelle la collecte des données individuelles a commencé dans le cadre de l’étude</td>
+<td>Collection start date (recruitment of the first participant)</td>
+<td>the date on which the collection of individual data began as part of the study</td>
+<td><i>date</i></td>
+<td>1</td>
+</tr>
+<tr>
+<td>E-097</td>
+<td><strong>CollectionEnd</strong></td>
+<td>Date de fin de la collecte (dernier suivi du dernier participant)</td>
+<td>la date à laquelle la collecte des données individuelles a été terminée dans le cadre de l’étude</td>
+<td>Collection end date (last follow-up of the last participant)</td>
+<td>the date on which the collection of individual data was completed as part of the study</td>
+<td><i>date</i></td>
+<td>1</td>
+</tr>
+<tr>
+<td>E-086</td>
+<td><strong>CollectionFrequency</strong></td>
+<td>Fréquence de la collecte</td>
+<td>Intervalles ou nombre de mesures réalisées au cours de l’étude</td>
+<td>Collection frequency</td>
+<td>Intervals or number of measurements performed during the study</td>
+<td><i>string</i></td>
+<td>1</td>
+</tr>
+<tr>
+<td>S-041</td>
+<td><strong>DataCollection</strong></td>
+<td>Informations concernant les données collectées auprès des participants dans le cadre de l'étude</td>
+<td>Ensemble des informations recueillies directement auprès des participants au cours de l’étude, que ce soit par observation, mesure, examen, prélèvement, entretien, questionnaire ou suivi.</td>
+<td>Information concerning data collected from participants during the study</td>
+<td>All information collected directly from study participants during the course of the study, through observation, measurement, examination, sampling, interview, questionnaire, or follow-up.</td>
+<td><i>section</i></td>
+<td>-</td>
+</tr>
+<tr>
+<td>S-042</td>
+<td><strong>CollectionProcess</strong></td>
+<td>Procédure de collecte</td>
+<td>Section décrivant la manière dont les données sont recueillies dans le cadre de l’étude.</td>
+<td>Collection procedure</td>
+<td>Section describing how data are collected in the study.</td>
+<td><i>section</i></td>
+<td>1</td>
+</tr>
+<tr>
+<td>E-087</td>
+<td><strong>CollectionMode</strong></td>
+<td>Mode de collecte</td>
+<td>Méthode utilisée pour recueillir les données</td>
+<td>Collection mode</td>
+<td>The method used to collect data</td>
+<td><a href="https://portail-fresh.github.io/technical-documentation/en/ControlledVocabularies/collectionMode/"><i>Collection mode</i></a></td>
+<td>1-n</td>
+</tr>
+<tr>
+<td>E-088</td>
+<td><strong>CollectionModeOther</strong></td>
+<td>Autre mode de collecte, précisions</td>
+<td>Spécifie le mode de collecte si « Autre » a été sélectionné ci-dessus.</td>
+<td>Other collection mode, details</td>
+<td>Specifies the collection mode if ‘Other’ was selected above.</td>
+<td><i>string</i></td>
+<td>0-1</td>
+</tr>
+<tr>
+<td>E-089</td>
+<td><strong>CollectionModeDetails</strong></td>
+<td>Mode de collecte, précisions</td>
+<td>Informations complémentaires sur la collecte, comme le contexte, les instruments ou protocoles utilisés.</td>
+<td>Collection mode, details</td>
+<td>Additional information about the collection, such as context, instruments, or protocols used.</td>
+<td><i>string</i></td>
+<td>0-1</td>
+</tr>
+<tr>
+<td>E-092</td>
+<td><strong>SamplingMode</strong></td>
+<td>Procédure d'échantillonage à l'inclusion</td>
+<td>Décrit la méthode utilisée pour sélectionner les participants lors de leur inclusion dans l’étude</td>
+<td>Sampling procedure at inclusion</td>
+<td>Describes the method used to select participants when they were included in the study.</td>
+<td><a href="https://portail-fresh.github.io/technical-documentation/en/ControlledVocabularies/SamplingMode/"><i>Sampling procedure</i></a></td>
+<td>1-n</td>
+</tr>
+<tr>
+<td>E-093</td>
+<td><strong>SamplingModeOther</strong></td>
+<td>Autre procédure d'échantillonnage, précisions</td>
+<td>Spécifie la procédure d'échantillonnage si « Autre » a été sélectionné ci-dessus.</td>
+<td>Other sampling mode, details</td>
+<td>Specifies the sampling procedure if ‘Other’ was selected above.</td>
+<td><i>string</i></td>
+<td>0-1</td>
+</tr>
+<tr>
+<td>E-095</td>
+<td><strong>RecruitmentSource</strong></td>
+<td>Source de recrutement des participants</td>
+<td>Décrit l’origine ou le canal utilisé pour identifier et inclure les participants dans l’étude</td>
+<td>Participants recruitment source</td>
+<td>Describes the origin or channel used to identify and include participants in the study.</td>
+<td><a href="https://portail-fresh.github.io/technical-documentation/en/ControlledVocabularies/RecruitmentSource/"><i>Participant recruitment source</i></a></td>
+<td>1-n</td>
+</tr>
+<tr>
+<td>E-095</td>
+<td><strong>RecruitmentSourceOther</strong></td>
+<td>Autre source de recrutement, précisions</td>
+<td>Spécifie la source de recrutement si « Autre » a été sélectionné ci-dessus.</td>
+<td>Other recruitment source, details</td>
+<td>Specify the recruitment source if ‘Other’ was selected above.</td>
+<td><i>string</i></td>
+<td>0-1</td>
+</tr>
+<tr>
+<td>S-044</td>
+<td><strong>ActiveFollowUp</strong></td>
+<td>Suivi actif des participants</td>
+<td>Le suivi actif désigne une procédure systématique de collecte d’informations auprès des participants après leur inclusion dans l’étude, à l’initiative de l’équipe de recherche.</td>
+<td>Active follow-up</td>
+<td>Active follow-up refers to a systematic process of collecting information from participants after their inclusion in the study, initiated by the research team.</td>
+<td><i>section</i></td>
+<td>0-1</td>
+</tr>
+<tr>
+<td>E-098</td>
+<td><strong>IsActiveFollowUp</strong></td>
+<td>Un suivi actif des participants est-il réalisé ?</td>
+<td>Indique si les participants font l’objet d’un suivi actif dans le cadre de l’étude et la modalité du suivi</td>
+<td>It is an active follow-up?</td>
+<td>Indicates whether participants are followed over time within the study and the method used.</td>
+<td><i>boolean</i></td>
+<td>1</td>
+</tr>
+<tr>
+<td>E-099</td>
+<td><strong>FollowUpMode</strong></td>
+<td>Modalités du suivi actif</td>
+<td>Indique les modalités du suivi actif des participants</td>
+<td>Follow-up method</td>
+<td>Indicates the ways of active follow-up of participants.</td>
+<td><a href="https://portail-fresh.github.io/technical-documentation/en/ControlledVocabularies/FollowUpMode/"><i>Follow-up method</i></a></td>
+<td>1-n</td>
+</tr>
+<tr>
+<td>E-100</td>
+<td><strong>FollowUpModeOther</strong></td>
+<td>Autre modalité de suivi, précisions</td>
+<td>Spécifie la modalité de suivi si « Autre » a été sélectionné ci-dessus.</td>
+<td>Other follow-up method, details</td>
+<td>Specifies the follow-up method if ‘Other’ was selected above.</td>
+<td><i>string</i></td>
+<td>0-1</td>
+</tr>
+<tr>
+<td>S-052</td>
+<td><strong>DataTypes</strong></td>
+<td>Types de données</td>
+<td>Décrit les types de données recueillies au cours de l'étude auprès des participants</td>
+<td>Data types</td>
+<td>Describes the types of data collected directly from study participants during the study</td>
+<td><i>section</i></td>
+<td>1</td>
+</tr>
+<tr>
+<td>E-119</td>
+<td><strong>DataType</strong></td>
+<td>Type de données</td>
+<td>Sélection, à partir d’une liste prédéfinie, du ou des types de données collectées dans l’étude</td>
+<td>Data type</td>
+<td>Selection, from a predefined list, of the type(s) of data collected in the study</td>
+<td><a href="https://portail-fresh.github.io/technical-documentation/en/ControlledVocabularies/data-type/"><i>Data type</i></a></td>
+<td>1-n</td>
+</tr>
+<tr>
+<td>E-124</td>
+<td><strong>DataTypeOther</strong></td>
+<td>Autre type de données, précisions</td>
+<td>Spécifie le type de données si « Autre » a été sélectionné ci-dessus.</td>
+<td>Other data type, details</td>
+<td>Specifies the data type if “Other” was selected above.</td>
+<td><i>string</i></td>
+<td>0-1</td>
+</tr>
+<tr>
+<td>E-120</td>
+<td><strong>ClinicalDataDetails</strong></td>
+<td>Données cliniques, précisions</td>
+<td>Précisions concernant les données cliniques collectées</td>
+<td>Clinical data, details</td>
+<td>Details regarding the clinical data collected</td>
+<td><i>string</i></td>
+<td>0-1</td>
+</tr>
+<tr>
+<td>E-198</td>
+<td><strong>ParaclinicalDataOther</strong></td>
+<td>Autres données paracliniques (hors biologiques), précisions</td>
+<td>Spécifie le type de données paracliniques (hors biologiques) si « Autre » a été sélectionné ci-dessus.</td>
+<td>Other paraclinical data (non-biological), details</td>
+<td>Specify the type of paraclinical data (non-biological)</td>
+<td><i>string</i></td>
+<td>0-1</td>
+</tr>
+<tr>
+<td>E-121</td>
+<td><strong>BiologicalDataDetails</strong></td>
+<td>Données biologiques, précisions</td>
+<td>Précisions concernant les données biologiques collectées</td>
+<td>Biological data, details</td>
+<td>Details regarding the biological data collected</td>
+<td><i>string</i></td>
+<td>0-1</td>
+</tr>
+<tr>
+<td>E-122</td>
+<td><strong>isDataInBiobank</strong></td>
+<td>Présence d'échantillons de données biologiques dans une biobanque ?</td>
+<td>Indique si une collection d’échantillons biologiques est conservée et mis à disposition au sein d'une biobanque</td>
+<td>Presence of biological data samples in a biobank ?</td>
+<td>Indicates whether a collection of biological samples is stored and made available in a biobank.</td>
+<td><i>boolean</i></td>
+<td>0-1</td>
+</tr>
+<tr>
+<td>E-123</td>
+<td><strong>BiobankContent</strong></td>
+<td>Nature des échantillons</td>
+<td>Sélection, à partir d’une liste prédéfinie, du ou des types d'échantillons contenus dans la biobanque</td>
+<td>Nature of samples</td>
+<td>Selection, from a predefined list, of the type(s) of samples contained in the biobank</td>
+<td><a href="https://portail-fresh.github.io/technical-documentation/en/ControlledVocabularies/BiobankContent/"><i>Nature of samples</i></a></td>
+<td>1-n</td>
+</tr>
+<tr>
+<td>E-155</td>
+<td><strong>BiobankContentOther</strong></td>
+<td>Autre échantillon, précisions</td>
+<td></td>
+<td>Other sample, details</td>
+<td></td>
+<td><i>string</i></td>
+<td>0-1</td>
+</tr>
+<tr>
+<td>E-156</td>
+<td><strong>OtherLiquidsDetails</strong></td>
+<td>Autres liquides ou sécrétions biologiques, précisions</td>
+<td></td>
+<td>Other fluids and secretions, details</td>
+<td></td>
+<td><i>string</i></td>
+<td>0-1</td>
+</tr>
+<tr>
+<td>E-101</td>
+<td><strong>IsDataIntegration</strong></td>
+<td>Des données individuelles provenant d'autres sources sont-elles réutilisées dans le cadre de cette étude ?</td>
+<td>Indique si les données individuelles préexistantes issues de sources tierces ont été utilisées dans le cadre de l'étude</td>
+<td>Are individual data from other sources reused in this study?</td>
+<td>Indicates whether pre-existing individual data from third-party sources were used in the study.</td>
+<td><i>boolean</i></td>
+<td>1</td>
+</tr>
+<tr>
+<td>S-066</td>
+<td><strong>DataIntegration</strong></td>
+<td>Réutilisation de données existantes</td>
+<td>La réutilisation de données existantes désigne le recours, dans le cadre de l’étude, à des données déjà collectées pour un autre objectif (recherche antérieure, registre, base administrative, dossier médical, etc.), sans nouvelle collecte directe auprès des participants.</td>
+<td>Reuse of existing data</td>
+<td>The reuse of existing data refers to the use, within the study, of data previously collected for another purpose (such as a prior research project, registry, administrative database, or medical record), without new data collection directly from participants.</td>
+<td><i>section</i></td>
+<td>-</td>
+</tr>
+<tr>
+<td>E-020</td>
+<td><strong>ConformityDeclaration</strong></td>
+<td>Déclaration de conformité</td>
+<td>Engagement formel qu’un projet de recherche respecte l’ensemble des conditions fixées par une Méthodologie de Référence (MR) de la CNIL, permettant d’utiliser des données de santé sans autorisation spécifique.</td>
+<td>Declaration of conformity</td>
+<td>Formal statement that a research project complies with all requirements of a CNIL Reference Methodology, allowing the use of health data without specific authorisation.</td>
+<td><a href="https://portail-fresh.github.io/technical-documentation/en/ControlledVocabularies/ConformityDeclaration/"><i>Declaration of conformity</i></a></td>
+<td>0-1</td>
+</tr>
+<tr>
+<td>S-045</td>
+<td><strong>ThirdPartySource</strong></td>
+<td>Informations concernant les données réutilisées pour l'étude</td>
+<td>Cette section décrit les sources des données préexistantes réutilisées dans le cadre de l'étude</td>
+<td>Information concerning data reused for the study</td>
+<td>This section describes the sources of pre-existing data reused in the study</td>
+<td><i>section</i></td>
+<td>1-n</td>
+</tr>
+<tr>
+<td>E-102</td>
+<td><strong>SourceName</strong></td>
+<td>Description de la source</td>
+<td>Toute information supplémentaire caractérisant la source ( nom, origine, qualité, modalités d'accès, liens eventuels)</td>
+<td>Source description</td>
+<td>Any additional information characterising the source (name, origin, quality, access methods, any links)</td>
+<td><i>string</i></td>
+<td>0-1</td>
+</tr>
+<tr>
+<td>E-157</td>
+<td><strong>SourceId</strong></td>
+<td>Identifiant de la source</td>
+<td></td>
+<td>Source identifier</td>
+<td></td>
+<td><i>string</i></td>
+<td>0-1</td>
+</tr>
+<tr>
+<td>E-103</td>
+<td><strong>SourceType</strong></td>
+<td>Type de source</td>
+<td>Type de source des données utilisées</td>
+<td>Source type</td>
+<td>Type of data source used</td>
+<td><a href="https://portail-fresh.github.io/technical-documentation/en/ControlledVocabularies/SourceType/"><i>Source type</i></a></td>
+<td>1-n</td>
+</tr>
+<tr>
+<td>E-104</td>
+<td><strong>SourcePurpose</strong></td>
+<td>Objectif de l'intégration de la source</td>
+<td>Finalité de l’utilisation de la source dans le cadre de l'étude</td>
+<td>Source integration purpose</td>
+<td>Purpose of using the source in the study</td>
+<td><a href="https://portail-fresh.github.io/technical-documentation/en/ControlledVocabularies/SourcePurpose/"><i>Source purpose</i></a></td>
+<td>1</td>
+</tr>
+<tr>
+<td>E-105</td>
+<td><strong>OtherSourceType</strong></td>
+<td>Autre type de source, précisions</td>
+<td>Indique le type de source lorsqu’il ne correspond pas aux options proposées</td>
+<td>Other source type, details</td>
+<td>Indicate the type of source when it does not correspond to the options provided</td>
+<td><i>string</i></td>
+<td>0-1</td>
+</tr>
+<tr>
+<td>S-053</td>
+<td><strong>DataAccess</strong></td>
+<td>Accès aux données</td>
+<td>Cette section décrit différents aspects d'accès aux données recueillies au cours de l'étude.</td>
+<td>Data access</td>
+<td>This section describes various aspects of accessing the data collected during the study.</td>
+<td><i>section</i></td>
+<td>1</td>
+</tr>
+<tr>
+<td>S-057</td>
+<td><strong>DataQuality</strong></td>
+<td>Qualité des données</td>
+<td>Informations sur les procédures et outils mis en place pour assurer la qualité, la cohérence et la traçabilité des données collectées dans l’étude.</td>
+<td>Data quality</td>
+<td>Information on the procedures and tools implemented to ensure the quality, consistency, and traceability of data collected in the study.</td>
+<td><i>section</i></td>
+<td>1</td>
+</tr>
+<tr>
+<td>E-140</td>
+<td><strong>UsedStandards</strong></td>
+<td>Standard(s) ou nomenclature(s) employé(s)</td>
+<td>Normes, classifications ou terminologies utilisées pour coder et structurer les données (ex. : ICD-10, LOINC, SNOMED CT)</td>
+<td>Standard(s) or nomenclature(s) used</td>
+<td>Standards, classifications, or terminologies used to code and structure data (e.g., ICD-10, LOINC, SNOMED CT)</td>
+<td><i>string</i></td>
+<td>0-n</td>
+</tr>
+<tr>
+<td>E-141</td>
+<td><strong>QualityProcedure</strong></td>
+<td>Procédure qualité utilisée</td>
+<td>Méthodes et contrôles appliqués pour garantir l’exactitude, la complétude et la cohérence des données (ex. : validation, audit, double saisie)</td>
+<td>Quality procedure used</td>
+<td></td>
+<td><i>string</i></td>
+<td>0-n</td>
+</tr>
+<tr>
+<td>S-067</td>
+<td><strong>DataAvailability</strong></td>
+<td>Disponibilité du jeu de données</td>
+<td></td>
+<td>Data availability</td>
+<td></td>
+<td><i>section</i></td>
+<td>-</td>
+</tr>
+<tr>
+<td>E-125</td>
+<td><strong>IndividualDataAccess</strong></td>
+<td>Accès aux données individuelles</td>
+<td>Statut de disponibilité des données individuelles à la fin de la collecte</td>
+<td>Access to individual data</td>
+<td>Individual data availability status at the end of the collect</td>
+<td><a href="https://portail-fresh.github.io/technical-documentation/en/ControlledVocabularies/IndividualDataAccess/"><i>Access to individual data</i></a></td>
+<td>1</td>
+</tr>
+<tr>
+<td>E-126</td>
+<td><strong>AggregatedDataAccess</strong></td>
+<td>Modalités de mise à disposition des données agrégées</td>
+<td>Modalités de mise à disposition des données agrégées</td>
+<td>Conditions under which the aggregated data are made available</td>
+<td></td>
+<td><i>string</i></td>
+<td>0-1</td>
+</tr>
+<tr>
+<td>S-054</td>
+<td><strong>DataAccessRequestTool</strong></td>
+<td>Outil de demande d'accès aux données</td>
+<td>Cette section regroupe les informations relatives à l’existence éventuelle d’un outil d'accès aux données</td>
+<td>Data access request tool</td>
+<td>This section contains information about the possible presence of a data access request tool</td>
+<td><i>section</i></td>
+<td>0-1</td>
+</tr>
+<tr>
+<td>E-127</td>
+<td><strong>DataAccessRequestToolAvailable</strong></td>
+<td>Existe-t-il un outil de demande d'accès aux données ?</td>
+<td>Indique si un outil (plateforme, formulaire en ligne ou autre système) permettant de formuler une demande d’accès aux données est disponible.</td>
+<td>A data access request tool is it available ?</td>
+<td>Indicates whether a tool (platform, online form, or other system) is available for submitting a request for access to data.</td>
+<td><i>boolean</i></td>
+<td>0-1</td>
+</tr>
+<tr>
+<td>E-128</td>
+<td><strong>DataAccessRequestToolLocation</strong></td>
+<td>Lien vers l'outil de demande d'accès</td>
+<td>Fournit l’URL ou la référence donnant accès à cet outil lorsque celui-ci est disponible.</td>
+<td>Link to the data access request tool</td>
+<td>Provides the URL or reference giving access to this tool when it is available.</td>
+<td><i>string</i></td>
+<td>0-1</td>
+</tr>
+<tr>
+<td>E-134</td>
+<td><strong>DataFileCompleteness</strong></td>
+<td>Complétude des fichiers des données</td>
+<td>Indique l'écart éventuel entre les données collectées et les données disponibles. Il permet de préciser, le cas échéant, les raisons pour lesquelles certains éléments collectés n’ont pas été inclus dans le fichier de données partagées (par exemple, les éléments directement identifiants).</td>
+<td>Data file completeness</td>
+<td>Indicates any discrepancy between the data collected and the data available. It allows you to specify, where applicable, the reasons why certain items collected have not been included in the shared data file (e.g. items that directly identify individuals).</td>
+<td><i>string</i></td>
+<td>0-1</td>
+</tr>
+<tr>
+<td>E-136</td>
+<td><strong>DataLocation</strong></td>
+<td>Localisation des données</td>
+<td>Emplacement où les données collectées sont actuellement stockées.</td>
+<td>Data location</td>
+<td>Location where the data collection is currently stored.</td>
+<td><i>string</i></td>
+<td>0-1</td>
+</tr>
+<tr>
+<td>S-068</td>
+<td><strong>UseStatement</strong></td>
+<td>Conditions d'usage</td>
+<td></td>
+<td>Use conditions</td>
+<td></td>
+<td><i>section</i></td>
+<td>-</td>
+</tr>
+<tr>
+<td>E-129</td>
+<td><strong>AccessConditions</strong></td>
+<td>Conditions d'accès aux données</td>
+<td>Toute information supplémentaire susceptible d'aider l'utilisateur à comprendre les conditions d'accès et d'utilisation de la collecte de données (par exemple, contacter l'investigateur principal pour plus d'information)</td>
+<td>Data access conditions</td>
+<td>Any additional information that will assist the user in understanding the access and use conditions of the data collection (for example, contact the principal investigator for more information).</td>
+<td><i>string</i></td>
+<td>0-1</td>
+</tr>
+<tr>
+<td>E-130</td>
+<td><strong>AccessRestrictions</strong></td>
+<td>Restrictions d'accès</td>
+<td>Toute restriction relative à l'accès ou à l'utilisation du recueil de données, telle que la certification de confidentialité ou les restrictions de distribution, doit être indiquée ici. Il peut s'agir de restrictions appliquées par l'auteur, le producteur ou le diffuseur des données.</td>
+<td>Access restrictions</td>
+<td>Any restrictions on access to or use of the data collection such as privacy certification or distribution restrictions should be indicated here. These can be restrictions applied by the author, producer, or disseminator of the data.</td>
+<td><i>string</i></td>
+<td>0-1</td>
+</tr>
+<tr>
+<td>E-131</td>
+<td><strong>AdditionalDataAccessLink</strong></td>
+<td>Lien vers le plan de partage des données ou vers une documentation relative à l'accès aux données</td>
+<td>Indique une URL ou une référence pointant vers le plan de partage ou vers une page ou un document décrivant plus en détail les conditions et procédures d’accès aux données.</td>
+<td>Link to sharing plan or to documentation relating to data access.</td>
+<td>Provides a URL or reference to a sharing plan or to a page or document that describes in more detail the conditions and procedures for accessing the data.</td>
+<td><i>string</i></td>
+<td>0-1</td>
+</tr>
+<tr>
+<td>E-137</td>
+<td><strong>NonDisclosureAgreement</strong></td>
+<td>Accord de confidentialité</td>
+<td>Indique si la signature d’une déclaration de confidentialité est requise pour accéder à la ressource.</td>
+<td>Non-disclosure agreement</td>
+<td>Indicates whether a confidentiality agreement must be signed in order to access the resource.</td>
+<td><i>string</i></td>
+<td>0-1</td>
+</tr>
+<tr>
+<td>S-073</td>
+<td><strong>DataInformationContact</strong></td>
+<td>Personne à contacter pour des renseignements concernant les données</td>
+<td>Noms et adresses des personnes impliquées dans l'étude, à contacter pour obtenir les renseignements concernant les données. Elles peuvent être sollicitées en tant que personnes ressources pour les problèmes ou questions soulevés par les utilisateurs.</td>
+<td>Contact person for data information</td>
+<td>Names and addresses of individuals involved in the study who can be contacted for information about the data. They can be consulted as resource persons for problems or questions raised by users.</td>
+<td><i>section</i></td>
+<td>0-n</td>
+</tr>
+<tr>
+<td>E-183</td>
+<td><strong>DIContactName</strong></td>
+<td>Prénom NOM du contact</td>
+<td></td>
+<td>First name LAST NAME of the contact</td>
+<td></td>
+<td><i>string</i></td>
+<td>1</td>
+</tr>
+<tr>
+<td>E-184</td>
+<td><strong>DIContactMail</strong></td>
+<td>Email du contact</td>
+<td></td>
+<td>Contact email</td>
+<td></td>
+<td><i>email</i></td>
+<td>0-1</td>
+</tr>
+<tr>
+<td>S-055</td>
+<td><strong>DataCitation</strong></td>
+<td>Obligations liées à l’usage des données</td>
+<td>Indique les responsabilités de l’utilisateur vis-à-vis des données</td>
+<td>Obligations related to data use</td>
+<td>Indicates the user's responsibilities with regard to data</td>
+<td><i>section</i></td>
+<td>0-1</td>
+</tr>
+<tr>
+<td>E-132</td>
+<td><strong>DataCitationRequirement</strong></td>
+<td>Obligation de transmission des travaux</td>
+<td>Indique l’obligation pour les utilisateurs d’informer le producteur et le distibuteur des données de toute utilisation des données, en fournissant les références des publications ou des copies des papiers s’appuyant sur ces données.</td>
+<td>Reporting requirement</td>
+<td>Indicates the obligation for users to inform the data producer and distributor of any use of the data, providing references to publications or copies of papers based on this data.</td>
+<td><i>string</i></td>
+<td>0-1</td>
+</tr>
+<tr>
+<td>E-133</td>
+<td><strong>DataCitationStatement</strong></td>
+<td>Obligation de citation</td>
+<td>Exigence selon laquelle un recueil de données doit être correctement cité dans les articles ou autres publications basés sur l'analyse de ces données.</td>
+<td>Citation requirement</td>
+<td>Requirement that a data collection should be cited properly in articles or other publications that are based on analysis of the data.</td>
+<td><i>string</i></td>
+<td>0-1</td>
+</tr>
+<tr>
+<td>S-058</td>
+<td><strong>VariableDictionnary</strong></td>
+<td>Dictionnaire des variables</td>
+<td>Document listant et décrivant toutes les variables collectées, leur format, unités et modalités de codage.</td>
+<td>Data dictionary</td>
+<td>Document listing and describing all collected variables, their format, units, and coding modalities.</td>
+<td><i>section</i></td>
+<td>0-1</td>
+</tr>
+<tr>
+<td>E-142</td>
+<td><strong>VariableDictionnaryAvailable</strong></td>
+<td>Existe-t-il un dictionnaire des variables ?</td>
+<td>Existence d’un dictionnaire des variables</td>
+<td>A data dictionary is it available ?</td>
+<td>Presence of a data dictionary</td>
+<td><i>boolean</i></td>
+<td>1</td>
+</tr>
+<tr>
+<td>E-143</td>
+<td><strong>VariableDictionnaryLink</strong></td>
+<td>Lien vers le dictionnaire des variables</td>
+<td>URL ou adresse permettant d’accéder au dictionnaire des variables lorsque celui-ci est disponible.</td>
+<td>Link to the data dictionary</td>
+<td>URL or address providing access to the data dictionary when it is available.</td>
+<td><i>string</i></td>
+<td>0-1</td>
+</tr>
+<tr>
+<td>S-056</td>
+<td><strong>MockSample</strong></td>
+<td>Echantillon fictif</td>
+<td>Cette section regroupe les informations relatives à l’existence éventuelle d’un échantillon fictif (données simulées ou anonymisées à des fins de test ou de démonstration)</td>
+<td>Mock sample</td>
+<td>This section contains information about the possible existence of a synthetic sample (simulated or anonymised data for testing or demonstration purposes).</td>
+<td><i>section</i></td>
+<td>0-1</td>
+</tr>
+<tr>
+<td>E-138</td>
+<td><strong>MockSampleAvailable</strong></td>
+<td>Un échantillon fictif du jeu de données est-il disponible ?</td>
+<td>Indique si un échantillon fictif du jeu de données est disponible</td>
+<td>A mock sample is it available ?</td>
+<td>Indicate whether a synthetic sample of the dataset is available.</td>
+<td><i>boolean</i></td>
+<td>0-1</td>
+</tr>
+<tr>
+<td>E-139</td>
+<td><strong>MockSampleLocation</strong></td>
+<td>Lien vers l'échantillon fictif ou vers les renseignements pour y accéder</td>
+<td>Si un échantillon fictif est disponible, fournir un lien ou des précisions pour y accéder.</td>
+<td>Link to the sample of to information on how to access it</td>
+<td>If a synthetic sample is available, provide a link or details on how to access it.</td>
+<td><i>string</i></td>
+<td>0-1</td>
+</tr>
+<tr>
+<td>E-144</td>
+<td><strong>OtherDocumentation</strong></td>
+<td>Documentation complémentaire sur les données</td>
+<td>Tout autre document utile pour comprendre et réutiliser les données (protocoles de collecte, guides de codage, procédures de nettoyage, métadonnées complémentaires)</td>
+<td>Additional documentation on data</td>
+<td>Any other document useful for understanding and reusing the data (collection protocols, coding guides, cleaning procedures, additional metadata)</td>
+<td><i>string</i></td>
+<td>0-1</td>
+</tr>
+<tr>
+<td>S-059</td>
+<td><strong>DatasetPID</strong></td>
+<td>Identification pérenne du jeu de données</td>
+<td>Identifiant unique et stable permettant de référencer durablement le jeu de données, indépendamment de son emplacement technique</td>
+<td>Persistent identifier of the dataset</td>
+<td>A unique and stable identifier that allows the dataset to be referenced permanently, regardless of its technical location.</td>
+<td><i>section</i></td>
+<td>0-n</td>
+</tr>
+<tr>
+<td>E-147</td>
+<td><strong>PIDSchema</strong></td>
+<td>Type d'identifiant du jeu de données</td>
+<td>Type de l’identifiant pérenne utilisé</td>
+<td>Identifier type of the dataset</td>
+<td>Type of persistent identifier used</td>
+<td><a href="https://portail-fresh.github.io/technical-documentation/en/ControlledVocabularies/DatasetPIDSchema/"><i>Identifier type of the dataset</i></a></td>
+<td>0-1</td>
+</tr>
+<tr>
+<td>E-146</td>
+<td><strong>URI</strong></td>
+<td>Identifiant du jeu de données</td>
+<td>Code ou référence unique permettant d’identifier et de retrouver le jeu de données.</td>
+<td>Dataset identifier</td>
+<td>Unique code or reference used to identify and locate the dataset.</td>
+<td><i>url</i></td>
+<td>0-1</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td>Il peut être attribué par le producteur ou par l’hébergeur des données, ou correspondre à un identifiant persistant international (ex. DOI).</td>
+<td></td>
+<td>It may be assigned by the data producer or the data host, or correspond to an international persistent identifier (e.g., DOI).</td>
+<td></td>
+<td>-</td>
+</tr>
+<tr>
+<td>S-060</td>
+<td><strong>RelatedDocument</strong></td>
+<td>Documents connexes</td>
+<td>Dans cette section, vous pouvez signaler tout document pertinent relatif à l’étude et accessible sur le web.</td>
+<td>Related documents</td>
+<td>In this section, you can report any relevant documents related to the study available on the web.</td>
+<td><i>section</i></td>
+<td>0-n</td>
+</tr>
+<tr>
+<td>E-193</td>
+<td><strong>DocumentType</strong></td>
+<td>Type de document</td>
+<td>Type du document connexe</td>
+<td>Document type</td>
+<td>Type of related document</td>
+<td><a href="https://portail-fresh.github.io/technical-documentation/en/ControlledVocabularies/DocumentType/"><i>Document type</i></a></td>
+<td>0-1</td>
+</tr>
+<tr>
+<td>E-194</td>
+<td><strong>DocumentTitle</strong></td>
+<td>Titre du document</td>
+<td></td>
+<td>Document title</td>
+<td></td>
+<td><i>string</i></td>
+<td>0-1</td>
+</tr>
+<tr>
+<td>E-195</td>
+<td><strong>DocumentLink</strong></td>
+<td>Lien vers le document</td>
+<td>Lien permettant d’accéder au document</td>
+<td>Document link</td>
+<td>Link to access the document</td>
+<td><i>string</i></td>
+<td>0-1</td>
 </tr>
 </tbody>
 </table>
