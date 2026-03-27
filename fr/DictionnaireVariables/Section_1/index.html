@@ -1338,403 +1338,357 @@
 <h1 id="1-informations-relatives-a-letude">1. Informations relatives à l'étude</h1>
 <table>
 <thead>
-<tr>
-<th style="text-align: left;">ID Element</th>
-<th style="text-align: left;">Nom Variable</th>
-<th style="text-align: left;">Titre FR</th>
-<th style="text-align: left;">Description FR</th>
-<th style="text-align: left;">Titre EN</th>
-<th style="text-align: left;">Description EN</th>
-<th style="text-align: left;">Type Variable</th>
-<th style="text-align: right;">Min Occur</th>
-<th style="text-align: left;">Max Occur</th>
+<tr BGCOLOR="#00a6e2">
+<th style="color:#FFFFFF;">PID FReSH</th>
+<th style="color:#FFFFFF;">Nom Variable</th>
+<th style="color:#FFFFFF;">Titre FR</th>
+<th style="color:#FFFFFF;">Description FR</th>
+<th style="color:#FFFFFF;">Titre EN</th>
+<th style="color:#FFFFFF;">Description EN</th>
+<th style="color:#FFFFFF;">Type de données</th>
+<th style="color:#FFFFFF;">Cardinalité</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align: left;">2.</td>
-<td style="text-align: left;"><strong>StudyRelatedInfo</strong></td>
-<td style="text-align: left;">Informations relatives à l'étude</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;">Study related informations</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;">section</td>
-<td style="text-align: right;">1</td>
-<td style="text-align: left;">1</td>
+<td>S-064</td>
+<td><strong>StudyRelatedInfo</strong></td>
+<td>Informations relatives à l'étude</td>
+<td></td>
+<td>Study related informations</td>
+<td></td>
+<td><i>section</i></td>
+<td>1</td>
 </tr>
 <tr>
-<td style="text-align: left;">2.1</td>
-<td style="text-align: left;"><strong>StudyOverview</strong></td>
-<td style="text-align: left;">Présentation de l'étude</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;">Study overview</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;">section</td>
-<td style="text-align: right;">1</td>
-<td style="text-align: left;">1</td>
+<td>S-063</td>
+<td><strong>StudyOverview</strong></td>
+<td>Présentation de l'étude</td>
+<td></td>
+<td>Study overview</td>
+<td></td>
+<td><i>section</i></td>
+<td>1</td>
 </tr>
 <tr>
-<td style="text-align: left;">2.1.a</td>
-<td style="text-align: left;"><strong>Title</strong></td>
-<td style="text-align: left;">Titre de l'étude</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;">Study title</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;">texte libre</td>
-<td style="text-align: right;">1</td>
-<td style="text-align: left;">1</td>
+<td>E-016</td>
+<td><strong>Title</strong></td>
+<td>Titre de l'étude</td>
+<td></td>
+<td>Study title</td>
+<td></td>
+<td><i>string</i></td>
+<td>1</td>
 </tr>
 <tr>
-<td style="text-align: left;">2.1.b</td>
-<td style="text-align: left;"><strong>Acronym</strong></td>
-<td style="text-align: left;">Acronyme de l'étude</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;">Study acronym</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;">texte libre</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: left;">1</td>
+<td>E-017</td>
+<td><strong>Acronym</strong></td>
+<td>Acronyme de l'étude</td>
+<td></td>
+<td>Study acronym</td>
+<td></td>
+<td><i>string</i></td>
+<td>0-1</td>
 </tr>
 <tr>
-<td style="text-align: left;">2.1.c</td>
-<td style="text-align: left;"><strong>StudyStatus</strong></td>
-<td style="text-align: left;">Statut actuel de l'étude</td>
-<td style="text-align: left;">Indique le statut actuel de l'étude</td>
-<td style="text-align: left;">Current study status</td>
-<td style="text-align: left;">Indicates the current status of the study</td>
-<td style="text-align: left;">choix unique</td>
-<td style="text-align: right;">1</td>
-<td style="text-align: left;">1</td>
+<td>E-051</td>
+<td><strong>StudyStatus</strong></td>
+<td>Statut actuel de l'étude</td>
+<td>Indique le statut actuel de l'étude</td>
+<td>Current study status</td>
+<td>Indicates the current status of the study</td>
+<td><a href="https://portail-fresh.github.io/technical-documentation/fr/VocabulairesControles/StudyStatus/"><i>Statut de l'étude</i></a></td>
+<td>1</td>
 </tr>
 <tr>
-<td style="text-align: left;">2.1.d</td>
-<td style="text-align: left;"><strong>Purpose</strong></td>
-<td style="text-align: left;">Objectifs de l'étude</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;">Study objectives</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;">texte libre</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: left;">1</td>
+<td>E-052</td>
+<td><strong>Purpose</strong></td>
+<td>Objectifs de l'étude</td>
+<td></td>
+<td>Study objectives</td>
+<td></td>
+<td><i>string</i></td>
+<td>0-1</td>
 </tr>
 <tr>
-<td style="text-align: left;">2.1.e</td>
-<td style="text-align: left;"><strong>Summary</strong></td>
-<td style="text-align: left;">Résumé de l'étude</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;">Study summary</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;">texte libre</td>
-<td style="text-align: right;">1</td>
-<td style="text-align: left;">1</td>
+<td>E-053</td>
+<td><strong>Summary</strong></td>
+<td>Résumé de l'étude</td>
+<td></td>
+<td>Study summary</td>
+<td></td>
+<td><i>string</i></td>
+<td>1</td>
 </tr>
 <tr>
-<td style="text-align: left;">2.1.f</td>
-<td style="text-align: left;"><strong>Keyword</strong></td>
-<td style="text-align: left;">Mots-clés libres</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;">Free keywords</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;">texte libre</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: left;">Inf.</td>
+<td>E-056</td>
+<td><strong>Keyword</strong></td>
+<td>Mots-clés libres</td>
+<td></td>
+<td>Free keywords</td>
+<td></td>
+<td><i>string</i></td>
+<td>0-n</td>
 </tr>
 <tr>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;">ST : A séparer par un point-virgule</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;">ST : To separate by a semicolon</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-<td style="text-align: right;"></td>
-<td style="text-align: left;"></td>
+<td>S-028</td>
+<td><strong>Theme</strong></td>
+<td>Thématique</td>
+<td>Section dédiée aux aspects thématiques de l’étude</td>
+<td>Theme</td>
+<td>Section dedicated to the thematic aspects of the study</td>
+<td><i>section</i></td>
+<td>1</td>
 </tr>
 <tr>
-<td style="text-align: left;">2.2</td>
-<td style="text-align: left;"><strong>Theme</strong></td>
-<td style="text-align: left;">Thématique</td>
-<td style="text-align: left;">Section dédiée aux aspects thématiques de l’étude</td>
-<td style="text-align: left;">Theme</td>
-<td style="text-align: left;">Section dedicated to the thematic aspects of the study</td>
-<td style="text-align: left;">section</td>
-<td style="text-align: right;">1</td>
-<td style="text-align: left;">1</td>
+<td>E-169</td>
+<td><strong>IsHealthTheme</strong></td>
+<td>L'étude porte-t-elle sur une ou plusieurs spécialité(s) médicale(s) ?</td>
+<td></td>
+<td>Does the study cover one or more medical speciality(ies)?</td>
+<td></td>
+<td><i>boolean</i></td>
+<td>1</td>
 </tr>
 <tr>
-<td style="text-align: left;">2.2.a</td>
-<td style="text-align: left;"><strong>IsHealthTheme</strong></td>
-<td style="text-align: left;">L'étude porte-t-elle sur une ou plusieurs spécialité(s) médicale(s) ?</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;">Does the study cover one or more medical speciality(ies)?</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;">boolean</td>
-<td style="text-align: right;">1</td>
-<td style="text-align: left;">1</td>
+<td>E-054</td>
+<td><strong>HealthTheme</strong></td>
+<td>Spécialité(s) médicale(s) concernée(s)</td>
+<td>Spécialités médicales auxquelles se rapporte l'étude</td>
+<td>Medical speciality(ies) concerned</td>
+<td>Medical specialties covered by the study</td>
+<td><a href="https://portail-fresh.github.io/technical-documentation/fr/VocabulairesControles/health-theme/"><i>Spécialité médicales</i></a></td>
+<td>0-n</td>
 </tr>
 <tr>
-<td style="text-align: left;">2.2.b</td>
-<td style="text-align: left;"><strong>HealthTheme</strong></td>
-<td style="text-align: left;">Spécialité(s) médicale(s) concernée(s)</td>
-<td style="text-align: left;">Spécialités médicales auxquelles se rapporte l'étude</td>
-<td style="text-align: left;">Medical speciality(ies) concerned</td>
-<td style="text-align: left;">Medical specialties covered by the study</td>
-<td style="text-align: left;">choix multiple</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: left;">Inf.</td>
+<td>E-186</td>
+<td><strong>OtherHealthTheme</strong></td>
+<td>Autre spécialité médicale, précisions</td>
+<td></td>
+<td>Other medical specialty, details</td>
+<td></td>
+<td><i>string</i></td>
+<td>0-1</td>
 </tr>
 <tr>
-<td style="text-align: left;">2.2.c</td>
-<td style="text-align: left;"><strong>OtherHealthTheme</strong></td>
-<td style="text-align: left;">Autre spécialité médicale, précisions</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;">Other medical specialty, details</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;">texte libre</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: left;">1</td>
+<td>E-057</td>
+<td><strong>HealthDeterminant</strong></td>
+<td>Déterminants de santé</td>
+<td>Facteurs personnels, sociaux, économiques et environnementaux qui déterminent l’état de santé des individus ou des populations.</td>
+<td>Health determinants</td>
+<td>Personal, social, economic, and environmental factors that determine the health status of individuals or populations.</td>
+<td><a href="https://portail-fresh.github.io/technical-documentation/fr/VocabulairesControles/Health-determinant/"><i>Déterminant de santé</i></a></td>
+<td>0-n</td>
 </tr>
 <tr>
-<td style="text-align: left;">2.2.d</td>
-<td style="text-align: left;"><strong>HealthDeterminant</strong></td>
-<td style="text-align: left;">Déterminants de santé</td>
-<td style="text-align: left;">Facteurs personnels, sociaux, économiques et environnementaux qui déterminent l’état de santé des individus ou des populations.</td>
-<td style="text-align: left;">Health determinants</td>
-<td style="text-align: left;">Personal, social, economic, and environmental factors that determine the health status of individuals or populations.</td>
-<td style="text-align: left;">choix multiple</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: left;">Inf.</td>
+<td>E-172</td>
+<td><strong>OtherSocioDemoDeterminant</strong></td>
+<td>Autres déterminants socio-démographiques et économiques, précisions</td>
+<td></td>
+<td>Other socio-demographic and economic determinants, details</td>
+<td></td>
+<td><i>string</i></td>
+<td>0-1</td>
 </tr>
 <tr>
-<td style="text-align: left;">2.2.e</td>
-<td style="text-align: left;"><strong>OtherSocioDemoDeterminant</strong></td>
-<td style="text-align: left;">Autres déterminants socio-démographiques et économiques, précisions</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;">Other socio-demographic and economic determinants, details</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;">texte libre</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: left;">1</td>
+<td>E-173</td>
+<td><strong>OtherEnvironmentalDeterminant</strong></td>
+<td>Autres déterminants environnementaux, précisions</td>
+<td></td>
+<td>Other environmental determinants, details</td>
+<td></td>
+<td><i>string</i></td>
+<td>0-1</td>
 </tr>
 <tr>
-<td style="text-align: left;">2.2.f</td>
-<td style="text-align: left;"><strong>OtherEnvironmentalDeterminant</strong></td>
-<td style="text-align: left;">Autres déterminants environnementaux, précisions</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;">Other environmental determinants, details</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;">texte libre</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: left;">1</td>
+<td>E-174</td>
+<td><strong>OtherHealthcarSystemDeterminant</strong></td>
+<td>Autres déterminants liés au système de santé, précisions</td>
+<td></td>
+<td>Other healthcare system determinants, details</td>
+<td></td>
+<td><i>string</i></td>
+<td>0-1</td>
 </tr>
 <tr>
-<td style="text-align: left;">2.2.g</td>
-<td style="text-align: left;"><strong>OtherHealthcarSystemDeterminant</strong></td>
-<td style="text-align: left;">Autres déterminants liés au système de santé, précisions</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;">Other healthcare system determinants, details</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;">texte libre</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: left;">1</td>
+<td>E-175</td>
+<td><strong>OtherBehavioralDeterminant</strong></td>
+<td>Autres déterminants comportementaux, précisions</td>
+<td></td>
+<td>Other behavioral determinants, details</td>
+<td></td>
+<td><i>string</i></td>
+<td>0-1</td>
 </tr>
 <tr>
-<td style="text-align: left;">2.2.h</td>
-<td style="text-align: left;"><strong>OtherBehavioralDeterminant</strong></td>
-<td style="text-align: left;">Autres déterminants comportementaux, précisions</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;">Other behavioral determinants, details</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;">texte libre</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: left;">1</td>
+<td>E-176</td>
+<td><strong>OtherBiologicalDeterminant</strong></td>
+<td>Autres déterminants biologiques, précisions</td>
+<td></td>
+<td>Other biological determinants, details</td>
+<td></td>
+<td><i>string</i></td>
+<td>0-1</td>
 </tr>
 <tr>
-<td style="text-align: left;">2.2.i</td>
-<td style="text-align: left;"><strong>OtherBiologicalDeterminant</strong></td>
-<td style="text-align: left;">Autres déterminants biologiques, précisions</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;">Other biological determinants, details</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;">texte libre</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: left;">1</td>
+<td>E-177</td>
+<td><strong>OtherDeterminant</strong></td>
+<td>Autres déterminants, précisions</td>
+<td></td>
+<td>Other determinants, details</td>
+<td></td>
+<td><i>string</i></td>
+<td>0-1</td>
 </tr>
 <tr>
-<td style="text-align: left;">2.2.j</td>
-<td style="text-align: left;"><strong>OtherDeterminant</strong></td>
-<td style="text-align: left;">Autres déterminants, précisions</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;">Other determinants, details</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;">texte libre</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: left;">1</td>
+<td>E-055</td>
+<td><strong>Pathology</strong></td>
+<td>Pathologie(s), affection(s) ou diagnostic(s) ciblé(s) par l’étude</td>
+<td>Pathologies, affections ou diagnostics qui constituent l’objet principal de la recherche.</td>
+<td>Pathology(ies), condition(s) or diagnose(s) targeted by the study</td>
+<td>Pathology, condition, or diagnosis that constitutes the main focus of the research.</td>
+<td><a href="https://portail-fresh.github.io/technical-documentation/fr/VocabulairesControles/Pathology/"><i>CIM-11</i></a></td>
+<td>0-n</td>
 </tr>
 <tr>
-<td style="text-align: left;">2.2.k</td>
-<td style="text-align: left;"><strong>Pathology</strong></td>
-<td style="text-align: left;">Pathologie(s), affection(s) ou diagnostic(s) ciblé(s) par l’étude</td>
-<td style="text-align: left;">Pathologies, affections ou diagnostics qui constituent l’objet principal de la recherche.</td>
-<td style="text-align: left;">Pathology(ies), condition(s) or diagnose(s) targeted by the study</td>
-<td style="text-align: left;">Pathology, condition, or diagnosis that constitutes the main focus of the research.</td>
-<td style="text-align: left;">choix multiple</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: left;">Inf.</td>
+<td>E-059</td>
+<td><strong>RareDiseases</strong></td>
+<td>L'étude porte-t-elle sur une ou plusieurs maladie(s) rare(s) ?</td>
+<td></td>
+<td>Does the study cover one or more rare disease(s)?</td>
+<td></td>
+<td><i>boolean</i></td>
+<td>1</td>
 </tr>
 <tr>
-<td style="text-align: left;">2.2.l</td>
-<td style="text-align: left;"><strong>RareDiseases</strong></td>
-<td style="text-align: left;">L'étude porte-t-elle sur une ou plusieurs maladie(s) rare(s) ?</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;">Does the study cover one or more rare disease(s)?</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;">boolean</td>
-<td style="text-align: right;">1</td>
-<td style="text-align: left;">1</td>
+<td>S-046</td>
+<td><strong>Population</strong></td>
+<td>Population de l'étude</td>
+<td>La catégorie ou groupe de personnes qui font l'objet de la recherche.</td>
+<td>Study population</td>
+<td>The category or groupe of persons targeted by the research.</td>
+<td><i>section</i></td>
+<td>1</td>
 </tr>
 <tr>
-<td style="text-align: left;">2.3</td>
-<td style="text-align: left;"><strong>Population</strong></td>
-<td style="text-align: left;">Population de l'étude</td>
-<td style="text-align: left;">La catégorie ou groupe de personnes qui font l'objet de la recherche.</td>
-<td style="text-align: left;">Study population</td>
-<td style="text-align: left;">The category or groupe of persons targeted by the research.</td>
-<td style="text-align: left;">section</td>
-<td style="text-align: right;">1</td>
-<td style="text-align: left;">1</td>
+<td>E-106</td>
+<td><strong>PopulationType</strong></td>
+<td>Type de population</td>
+<td>Catégorie principale des personnes concernées par l’étude (population générale, patients, personnes en situation de handicap).</td>
+<td>Population type</td>
+<td>Main category of persons concerned by the study (general population, patients, persons with disabilities).</td>
+<td><a href="https://portail-fresh.github.io/technical-documentation/fr/VocabulairesControles/populationType/"><i>Type de population</i></a></td>
+<td>1</td>
 </tr>
 <tr>
-<td style="text-align: left;">2.3.a</td>
-<td style="text-align: left;"><strong>PopulationType</strong></td>
-<td style="text-align: left;">Type de population</td>
-<td style="text-align: left;">Catégorie principale des personnes concernées par l’étude (population générale, patients, personnes en situation de handicap).</td>
-<td style="text-align: left;">Population type</td>
-<td style="text-align: left;">Main category of persons concerned by the study (general population, patients, persons with disabilities).</td>
-<td style="text-align: left;">choix unique</td>
-<td style="text-align: right;">1</td>
-<td style="text-align: left;">1</td>
+<td>E-107</td>
+<td><strong>OtherPopulationType</strong></td>
+<td>Autre type de population, précisions</td>
+<td>Indique la catégorie de population étudiée lorsqu’elle ne correspond pas aux options proposées</td>
+<td>Other population type, details</td>
+<td>Indicates the population category studied when it does not correspond to the options provided.</td>
+<td><i>string</i></td>
+<td>0-1</td>
 </tr>
 <tr>
-<td style="text-align: left;">2.3.b</td>
-<td style="text-align: left;"><strong>OtherPopulationType</strong></td>
-<td style="text-align: left;">Autre type de population, précisions</td>
-<td style="text-align: left;">Indique la catégorie de population étudiée lorsqu’elle ne correspond pas aux options proposées</td>
-<td style="text-align: left;">Other population type, details</td>
-<td style="text-align: left;">Indicates the population category studied when it does not correspond to the options provided.</td>
-<td style="text-align: left;">texte libre</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: left;">1</td>
+<td>S-047</td>
+<td><strong>DemographicInfo</strong></td>
+<td>Caractéristiques démographiques</td>
+<td>Attributs démographiques qui caractérisent les participants de l'étude</td>
+<td>Demographic characteristics</td>
+<td>Demographic attributes that characterise study participants</td>
+<td><i>section</i></td>
+<td>1</td>
 </tr>
 <tr>
-<td style="text-align: left;">2.3.1</td>
-<td style="text-align: left;"><strong>DemographicInfo</strong></td>
-<td style="text-align: left;">Caractéristiques démographiques</td>
-<td style="text-align: left;">Attributs démographiques qui caractérisent les participants de l'étude</td>
-<td style="text-align: left;">Demographic characteristics</td>
-<td style="text-align: left;">Demographic attributes that characterise study participants</td>
-<td style="text-align: left;">section</td>
-<td style="text-align: right;">1</td>
-<td style="text-align: left;">1</td>
+<td>E-108</td>
+<td><strong>Sex</strong></td>
+<td>Sexe</td>
+<td>Un type de critère d'éligibilité qui indique le sexe,  basé sur des distinctions biologiques, des personnes pouvant participer à une étude.</td>
+<td>Sex</td>
+<td>A type of eligibility criterion that indicates the sex, based on biological distinctions, of individuals who may participate in a study.</td>
+<td><a href="https://portail-fresh.github.io/technical-documentation/fr/VocabulairesControles/Sex/"><i>Sexe</i></a></td>
+<td>1-n</td>
 </tr>
 <tr>
-<td style="text-align: left;">2.3.1.a</td>
-<td style="text-align: left;"><strong>Sex</strong></td>
-<td style="text-align: left;">Sexe</td>
-<td style="text-align: left;">Un type de critère d'éligibilité qui indique le sexe,  basé sur des distinctions biologiques, des personnes pouvant participer à une étude.</td>
-<td style="text-align: left;">Sex</td>
-<td style="text-align: left;">A type of eligibility criterion that indicates the sex, based on biological distinctions, of individuals who may participate in a study.</td>
-<td style="text-align: left;">choix unique</td>
-<td style="text-align: right;">1</td>
-<td style="text-align: left;">Inf.</td>
+<td>E-109</td>
+<td><strong>Age</strong></td>
+<td>Age</td>
+<td>Un type de critère d'éligibilité qui indique la tranche d'âge d'une personne pouvant participer à une étude.</td>
+<td>Age</td>
+<td>A type of eligibility criteria that indicates the age groupe of a person to participate in a study.</td>
+<td><a href="https://portail-fresh.github.io/technical-documentation/fr/VocabulairesControles/Age/"><i>Age</i></a></td>
+<td>1-n</td>
 </tr>
 <tr>
-<td style="text-align: left;">2.3.1.b</td>
-<td style="text-align: left;"><strong>Age</strong></td>
-<td style="text-align: left;">Age</td>
-<td style="text-align: left;">Un type de critère d'éligibilité qui indique la tranche d'âge d'une personne pouvant participer à une étude.</td>
-<td style="text-align: left;">Age</td>
-<td style="text-align: left;">A type of eligibility criteria that indicates the age groupe of a person to participate in a study.</td>
-<td style="text-align: left;">choix unique</td>
-<td style="text-align: right;">1</td>
-<td style="text-align: left;">Inf.</td>
+<td>S-048</td>
+<td><strong>OtherClusion</strong></td>
+<td>Autres critères d'éligibilité</td>
+<td>Autres exigences clés auxquelles les participants à une étude doivent satisfaire ou caractéristiques qu'ils doivent posséder. Les critères d'éligibilité comprennent à la fois les critères d'inclusion (qui sont requis pour qu'une personne puisse participer à l'étude) et les critères d'exclusion (qui empêchent une personne de participer).</td>
+<td>Other eligibility criteria</td>
+<td>Other key requirements that participants in a study must meet or the characteristics they must have. Eligibility criteria consist of both inclusion criteria (which are required for a person to participate in the study) and exclusion criteria (which prevent a person from participating).</td>
+<td><i>section</i></td>
+<td>1</td>
 </tr>
 <tr>
-<td style="text-align: left;">2.3.2</td>
-<td style="text-align: left;"><strong>OtherClusion</strong></td>
-<td style="text-align: left;">Autres critères d'éligibilité</td>
-<td style="text-align: left;">Autres exigences clés auxquelles les participants à une étude doivent satisfaire ou caractéristiques qu'ils doivent posséder. Les critères d'éligibilité comprennent à la fois les critères d'inclusion (qui sont requis pour qu'une personne puisse participer à l'étude) et les critères d'exclusion (qui empêchent une personne de participer).</td>
-<td style="text-align: left;">Other eligibility criteria</td>
-<td style="text-align: left;">Other key requirements that participants in a study must meet or the characteristics they must have. Eligibility criteria consist of both inclusion criteria (which are required for a person to participate in the study) and exclusion criteria (which prevent a person from participating).</td>
-<td style="text-align: left;">section</td>
-<td style="text-align: right;">1</td>
-<td style="text-align: left;">1</td>
+<td>E-110</td>
+<td><strong>InclusionCriterion</strong></td>
+<td>Critères d'inclusion</td>
+<td>Conditions que doivent remplir les personnes pour pouvoir participer à l’étude.</td>
+<td>Inclusion criteria</td>
+<td>Conditions that individuals must meet in order to participate in the study.</td>
+<td><i>string</i></td>
+<td>0-1</td>
 </tr>
 <tr>
-<td style="text-align: left;">2.3.2.a</td>
-<td style="text-align: left;"><strong>InclusionCriterion</strong></td>
-<td style="text-align: left;">Critères d'inclusion</td>
-<td style="text-align: left;">Conditions que doivent remplir les personnes pour pouvoir participer à l’étude.</td>
-<td style="text-align: left;">Inclusion criteria</td>
-<td style="text-align: left;">Conditions that individuals must meet in order to participate in the study.</td>
-<td style="text-align: left;">texte libre</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: left;">1</td>
+<td>E-111</td>
+<td><strong>ExclusionCriterion</strong></td>
+<td>Critères d'exclusion</td>
+<td>Caractéristiques qui rendent une personne non éligible à participer à l’étude, même si elle répond aux critères d’inclusion.</td>
+<td>Exclusion criteria</td>
+<td>Characteristics that make a person ineligible to participate in the study, even if they meet the inclusion criteria.</td>
+<td><i>string</i></td>
+<td>0-1</td>
 </tr>
 <tr>
-<td style="text-align: left;">2.3.2.b</td>
-<td style="text-align: left;"><strong>ExclusionCriterion</strong></td>
-<td style="text-align: left;">Critères d'exclusion</td>
-<td style="text-align: left;">Caractéristiques qui rendent une personne non éligible à participer à l’étude, même si elle répond aux critères d’inclusion.</td>
-<td style="text-align: left;">Exclusion criteria</td>
-<td style="text-align: left;">Characteristics that make a person ineligible to participate in the study, even if they meet the inclusion criteria.</td>
-<td style="text-align: left;">texte libre</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: left;">1</td>
+<td>S-049</td>
+<td><strong>GeographicalCoverage</strong></td>
+<td>Champ géographique</td>
+<td>Aire géographique couverte par la population étudiée.</td>
+<td>Geographical coverage</td>
+<td>Geographical area covered by the population studied.</td>
+<td><i>section</i></td>
+<td>1</td>
 </tr>
 <tr>
-<td style="text-align: left;">2.3.3</td>
-<td style="text-align: left;"><strong>GeographicalCoverage</strong></td>
-<td style="text-align: left;">Champ géographique</td>
-<td style="text-align: left;">Aire géographique couverte par la population étudiée.</td>
-<td style="text-align: left;">Geographical coverage</td>
-<td style="text-align: left;">Geographical area covered by the population studied.</td>
-<td style="text-align: left;">section</td>
-<td style="text-align: right;">1</td>
-<td style="text-align: left;">1</td>
+<td>E-112</td>
+<td><strong>Nation</strong></td>
+<td>Pays concerné(s)</td>
+<td>Pays concernés par l'étude</td>
+<td>Country(ies) concerned</td>
+<td>Countries covered by the study</td>
+<td><a href="https://portail-fresh.github.io/technical-documentation/fr/VocabulairesControles/GeographicalCoverage/"><i>Champ géographique</i></a></td>
+<td>1-n</td>
 </tr>
 <tr>
-<td style="text-align: left;">2.3.3.a</td>
-<td style="text-align: left;"><strong>Nation</strong></td>
-<td style="text-align: left;">Pays concerné(s)</td>
-<td style="text-align: left;">Pays concernés par l'étude</td>
-<td style="text-align: left;">Country(ies) concerned</td>
-<td style="text-align: left;">Countries covered by the study</td>
-<td style="text-align: left;">choix unique</td>
-<td style="text-align: right;">1</td>
-<td style="text-align: left;">Inf.</td>
+<td>E-113</td>
+<td><strong>FranceRegion</strong></td>
+<td>Région(s) française(s) concernée(s)</td>
+<td>Régions françaises couvertes par l'étude</td>
+<td>French region(s) concerned</td>
+<td>French regions covered by the study</td>
+<td><a href="https://portail-fresh.github.io/technical-documentation/fr/VocabulairesControles/GeographicalCoverage/"><i>Champ géographique</i></a></td>
+<td>0-n</td>
 </tr>
 <tr>
-<td style="text-align: left;">2.3.3.b</td>
-<td style="text-align: left;"><strong>FranceRegion</strong></td>
-<td style="text-align: left;">Région(s) française(s) concernée(s)</td>
-<td style="text-align: left;">Régions françaises couvertes par l'étude</td>
-<td style="text-align: left;">French region(s) concerned</td>
-<td style="text-align: left;">French regions covered by the study</td>
-<td style="text-align: left;">choix multiple</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: left;">Inf.</td>
-</tr>
-<tr>
-<td style="text-align: left;">2.3.3.c</td>
-<td style="text-align: left;"><strong>GeoDetail</strong></td>
-<td style="text-align: left;">Champ géographique, précisions</td>
-<td style="text-align: left;">Précisions sur le périmètre géographique concerné par l'étude</td>
-<td style="text-align: left;">Geographical coverage, details</td>
-<td style="text-align: left;">Details on the geographical scope covered by the study</td>
-<td style="text-align: left;">texte libre</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: left;">1</td>
+<td>E-114</td>
+<td><strong>GeoDetail</strong></td>
+<td>Champ géographique, précisions</td>
+<td>Précisions sur le périmètre géographique concerné par l'étude</td>
+<td>Geographical coverage, details</td>
+<td>Details on the geographical scope covered by the study</td>
+<td><i>string</i></td>
+<td>0-1</td>
 </tr>
 </tbody>
 </table>
