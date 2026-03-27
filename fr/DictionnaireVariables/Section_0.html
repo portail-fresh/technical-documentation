@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>0&period; M&eacute;tadonn&eacute;es techniques</title>
+            <style>
+/* From extension vscode.github */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+.vscode-dark img[src$=\#gh-light-mode-only],
+.vscode-light img[src$=\#gh-dark-mode-only],
+.vscode-high-contrast:not(.vscode-high-contrast-light) img[src$=\#gh-light-mode-only],
+.vscode-high-contrast-light img[src$=\#gh-dark-mode-only] {
+	display: none;
+}
+
+</style>
+            
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
+<style>
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif;
+                font-size: 14px;
+                line-height: 1.6;
+            }
+        </style>
+        <style>
+.task-list-item {
+    list-style-type: none;
+}
+
+.task-list-item-checkbox {
+    margin-left: -20px;
+    vertical-align: middle;
+    pointer-events: none;
+}
+</style>
+<style>
+:root {
+  --color-note: #0969da;
+  --color-tip: #1a7f37;
+  --color-warning: #9a6700;
+  --color-severe: #bc4c00;
+  --color-caution: #d1242f;
+  --color-important: #8250df;
+}
+
+</style>
+<style>
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-note: #2f81f7;
+    --color-tip: #3fb950;
+    --color-warning: #d29922;
+    --color-severe: #db6d28;
+    --color-caution: #f85149;
+    --color-important: #a371f7;
+  }
+}
+
+</style>
+<style>
+.markdown-alert {
+  padding: 0.5rem 1rem;
+  margin-bottom: 16px;
+  color: inherit;
+  border-left: .25em solid #888;
+}
+
+.markdown-alert>:first-child {
+  margin-top: 0
+}
+
+.markdown-alert>:last-child {
+  margin-bottom: 0
+}
+
+.markdown-alert .markdown-alert-title {
+  display: flex;
+  font-weight: 500;
+  align-items: center;
+  line-height: 1
+}
+
+.markdown-alert .markdown-alert-title .octicon {
+  margin-right: 0.5rem;
+  display: inline-block;
+  overflow: visible !important;
+  vertical-align: text-bottom;
+  fill: currentColor;
+}
+
+.markdown-alert.markdown-alert-note {
+  border-left-color: var(--color-note);
+}
+
+.markdown-alert.markdown-alert-note .markdown-alert-title {
+  color: var(--color-note);
+}
+
+.markdown-alert.markdown-alert-important {
+  border-left-color: var(--color-important);
+}
+
+.markdown-alert.markdown-alert-important .markdown-alert-title {
+  color: var(--color-important);
+}
+
+.markdown-alert.markdown-alert-warning {
+  border-left-color: var(--color-warning);
+}
+
+.markdown-alert.markdown-alert-warning .markdown-alert-title {
+  color: var(--color-warning);
+}
+
+.markdown-alert.markdown-alert-tip {
+  border-left-color: var(--color-tip);
+}
+
+.markdown-alert.markdown-alert-tip .markdown-alert-title {
+  color: var(--color-tip);
+}
+
+.markdown-alert.markdown-alert-caution {
+  border-left-color: var(--color-caution);
+}
+
+.markdown-alert.markdown-alert-caution .markdown-alert-title {
+  color: var(--color-caution);
+}
+
+</style>
+        
+        </head>
+        <body class="vscode-body vscode-light">
+            <hr>
+<p>hide:</p>
+<ul>
+<li>toc</li>
+</ul>
+<hr>
+<h1 id="0-métadonnées-techniques">0. Métadonnées techniques</h1>
+<table>
+<thead>
+<tr>
+<th>PID</th>
+<th>Nom Variable</th>
+<th>Titre FR</th>
+<th>Description FR</th>
+<th>Titre EN</th>
+<th>Description EN</th>
+<th>Type Variable</th>
+<th>Cardinalité</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>S-001</td>
+<td><strong>TechnicalInfo</strong></td>
+<td>Métadonnées techniques de la fiche</td>
+<td></td>
+<td>Technical metadata</td>
+<td></td>
+<td>section</td>
+<td>1</td>
+</tr>
+<tr>
+<td>S-002</td>
+<td><strong>StudyID</strong></td>
+<td>Identifiant de l'étude</td>
+<td>Section contenant l'identifiant  provenant de la source des métadonnées importées</td>
+<td>Study ID</td>
+<td>Section containing the identifier  from the source of the imported metadata</td>
+<td>section</td>
+<td>1</td>
+</tr>
+<tr>
+<td>E-001</td>
+<td><strong>Identifier</strong></td>
+<td>Code de l'identifiant</td>
+<td>Valeur de l'identifiant</td>
+<td>Study ID code</td>
+<td>Identifier value</td>
+<td>string ''</td>
+<td>1</td>
+</tr>
+<tr>
+<td>E-002</td>
+<td><strong>IDSchema</strong></td>
+<td>Source de l'identifiant</td>
+<td>Nom de la source</td>
+<td>Study ID source</td>
+<td>Source name</td>
+<td>string ''</td>
+<td>1</td>
+</tr>
+<tr>
+<td>E-003</td>
+<td><strong>Provenance</strong></td>
+<td>Provenance</td>
+<td>Indique la source de provenance des métadonnées</td>
+<td>Provenance</td>
+<td>Indicates the source of the metadata</td>
+<td><a href="https://portail-fresh.github.io/technical-documentation/fr/VocabulairesControles/Provenance/">choix unique</a></td>
+<td>0-1</td>
+</tr>
+<tr>
+<td>E-004</td>
+<td><strong>VersionLang</strong></td>
+<td>Langue de la version</td>
+<td>Langue de la version actuelle de la fiche</td>
+<td>Version language</td>
+<td>Language of the current version of the record</td>
+<td>choix unique</td>
+<td>1</td>
+</tr>
+<tr>
+<td>E-005</td>
+<td><strong>OriginLang</strong></td>
+<td>Langue d'origine</td>
+<td>Langue de la fiche d'origine</td>
+<td>Original language</td>
+<td>Language of the original record</td>
+<td>choix unique</td>
+<td>1</td>
+</tr>
+<tr>
+<td>E-006</td>
+<td><strong>CreationDate</strong></td>
+<td>Date du 1er enregistrement</td>
+<td>Indique la date à laquelle la fiche a été enregistrée pour la première fois dans le catalogue FReSH</td>
+<td>First record date</td>
+<td>Indicates the date on which the record was first registered in the FReSH catalogue</td>
+<td>date</td>
+<td>1</td>
+</tr>
+<tr>
+<td>E-007</td>
+<td><strong>LastUpdatedAuto</strong></td>
+<td>Date de la dernière MAJ automatique</td>
+<td>Indique la date de la dernière mise à jour automatique (import) de la fiche</td>
+<td>Last automatic update date</td>
+<td>Indicates the date of the last automatic update (import) of the record</td>
+<td>date</td>
+<td>1</td>
+</tr>
+<tr>
+<td>E-008</td>
+<td><strong>LastUpdatedManual</strong></td>
+<td>Date de la dernière MAJ manuelle</td>
+<td>Indique la date de la dernière mise à jour manuelle de la fiche</td>
+<td>Last manual update date</td>
+<td>Indicates the date of the last manual update of the record</td>
+<td>date</td>
+<td>1</td>
+</tr>
+<tr>
+<td>E-009</td>
+<td><strong>RespValidation</strong></td>
+<td>Complétion/validation par le responsable</td>
+<td>Indique si la fiche a été validée par le responsable scientifique de l'étude</td>
+<td>Completion/validation by the responsible person</td>
+<td>Indicates whether the record has been validated by the study's principal investigator</td>
+<td>boolean</td>
+<td>1</td>
+</tr>
+<tr>
+<td>E-010</td>
+<td><strong>AutoTranslation</strong></td>
+<td>Traduction automatique</td>
+<td>Indique si la fiche a été traduite automatiquement</td>
+<td>Automatic translation</td>
+<td>Indicates whether the record has been automatically translated</td>
+<td>boolean</td>
+<td>1</td>
+</tr>
+<tr>
+<td>E-011</td>
+<td><strong>Status</strong></td>
+<td>Statut</td>
+<td>Statut actuel de la fiche des métadonnées dans le catalogue</td>
+<td>Status</td>
+<td>Current status of the metadata record in the catalogue</td>
+<td><a href="https://portail-fresh.github.io/technical-documentation/fr/VocabulairesControles/Status/">choix unique</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td>S-004</td>
+<td><strong>MetadataContributor</strong></td>
+<td>Contributeur de la fiche de métadonnées</td>
+<td>Personne ou organisation chargée de renseigner les informations d’une étude dans le catalogue FReSH en complétant le formulaire en ligne</td>
+<td>Metadata Contributor</td>
+<td>Person or organization responsible for submitting study information to the FReSH catalogue by completing the online form</td>
+<td>section</td>
+<td>1</td>
+</tr>
+<tr>
+<td>E-014</td>
+<td><strong>ContributorName</strong></td>
+<td>Prénom NOM</td>
+<td>Nom et prénom de la personne qui renseigne la fiche des métadonnées</td>
+<td>Last name – First name</td>
+<td>Full name of the person entering the metadata record</td>
+<td>string ''</td>
+<td>1</td>
+</tr>
+<tr>
+<td>E-015</td>
+<td><strong>ContributorAffiliation</strong></td>
+<td>Affiliation</td>
+<td>Affiliation de la personne qui renseigne la fiche des métadonnées</td>
+<td>Affiliation</td>
+<td>Affiliation of the person entering the metadata record</td>
+<td>string ''</td>
+<td>0-1</td>
+</tr>
+</tbody>
+</table>
+
+            
+            
+        </body>
+        </html>
