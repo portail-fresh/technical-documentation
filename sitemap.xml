@@ -2,374 +2,382 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://portail-fresh.github.io/technical-documentation/fr/DocumentationTechnique/</loc>
-         <lastmod>2026-04-16</lastmod>
+         <lastmod>2026-04-17</lastmod>
     </url>
     <url>
          <loc>https://portail-fresh.github.io/technical-documentation/fr/DocumentationTechnique/en/MetadataSchema/</loc>
-         <lastmod>2026-04-16</lastmod>
+         <lastmod>2026-04-17</lastmod>
     </url>
     <url>
          <loc>https://portail-fresh.github.io/technical-documentation/fr/DocumentationTechnique/en/TechnicalDocumentation/</loc>
-         <lastmod>2026-04-16</lastmod>
+         <lastmod>2026-04-17</lastmod>
     </url>
     <url>
          <loc>https://portail-fresh.github.io/technical-documentation/fr/DocumentationTechnique/en/ControlledVocabularies/Age/</loc>
-         <lastmod>2026-04-16</lastmod>
+         <lastmod>2026-04-17</lastmod>
     </url>
     <url>
          <loc>https://portail-fresh.github.io/technical-documentation/fr/DocumentationTechnique/en/ControlledVocabularies/AllocationMode/</loc>
-         <lastmod>2026-04-16</lastmod>
+         <lastmod>2026-04-17</lastmod>
     </url>
     <url>
          <loc>https://portail-fresh.github.io/technical-documentation/fr/DocumentationTechnique/en/ControlledVocabularies/AllocationUnit/</loc>
-         <lastmod>2026-04-16</lastmod>
+         <lastmod>2026-04-17</lastmod>
     </url>
     <url>
          <loc>https://portail-fresh.github.io/technical-documentation/fr/DocumentationTechnique/en/ControlledVocabularies/ArmType/</loc>
-         <lastmod>2026-04-16</lastmod>
+         <lastmod>2026-04-17</lastmod>
     </url>
     <url>
          <loc>https://portail-fresh.github.io/technical-documentation/fr/DocumentationTechnique/en/ControlledVocabularies/AuthorizationAgency/</loc>
-         <lastmod>2026-04-16</lastmod>
+         <lastmod>2026-04-17</lastmod>
     </url>
     <url>
          <loc>https://portail-fresh.github.io/technical-documentation/fr/DocumentationTechnique/en/ControlledVocabularies/BiobankContent/</loc>
-         <lastmod>2026-04-16</lastmod>
+         <lastmod>2026-04-17</lastmod>
     </url>
     <url>
          <loc>https://portail-fresh.github.io/technical-documentation/fr/DocumentationTechnique/en/ControlledVocabularies/BlindedMaskingDetails/</loc>
-         <lastmod>2026-04-16</lastmod>
+         <lastmod>2026-04-17</lastmod>
     </url>
     <url>
          <loc>https://portail-fresh.github.io/technical-documentation/fr/DocumentationTechnique/en/ControlledVocabularies/ConformityDeclaration/</loc>
-         <lastmod>2026-04-16</lastmod>
+         <lastmod>2026-04-17</lastmod>
     </url>
     <url>
          <loc>https://portail-fresh.github.io/technical-documentation/fr/DocumentationTechnique/en/ControlledVocabularies/ControlledVocabularies/</loc>
-         <lastmod>2026-04-16</lastmod>
+         <lastmod>2026-04-17</lastmod>
     </url>
     <url>
          <loc>https://portail-fresh.github.io/technical-documentation/fr/DocumentationTechnique/en/ControlledVocabularies/DatasetPIDSchema/</loc>
-         <lastmod>2026-04-16</lastmod>
+         <lastmod>2026-04-17</lastmod>
     </url>
     <url>
          <loc>https://portail-fresh.github.io/technical-documentation/fr/DocumentationTechnique/en/ControlledVocabularies/DocumentType/</loc>
-         <lastmod>2026-04-16</lastmod>
+         <lastmod>2026-04-17</lastmod>
     </url>
     <url>
          <loc>https://portail-fresh.github.io/technical-documentation/fr/DocumentationTechnique/en/ControlledVocabularies/FollowUpMode/</loc>
-         <lastmod>2026-04-16</lastmod>
+         <lastmod>2026-04-17</lastmod>
     </url>
     <url>
          <loc>https://portail-fresh.github.io/technical-documentation/fr/DocumentationTechnique/en/ControlledVocabularies/GeographicalCoverage/</loc>
-         <lastmod>2026-04-16</lastmod>
+         <lastmod>2026-04-17</lastmod>
     </url>
     <url>
          <loc>https://portail-fresh.github.io/technical-documentation/fr/DocumentationTechnique/en/ControlledVocabularies/Health-determinant/</loc>
-         <lastmod>2026-04-16</lastmod>
+         <lastmod>2026-04-17</lastmod>
     </url>
     <url>
          <loc>https://portail-fresh.github.io/technical-documentation/fr/DocumentationTechnique/en/ControlledVocabularies/IndividualDataAccess/</loc>
-         <lastmod>2026-04-16</lastmod>
+         <lastmod>2026-04-17</lastmod>
     </url>
     <url>
          <loc>https://portail-fresh.github.io/technical-documentation/fr/DocumentationTechnique/en/ControlledVocabularies/InterventionType/</loc>
-         <lastmod>2026-04-16</lastmod>
+         <lastmod>2026-04-17</lastmod>
     </url>
     <url>
          <loc>https://portail-fresh.github.io/technical-documentation/fr/DocumentationTechnique/en/ControlledVocabularies/InterventionalStudyModel/</loc>
-         <lastmod>2026-04-16</lastmod>
+         <lastmod>2026-04-17</lastmod>
+    </url>
+    <url>
+         <loc>https://portail-fresh.github.io/technical-documentation/fr/DocumentationTechnique/en/ControlledVocabularies/Language/</loc>
+         <lastmod>2026-04-17</lastmod>
     </url>
     <url>
          <loc>https://portail-fresh.github.io/technical-documentation/fr/DocumentationTechnique/en/ControlledVocabularies/MaskingType/</loc>
-         <lastmod>2026-04-16</lastmod>
+         <lastmod>2026-04-17</lastmod>
     </url>
     <url>
          <loc>https://portail-fresh.github.io/technical-documentation/fr/DocumentationTechnique/en/ControlledVocabularies/ObservationalStudy/</loc>
-         <lastmod>2026-04-16</lastmod>
+         <lastmod>2026-04-17</lastmod>
     </url>
     <url>
          <loc>https://portail-fresh.github.io/technical-documentation/fr/DocumentationTechnique/en/ControlledVocabularies/PIDSchema/</loc>
-         <lastmod>2026-04-16</lastmod>
+         <lastmod>2026-04-17</lastmod>
     </url>
     <url>
          <loc>https://portail-fresh.github.io/technical-documentation/fr/DocumentationTechnique/en/ControlledVocabularies/Pathology/</loc>
-         <lastmod>2026-04-16</lastmod>
+         <lastmod>2026-04-17</lastmod>
     </url>
     <url>
          <loc>https://portail-fresh.github.io/technical-documentation/fr/DocumentationTechnique/en/ControlledVocabularies/PlannedSampleSize/</loc>
-         <lastmod>2026-04-16</lastmod>
+         <lastmod>2026-04-17</lastmod>
     </url>
     <url>
          <loc>https://portail-fresh.github.io/technical-documentation/fr/DocumentationTechnique/en/ControlledVocabularies/Provenance/</loc>
-         <lastmod>2026-04-16</lastmod>
+         <lastmod>2026-04-17</lastmod>
     </url>
     <url>
          <loc>https://portail-fresh.github.io/technical-documentation/fr/DocumentationTechnique/en/ControlledVocabularies/RecruitmentSource/</loc>
-         <lastmod>2026-04-16</lastmod>
+         <lastmod>2026-04-17</lastmod>
     </url>
     <url>
          <loc>https://portail-fresh.github.io/technical-documentation/fr/DocumentationTechnique/en/ControlledVocabularies/RecrutmentTiming/</loc>
-         <lastmod>2026-04-16</lastmod>
+         <lastmod>2026-04-17</lastmod>
     </url>
     <url>
          <loc>https://portail-fresh.github.io/technical-documentation/fr/DocumentationTechnique/en/ControlledVocabularies/ResearchPurpose/</loc>
-         <lastmod>2026-04-16</lastmod>
+         <lastmod>2026-04-17</lastmod>
     </url>
     <url>
          <loc>https://portail-fresh.github.io/technical-documentation/fr/DocumentationTechnique/en/ControlledVocabularies/ResearchType/</loc>
-         <lastmod>2026-04-16</lastmod>
+         <lastmod>2026-04-17</lastmod>
     </url>
     <url>
          <loc>https://portail-fresh.github.io/technical-documentation/fr/DocumentationTechnique/en/ControlledVocabularies/SamplingMode/</loc>
-         <lastmod>2026-04-16</lastmod>
+         <lastmod>2026-04-17</lastmod>
     </url>
     <url>
          <loc>https://portail-fresh.github.io/technical-documentation/fr/DocumentationTechnique/en/ControlledVocabularies/Sex/</loc>
-         <lastmod>2026-04-16</lastmod>
+         <lastmod>2026-04-17</lastmod>
     </url>
     <url>
          <loc>https://portail-fresh.github.io/technical-documentation/fr/DocumentationTechnique/en/ControlledVocabularies/SourcePurpose/</loc>
-         <lastmod>2026-04-16</lastmod>
+         <lastmod>2026-04-17</lastmod>
     </url>
     <url>
          <loc>https://portail-fresh.github.io/technical-documentation/fr/DocumentationTechnique/en/ControlledVocabularies/SourceType/</loc>
-         <lastmod>2026-04-16</lastmod>
+         <lastmod>2026-04-17</lastmod>
     </url>
     <url>
          <loc>https://portail-fresh.github.io/technical-documentation/fr/DocumentationTechnique/en/ControlledVocabularies/Status/</loc>
-         <lastmod>2026-04-16</lastmod>
+         <lastmod>2026-04-17</lastmod>
     </url>
     <url>
          <loc>https://portail-fresh.github.io/technical-documentation/fr/DocumentationTechnique/en/ControlledVocabularies/StudyStatus/</loc>
-         <lastmod>2026-04-16</lastmod>
+         <lastmod>2026-04-17</lastmod>
     </url>
     <url>
          <loc>https://portail-fresh.github.io/technical-documentation/fr/DocumentationTechnique/en/ControlledVocabularies/collectionMode/</loc>
-         <lastmod>2026-04-16</lastmod>
+         <lastmod>2026-04-17</lastmod>
     </url>
     <url>
          <loc>https://portail-fresh.github.io/technical-documentation/fr/DocumentationTechnique/en/ControlledVocabularies/data-type/</loc>
-         <lastmod>2026-04-16</lastmod>
+         <lastmod>2026-04-17</lastmod>
     </url>
     <url>
          <loc>https://portail-fresh.github.io/technical-documentation/fr/DocumentationTechnique/en/ControlledVocabularies/health-theme/</loc>
-         <lastmod>2026-04-16</lastmod>
+         <lastmod>2026-04-17</lastmod>
     </url>
     <url>
          <loc>https://portail-fresh.github.io/technical-documentation/fr/DocumentationTechnique/en/ControlledVocabularies/populationType/</loc>
-         <lastmod>2026-04-16</lastmod>
+         <lastmod>2026-04-17</lastmod>
     </url>
     <url>
          <loc>https://portail-fresh.github.io/technical-documentation/fr/DocumentationTechnique/en/ControlledVocabularies/trial-phase/</loc>
-         <lastmod>2026-04-16</lastmod>
+         <lastmod>2026-04-17</lastmod>
     </url>
     <url>
          <loc>https://portail-fresh.github.io/technical-documentation/fr/DocumentationTechnique/en/VariablesDictionnary/Section_0/</loc>
-         <lastmod>2026-04-16</lastmod>
+         <lastmod>2026-04-17</lastmod>
     </url>
     <url>
          <loc>https://portail-fresh.github.io/technical-documentation/fr/DocumentationTechnique/en/VariablesDictionnary/Section_1/</loc>
-         <lastmod>2026-04-16</lastmod>
+         <lastmod>2026-04-17</lastmod>
     </url>
     <url>
          <loc>https://portail-fresh.github.io/technical-documentation/fr/DocumentationTechnique/en/VariablesDictionnary/Section_2/</loc>
-         <lastmod>2026-04-16</lastmod>
+         <lastmod>2026-04-17</lastmod>
     </url>
     <url>
          <loc>https://portail-fresh.github.io/technical-documentation/fr/DocumentationTechnique/en/VariablesDictionnary/Section_3/</loc>
-         <lastmod>2026-04-16</lastmod>
+         <lastmod>2026-04-17</lastmod>
     </url>
     <url>
          <loc>https://portail-fresh.github.io/technical-documentation/fr/DocumentationTechnique/en/VariablesDictionnary/Section_4/</loc>
-         <lastmod>2026-04-16</lastmod>
+         <lastmod>2026-04-17</lastmod>
     </url>
     <url>
          <loc>https://portail-fresh.github.io/technical-documentation/fr/DocumentationTechnique/en/VariablesDictionnary/VariablesDictionnary/</loc>
-         <lastmod>2026-04-16</lastmod>
+         <lastmod>2026-04-17</lastmod>
     </url>
     <url>
          <loc>https://portail-fresh.github.io/technical-documentation/fr/DocumentationTechnique/fr/DocumentationTechnique/</loc>
-         <lastmod>2026-04-16</lastmod>
+         <lastmod>2026-04-17</lastmod>
     </url>
     <url>
          <loc>https://portail-fresh.github.io/technical-documentation/fr/DocumentationTechnique/fr/SchemaMetadonnees/</loc>
-         <lastmod>2026-04-16</lastmod>
+         <lastmod>2026-04-17</lastmod>
     </url>
     <url>
          <loc>https://portail-fresh.github.io/technical-documentation/fr/DocumentationTechnique/fr/DictionnaireVariables/DictionnaireVariables/</loc>
-         <lastmod>2026-04-16</lastmod>
+         <lastmod>2026-04-17</lastmod>
     </url>
     <url>
          <loc>https://portail-fresh.github.io/technical-documentation/fr/DocumentationTechnique/fr/DictionnaireVariables/Section_0/</loc>
-         <lastmod>2026-04-16</lastmod>
+         <lastmod>2026-04-17</lastmod>
     </url>
     <url>
          <loc>https://portail-fresh.github.io/technical-documentation/fr/DocumentationTechnique/fr/DictionnaireVariables/Section_1/</loc>
-         <lastmod>2026-04-16</lastmod>
+         <lastmod>2026-04-17</lastmod>
     </url>
     <url>
          <loc>https://portail-fresh.github.io/technical-documentation/fr/DocumentationTechnique/fr/DictionnaireVariables/Section_2/</loc>
-         <lastmod>2026-04-16</lastmod>
+         <lastmod>2026-04-17</lastmod>
     </url>
     <url>
          <loc>https://portail-fresh.github.io/technical-documentation/fr/DocumentationTechnique/fr/DictionnaireVariables/Section_3/</loc>
-         <lastmod>2026-04-16</lastmod>
+         <lastmod>2026-04-17</lastmod>
     </url>
     <url>
          <loc>https://portail-fresh.github.io/technical-documentation/fr/DocumentationTechnique/fr/DictionnaireVariables/Section_4/</loc>
-         <lastmod>2026-04-16</lastmod>
+         <lastmod>2026-04-17</lastmod>
     </url>
     <url>
          <loc>https://portail-fresh.github.io/technical-documentation/fr/DocumentationTechnique/fr/VocabulairesControles/Age/</loc>
-         <lastmod>2026-04-16</lastmod>
+         <lastmod>2026-04-17</lastmod>
     </url>
     <url>
          <loc>https://portail-fresh.github.io/technical-documentation/fr/DocumentationTechnique/fr/VocabulairesControles/AllocationMode/</loc>
-         <lastmod>2026-04-16</lastmod>
+         <lastmod>2026-04-17</lastmod>
     </url>
     <url>
          <loc>https://portail-fresh.github.io/technical-documentation/fr/DocumentationTechnique/fr/VocabulairesControles/AllocationUnit/</loc>
-         <lastmod>2026-04-16</lastmod>
+         <lastmod>2026-04-17</lastmod>
     </url>
     <url>
          <loc>https://portail-fresh.github.io/technical-documentation/fr/DocumentationTechnique/fr/VocabulairesControles/ArmType/</loc>
-         <lastmod>2026-04-16</lastmod>
+         <lastmod>2026-04-17</lastmod>
     </url>
     <url>
          <loc>https://portail-fresh.github.io/technical-documentation/fr/DocumentationTechnique/fr/VocabulairesControles/AuthorizationAgency/</loc>
-         <lastmod>2026-04-16</lastmod>
+         <lastmod>2026-04-17</lastmod>
     </url>
     <url>
          <loc>https://portail-fresh.github.io/technical-documentation/fr/DocumentationTechnique/fr/VocabulairesControles/BiobankContent/</loc>
-         <lastmod>2026-04-16</lastmod>
+         <lastmod>2026-04-17</lastmod>
     </url>
     <url>
          <loc>https://portail-fresh.github.io/technical-documentation/fr/DocumentationTechnique/fr/VocabulairesControles/BlindedMaskingDetails/</loc>
-         <lastmod>2026-04-16</lastmod>
+         <lastmod>2026-04-17</lastmod>
     </url>
     <url>
          <loc>https://portail-fresh.github.io/technical-documentation/fr/DocumentationTechnique/fr/VocabulairesControles/ConformityDeclaration/</loc>
-         <lastmod>2026-04-16</lastmod>
+         <lastmod>2026-04-17</lastmod>
     </url>
     <url>
          <loc>https://portail-fresh.github.io/technical-documentation/fr/DocumentationTechnique/fr/VocabulairesControles/DatasetPIDSchema/</loc>
-         <lastmod>2026-04-16</lastmod>
+         <lastmod>2026-04-17</lastmod>
     </url>
     <url>
          <loc>https://portail-fresh.github.io/technical-documentation/fr/DocumentationTechnique/fr/VocabulairesControles/DocumentType/</loc>
-         <lastmod>2026-04-16</lastmod>
+         <lastmod>2026-04-17</lastmod>
     </url>
     <url>
          <loc>https://portail-fresh.github.io/technical-documentation/fr/DocumentationTechnique/fr/VocabulairesControles/FollowUpMode/</loc>
-         <lastmod>2026-04-16</lastmod>
+         <lastmod>2026-04-17</lastmod>
     </url>
     <url>
          <loc>https://portail-fresh.github.io/technical-documentation/fr/DocumentationTechnique/fr/VocabulairesControles/GeographicalCoverage/</loc>
-         <lastmod>2026-04-16</lastmod>
+         <lastmod>2026-04-17</lastmod>
     </url>
     <url>
          <loc>https://portail-fresh.github.io/technical-documentation/fr/DocumentationTechnique/fr/VocabulairesControles/Health-determinant/</loc>
-         <lastmod>2026-04-16</lastmod>
+         <lastmod>2026-04-17</lastmod>
     </url>
     <url>
          <loc>https://portail-fresh.github.io/technical-documentation/fr/DocumentationTechnique/fr/VocabulairesControles/IndividualDataAccess/</loc>
-         <lastmod>2026-04-16</lastmod>
+         <lastmod>2026-04-17</lastmod>
     </url>
     <url>
          <loc>https://portail-fresh.github.io/technical-documentation/fr/DocumentationTechnique/fr/VocabulairesControles/InterventionType/</loc>
-         <lastmod>2026-04-16</lastmod>
+         <lastmod>2026-04-17</lastmod>
     </url>
     <url>
          <loc>https://portail-fresh.github.io/technical-documentation/fr/DocumentationTechnique/fr/VocabulairesControles/InterventionalStudyModel/</loc>
-         <lastmod>2026-04-16</lastmod>
+         <lastmod>2026-04-17</lastmod>
+    </url>
+    <url>
+         <loc>https://portail-fresh.github.io/technical-documentation/fr/DocumentationTechnique/fr/VocabulairesControles/Language/</loc>
+         <lastmod>2026-04-17</lastmod>
     </url>
     <url>
          <loc>https://portail-fresh.github.io/technical-documentation/fr/DocumentationTechnique/fr/VocabulairesControles/MaskingType/</loc>
-         <lastmod>2026-04-16</lastmod>
+         <lastmod>2026-04-17</lastmod>
     </url>
     <url>
          <loc>https://portail-fresh.github.io/technical-documentation/fr/DocumentationTechnique/fr/VocabulairesControles/ObservationalStudy/</loc>
-         <lastmod>2026-04-16</lastmod>
+         <lastmod>2026-04-17</lastmod>
     </url>
     <url>
          <loc>https://portail-fresh.github.io/technical-documentation/fr/DocumentationTechnique/fr/VocabulairesControles/PIDSchema/</loc>
-         <lastmod>2026-04-16</lastmod>
+         <lastmod>2026-04-17</lastmod>
     </url>
     <url>
          <loc>https://portail-fresh.github.io/technical-documentation/fr/DocumentationTechnique/fr/VocabulairesControles/Pathology/</loc>
-         <lastmod>2026-04-16</lastmod>
+         <lastmod>2026-04-17</lastmod>
     </url>
     <url>
          <loc>https://portail-fresh.github.io/technical-documentation/fr/DocumentationTechnique/fr/VocabulairesControles/PlannedSampleSize/</loc>
-         <lastmod>2026-04-16</lastmod>
+         <lastmod>2026-04-17</lastmod>
     </url>
     <url>
          <loc>https://portail-fresh.github.io/technical-documentation/fr/DocumentationTechnique/fr/VocabulairesControles/Provenance/</loc>
-         <lastmod>2026-04-16</lastmod>
+         <lastmod>2026-04-17</lastmod>
     </url>
     <url>
          <loc>https://portail-fresh.github.io/technical-documentation/fr/DocumentationTechnique/fr/VocabulairesControles/RecruitmentSource/</loc>
-         <lastmod>2026-04-16</lastmod>
+         <lastmod>2026-04-17</lastmod>
     </url>
     <url>
          <loc>https://portail-fresh.github.io/technical-documentation/fr/DocumentationTechnique/fr/VocabulairesControles/RecrutmentTiming/</loc>
-         <lastmod>2026-04-16</lastmod>
+         <lastmod>2026-04-17</lastmod>
     </url>
     <url>
          <loc>https://portail-fresh.github.io/technical-documentation/fr/DocumentationTechnique/fr/VocabulairesControles/ResearchPurpose/</loc>
-         <lastmod>2026-04-16</lastmod>
+         <lastmod>2026-04-17</lastmod>
     </url>
     <url>
          <loc>https://portail-fresh.github.io/technical-documentation/fr/DocumentationTechnique/fr/VocabulairesControles/ResearchType/</loc>
-         <lastmod>2026-04-16</lastmod>
+         <lastmod>2026-04-17</lastmod>
     </url>
     <url>
          <loc>https://portail-fresh.github.io/technical-documentation/fr/DocumentationTechnique/fr/VocabulairesControles/SamplingMode/</loc>
-         <lastmod>2026-04-16</lastmod>
+         <lastmod>2026-04-17</lastmod>
     </url>
     <url>
          <loc>https://portail-fresh.github.io/technical-documentation/fr/DocumentationTechnique/fr/VocabulairesControles/Sex/</loc>
-         <lastmod>2026-04-16</lastmod>
+         <lastmod>2026-04-17</lastmod>
     </url>
     <url>
          <loc>https://portail-fresh.github.io/technical-documentation/fr/DocumentationTechnique/fr/VocabulairesControles/SourcePurpose/</loc>
-         <lastmod>2026-04-16</lastmod>
+         <lastmod>2026-04-17</lastmod>
     </url>
     <url>
          <loc>https://portail-fresh.github.io/technical-documentation/fr/DocumentationTechnique/fr/VocabulairesControles/SourceType/</loc>
-         <lastmod>2026-04-16</lastmod>
+         <lastmod>2026-04-17</lastmod>
     </url>
     <url>
          <loc>https://portail-fresh.github.io/technical-documentation/fr/DocumentationTechnique/fr/VocabulairesControles/Status/</loc>
-         <lastmod>2026-04-16</lastmod>
+         <lastmod>2026-04-17</lastmod>
     </url>
     <url>
          <loc>https://portail-fresh.github.io/technical-documentation/fr/DocumentationTechnique/fr/VocabulairesControles/StudyStatus/</loc>
-         <lastmod>2026-04-16</lastmod>
+         <lastmod>2026-04-17</lastmod>
     </url>
     <url>
          <loc>https://portail-fresh.github.io/technical-documentation/fr/DocumentationTechnique/fr/VocabulairesControles/VocabulairesControles/</loc>
-         <lastmod>2026-04-16</lastmod>
+         <lastmod>2026-04-17</lastmod>
     </url>
     <url>
          <loc>https://portail-fresh.github.io/technical-documentation/fr/DocumentationTechnique/fr/VocabulairesControles/collectionMode/</loc>
-         <lastmod>2026-04-16</lastmod>
+         <lastmod>2026-04-17</lastmod>
     </url>
     <url>
          <loc>https://portail-fresh.github.io/technical-documentation/fr/DocumentationTechnique/fr/VocabulairesControles/data-type/</loc>
-         <lastmod>2026-04-16</lastmod>
+         <lastmod>2026-04-17</lastmod>
     </url>
     <url>
          <loc>https://portail-fresh.github.io/technical-documentation/fr/DocumentationTechnique/fr/VocabulairesControles/health-theme/</loc>
-         <lastmod>2026-04-16</lastmod>
+         <lastmod>2026-04-17</lastmod>
     </url>
     <url>
          <loc>https://portail-fresh.github.io/technical-documentation/fr/DocumentationTechnique/fr/VocabulairesControles/populationType/</loc>
-         <lastmod>2026-04-16</lastmod>
+         <lastmod>2026-04-17</lastmod>
     </url>
     <url>
          <loc>https://portail-fresh.github.io/technical-documentation/fr/DocumentationTechnique/fr/VocabulairesControles/trial-phase/</loc>
-         <lastmod>2026-04-16</lastmod>
+         <lastmod>2026-04-17</lastmod>
     </url>
 </urlset>
