@@ -1,132 +1,60 @@
-site_name: Catalogue FReSH - documentation technique
+site_name: FReSH - France Recherche en Santé Humaine
+site_url: https://portail-fresh.github.io/technical-documentation/fr/DocumentationTechnique/
 
+markdown_extensions :
+  - def_list
+  - attr_list
+  - md_in_html
+  - pymdownx.blocks.caption
 nav:
-  - Accueil: index.md
-  - Schéma des métadonnées FReSH:
-    - Introduction: MetadataSchemaIntro.md
-    - Sections:
-      - 0. Métadonnées techniques: Schema_0.md
-      - 1. Informations relatives à l'étude: Schema_1.md
-      - 2. Renseignements administratifs : Schema_2.md
-      - 3. Méthodologie de l'étude : Schema_3.md
-      - 4. Collecte et accès aux données : Schema_4.md
-  - Dictionnaire des variables : Acc_DV_FR.md
-  - Vocabulaires contrôlés:
-    - Accueil : Acc_VC.md
-    - 0. Métadonnées techniques:
-      - Provenance de l'étude : Provenance.md
-      - Statut de la fiche : Status.md
-    - 1. Informations relatives à l'étude: 
-      - Statut de l'étude : StudyStatus.md
-      - Spécialité médicale: health-theme.md
-      - Déterminants de santé : Health-determinant.md
-      - Pathologie : Pathology.md
-      - Type de population : populationType.md
-      - Sexe : Sex.md
-      - Age : Age.md
-      - Champ géographique : GeographicalCoverage.md
-    - 2. Renseignements administratifs : 
-      - Agence d'autorisation : AuthorizationAgency.md
-      - Type d'identifiant de l'organisation : PIDSchema.md
-      - Statut de l'organisation : SponsorType.md
-    - 3. Méthodologie de l'étude : 
-      - Modèle d'étude : ResearchType.md
-      - Phase de l'essai : trial-phase.md
-      - Objectif principal de la recherche : ResearchPurpose.md
-      - Modèle d'étude interventionnelle : InterventionalStudyModel.md
-      - Mode d'allocation : AllocationMode.md
-      - Unité d'allocation : AllocationUnit.md
-      - Type d'insu : MaskingType.md
-      - Groupe avec insu (en aveugle) : BlindedMaskingDetails.md
-      - Type de bras : ArmType.md
-      - Modèle d'étude observationnelle  : ObservationalStudy.md
-      - Perspective temporelle : RecrutmentTiming.md
-      - Type de facteur ou d'exposition  : InterventionType.md
-    - 4. Collecte et accès aux données : 
-      - Nombre prévu de participants : PlannedSampleSize.md
-      - Mode de collecte: collectionMode.md
-      - Procédure d'échantillonnage : SamplingMode.md
-      - Source de recrutement des participants : RecruitmentSource.md
-      - Modalités de suivi : FollowUpMode.md
-      - Type de données: data-type.md
-      - Nature des échantillons dans la biobanque : BiobankContent.md
-      - Déclaration de conformité : ConformityDeclaration.md 
-      - Type de source : SourceType.md
-      - Objectif de l'intégration de la source : SourcePurpose.md
-      - Accès aux données individuelles : IndividualDataAccess.md
-      - Type d'identifiant du jeu de données : DatasetPIDSchema.md
-      - Type de document : DocumentType.md
-  - Documentation - English version:
-    - FReSH Metadata schema:
-      - Introduction: MetadataSchemaIntroEN.md
+
+  - Français :
+    - Documentation technique: fr/DocumentationTechnique.md
+    - Dictionnaire des variables :
+      - Présentation : fr/DictionnaireVariables/DictionnaireVariables.md
       - Sections:
-        - 0. Technical metadata: Schema_0EN.md
-        - 1. Study related information: Schema_1EN.md
-        - 2. Administrative information : Schema_2EN.md
-        - 3. Study methodology : Schema_3EN.md
-        - 4. Data collection and access : Schema_4EN.md
-    - Variable dictionary : 
-      - Home : Acc_DV_EN.md  
-      - 0. Technical metadata: DicVar_Part0EN.md
-      - 1. Study related information: DicVar_Part1EN.md
-      - 2. Administrative information : DicVar_Part2EN.md
-      - 3. Study methodology : DicVar_Part3EN.md
-      - 4. Data collection and access : DicVar_Part4EN.md
-    - Controlled vocabularies:
-      - Home : Acc_VC_EN.md 
-      - 0. Technical metadata: 
-        - Study Provenance : ProvenanceEN.md
-        - Record Status : StatusEN.md
-      - 1. Study related information: 
-        - Study Status : StudyStatusEN.md
-        - Health Theme: health-themeEN.md
-        - Health Determinant : Health-determinantEN.md
-        - Pathology : PathologyEN.md
-        - Population Type : populationTypeEN.md
-        - Sex : SexEN.md
-        - Age : AgeEN.md
-        - Geographical Coverage : GeographicalCoverageEN.md
-      - 2. Administrative information : 
-        - Authorization Agency : AuthorizationAgencyEN.md
-        - Organisation Identifier Type : PIDSchemaEN.md
-        - Organisation Status : SponsorTypeEN.md
-      - 3. Study methodology : 
-        - Study Type : ResearchTypeEN.md
-        - Trial Phase : trial-phaseEN.md
-        - Research Purpose : ResearchPurposeEN.md
-        - Interventional Study Model : InterventionalStudyModelEN.md
-        - Allocation Type : AllocationModeEN.md
-        - Allocation Unit : AllocationUnitEN.md
-        - Masking Type : MaskingTypeEN.md
-        - Blinded Masking Details : BlindedMaskingDetailsEN.md
-        - Arm Type : ArmTypeEN.md
-        - Observational Study Design : ObservationalStudyEN.md
-        - Time perspective : RecrutmentTimingEN.md
-        - Factor/Exposure Type : InterventionTypeEN.md
-      - 4. Data collection and access : 
-        - Expected number of participants : PlannedSampleSizeEN.md
-        - Collection Mode : collectionModeEN.md
-        - Sampling Procedure : SamplingModeEN.md
-        - Participant Recruitment Source : RecruitmentSourceEN.md
-        - Follow-up Method : FollowUpModeEN.md
-        - Data Type: data-typeEN.md
-        - Nature of samples in the biobanque : BiobankContentEN.md
-        - Declaration of conformity : ConformityDeclarationEN.md 
-        - Source Type : SourceTypeEN.md
-        - Purpose of using the source in the study : SourcePurposeEN.md
-        - Access to individual data: IndividualDataAccessEN.md
-        - Identifier type of the dataset : DatasetPIDSchemaEN.md
-        - Document Type : DocumentTypeEN.md
+        - 0. Métadonnées techniques: fr/DictionnaireVariables/Section_0.md
+        - 1. Informations relatives à l'étude: fr/DictionnaireVariables/Section_1.md
+        - 2. Renseignements administratifs : fr/DictionnaireVariables/Section_2.md
+        - 3. Méthodologie de l'étude : fr/DictionnaireVariables/Section_3.md
+        - 4. Collecte et accès aux données : fr/DictionnaireVariables/Section_4.md
+    - Vocabulaires contrôlés: fr/VocabulairesControles/VocabulairesControles.md  
+    - Schéma des métadonnées : fr/SchemaMetadonnees.md
+      
+  - English :
+    - Technical Documentation : en/TechnicalDocumentation.md
+    - Variable dictionnary:
+      - Introduction: en/VariablesDictionnary/VariablesDictionnary.md
+      - Sections:
+        - 0. Technical metadata: en/VariablesDictionnary/Section_0.md
+        - 1. Study related information: en/VariablesDictionnary/Section_1.md
+        - 2. Administrative information : en/VariablesDictionnary/Section_2.md
+        - 3. Study methodology : en/VariablesDictionnary/Section_3.md
+        - 4. Data collection and access : en/VariablesDictionnary/Section_4.md
+    - FReSH Metadata schema: en/MetadataSchema.md
+    - Controlled vocabularies: en/ControlledVocabularies/ControlledVocabularies.md
 
-
-    
-
+  - portail-fresh.fr : https://portail-fresh.fr/
+  - github.com/portail-fresh : https://github.com/portail-fresh/fresh-metadata-schema/tree/main 
 theme:
   name: material
   palette:
     primary: custom
   logo: assets/logo-white - Copie.png
   favicon: assets/logo.png
+  features:
+    - navigation.tabs
+    - navigation.path
+    - navigation.indexes
 
 extra_css:
   - stylesheets/extra.css
+
+# extra:
+#   alternate:
+#     - name: English
+#       link: https://portail-fresh.github.io/technical-documentation/MetadataSchemaIntroEN/
+#       lang: en
+#     - name: Français
+#       link: https://portail-fresh.github.io/technical-documentation/
+#       lang: fr

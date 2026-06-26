@@ -1,0 +1,42 @@
+---
+hide:
+  - toc
+---
+
+# Organisation identifier Type 
+
+Identifier type of organisation, funder and sponsor.  
+
+>_Applies to the element **[`PIDSchema`](../VariablesDictionnary/Section_2.md)**_  
+>_Download in **[`XML/RDF`](https://github.com/portail-fresh/fresh-metadata-schema/blob/main/ControlledVocabularies/PIDSchema.rdf)**_
+
+
+<table>
+  <tr BGCOLOR="#00a6e2">
+    <th style="color:#FFFFFF;">French label</th>
+    <th style="color:#FFFFFF;">English label</th>
+    <th style="color:#FFFFFF;">French description</th>
+    <th style="color:#FFFFFF;">English description</th>
+  </tr>
+  <tr>
+    <td><b>SIREN</b></td>
+    <td><b>SIREN</b></td>
+    <td>Système national d’identification et du répertoire des entreprises et de leurs établissements. <i><a href="https://annuaire-entreprises.data.gouv.fr/">https://annuaire-entreprises.data.gouv.fr/</a></i></td>
+    <td>Computer system for the business and establishment register. <i><a href="https://annuaire-entreprises.data.gouv.fr/">https://annuaire-entreprises.data.gouv.fr/</i></a></i></td>
+  </tr>
+    <tr>
+    <td><b>RNSR</b></td>
+    <td><b>RNSR</b></td>
+    <td>Répertoire national des structures de recherche. <i><a href="https://rnsr.adc.education.fr/">https://rnsr.adc.education.fr/</a></i></td>
+    <td>National directory of research structures.
+    <i><a href="https://rnsr.adc.education.fr/">https://rnsr.adc.education.fr/</a></i></td>
+  </tr>
+    <tr>
+    <td><b>ROR</b></td>
+    <td><b>ROR</b></td>
+    <td>Registre des organisations de recherche.
+    <p><i><a href="https://ror.org/">https://ror.org/</a></i></p></td>
+    <td>Research Organization Registry.
+   <i><a href="https://ror.org/">https://ror.org/</a></i></td>
+  </tr>
+  </table>

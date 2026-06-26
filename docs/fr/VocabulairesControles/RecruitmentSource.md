@@ -1,0 +1,50 @@
+---
+hide:
+  - toc
+---
+
+# Source de recrutement des participants
+
+>_S'applique pour l'élément **[`RecruitmentSource`](../DictionnaireVariables/Section_4.md)**_  
+>_Télécharger au format **[`XML/RDF`](https://github.com/portail-fresh/fresh-metadata-schema/blob/main/ControlledVocabularies/RecruitementSource.rdf)**_      
+
+
+
+<table>
+  <tr BGCOLOR="#00a6e2">
+    <th style="color:#FFFFFF;">Terme français</th>
+    <th style="color:#FFFFFF;">Terme anglais</th>
+  </tr>
+  <tr>
+    <td>Via les professionnels de santé d'exercice libéral</td>
+    <td>Through independent healthcare practitioners</td>
+  </tr>
+    <tr>
+    <td>Base de population à finalité statistique</td>
+    <td>Population database for statistical purposes</td>
+  </tr>
+    </tr>
+    <tr>
+    <td>Registre de maladies, de décès</td>
+    <td>Disease and death registry</td>
+  </tr>
+      </tr>
+    <tr>
+    <td>Base médico-administrative (de patients, Assurance Maladie/Mutuelle)</td>
+    <td>Medical-administrative database (patients, health insurance/mutual insurance)</td>
+  </tr>
+      </tr>
+    <tr>
+    <td>Base administrative (d'employés, d'élèves, d'étudiants, etc…)</td>
+    <td>Administrative database (employees, pupils, students, etc.)</td>
+  </tr>
+      <tr>
+    <td>Via des structures (services ou établissements de santé, écoles, entreprises…)</td>
+    <td>Through organizations (health services or institutions, schools, businesses, etc.)</td>
+  </tr>
+      <tr>
+    <td>Autre</td>
+    <td>Other</td>
+  </tr>
+
+  </table>

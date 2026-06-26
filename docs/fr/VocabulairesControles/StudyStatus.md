@@ -1,0 +1,44 @@
+---
+hide:
+  - toc
+---
+
+# Statut de l'étude
+
+>_S'applique pour l'élément **[`StudyStatus`](../DictionnaireVariables/Section_1.md)**_  
+>_Télécharger au format **[`XML/RDF`](https://github.com/portail-fresh/fresh-metadata-schema/blob/main/ControlledVocabularies/StudyStatus.rdf)**_       
+
+
+
+<table>
+  <tr BGCOLOR="#00a6e2">
+    <th style="color:#FFFFFF;">Terme français</th>
+    <th style="color:#FFFFFF;">Terme anglais</th>
+    <th style="color:#FFFFFF;">Description en français</th>
+    <th style="color:#FFFFFF;">Description en anglais</th>
+  </tr>
+  <tr>
+    <td><b>Étude en cours</b></td>
+    <td><b>Ongoing study</b></td>
+    <td>L'étude est toujours en cours de réalisation ou de collecte de données.</td>
+    <td>The study is still ongoing or data collection is in progress.</td>
+  </tr>
+    <tr>
+    <td><b>Étude complétée</b></td>
+    <td><b>Completed study</b></td>
+    <td>L'étude est terminée et toutes les données ont été collectées.</td>
+    <td>The study is finished and all data has been collected.</td>
+  </tr>
+    <tr>
+    <td><b>Étude arrêtée</b></td>
+    <td><b>Terminated study</b></td>
+    <td>L'étude a été interrompue avant son achèvement prévu.</td>
+    <td>The study was stopped before its planned completion.</td>
+  </tr>
+    <tr>
+    <td><b>Inconnu</b></td>
+    <td><b>Unknown</b></td>
+    <td>Le statut de l'étude n'est pas connu.</td>
+    <td>The status of the study is unknown.</td>
+  </tr>
+  </table>

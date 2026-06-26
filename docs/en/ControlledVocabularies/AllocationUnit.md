@@ -1,0 +1,34 @@
+---
+hide:
+  - toc
+---
+
+# Allocation Unit
+
+Unit to assign participants to an arm of a clinical study.  
+
+>_Applies to the element **[`AllocationType`](../VariablesDictionnary/Section_3.md)**_  
+
+>_Download in **[`XML/RDF`](https://github.com/portail-fresh/fresh-metadata-schema/blob/main/ControlledVocabularies/AllocationUnit.rdf)**_
+
+
+<table>
+  <tr BGCOLOR="#00a6e2">
+    <th style="color:#FFFFFF;">French label</th>
+    <th style="color:#FFFFFF;">English label</th>
+    <th style="color:#FFFFFF;">French description</th>
+    <th style="color:#FFFFFF;">English description</th>
+  </tr>
+  <tr>
+    <td><b>Individuelle</b></td>
+    <td><b>Individuelle</b></td>
+    <td>Intervention attribuée au niveau individuel.</td>
+    <td>Individual-level intervention.</td>
+  </tr>
+    <tr>
+    <td><b>Cluster</b></td>
+    <td><b>Cluster</b></td>
+    <td>Intervention attribuée au niveau du cluster.</td>
+    <td>Intervention allocated at cluster level.</td>
+  </tr>
+  </table>
