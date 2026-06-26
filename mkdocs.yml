@@ -19,7 +19,8 @@ nav:
         - 3. Méthodologie de l'étude : fr/DictionnaireVariables/Section_3.md
         - 4. Collecte et accès aux données : fr/DictionnaireVariables/Section_4.md
     - Vocabulaires contrôlés: fr/VocabulairesControles/VocabulairesControles.md  
-    - Schéma des métadonnées : fr/SchemaMetadonnees.md
+    - Schéma des métadonnées : fr/SchemaMetadonnees.md  
+    - Ressources : fr/VocabulairesControles/FReSH_OrganisationsList.md
       
   - English :
     - Technical Documentation : en/TechnicalDocumentation.md
@@ -33,6 +34,7 @@ nav:
         - 4. Data collection and access : en/VariablesDictionnary/Section_4.md
     - FReSH Metadata schema: en/MetadataSchema.md
     - Controlled vocabularies: en/ControlledVocabularies/ControlledVocabularies.md
+    - Ressources : en/ControlledVocabularies/FReSH_OrganisationsList.md
 
   - portail-fresh.fr : https://portail-fresh.fr/
   - github.com/portail-fresh : https://github.com/portail-fresh/fresh-metadata-schema/tree/main 

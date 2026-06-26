@@ -20,3 +20,8 @@ hide:
   _List of vocabularies used in the FReSH model._
 
 ---
+
+* [Ressources](ControlledVocabularies/FReSH_OrganisationsList.md)    
+  _Organisations listed on the FReSH portal_
+
+---
