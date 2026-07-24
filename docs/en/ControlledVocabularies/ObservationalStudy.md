@@ -8,7 +8,7 @@ hide:
 Describes the methodological approach of the observational study, specifying how participants are selected and monitored or observed.  
 
 >_Applies to the element **[`ObservationalStudyDesign`](../VariablesDictionnary/Section_3.md)**_  
->_Download in **[`XML/RDF`](https://github.com/portail-fresh/fresh-metadata-schema/blob/main/ControlledVocabularies/ObservationalStudy.rdf)**_
+>_Download in **[`TTL/RDF`](https://github.com/portail-fresh/fresh-metadata-schema/blob/main/ControlledVocabularies/ObservationalStudy.rdf)**_
 
 
 <table>

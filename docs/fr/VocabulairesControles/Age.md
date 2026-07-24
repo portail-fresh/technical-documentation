@@ -7,7 +7,7 @@ hide:
 
 >_S'applique pour l'élément **[`Age`](../DictionnaireVariables/Section_1.md)**_   
 
->_Télécharger au format **[`XML/RDF`](https://github.com/portail-fresh/fresh-metadata-schema/blob/main/ControlledVocabularies/Age.rdf)**_   
+>_Télécharger au format **[`TTL/RDF`](../../ttl/Age.ttl)**_   
 
 
 <table>

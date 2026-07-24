@@ -7,7 +7,7 @@ hide:
 
 Spécialités médicales auxquelles se rapporte l'étude.  
 >_S'applique pour l'élément **[`HealthTheme`](../DictionnaireVariables/Section_1.md)**_  
->_Télécharger au format **[`XML/RDF`](https://github.com/portail-fresh/fresh-metadata-schema/blob/main/ControlledVocabularies/HealthTheme.rdf)**_    
+>_Télécharger au format **[`TTL/RDF`](https://github.com/portail-fresh/fresh-metadata-schema/blob/main/ControlledVocabularies/HealthTheme.rdf)**_    
 
 
 

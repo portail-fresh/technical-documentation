@@ -7,7 +7,7 @@ hide:
 Précise quelles parties prenantes de l’essai (participant, personnel soignant, investigateur, analyste des données) ignorent l’intervention attribuée, afin de limiter les biais.  
 >_S'applique pour l'élément **[`BlindedMaskingDetails`](../DictionnaireVariables/Section_3.md)**_  
 
->_Télécharger au format **[`XML/RDF`](https://github.com/portail-fresh/fresh-metadata-schema/blob/main/ControlledVocabularies/BlindedMaskingDetails.rdf)**_    
+>_Télécharger au format **[`TTL/RDF`](https://github.com/portail-fresh/fresh-metadata-schema/blob/main/ControlledVocabularies/BlindedMaskingDetails.rdf)**_    
 
 
 

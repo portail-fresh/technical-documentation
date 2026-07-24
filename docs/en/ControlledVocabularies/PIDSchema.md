@@ -8,7 +8,7 @@ hide:
 Identifier type of organisation, funder and sponsor.  
 
 >_Applies to the element **[`PIDSchema`](../VariablesDictionnary/Section_2.md)**_  
->_Download in **[`XML/RDF`](https://github.com/portail-fresh/fresh-metadata-schema/blob/main/ControlledVocabularies/PIDSchema.rdf)**_
+>_Download in **[`TTL/RDF`](https://github.com/portail-fresh/fresh-metadata-schema/blob/main/ControlledVocabularies/PIDSchema.rdf)**_
 
 
 <table>

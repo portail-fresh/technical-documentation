@@ -6,7 +6,7 @@ hide:
 # Participant Recruitment Source
 
 >_Applies to the element **[`RecruitmentSource`](../VariablesDictionnary/Section_4.md)**_  
->_Download in **[`XML/RDF`](https://github.com/portail-fresh/fresh-metadata-schema/blob/main/ControlledVocabularies/RecruitementSource.rdf)**_
+>_Download in **[`TTL/RDF`](https://github.com/portail-fresh/fresh-metadata-schema/blob/main/ControlledVocabularies/RecruitementSource.rdf)**_
 
 
 <table>

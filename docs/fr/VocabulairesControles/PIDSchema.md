@@ -6,7 +6,7 @@ hide:
 # Type d'identifiant
 Type d'identifiant pour les organismes, financeurs et promoteurs.  
 >_S'applique pour l'élément **[`PIDSchema`](../DictionnaireVariables/Section_2.md)**_  
->_Télécharger au format **[`XML/RDF`](https://github.com/portail-fresh/fresh-metadata-schema/blob/main/ControlledVocabularies/PIDSchema.rdf)**_    
+>_Télécharger au format **[`TTL/RDF`](https://github.com/portail-fresh/fresh-metadata-schema/blob/main/ControlledVocabularies/PIDSchema.rdf)**_    
 
 
 

@@ -6,7 +6,7 @@ hide:
 # Source de recrutement des participants
 
 >_S'applique pour l'élément **[`RecruitmentSource`](../DictionnaireVariables/Section_4.md)**_  
->_Télécharger au format **[`XML/RDF`](https://github.com/portail-fresh/fresh-metadata-schema/blob/main/ControlledVocabularies/RecruitementSource.rdf)**_      
+>_Télécharger au format **[`TTL/RDF`](https://github.com/portail-fresh/fresh-metadata-schema/blob/main/ControlledVocabularies/RecruitementSource.rdf)**_      
 
 
 

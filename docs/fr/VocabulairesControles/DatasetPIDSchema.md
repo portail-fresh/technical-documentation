@@ -7,7 +7,7 @@ hide:
 Identifiant unique et stable permettant de référencer durablement le jeu de données, indépendamment de son emplacement technique.
 >_S'applique pour l'élément **[`DatasetPIDSchema`](../DictionnaireVariables/Section_4.md)**_  
 
->_Télécharger au format **[`XML/RDF`](https://github.com/portail-fresh/fresh-metadata-schema/blob/main/ControlledVocabularies/DatasetPIDSchema.rdf)**_    
+>_Télécharger au format **[`TTL/RDF`](https://github.com/portail-fresh/fresh-metadata-schema/blob/main/ControlledVocabularies/DatasetPIDSchema.rdf)**_    
 
 
 

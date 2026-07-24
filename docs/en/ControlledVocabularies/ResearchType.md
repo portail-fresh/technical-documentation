@@ -8,7 +8,7 @@ hide:
 Indicates the type of the research, including interventional (also known as experimental) studies and observational studies.  
 
 >_Applies to the element **[`ResearchType`](../VariablesDictionnary/Section_3.md)**_  
->_Download in **[`XML/RDF`](https://github.com/portail-fresh/fresh-metadata-schema/blob/main/ControlledVocabularies/ResearchType.rdf)**_
+>_Download in **[`TTL/RDF`](https://github.com/portail-fresh/fresh-metadata-schema/blob/main/ControlledVocabularies/ResearchType.rdf)**_
 
 
 <table>

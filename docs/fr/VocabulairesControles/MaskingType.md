@@ -6,7 +6,7 @@ hide:
 # Type d'insu
 Stratégie de conception d'un essai clinique dans laquelle une ou plusieurs parties impliquées dans l'essai, telles que l'investigateur ou les participants, ne savent pas quels participants ont été assignés à quelles interventions.   
 >_S'applique pour l'élément **[`MaskingType`](../DictionnaireVariables/Section_3.md)**_  
->_Télécharger au format **[`XML/RDF`](https://github.com/portail-fresh/fresh-metadata-schema/blob/main/ControlledVocabularies/MaskingType.rdf)**_    
+>_Télécharger au format **[`TTL/RDF`](https://github.com/portail-fresh/fresh-metadata-schema/blob/main/ControlledVocabularies/MaskingType.rdf)**_    
 
 
 <table>

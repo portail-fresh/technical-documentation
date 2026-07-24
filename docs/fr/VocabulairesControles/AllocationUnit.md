@@ -8,7 +8,7 @@ hide:
 Unité de répartition des participants en bras d'une étude clinique.  
 >_S'applique pour l'élément **[`AllocationUnit`](../DictionnaireVariables/Section_3.md)**_   
 
->_Télécharger au format **[`XML/RDF`](https://github.com/portail-fresh/fresh-metadata-schema/blob/main/ControlledVocabularies/AllocationUnit.rdf)**_    
+>_Télécharger au format **[`TTL/RDF`](https://github.com/portail-fresh/fresh-metadata-schema/blob/main/ControlledVocabularies/AllocationUnit.rdf)**_    
 
 
 <table>

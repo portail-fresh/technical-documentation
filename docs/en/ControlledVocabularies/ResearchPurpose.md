@@ -8,7 +8,7 @@ hide:
 The main reason for the study.  
 
 >_Applies to the element **[`ResearchPurpose`](../VariablesDictionnary/Section_3.md)**_  
->_Download in **[`XML/RDF`](https://github.com/portail-fresh/fresh-metadata-schema/blob/main/ControlledVocabularies/ResearchPurpose.rdf)**_
+>_Download in **[`TTL/RDF`](https://github.com/portail-fresh/fresh-metadata-schema/blob/main/ControlledVocabularies/ResearchPurpose.rdf)**_
 
 
 <table>

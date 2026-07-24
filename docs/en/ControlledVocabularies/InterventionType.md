@@ -8,7 +8,7 @@ hide:
 Any process, action or factor to which participants are subjected or exposed, and which is the subject of a clinical or observational study to assess its effects on health.  
 
 >_Applies to the element **[`InterventionType`](../VariablesDictionnary/Section_3.md)**_  
->_Download in **[`XML/RDF`](https://github.com/portail-fresh/fresh-metadata-schema/blob/main/ControlledVocabularies/InterventionType.rdf)**_
+>_Download in **[`TTL/RDF`](https://github.com/portail-fresh/fresh-metadata-schema/blob/main/ControlledVocabularies/InterventionType.rdf)**_
 
 
 <table>

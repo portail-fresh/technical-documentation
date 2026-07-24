@@ -7,7 +7,7 @@ hide:
 Stade d’un essai clinique définissant les objectifs et méthodes de l’évaluation d’un médicament ou produit biologique (tolérance, efficacité, comparaison, suivi).  
 
 >_S'applique pour l'élément **[`TrialPhase`](../DictionnaireVariables/Section_3.md)**_  
->_Télécharger au format **[`XML/RDF`](https://github.com/portail-fresh/fresh-metadata-schema/blob/main/ControlledVocabularies/TrialPhase.rdf)**_       
+>_Télécharger au format **[`TTL/RDF`](https://github.com/portail-fresh/fresh-metadata-schema/blob/main/ControlledVocabularies/TrialPhase.rdf)**_       
 
 
 

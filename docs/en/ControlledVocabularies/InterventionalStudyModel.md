@@ -8,7 +8,7 @@ hide:
 The general design of the strategy for assigning interventions to participants in a clinical study.  
 
 >_Applies to the element **[`InterventionalStudyModel`](../VariablesDictionnary/Section_3.md)**_  
->_Download in **[`XML/RDF`](https://github.com/portail-fresh/fresh-metadata-schema/blob/main/ControlledVocabularies/InterventionalStudyModel.rdf)**_
+>_Download in **[`TTL/RDF`](https://github.com/portail-fresh/fresh-metadata-schema/blob/main/ControlledVocabularies/InterventionalStudyModel.rdf)**_
 
 <table>
   <tr BGCOLOR="#00a6e2">

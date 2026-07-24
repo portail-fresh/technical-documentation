@@ -6,7 +6,7 @@ hide:
 # Nature of samples in the biobanque
 
 >_Applies to the element **[`BiobankContent`](../VariablesDictionnary/Section_4.md)**_  
->_Download in **[`XML/RDF`](https://github.com/portail-fresh/fresh-metadata-schema/blob/main/ControlledVocabularies/BiobankContent.rdf)**_
+>_Download in **[`TTL/RDF`](https://github.com/portail-fresh/fresh-metadata-schema/blob/main/ControlledVocabularies/BiobankContent.rdf)**_
 
 <table>
   <tr BGCOLOR="#00a6e2">

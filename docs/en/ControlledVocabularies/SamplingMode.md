@@ -8,7 +8,7 @@ hide:
 Describes the method used to select participants when they were included in the study.  
 
 >_Applies to the element **[`SamplingMode`](../VariablesDictionnary/Section_4.md)**_  
->_Download in **[`XML/RDF`](https://github.com/portail-fresh/fresh-metadata-schema/blob/main/ControlledVocabularies/SamplingMode.rdf)**_
+>_Download in **[`TTL/RDF`](https://github.com/portail-fresh/fresh-metadata-schema/blob/main/ControlledVocabularies/SamplingMode.rdf)**_
 
 
 <table>

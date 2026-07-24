@@ -7,7 +7,7 @@ hide:
 
 Source d'origine des métadonnées.  
 >_S'applique pour l'élément **[`Provenance`](../DictionnaireVariables/Section_0.md)**_  
->_Télécharger au format **[`XML/RDF`](https://github.com/portail-fresh/fresh-metadata-schema/blob/main/ControlledVocabularies/Provenance.rdf)**_      
+>_Télécharger au format **[`TTL/RDF`](https://github.com/portail-fresh/fresh-metadata-schema/blob/main/ControlledVocabularies/Provenance.rdf)**_      
 
 
 

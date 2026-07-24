@@ -7,7 +7,7 @@ hide:
 Autorité compétente ayant délivré l'autorisation ou l'avis de validité de l'étude.
 >_S'applique pour l'élément **[`AuthorizingAgency`](../DictionnaireVariables/Section_2.md)**_    
 
->_Télécharger au format **[`XML/RDF`](https://github.com/portail-fresh/fresh-metadata-schema/blob/main/ControlledVocabularies/AuthorisationAgency.rdf)**_    
+>_Télécharger au format **[`TTL/RDF`](https://github.com/portail-fresh/fresh-metadata-schema/blob/main/ControlledVocabularies/AuthorisationAgency.rdf)**_    
 
 
 <table>

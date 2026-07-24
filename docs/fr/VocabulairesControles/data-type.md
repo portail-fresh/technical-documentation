@@ -7,7 +7,7 @@ hide:
 Le champ Type de données décrit les catégories de données collectées dans le cadre de l’étude.  
 >_S'applique pour l'élément **[`DataType`](../DictionnaireVariables/Section_4.md)**_
 
->_Télécharger au format **[`XML/RDF`](https://github.com/portail-fresh/fresh-metadata-schema/blob/main/ControlledVocabularies/Datatype.rdf)**_    
+>_Télécharger au format **[`TTL/RDF`](https://github.com/portail-fresh/fresh-metadata-schema/blob/main/ControlledVocabularies/Datatype.rdf)**_    
 
 
 <table>

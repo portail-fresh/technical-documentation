@@ -8,7 +8,7 @@ hide:
 Indication of the time perspective for data collection in the observational study.  
 
 >_Applies to the element **[`TimePerspective`](../VariablesDictionnary/Section_3.md)**_  
->_Download in **[`XML/RDF`](https://github.com/portail-fresh/fresh-metadata-schema/blob/main/ControlledVocabularies/RecrutementTiming.rdf)**_
+>_Download in **[`TTL/RDF`](https://github.com/portail-fresh/fresh-metadata-schema/blob/main/ControlledVocabularies/RecrutementTiming.rdf)**_
 
 
 <table>

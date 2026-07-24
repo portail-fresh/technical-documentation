@@ -7,7 +7,7 @@ hide:
 
 >_S'applique pour les éléments **[`VersionLang`](../DictionnaireVariables/Section_0.md) et [`OriginLang`](../DictionnaireVariables/Section_0.md)**_  
 
->_Télécharger au format **[`XML/RDF`](https://github.com/portail-fresh/fresh-metadata-schema/blob/main/ControlledVocabularies/OriginLang.rdf)**_  
+>_Télécharger au format **[`TTL/RDF`](https://github.com/portail-fresh/fresh-metadata-schema/blob/main/ControlledVocabularies/OriginLang.rdf)**_  
 
 <table>
   <tr BGCOLOR="#00a6e2">

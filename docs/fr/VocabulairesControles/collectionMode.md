@@ -7,7 +7,7 @@ hide:
 Méthode utilisée pour recueillir les données.
 >_S'applique pour l'élément **[`CollectionMode`](../DictionnaireVariables/Section_4.md)**_  
 
->_Télécharger au format **[`XML/RDF`](https://github.com/portail-fresh/fresh-metadata-schema/blob/main/ControlledVocabularies/CollectionMode.rdf)**_    
+>_Télécharger au format **[`TTL/RDF`](https://github.com/portail-fresh/fresh-metadata-schema/blob/main/ControlledVocabularies/CollectionMode.rdf)**_    
 
 
 <table>

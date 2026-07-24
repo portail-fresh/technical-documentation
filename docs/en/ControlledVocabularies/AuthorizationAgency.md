@@ -8,7 +8,7 @@ hide:
 Competent authority that issued the authorisation or notice of validity for the study.  
 
 >_Applies to the element **[`AuthorizingAgency`](../VariablesDictionnary/Section_1.md)**_  
->_Download in **[`XML/RDF`](https://github.com/portail-fresh/fresh-metadata-schema/blob/main/ControlledVocabularies/AuthorisationAgency.rdf)**_
+>_Download in **[`TTL/RDF`](https://github.com/portail-fresh/fresh-metadata-schema/blob/main/ControlledVocabularies/AuthorisationAgency.rdf)**_
 
 
 <table>

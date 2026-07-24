@@ -7,7 +7,7 @@ hide:
 Finalité de l’utilisation de la source dans le cadre de l'étude.  
 
 >_S'applique pour l'élément **[`SourcePurpose`](../DictionnaireVariables/Section_4.md)**_  
->_Télécharger au format **[`XML/RDF`](https://github.com/portail-fresh/fresh-metadata-schema/blob/main/ControlledVocabularies/SourcePurpose.rdf)**_      
+>_Télécharger au format **[`TTL/RDF`](https://github.com/portail-fresh/fresh-metadata-schema/blob/main/ControlledVocabularies/SourcePurpose.rdf)**_      
 
 
 

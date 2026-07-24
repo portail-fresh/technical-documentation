@@ -8,7 +8,7 @@ hide:
 Personal, social, economic, and environmental factors that determine the health status of individuals or populations.  
 
 >_Applies to the element **[`HealthDeterminant`](../VariablesDictionnary/Section_1.md)**_  
->_Download in **[`XML/RDF`](https://github.com/portail-fresh/fresh-metadata-schema/blob/main/ControlledVocabularies/HealthDeterminant.rdf)**_
+>_Download in **[`TTL/RDF`](https://github.com/portail-fresh/fresh-metadata-schema/blob/main/ControlledVocabularies/HealthDeterminant.rdf)**_
 
 
 <table>

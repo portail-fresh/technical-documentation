@@ -8,7 +8,7 @@ hide:
 The Data Type field describes the categories of data collected within the study.  
 
 >_Applies to the element **[`DataType`](../VariablesDictionnary/Section_4.md)**_  
->_Download in **[`XML/RDF`](https://github.com/portail-fresh/fresh-metadata-schema/blob/main/ControlledVocabularies/Datatype.rdf)**_
+>_Download in **[`TTL/RDF`](https://github.com/portail-fresh/fresh-metadata-schema/blob/main/ControlledVocabularies/Datatype.rdf)**_
 
 
 <table>

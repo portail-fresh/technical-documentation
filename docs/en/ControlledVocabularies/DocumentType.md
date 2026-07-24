@@ -6,7 +6,7 @@ hide:
 # Document Type
 
 >_Applies to the element **[`DocumentType`](../VariablesDictionnary/Section_4.md)**_  
->_Download in **[`XML/RDF`](https://github.com/portail-fresh/fresh-metadata-schema/blob/main/ControlledVocabularies/DocumentType.rdf)**_
+>_Download in **[`TTL/RDF`](https://github.com/portail-fresh/fresh-metadata-schema/blob/main/ControlledVocabularies/DocumentType.rdf)**_
 
 <table>
   <tr BGCOLOR="#00a6e2">
