@@ -6,7 +6,7 @@ hide:
 # Procédure d'échantillonnage
 Décrit la méthode utilisée pour sélectionner les participants lors de leur inclusion dans l’étude.  
 >_S'applique pour l'élément **[`SamplingMode`](../DictionnaireVariables/Section_4.md)**_  
->_Télécharger au format **[`TTL/RDF`](https://github.com/portail-fresh/fresh-metadata-schema/blob/main/ControlledVocabularies/SamplingMode.rdf)**_      
+>_Télécharger au format **[`TTL/RDF`](../../ttl/SamplingMode.ttl)**_      
 
 
 

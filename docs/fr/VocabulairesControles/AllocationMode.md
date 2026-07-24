@@ -8,7 +8,7 @@ hide:
 <p>Stratégie pour affecter des participants en bras d'une étude clinique.</p>
 >_S'applique pour l'élément **[`AllocationMode`](../DictionnaireVariables/Section_3.md)**_  
 
->_Télécharger au format **[`TTL/RDF`](https://github.com/portail-fresh/fresh-metadata-schema/blob/main/ControlledVocabularies/AllocationMode.rdf)**_    
+>_Télécharger au format **[`TTL/RDF`](../../ttl/AllocationMode.ttl)**_    
 
 
 <table>

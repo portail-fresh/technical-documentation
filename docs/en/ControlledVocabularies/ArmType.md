@@ -9,7 +9,7 @@ A general description of the clinical trial arm identifying the role of the inte
 
 >_Applies to the element **[`ArmType`](../VariablesDictionnary/Section_3.md)**_  
 
->_Download in **[`TTL/RDF`](https://github.com/portail-fresh/fresh-metadata-schema/blob/main/ControlledVocabularies/ArmType.rdf)**_
+>_Download in **[`TTL/RDF`](.../../ttl/ArmType.ttl)**_
 
 
 <table>

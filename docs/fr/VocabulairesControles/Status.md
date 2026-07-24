@@ -6,7 +6,7 @@ hide:
 # Statut de la fiche
 
 >_S'applique pour l'élément **[`RecordStatus`](../DictionnaireVariables/Section_0.md)**_  
->_Télécharger au format **[`TTL/RDF`](https://github.com/portail-fresh/fresh-metadata-schema/blob/main/ControlledVocabularies/Status.rdf)**_       
+>_Télécharger au format **[`TTL/RDF`](../../ttl/Status.ttl)**_       
 
 
 

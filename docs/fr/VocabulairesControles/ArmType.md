@@ -7,7 +7,7 @@ hide:
 Description générale du bras participant à l'essai clinique identifiant le rôle de l'intervention dont bénéficient les participants.  
 >_S'applique pour l'élément **[`ArmType`](../DictionnaireVariables/Section_3.md)**_  
 
->_Télécharger au format **[`TTL/RDF`](https://github.com/portail-fresh/fresh-metadata-schema/blob/main/ControlledVocabularies/ArmType.rdf)**_    
+>_Télécharger au format **[`TTL/RDF`](../../ttl/ArmType.ttl)**_    
 
 
 <table>

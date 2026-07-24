@@ -6,7 +6,7 @@ hide:
 # Modèle de l’étude observationnelle
 Indique l’approche méthodologique de l’étude observationnelle, précisant comment les participants sont sélectionnés et suivis ou observés.  
 >_S'applique pour l'élément **[`ObservationalStudyDesign`](../DictionnaireVariables/Section_3.md)**_  
->_Télécharger au format **[`TTL/RDF`](https://github.com/portail-fresh/fresh-metadata-schema/blob/main/ControlledVocabularies/ObservationalStudy.rdf)**_    
+>_Télécharger au format **[`TTL/RDF`](../../ttl/ObservationalStudy.ttl)**_    
 
 
 <table>

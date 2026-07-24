@@ -6,7 +6,7 @@ hide:
 # Nombre prévu de participants
 
 >_S'applique pour l'élément **[`PlannedSampleSize`](../DictionnaireVariables/Section_4.md)**_  
->_Télécharger au format **[`TTL/RDF`](https://github.com/portail-fresh/fresh-metadata-schema/blob/main/ControlledVocabularies/PlannedSampleSize.rdf)**_    
+>_Télécharger au format **[`TTL/RDF`](../../ttl/PlannedSampleSize.ttl)**_    
 
 
 <table>

@@ -7,7 +7,7 @@ hide:
 
 >_S'applique pour les éléments **[`FundingAgentType`](../DictionnaireVariables/Section_2.md) and [`SponsorType`](../DictionnaireVariables/Section_2.md)**_
 
->_Télécharger au format **[`TTL/RDF`](https://github.com/portail-fresh/fresh-metadata-schema/blob/main/ControlledVocabularies/OrganisationType.rdf)**_   
+>_Télécharger au format **[`TTL/RDF`](../../ttl/OrganisationType.ttl)**_   
 
 
 <table>

@@ -8,7 +8,7 @@ hide:
 Method of active follow-up of participants.
 
 >_Applies to the element **[`FollowUpMode`](../VariablesDictionnary/Section_4.md)**_  
->_Download in **[`TTL/RDF`](https://github.com/portail-fresh/fresh-metadata-schema/blob/main/ControlledVocabularies/FollowUpMode.rdf)**_
+>_Download in **[`TTL/RDF`](.../../ttl/FollowUpMode.ttl)**_
 
 
 <table>

@@ -8,7 +8,7 @@ hide:
 Original source of the metadata.  
 
 >_Applies to the element **[`Provenance`](../VariablesDictionnary/Section_0.md)**_  
->_Download in **[`TTL/RDF`](https://github.com/portail-fresh/fresh-metadata-schema/blob/main/ControlledVocabularies/Provenance.rdf)**_
+>_Download in **[`TTL/RDF`](.../../ttl/Provenance.ttl)**_
 
 
 <table>

@@ -6,7 +6,7 @@ hide:
 # Sexe
 
 >_S'applique pour l'élément **[`Sex`](../DictionnaireVariables/Section_1.md)**_  
->_Télécharger au format **[`TTL/RDF`](https://github.com/portail-fresh/fresh-metadata-schema/blob/main/ControlledVocabularies/Sex.rdf)**_      
+>_Télécharger au format **[`TTL/RDF`](../../ttl/Sex.ttl)**_      
 
 
 

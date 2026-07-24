@@ -7,7 +7,7 @@ hide:
 
 >_Applies to the element **[`Age`](../VariablesDictionnary/Section_1.md)**_  
 
->_Download in **[`TTL/RDF`](https://github.com/portail-fresh/fresh-metadata-schema/blob/main/ControlledVocabularies/Age.rdf)**_  
+>_Download in **[`TTL/RDF`](.../../ttl/Age.ttl)**_  
 
 <table>
   <tr BGCOLOR="#00a6e2">

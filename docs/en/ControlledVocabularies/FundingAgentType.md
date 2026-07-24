@@ -7,7 +7,7 @@ hide:
 
 >_Applies to the elements **[`FundingAgentType`](../VariablesDictionnary/Section_2.md) and [`SponsorType`](../VariablesDictionnary/Section_2.md)**_  
 
->_Download in **[`TTL/RDF`](https://github.com/portail-fresh/fresh-metadata-schema/blob/main/ControlledVocabularies/OrganisationType.rdf)**_  
+>_Download in **[`TTL/RDF`](.../../ttl/OrganisationType.ttl)**_  
 
 <table>
   <tr BGCOLOR="#00a6e2">

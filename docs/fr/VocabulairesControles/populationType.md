@@ -7,7 +7,7 @@ hide:
 
 Catégorie principale des personnes concernées par l’étude (population générale, patients, personnes en situation de handicap).  
 >_S'applique pour l'élément **[`PopulationType`](../DictionnaireVariables/Section_1.md)**_  
->_Télécharger au format **[`TTL/RDF`](https://github.com/portail-fresh/fresh-metadata-schema/blob/main/ControlledVocabularies/PopulationType.rdf)**_      
+>_Télécharger au format **[`TTL/RDF`](../../ttl/PopulationType.ttl)**_      
 
 
 

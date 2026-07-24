@@ -6,7 +6,7 @@ hide:
 # Type de facteur ou d'exposition
 Tout processus, action ou facteur auquel les participants sont soumis ou exposés, et qui fait l’objet d’une étude clinique ou observationnelle afin d’évaluer ses effets sur la santé.  
 >_S'applique pour l'élément **[`InterventionType`](../DictionnaireVariables/Section_3.md)**_  
->_Télécharger au format **[`TTL/RDF`](https://github.com/portail-fresh/fresh-metadata-schema/blob/main/ControlledVocabularies/InterventionType.rdf)**_    
+>_Télécharger au format **[`TTL/RDF`](../../ttl/InterventionType.ttl)**_    
 
 
 <table>

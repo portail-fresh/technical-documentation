@@ -6,7 +6,7 @@ hide:
 # Expected number of participants
 
 >_Applies to the element **[`PlannedSampleSize`](../VariablesDictionnary/Section_4.md)**_  
->_Download in **[`TTL/RDF`](https://github.com/portail-fresh/fresh-metadata-schema/blob/main/ControlledVocabularies/PlannedSampleSize.rdf)**_
+>_Download in **[`TTL/RDF`](.../../ttl/
 
 <table>
   <tr BGCOLOR="#00a6e2">

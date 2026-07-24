@@ -7,7 +7,7 @@ hide:
 
 Indique la nature de la recherche comprenant les études interventionnelles (également appelées expérimentales) et les études observationnelles.  
 >_S'applique pour l'élément **[`ResearchType`](../DictionnaireVariables/Section_3.md)**_  
->_Télécharger au format **[`TTL/RDF`](https://github.com/portail-fresh/fresh-metadata-schema/blob/main/ControlledVocabularies/ResearchType.rdf)**_      
+>_Télécharger au format **[`TTL/RDF`](../../ttl/ResearchType.ttl)**_      
 
 
 

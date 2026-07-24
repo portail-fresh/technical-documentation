@@ -8,7 +8,7 @@ hide:
 Type de source des données utilisées.  
 
 >_S'applique pour l'élément **[`SourceType`](../DictionnaireVariables/Section_4.md)**_  
->_Télécharger au format **[`TTL/RDF`](https://github.com/portail-fresh/fresh-metadata-schema/blob/main/ControlledVocabularies/SourceType.rdf)**_      
+>_Télécharger au format **[`TTL/RDF`](../../ttl/SourceType.ttl)**_      
 
 
 

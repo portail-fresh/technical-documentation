@@ -8,7 +8,7 @@ hide:
 Specifies which stakeholders in the trial (participant, care provider, investigator, outcome assessor ) are unaware of the assigned intervention, in order to reduce bias.  
 
 >_Applies to the element **[`BlindedMaskingDetails`](../VariablesDictionnary/Section_3.md)**_  
->_Download in **[`TTL/RDF`](https://github.com/portail-fresh/fresh-metadata-schema/blob/main/ControlledVocabularies/BlindedMaskingDetails.rdf)**_
+>_Download in **[`TTL/RDF`](.../../ttl/BlindedMaskingDetails.ttl)**_
 
 
 <table>

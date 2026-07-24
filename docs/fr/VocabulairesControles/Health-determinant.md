@@ -6,7 +6,7 @@ hide:
 # Déterminants de santé
 Facteurs personnels, sociaux, économiques et environnementaux qui déterminent l’état de santé des individus ou des populations.  
 >_S'applique pour l'élément **[`HealthDeterminant`](../DictionnaireVariables/Section_1.md)**_  
->_Télécharger au format **[`TTL/RDF`](https://github.com/portail-fresh/fresh-metadata-schema/blob/main/ControlledVocabularies/HealthDeterminant.rdf)**_    
+>_Télécharger au format **[`TTL/RDF`](../../ttl/HealthDeterminant.ttl)**_    
 
 
 <table>

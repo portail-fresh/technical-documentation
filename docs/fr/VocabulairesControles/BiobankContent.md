@@ -7,7 +7,7 @@ hide:
 
 >_S'applique pour l'élément **[`BiobankContent`](../DictionnaireVariables/Section_4.md)**_   
 
->_Télécharger au format **[`TTL/RDF`](https://github.com/portail-fresh/fresh-metadata-schema/blob/main/ControlledVocabularies/BiobankContent.rdf)**_    
+>_Télécharger au format **[`TTL/RDF`](../../ttl/BiobankContent.ttl)**_    
 
 
 <table>

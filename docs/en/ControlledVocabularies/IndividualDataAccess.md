@@ -8,7 +8,7 @@ hide:
 Individual data availability status at the end of the collect.  
 
 >_Applies to the element **[`IndividualDataAccess`](../VariablesDictionnary/Section_4.md)**_  
->_Download in **[`TTL/RDF`](https://github.com/portail-fresh/fresh-metadata-schema/blob/main/ControlledVocabularies/IndividualDataAccess.rdf)**_
+>_Download in **[`TTL/RDF`](.../../ttl/IndividualDataAccess.ttl)**_
 
 
 <table>

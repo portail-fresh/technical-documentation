@@ -6,7 +6,7 @@ hide:
 # Study Status
 
 >_Applies to the element **[`StudyStatus`](../VariablesDictionnary/Section_1.md)**_  
->_Download in **[`TTL/RDF`](https://github.com/portail-fresh/fresh-metadata-schema/blob/main/ControlledVocabularies/StudyStatus.rdf)**_
+>_Download in **[`TTL/RDF`](.../../ttl/StudyStatus.ttl)**_
 
 
 <table>

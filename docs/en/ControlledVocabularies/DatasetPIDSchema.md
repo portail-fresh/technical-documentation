@@ -8,7 +8,7 @@ hide:
 A unique and stable identifier that allows the dataset to be referenced permanently, regardless of its technical location.  
 
 >_Applies to the element **[`DatasetPIDSchema`](../VariablesDictionnary/Section_4.md)**_  
->_Download in **[`TTL/RDF`](https://github.com/portail-fresh/fresh-metadata-schema/blob/main/ControlledVocabularies/DatasetPIDSchema.rdf)**_
+>_Download in **[`TTL/RDF`](.../../ttl/DatasetPIDSchema.ttl)**_
 
 
 <table>

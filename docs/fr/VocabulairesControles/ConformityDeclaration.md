@@ -6,7 +6,7 @@ hide:
 # Déclaration de conformité
 Engagement formel qu’un projet de recherche respecte l’ensemble des conditions fixées par une Méthodologie de Référence (MR) de la CNIL, permettant d’utiliser des données de santé sans autorisation spécifique.  
 >_S'applique pour l'élément **[`ConformityDeclaration`](../DictionnaireVariables/Section_4.md)**_  
->_Télécharger au format **[`TTL/RDF`](https://github.com/portail-fresh/fresh-metadata-schema/blob/main/ControlledVocabularies/ConformityDeclaration.rdf)**_    
+>_Télécharger au format **[`TTL/RDF`](../../ttl/ConformityDeclaration.ttl)**_    
 
 
 

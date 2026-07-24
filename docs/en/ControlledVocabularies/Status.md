@@ -6,7 +6,7 @@ hide:
 # Record Status
 
 >_Applies to the element **[`RecordStatus`](../VariablesDictionnary/Section_0.md)**_  
->_Download in **[`TTL/RDF`](https://github.com/portail-fresh/fresh-metadata-schema/blob/main/ControlledVocabularies/Status.rdf)**_
+>_Download in **[`TTL/RDF`](.../../ttl/Status.ttl)**_
 
 
 <table>
