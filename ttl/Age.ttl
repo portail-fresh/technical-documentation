@@ -13,7 +13,7 @@ fresh:terminologies rdf:type owl:Class .
 
 fresh:Age rdf:type owl:Class ;
     rdfs:subClassOf fresh:terminologies ;
-    dct:identifier term:Age ;
+    dct:identifier term:FAG ;
     dct:title 'Age'@fr, 'Age'@en ;
     dct:description 'Concepts utilisés pour décrire le champ Age du schéma de métadonnées FReSH.'@fr, 'Concepts utilisés pour décrire le champ Age du schéma de métadonnées FReSH.'@en ;
     dct:creator fresh: ;
