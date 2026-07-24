@@ -1,0 +1,36 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+    @prefix eur: <http://data.europa.eu/8mn/euroscivoc/> .
+    @prefix fresh: <https://portail-fresh.fr/> .
+    @prefix mesh: <http://id.nlm.nih.gov/mesh/> .
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+    @prefix vocab: <https://portail-fresh.fr/vocab/> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix pav: <http://purl.org/pav/> .
+    @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+    fresh:terminologies rdf:type owl:Class . 
+
+
+    fresh:AllocationMode rdf:type owl:Class ;
+        rdfs:subClassOf fresh:terminologies ;
+        dct:identifier fresh:FAM ;
+        dct:title 'Mode d\'allocation'@fr , 'Allocation Mode'@en ;
+        dct:description 'Concepts utilisés pour décrire le champ AllocationMode du schéma de métadonnées FReSH.'@fr , 'Terms used to describe the field AllocationMode in the FReSH metadata schema.'@en ;
+        dct:creator fresh: ;
+        pav:createdOn "2026-01-05"^^xsd:date ;
+        pav:lastUpdatedOn '2026-04-07' ;
+
+
+    
+ 
+        fresh:metadataConcerned 'AllocationMode';
+
+
+        
+ 
+        dct:license 'https://creativecommons.org/licenses/by-nc-sa/4.0/' .
+
+
+            
