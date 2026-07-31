@@ -1,6 +1,7 @@
 @prefix dct: <http://purl.org/dc/terms/> .
     @prefix eur: <http://data.europa.eu/8mn/euroscivoc/> .
-    @prefix fresh: <https://portail-fresh.fr/> .
+    @prefix fresh: <https://purl.org/fresh/> .
+    @prefix term: <https://purl.org/fresh/terminologies/> .
     @prefix mesh: <http://id.nlm.nih.gov/mesh/> .
     @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
     @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
@@ -15,7 +16,7 @@
 
     fresh:BiobankContent rdf:type owl:Class ;
         rdfs:subClassOf fresh:terminologies ;
-        dct:identifier fresh:FBC ;
+        dct:identifier term:FBC ;
         dct:title 'Nature des échantillons dans la biobanque'@fr , 'Nature of samples in the biobanque'@en ;
         dct:description 'Concepts utilisés pour décrire le champ BiobankContent du schéma de métadonnées FReSH.'@fr , 'Terms used to describe the field BiobankContent in the FReSH metadata schema.'@en ;
         dct:creator fresh: ;
@@ -34,3 +35,129 @@
 
 
             
+        term:FBC4935 rdf:type owl:NamedIndividual, fresh:BiobankContent ;
+            skos:prefLabel 'Tissus'@fr , 'Tissues'@en ;
+        
+
+            skos:definition 'Cellules isolées issues de tissus, du sang ou de cultures, conservées pour étude.'@fr, 'Fragments of human organs or tissues collected and stored for analysis or research.'@en ;
+        
+
+            skos:exactMatch 'http://id.nlm.nih.gov/mesh/D014024' ;
+            
+
+        dct:identifier 'FBC4935' .
+    
+
+        term:FBC3227 rdf:type owl:NamedIndividual, fresh:BiobankContent ;
+            skos:prefLabel 'Cellules'@fr , 'Cells'@en ;
+        
+
+            skos:definition 'Cellules humaines isolées à partir de tissus ou lignées cellulaires établies, conservées pour étude.'@fr, 'Human cells isolated from tissues or established cell lines, stored for study.'@en ;
+        
+
+            skos:exactMatch 'http://id.nlm.nih.gov/mesh/D002477' ;
+            
+
+        dct:identifier 'FBC3227' .
+    
+
+        term:FBC6577 rdf:type owl:NamedIndividual, fresh:BiobankContent ;
+            skos:prefLabel 'Acides nucléiques'@fr , 'Nucleic acids'@en ;
+        
+
+            skos:definition 'ADN, ARN ou autres extraits nucléiques purifiés pour analyses moléculaires.'@fr, 'DNA, RNA, or other purified nucleic acid extracts for molecular analysis.'@en ;
+        
+
+            skos:exactMatch 'http://id.nlm.nih.gov/mesh/D009696' ;
+            
+
+        dct:identifier 'FBC6577' .
+    
+
+        term:FBC1781 rdf:type owl:NamedIndividual, fresh:BiobankContent ;
+            skos:prefLabel 'Sang total'@fr , 'Whole blood'@en ;
+        
+
+            skos:definition 'Échantillon de sang complet, contenant cellules et plasma, non séparés.'@fr, 'Complete blood sample containing both cells and plasma, unseparated.'@en ;
+        
+
+            skos:exactMatch 'http://id.nlm.nih.gov/mesh/D001769' ;
+            
+
+        dct:identifier 'FBC1781' .
+    
+
+        term:FBC6115 rdf:type owl:NamedIndividual, fresh:BiobankContent ;
+            skos:prefLabel 'Plasma'@fr , 'Plasma'@en ;
+        
+
+            skos:definition 'Fraction liquide du sang obtenue après séparation cellulaire, contenant protéines et facteurs de coagulation.'@fr, 'Liquid fraction of blood obtained after cell separation, containing proteins and clotting factors.'@en ;
+        
+
+            skos:exactMatch 'http://id.nlm.nih.gov/mesh/D010949' ;
+            
+
+        dct:identifier 'FBC6115' .
+    
+
+        term:FBC4951 rdf:type owl:NamedIndividual, fresh:BiobankContent ;
+            skos:prefLabel 'Sang fœtal'@fr , 'Fetal blood'@en ;
+        
+
+            skos:definition 'Échantillon de sang prélevé chez le fœtus (in utero ou à l’accouchement) pour analyses spécifiques.'@fr, 'Blood sample collected from the fetus (in utero or at delivery) for specific analyses.'@en ;
+        
+
+            skos:exactMatch 'http://id.nlm.nih.gov/mesh/D005312' ;
+            
+
+        dct:identifier 'FBC4951' .
+    
+
+        term:FBC4177 rdf:type owl:NamedIndividual, fresh:BiobankContent ;
+            skos:prefLabel 'Sérum'@fr , 'Serum'@en ;
+        
+
+            skos:definition 'Partie claire du sang qui est laissée après coagulation sanguine pour extraire les cellules sanguines et les protéines de la coagulation.'@fr, 'The clear portion of blood that is left after blood coagulation to remove blood cells and clotting proteins.'@en ;
+        
+
+            skos:exactMatch 'http://id.nlm.nih.gov/mesh/D044967' ;
+            
+
+        dct:identifier 'FBC4177' .
+    
+
+        term:FBC4986 rdf:type owl:NamedIndividual, fresh:BiobankContent ;
+            skos:prefLabel 'Cellules sanguines'@fr , 'Blood cells'@en ;
+        
+
+            skos:definition 'Composants cellulaires du sang (globules rouges, globules blancs, plaquettes) isolés.'@fr, 'Cellular components of blood (red blood cells, white blood cells, platelets) isolated.'@en ;
+        
+
+            skos:exactMatch 'http://id.nlm.nih.gov/mesh/D001773' ;
+            
+
+        dct:identifier 'FBC4986' .
+    
+
+        term:FBC8260 rdf:type owl:NamedIndividual, fresh:BiobankContent ;
+            skos:prefLabel 'Autres liquides ou sécretions biologiques'@fr , 'Other fluids and secretions'@en ;
+        
+
+            skos:definition 'Autres substances liquides produites par le corps humain : urine, salive, liquide céphalo-rachidien, lait maternel, sueur ou autres fluides biologiques.'@fr, 'Other liquid substances produced by human body: urine, saliva, cerebrospinal fluid, breast milk, sweat, or other biological fluids.'@en ;
+        
+
+            skos:broadtMatch 'http://id.nlm.nih.gov/mesh/D005441' ;
+        
+
+        dct:identifier 'FBC8260' .
+    
+
+        term:FBC3237 rdf:type owl:NamedIndividual, fresh:BiobankContent ;
+            skos:prefLabel 'Autres  '@fr , 'Others'@en ;
+        
+
+            skos:definition 'À utiliser lorsque le type d\'échantillon biologique est connu, mais introuvable dans la liste.'@fr, 'Used when the type of biological sample is known but cannot be found in the list.'@en ;
+        
+
+        dct:identifier 'FBC3237' .
+    

@@ -10,7 +10,7 @@ Strategy to assign participants to an arm of a clinical study.
 
 >_Applies to the element **[`AllocationMode`](../VariablesDictionnary/Section_3.md)**_  
 
->_Download in **[`TTL/RDF`](.../../ttl/AllocationMode.ttl)**_ 
+>_Download in **[`TTL/RDF`](../../ttl/AllocationMode.ttl)**_ 
 
 <table>
   <tr BGCOLOR="#00a6e2">

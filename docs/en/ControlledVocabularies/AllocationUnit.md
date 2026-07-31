@@ -9,7 +9,7 @@ Unit to assign participants to an arm of a clinical study.
 
 >_Applies to the element **[`AllocationType`](../VariablesDictionnary/Section_3.md)**_  
 
->_Download in **[`TTL/RDF`](.../../ttl/AllocationUnit.ttl)**_
+>_Download in **[`TTL/RDF`](../../ttl/AllocationUnit.ttl)**_
 
 
 <table>

@@ -6,7 +6,7 @@ hide:
 # Participant Recruitment Source
 
 >_Applies to the element **[`RecruitmentSource`](../VariablesDictionnary/Section_4.md)**_  
->_Download in **[`TTL/RDF`](.../../ttl/RecruitementSource.ttl)**_
+>_Download in **[`TTL/RDF`](../../ttl/RecruitmentSource.ttl)**_
 
 
 <table>

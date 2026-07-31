@@ -8,7 +8,7 @@ hide:
 Identifier type of organisation, funder and sponsor.  
 
 >_Applies to the element **[`PIDSchema`](../VariablesDictionnary/Section_2.md)**_  
->_Download in **[`TTL/RDF`](.../../ttl/PIDSchema.ttl)**_
+>_Download in **[`TTL/RDF`](../../ttl/PIDSchema.ttl)**_
 
 
 <table>

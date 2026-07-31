@@ -8,7 +8,7 @@ hide:
 Formal statement that a research project complies with all requirements of a CNIL Reference Methodology, allowing the use of health data without specific authorization.  
 
 >_Applies to the element **[`ConformityDeclaration`](../VariablesDictionnary/Section_4.md)**_  
->_Download in **[`TTL/RDF`](.../../ttl/ConformityDeclaration.ttl)**_
+>_Download in **[`TTL/RDF`](../../ttl/ConformityDeclaration.ttl)**_
 
 
 <table>

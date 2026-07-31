@@ -8,7 +8,7 @@ hide:
 The Data Type field describes the categories of data collected within the study.  
 
 >_Applies to the element **[`DataType`](../VariablesDictionnary/Section_4.md)**_  
->_Download in **[`TTL/RDF`](.../../ttl/Datatype.ttl)**_
+>_Download in **[`TTL/RDF`](../../ttl/Datatype.ttl)**_
 
 
 <table>

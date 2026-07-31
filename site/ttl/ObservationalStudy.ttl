@@ -1,6 +1,7 @@
 @prefix dct: <http://purl.org/dc/terms/> .
     @prefix eur: <http://data.europa.eu/8mn/euroscivoc/> .
-    @prefix fresh: <https://portail-fresh.fr/> .
+    @prefix fresh: <https://purl.org/fresh/> .
+    @prefix term: <https://purl.org/fresh/terminologies/> .
     @prefix mesh: <http://id.nlm.nih.gov/mesh/> .
     @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
     @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
@@ -15,7 +16,7 @@
 
     fresh:ObservationalStudy rdf:type owl:Class ;
         rdfs:subClassOf fresh:terminologies ;
-        dct:identifier fresh:FOS ;
+        dct:identifier term:FOS ;
         dct:title 'Modèle de l’étude observationnelle'@fr , 'Observational Study Design'@en ;
         dct:description 'Concepts utilisés pour décrire le champ ObservationalStudy du schéma de métadonnées FReSH.'@fr , 'Terms used to describe the field ObservationalStudy in the FReSH metadata schema.'@en ;
         dct:creator fresh: ;
@@ -34,3 +35,72 @@
 
 
             
+        term:FOS6552 rdf:type owl:NamedIndividual, fresh:ObservationalStudy ;
+            skos:prefLabel 'Cohorte'@fr , 'Cohort study'@en ;
+        
+
+            skos:definition 'Étude suivant un groupe de personnes dans le temps pour observer l’apparition d’événements de santé.'@fr, 'Study that follows a group of people over time to observe health outcomes.'@en ;
+        
+
+        dct:identifier 'FOS6552' .
+    
+
+        term:FOS9042 rdf:type owl:NamedIndividual, fresh:ObservationalStudy ;
+            skos:prefLabel 'Etude cas-témoins'@fr , 'Case-control study'@en ;
+        
+
+            skos:definition 'Étude comparant un groupe d\'individus (cas) présentant des caractéristiques spécifiques (par exemple, même affection ou même exposition) à un ou plusieurs groupes présentant des caractéristiques différentes, mais similaires à tous autres égards (temoins).'@fr, 'Study comparing a group of individuals (cases) with specific characteristics (e.g., same condition or exposure) compared to group(s) with different characteristics, but otherwise similar (controls).'@en ;
+        
+
+        dct:identifier 'FOS9042' .
+    
+
+        term:FOS2667 rdf:type owl:NamedIndividual, fresh:ObservationalStudy ;
+            skos:prefLabel 'Registre des pratiques'@fr , 'Practices registry'@en ;
+        
+
+            skos:definition 'Recueil systématique de données standardisées issues de la pratique clinique sur un sujet spécifique, visant à surveiller, évaluer et améliorer les pratiques de soins de santé.'@fr, 'Systematically collected set of standardized data from clinical practice on a specific topic, intended to monitor, evaluate, and improve healthcare practices.'@en ;
+        
+
+        dct:identifier 'FOS2667' .
+    
+
+        term:FOS6567 rdf:type owl:NamedIndividual, fresh:ObservationalStudy ;
+            skos:prefLabel 'Registre de morbidité'@fr , 'Morbidity registry'@en ;
+        
+
+            skos:definition 'Recueil continu de données individuelles portant sur un ou plusieurs événements de santé, visant l’exhaustivité dans une population géographiquement définie, à des fins de recherche et/ou de santé publique.'@fr, 'Continuous collection of individual data on one or more health events, aiming for completeness in a geographically defined population, for research and/or public health purposes.'@en ;
+        
+
+        dct:identifier 'FOS6567' .
+    
+
+        term:FOS7770 rdf:type owl:NamedIndividual, fresh:ObservationalStudy ;
+            skos:prefLabel 'Etude de cas'@fr , 'Case study'@en ;
+        
+
+            skos:definition 'Observation portant sur un groupe unique d\'individus présentant des caractéristiques spécifiques.'@fr, 'Observation of a single group of individuals with specific characteristics.'@en ;
+        
+
+        dct:identifier 'FOS7770' .
+    
+
+        term:FOS4325 rdf:type owl:NamedIndividual, fresh:ObservationalStudy ;
+            skos:prefLabel 'Etude cas croisé'@fr , 'Case-crossover study'@en ;
+        
+
+            skos:definition 'Etude comparant l’exposition d’un même individu à différents moments pour évaluer son effet sur un événement.'@fr, 'Study comparing an individual’s exposure at different times to assess its effect on an event.'@en ;
+        
+
+        dct:identifier 'FOS4325' .
+    
+
+        term:FOS1108 rdf:type owl:NamedIndividual, fresh:ObservationalStudy ;
+            skos:prefLabel 'Autre'@fr , 'Other'@en ;
+        
+
+            skos:definition 'À utiliser si le type d’étude est connu mais ne correspond à aucune des catégories précédentes.'@fr, 'Use if the study type is known but doesn’t fit into the listed categories.'@en ;
+        
+
+        dct:identifier 'FOS1108' .
+    

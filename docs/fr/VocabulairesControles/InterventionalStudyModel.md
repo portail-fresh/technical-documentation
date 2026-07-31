@@ -6,7 +6,7 @@ hide:
 # Etude interventionnelle : Schéma d’intervention 
 Conception générale de la stratégie d'attribution des interventions aux participants d'une étude clinique.  
 >_S'applique pour l'élément **[`InterventionalStudyModel`](../DictionnaireVariables/Section_3.md)**_  
->_Télécharger au format **[`TTL/RDF`](../../ttl/InterventionalStudyModel.ttl)**_    
+>_Télécharger au format **[`TTL/RDF`](../../ttl/InterventionnalStudyModel.ttl)**_    
 
 
 <table>

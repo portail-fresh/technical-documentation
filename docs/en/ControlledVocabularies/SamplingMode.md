@@ -8,7 +8,7 @@ hide:
 Describes the method used to select participants when they were included in the study.  
 
 >_Applies to the element **[`SamplingMode`](../VariablesDictionnary/Section_4.md)**_  
->_Download in **[`TTL/RDF`](.../../ttl/SamplingMode.ttl)**_
+>_Download in **[`TTL/RDF`](../../ttl/SamplingMode.ttl)**_
 
 
 <table>

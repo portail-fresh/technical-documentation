@@ -1,6 +1,7 @@
 @prefix dct: <http://purl.org/dc/terms/> .
     @prefix eur: <http://data.europa.eu/8mn/euroscivoc/> .
-    @prefix fresh: <https://portail-fresh.fr/> .
+    @prefix fresh: <https://purl.org/fresh/> .
+    @prefix term: <https://purl.org/fresh/terminologies/> .
     @prefix mesh: <http://id.nlm.nih.gov/mesh/> .
     @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
     @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
@@ -15,7 +16,7 @@
 
     fresh:FranceRegions rdf:type owl:Class ;
         rdfs:subClassOf fresh:terminologies ;
-        dct:identifier fresh:FFR ;
+        dct:identifier term:FFR ;
         dct:title 'Champ géographique Régions'@fr , 'Geographical Coverage Regions'@en ;
         dct:description 'Concepts utilisés pour décrire le champ FranceRegions du schéma de métadonnées FReSH.'@fr , 'Terms used to describe the field FranceRegions in the FReSH metadata schema.'@en ;
         dct:creator fresh: ;
@@ -34,3 +35,182 @@
 
 
             
+        term:FFR2249 rdf:type owl:NamedIndividual, fresh:FranceRegions ;
+            skos:prefLabel 'Grand Est'@fr , 'Grand Est'@en ;
+        
+
+            skos:exactMatch 'FR-GES' ;
+            
+
+        dct:identifier 'FFR2249' .
+    
+
+        term:FFR2869 rdf:type owl:NamedIndividual, fresh:FranceRegions ;
+            skos:prefLabel 'Nouvelle-Aquitaine'@fr , 'Nouvelle-Aquitaine'@en ;
+        
+
+            skos:exactMatch 'FR-NAQ' ;
+            
+
+        dct:identifier 'FFR2869' .
+    
+
+        term:FFR3123 rdf:type owl:NamedIndividual, fresh:FranceRegions ;
+            skos:prefLabel 'Auvergne Rhône-Alpes'@fr , 'Auvergne Rhône-Alpes'@en ;
+        
+
+            skos:exactMatch 'FR-ARA' ;
+            
+
+        dct:identifier 'FFR3123' .
+    
+
+        term:FFR5384 rdf:type owl:NamedIndividual, fresh:FranceRegions ;
+            skos:prefLabel 'Bourgogne Franche-Comté'@fr , 'Bourgogne Franche-Comté'@en ;
+        
+
+            skos:exactMatch 'FR-BFC' ;
+            
+
+        dct:identifier 'FFR5384' .
+    
+
+        term:FFR4994 rdf:type owl:NamedIndividual, fresh:FranceRegions ;
+            skos:prefLabel 'Bretagne'@fr , 'Bretagne'@en ;
+        
+
+            skos:exactMatch 'FR-BRE' ;
+            
+
+        dct:identifier 'FFR4994' .
+    
+
+        term:FFR9745 rdf:type owl:NamedIndividual, fresh:FranceRegions ;
+            skos:prefLabel 'Centre-Val de Loire'@fr , 'Centre-Val de Loire'@en ;
+        
+
+            skos:exactMatch 'FR-CVL' ;
+            
+
+        dct:identifier 'FFR9745' .
+    
+
+        term:FFR4721 rdf:type owl:NamedIndividual, fresh:FranceRegions ;
+            skos:prefLabel 'Corse'@fr , 'Corse'@en ;
+        
+
+            skos:exactMatch 'FR-20R' ;
+            
+
+        dct:identifier 'FFR4721' .
+    
+
+        term:FFR5275 rdf:type owl:NamedIndividual, fresh:FranceRegions ;
+            skos:prefLabel 'Ile-de-France'@fr , 'Ile-de-France'@en ;
+        
+
+            skos:exactMatch 'FR-IDF' ;
+            
+
+        dct:identifier 'FFR5275' .
+    
+
+        term:FFR2066 rdf:type owl:NamedIndividual, fresh:FranceRegions ;
+            skos:prefLabel 'Occitanie'@fr , 'Occitanie'@en ;
+        
+
+            skos:exactMatch 'FR-OCC' ;
+            
+
+        dct:identifier 'FFR2066' .
+    
+
+        term:FFR9966 rdf:type owl:NamedIndividual, fresh:FranceRegions ;
+            skos:prefLabel 'Hauts-de-France'@fr , 'Hauts-de-France'@en ;
+        
+
+            skos:exactMatch 'FR-HDF' ;
+            
+
+        dct:identifier 'FFR9966' .
+    
+
+        term:FFR5961 rdf:type owl:NamedIndividual, fresh:FranceRegions ;
+            skos:prefLabel 'Normandie'@fr , 'Normandie'@en ;
+        
+
+            skos:exactMatch 'FR-NOR' ;
+            
+
+        dct:identifier 'FFR5961' .
+    
+
+        term:FFR1294 rdf:type owl:NamedIndividual, fresh:FranceRegions ;
+            skos:prefLabel 'Pays de la Loire'@fr , 'Pays de la Loire'@en ;
+        
+
+            skos:exactMatch 'FR-PDL' ;
+            
+
+        dct:identifier 'FFR1294' .
+    
+
+        term:FFR6735 rdf:type owl:NamedIndividual, fresh:FranceRegions ;
+            skos:prefLabel 'Provence - Alpes - Côte d\'Azur'@fr , 'Provence - Alpes - Côte d\'Azur'@en ;
+        
+
+            skos:exactMatch 'FR-PAC' ;
+            
+
+        dct:identifier 'FFR6735' .
+    
+
+        term:FFR2077 rdf:type owl:NamedIndividual, fresh:FranceRegions ;
+            skos:prefLabel 'Guadeloupe'@fr , 'Guadeloupe'@en ;
+        
+
+            skos:exactMatch 'FR-971' ;
+            
+
+        dct:identifier 'FFR2077' .
+    
+
+        term:FFR4657 rdf:type owl:NamedIndividual, fresh:FranceRegions ;
+            skos:prefLabel 'Guyane'@fr , 'Guyane'@en ;
+        
+
+            skos:exactMatch 'FR-973' ;
+            
+
+        dct:identifier 'FFR4657' .
+    
+
+        term:FFR1039 rdf:type owl:NamedIndividual, fresh:FranceRegions ;
+            skos:prefLabel 'Martinique'@fr , 'Martinique'@en ;
+        
+
+            skos:exactMatch 'FR-972' ;
+            
+
+        dct:identifier 'FFR1039' .
+    
+
+        term:FFR4497 rdf:type owl:NamedIndividual, fresh:FranceRegions ;
+            skos:prefLabel 'Mayotte'@fr , 'Mayotte'@en ;
+        
+
+            skos:exactMatch 'FR-976' ;
+            
+
+        dct:identifier 'FFR4497' .
+    
+
+        term:FFR9758 rdf:type owl:NamedIndividual, fresh:FranceRegions ;
+            skos:prefLabel 'La Réunion'@fr , 'La Réunion'@en ;
+        
+
+            skos:exactMatch 'FR-974' ;
+            
+
+        dct:identifier 'FFR9758' .
+    

@@ -1,6 +1,7 @@
 @prefix dct: <http://purl.org/dc/terms/> .
     @prefix eur: <http://data.europa.eu/8mn/euroscivoc/> .
-    @prefix fresh: <https://portail-fresh.fr/> .
+    @prefix fresh: <https://purl.org/fresh/> .
+    @prefix term: <https://purl.org/fresh/terminologies/> .
     @prefix mesh: <http://id.nlm.nih.gov/mesh/> .
     @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
     @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
@@ -15,7 +16,7 @@
 
     fresh:DocumentType rdf:type owl:Class ;
         rdfs:subClassOf fresh:terminologies ;
-        dct:identifier fresh:FDT ;
+        dct:identifier term:FDT ;
         dct:title 'Type de document'@fr , 'Document Type'@en ;
         dct:description 'Concepts utilisés pour décrire le champ DocumentType du schéma de métadonnées FReSH.'@fr , 'Terms used to describe the field DocumentType in the FReSH metadata schema.'@en ;
         dct:creator fresh: ;
@@ -34,3 +35,30 @@
 
 
             
+        term:FDT4538 rdf:type owl:NamedIndividual, fresh:DocumentType ;
+            skos:prefLabel 'Publication définissant la base de données et/ou son protocole de collecte (article présentant les données, profil de la cohorte, article sur la méthode ou le protocole, article de synthèse, note sur les données, rapport enregistré...).'@fr , 'Publication defining the database and/or its collection protocol  (data paper, cohort profile, method/protocol paper, resource paper, data note, registered report...).'@en ;
+        
+
+        dct:identifier 'FDT4538' .
+    
+
+        term:FDT6087 rdf:type owl:NamedIndividual, fresh:DocumentType ;
+            skos:prefLabel 'Publication issue de l\'étude et présentant les résultats de la recherche (articles, posters, rapports, ouvrages ou chapitres...).'@fr , 'Publication resulting from the study and presenting research findings (articles, posters, reports, books or chapters, etc.).'@en ;
+        
+
+        dct:identifier 'FDT6087' .
+    
+
+        term:FDT6755 rdf:type owl:NamedIndividual, fresh:DocumentType ;
+            skos:prefLabel 'Publication réutilisant les données collectées dans le cadre de cette étude.'@fr , 'Publication reusing data collected in this study.'@en ;
+        
+
+        dct:identifier 'FDT6755' .
+    
+
+        term:FDT6296 rdf:type owl:NamedIndividual, fresh:DocumentType ;
+            skos:prefLabel 'Protocole de l\'étude.'@fr , 'Study protocol.'@en ;
+        
+
+        dct:identifier 'FDT6296' .
+    

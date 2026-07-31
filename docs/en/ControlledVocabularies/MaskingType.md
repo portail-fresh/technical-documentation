@@ -8,7 +8,7 @@ hide:
 A clinical trial design strategy in which one or more parties involved in the trial, such as the investigator or participants, do not know which participants have been assigned which interventions.  
 
 >_Applies to the element **[`MaskingType`](../VariablesDictionnary/Section_3.md)**_  
->_Download in **[`TTL/RDF`](.../../ttl/MaskingType.ttl)**_
+>_Download in **[`TTL/RDF`](../../ttl/MaskingType.ttl)**_
 
 
 <table>

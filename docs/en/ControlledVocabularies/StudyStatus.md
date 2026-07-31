@@ -6,7 +6,7 @@ hide:
 # Study Status
 
 >_Applies to the element **[`StudyStatus`](../VariablesDictionnary/Section_1.md)**_  
->_Download in **[`TTL/RDF`](.../../ttl/StudyStatus.ttl)**_
+>_Download in **[`TTL/RDF`](../../ttl/StudyStatus.ttl)**_
 
 
 <table>

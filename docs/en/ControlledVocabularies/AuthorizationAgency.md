@@ -3,12 +3,12 @@ hide:
   - toc
 ---
 
-# Auhorization Agency
+# Authorisation Agency
 
 Competent authority that issued the authorisation or notice of validity for the study.  
 
 >_Applies to the element **[`AuthorizingAgency`](../VariablesDictionnary/Section_1.md)**_  
->_Download in **[`TTL/RDF`](.../../ttl/AuthorisationAgency.ttl)**_
+>_Download in **[`TTL/RDF`](../../ttl/AuthorisationAgency.ttl)**_
 
 
 <table>

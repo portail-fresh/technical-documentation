@@ -8,7 +8,7 @@ hide:
 Main category of persons concerned by the study (general population, patients, persons with disabilities).  
 
 >_Applies to the element **[`PopulationType`](../VariablesDictionnary/Section_1.md)**_  
->_Download in **[`TTL/RDF`](.../../ttl/
+>_Download in **[`TTL/RDF`](../../ttl/
 
 
 <table>

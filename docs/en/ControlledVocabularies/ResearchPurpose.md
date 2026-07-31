@@ -8,7 +8,7 @@ hide:
 The main reason for the study.  
 
 >_Applies to the element **[`ResearchPurpose`](../VariablesDictionnary/Section_3.md)**_  
->_Download in **[`TTL/RDF`](.../../ttl/ResearchPurpose.ttl)**_
+>_Download in **[`TTL/RDF`](../../ttl/ResearchPurpose.ttl)**_
 
 
 <table>

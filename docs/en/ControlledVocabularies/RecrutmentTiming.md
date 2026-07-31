@@ -8,7 +8,7 @@ hide:
 Indication of the time perspective for data collection in the observational study.  
 
 >_Applies to the element **[`TimePerspective`](../VariablesDictionnary/Section_3.md)**_  
->_Download in **[`TTL/RDF`](.../../ttl/RecrutementTiming.ttl)**_
+>_Download in **[`TTL/RDF`](../../ttl/RecrutementTiming.ttl)**_
 
 
 <table>

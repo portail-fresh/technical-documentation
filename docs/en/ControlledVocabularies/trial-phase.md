@@ -8,7 +8,7 @@ hide:
 The stage of a clinical trial defining the objectives and methods of evaluating a drug or biological product (tolerance, efficacy, comparison, follow-up).  
 
 >_Applies to the element **[`TrialPhase`](../VariablesDictionnary/Section_3.md)**_  
->_Download in **[`TTL/RDF`](.../../ttl/TrialPhase.ttl)**_
+>_Download in **[`TTL/RDF`](../../ttl/TrialPhase.ttl)**_
 
 
 <table>

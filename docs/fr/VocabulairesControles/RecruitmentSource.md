@@ -6,7 +6,7 @@ hide:
 # Source de recrutement des participants
 
 >_S'applique pour l'élément **[`RecruitmentSource`](../DictionnaireVariables/Section_4.md)**_  
->_Télécharger au format **[`TTL/RDF`](../../ttl/RecruitementSource.ttl)**_      
+>_Télécharger au format **[`TTL/RDF`](../../ttl/RecruitmentSource.ttl)**_      
 
 
 

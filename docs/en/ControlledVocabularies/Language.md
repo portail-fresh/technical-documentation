@@ -7,7 +7,7 @@ hide:
 
 >_Applies to the elements **[`VersionLang`](../VariablesDictionnary/Section_0.md) and [`OriginLang`](../VariablesDictionnary/Section_0.md)**_  
 
->_Download in **[`TTL/RDF`](.../../ttl/OriginLang.ttl)**_  
+>_Download in **[`TTL/RDF`](../../ttl/Language.ttl)**_  
 
 <table>
   <tr BGCOLOR="#00a6e2">

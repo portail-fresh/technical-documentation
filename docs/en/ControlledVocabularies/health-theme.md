@@ -8,7 +8,7 @@ hide:
 Medical specialties relevant to the study.  
 
 >_Applies to the element **[`HealthTheme`](../VariablesDictionnary/Section_1.md)**_  
->_Download in **[`TTL/RDF`](.../../ttl/HealthTheme.ttl)**_
+>_Download in **[`TTL/RDF`](../../ttl/HealthTheme.ttl)**_
 
 
 <table>

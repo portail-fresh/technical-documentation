@@ -1,6 +1,7 @@
 @prefix dct: <http://purl.org/dc/terms/> .
     @prefix eur: <http://data.europa.eu/8mn/euroscivoc/> .
-    @prefix fresh: <https://portail-fresh.fr/> .
+    @prefix fresh: <https://purl.org/fresh/> .
+    @prefix term: <https://purl.org/fresh/terminologies/> .
     @prefix mesh: <http://id.nlm.nih.gov/mesh/> .
     @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
     @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
@@ -15,7 +16,7 @@
 
     fresh:IndividualDataAccess rdf:type owl:Class ;
         rdfs:subClassOf fresh:terminologies ;
-        dct:identifier fresh:FID ;
+        dct:identifier term:FID ;
         dct:title 'Accès aux données individuelles'@fr , 'Access to individual data'@en ;
         dct:description 'Concepts utilisés pour décrire le champ IndividualDataAccess du schéma de métadonnées FReSH.'@fr , 'Terms used to describe the field IndividualDataAccess in the FReSH metadata schema.'@en ;
         dct:creator fresh: ;
@@ -34,3 +35,64 @@
 
 
             
+        term:FID7806 rdf:type owl:NamedIndividual, fresh:IndividualDataAccess ;
+            skos:prefLabel 'Libre accès'@fr , 'Open access'@en ;
+        
+
+            skos:definition 'Données immédiatement et en permanence en ligne, et gratuites pour tous sur le Web, sans barrières financières et techniques. '@fr, 'Data that are immediately and permanently online, and free for all on the Web, without financial and technical barriers.'@en ;
+        
+
+            skos:exactMatch 'http://purl.org/coar/access_right/c_abf2' ;
+            
+
+        dct:identifier 'FID7806' .
+    
+
+        term:FID5006 rdf:type owl:NamedIndividual, fresh:IndividualDataAccess ;
+            skos:prefLabel 'À définir'@fr , 'To be defined'@en ;
+        
+
+            skos:definition 'Les conditions d\'accès ne sont pas encore déterminées.'@fr, 'Access conditions are not yet determined.'@en ;
+        
+
+        dct:identifier 'FID5006' .
+    
+
+        term:FID9949 rdf:type owl:NamedIndividual, fresh:IndividualDataAccess ;
+            skos:prefLabel 'Accès réservé'@fr , 'Restricted access'@en ;
+        
+
+            skos:definition 'Données disponibles dans un système, mais soumises à une restriction d\'accès libre. Ce type d\'accès peut se présenter dans différentes situations. Voici quelques exemples : l\'utilisateur doit se connecter au système pour accéder aux données ; l\'utilisateur doit envoyer un courriel à l\'auteur ou à l\'administrateur système pour accéder aux données ; l\'accès aux données est réservé à une communauté spécifique (par exemple, une communauté universitaire).'@fr, 'Data that are available in a system but with some type of restriction for full open access. This type of access can occur in a number of different situations. Some examples are described below: The user must log-in to the system in order to access the data; The user must send an email to the author or system administrator to access the data ; Access to the data are restricted to a specific community (e.g. limited to a university community)'@en ;
+        
+
+            skos:exactMatch 'http://purl.org/coar/access_right/c_16ec' ;
+            
+
+        dct:identifier 'FID9949' .
+    
+
+        term:FID4827 rdf:type owl:NamedIndividual, fresh:IndividualDataAccess ;
+            skos:prefLabel 'Accès aux seules métadonnées'@fr , 'Metadata-only access'@en ;
+        
+
+            skos:definition 'Données dont l\'accès est limité aux métadonnées. Les données sont décrites par les métadonnées, mais elles ne sont pas directement accessibles via le système ou la plateforme, et ne peuvent pas être mises à disposition dans une archive ou un entrepôt fiable.'@fr, 'Metadata only access refers to data in which access is limited to metadata only. Data are described by the metadata, but neither is directly available through the system or platform nor can be available in a trusted archive or repository.'@en ;
+        
+
+            skos:exactMatch 'http://purl.org/coar/access_right/c_14cb' ;
+            
+
+        dct:identifier 'FID4827' .
+    
+
+        term:FID1022 rdf:type owl:NamedIndividual, fresh:IndividualDataAccess ;
+            skos:prefLabel 'Sous embargo'@fr , 'Embargoed access'@en ;
+        
+
+            skos:definition 'Données avec accès limité aux métadonnées jusqu\'à sa mise en libre accès à une date donnée. Les embargos peuvent être imposés par les politiques des institutions et des bailleurs de fonds, ou fixés par l\'auteur (par exemple, pour les thèses et les mémoires).'@fr, 'Embargoed access refers to data that are metadata only access until released for open access on a certain date. Embargoes can be required by institutions and funders policies, or set by the author (e.g such as in the case of theses and dissertations).'@en ;
+        
+
+            skos:exactMatch 'http://purl.org/coar/access_right/c_f1cf' ;
+            
+
+        dct:identifier 'FID1022' .
+    

@@ -1,21 +1,758 @@
 @prefix dct: <http://purl.org/dc/terms/> .
-@prefix fresh: <https://portail-fresh.fr/> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix pav: <http://purl.org/pav/> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+    @prefix eur: <http://data.europa.eu/8mn/euroscivoc/> .
+    @prefix fresh: <https://purl.org/fresh/> .
+    @prefix term: <https://purl.org/fresh/terminologies/> .
+    @prefix mesh: <http://id.nlm.nih.gov/mesh/> .
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+    @prefix vocab: <https://portail-fresh.fr/vocab/> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix pav: <http://purl.org/pav/> .
+    @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-fresh:terminologies rdf:type owl:Class .
+    fresh:terminologies rdf:type owl:Class . 
 
-fresh:HealthTheme rdf:type owl:Class ;
-    rdfs:subClassOf fresh:terminologies ;
-    dct:identifier fresh:FHT ;
-    dct:title 'Spécialités médicales'@fr, 'Health Theme'@en ;
-    dct:description 'Concepts utilisés pour décrire le champ HealthTheme du schéma de métadonnées FReSH.'@fr, 'Terms used to describe the field HealthTheme in the FReSH metadata schema.'@en ;
-    dct:creator fresh: ;
-    pav:createdOn "2026-01-05"^^xsd:date ;
-    pav:lastUpdatedOn '2026-04-07' ;
-    fresh:metadataConcerned 'HealthTheme' ;
-    dct:license 'https://creativecommons.org/licenses/by-nc-sa/4.0/' .
 
+    fresh:HealthTheme rdf:type owl:Class ;
+        rdfs:subClassOf fresh:terminologies ;
+        dct:identifier term:FHT ;
+        dct:title 'Spécialités médicales'@fr , 'Health Theme'@en ;
+        dct:description 'Concepts utilisés pour décrire le champ HealthTheme du schéma de métadonnées FReSH.'@fr , 'Terms used to describe the field HealthTheme in the FReSH metadata schema.'@en ;
+        dct:creator fresh: ;
+        pav:createdOn "2026-01-05"^^xsd:date ;
+        pav:lastUpdatedOn '2026-04-07' ;
+
+
+    
+ 
+        fresh:metadataConcerned 'HealthTheme';
+
+
+        
+ 
+        dct:license 'https://creativecommons.org/licenses/by-nc-sa/4.0/' .
+
+
+            
+        term:FHT6579 rdf:type owl:NamedIndividual, fresh:HealthTheme ;
+            skos:prefLabel 'Addictologie'@fr , 'Addiction medicine'@en ;
+        
+
+            skos:definition 'Spécialité médicale qui se concentre sur le diagnostic et le traitement des troubles du comportement addictif, y compris les troubles liés aux substances et les troubles du contrôle des impulsions, ainsi que sur la gestion des conditions médicales et psychiatriques concomitantes.'@fr, 'A medical specialty focused on the diagnosis and treatment of addictive behavior disorders, including substance-related disorders and impulse control disorders, as welle as managing co-occurring medical and psychiatric conditions.'@en ;
+        
+
+            skos:exactMatch 'http://id.nlm.nih.gov/mesh/D000073316' ;
+            
+
+            skos:closeMatch 'http://data.europa.eu/8mn/euroscivoc/42d645e0-f58d-40ed-9917-5b227ff41a92' ;
+        
+
+        dct:identifier 'FHT6579' .
+    
+
+        term:FHT6478 rdf:type owl:NamedIndividual, fresh:HealthTheme ;
+            skos:prefLabel 'Allergologie'@fr , 'Allergology'@en ;
+        
+
+            skos:definition 'Spécialité médicale qui étudie, diagnostique et traite les maladies causées par les allergies.'@fr, 'The medical speciality that studies, diagnoses and treats diseases caused by allergies.'@en ;
+        
+
+            skos:exactMatch 'http://data.europa.eu/8mn/euroscivoc/af65e2bf-afc5-45e8-a0fc-364dfb48f0a4' ;
+            
+
+            skos:broadtMatch 'http://id.nlm.nih.gov/mesh/D000486' ;
+        
+
+        dct:identifier 'FHT6478' .
+    
+
+        term:FHT8575 rdf:type owl:NamedIndividual, fresh:HealthTheme ;
+            skos:prefLabel 'Andrologie et urologie'@fr , 'Andrology and urology'@en ;
+        
+
+            skos:definition 'Spécialité médicale concernant l\'étude de la biologie reproductive masculine, les maladies des organes génitaux masculins et l\'infertilité masculine. / Spécialité médicale concernant l\'étude, le diagnostic et le traitement des maladies des voies urinaires chez les deux sexes et les voies génitales masculines.'@fr, 'A medical discipline concerning the study of male reproductive biology, diseases of the male genital organs, and male infertility. / A specialty concerned with the study, diagnosis, and treatment of diseases of the urinary tract in both sexes, and the genital tract in the male.'@en ;
+        
+
+                                skos:narrowMatch 'http://data.europa.eu/8mn/euroscivoc/7341b8bd-fcb0-44c1-9ca9-8752b542ed59' ;
+                            
+
+                                skos:narrowMatch 'http://data.europa.eu/8mn/euroscivoc/d90d8dbf-c4b3-46c0-bf2c-55a4a3d9ba8b' ;
+                            
+
+                                skos:narrowMatch 'http://id.nlm.nih.gov/mesh/D033441' ;
+                            
+
+                                skos:narrowMatch 'http://id.nlm.nih.gov/mesh/D014572' ;
+                            
+
+        dct:identifier 'FHT8575' .
+    
+
+        term:FHT6307 rdf:type owl:NamedIndividual, fresh:HealthTheme ;
+            skos:prefLabel 'Anesthésiologie'@fr , 'Anaesthesiology'@en ;
+        
+
+            skos:definition 'Spécialité concernée par l\'étude des anesthésiques et de l\'anesthésie.'@fr, 'A specialty concerned with the study of anesthetics and anesthesia.'@en ;
+        
+
+                                skos:exactMatch 'http://data.europa.eu/8mn/euroscivoc/e92e8adc-8256-4a4c-a052-b3cad420db7d' ;
+                            
+
+                                skos:exactMatch 'http://id.nlm.nih.gov/mesh/D000776' ;
+                            
+
+        dct:identifier 'FHT6307' .
+    
+
+        term:FHT4041 rdf:type owl:NamedIndividual, fresh:HealthTheme ;
+            skos:prefLabel 'Cardiologie et médecine vasculaire'@fr , 'Cardiology and vascular medicine'@en ;
+        
+
+            skos:definition 'Branche de la médecine concernée par les troubles du cœur et le système cardiovasculaire.'@fr, 'The branch of medicine concerned with disorders of the heart and the cardiovascular system.'@en ;
+        
+
+                                skos:narrowMatch 'http://data.europa.eu/8mn/euroscivoc/4455c187-2f2f-4cd1-a4dd-449f59d73b39' ;
+                            
+
+                                skos:narrowMatch 'http://data.europa.eu/8mn/euroscivoc/c42fc6ec-b216-4a24-9e9d-f5e781c175a0' ;
+                            
+
+                                skos:narrowMatch 'http://id.nlm.nih.gov/mesh/D002309' ;
+                            
+
+        dct:identifier 'FHT4041' .
+    
+
+        term:FHT9233 rdf:type owl:NamedIndividual, fresh:HealthTheme ;
+            skos:prefLabel 'Chirurgie'@fr , 'Surgery'@en ;
+        
+
+            skos:definition 'Spécialité dans laquelle des procédures chirurgicales sont utilisées dans le traitement des maladies, des blessures ou des déformations.'@fr, 'A specialty in which operative procedures are used in the treatment of disease, injuries, or deformities.'@en ;
+        
+
+                                skos:exactMatch 'http://data.europa.eu/8mn/euroscivoc/432746d6-998b-431f-b22f-d3abe0e8aada' ;
+                            
+
+                                skos:exactMatch 'http://id.nlm.nih.gov/mesh/D013502' ;
+                            
+
+        dct:identifier 'FHT9233' .
+    
+
+        term:FHT5992 rdf:type owl:NamedIndividual, fresh:HealthTheme ;
+            skos:prefLabel 'Dermatologie'@fr , 'Dermatology'@en ;
+        
+
+            skos:definition 'Spécialité médicale concernant la peau, sa structure, ses fonctions, ses maladies et son traitement.'@fr, 'A medical specialty concerned with the skin, its structure, functions, diseases, and treatment.'@en ;
+        
+
+                                skos:exactMatch 'http://data.europa.eu/8mn/euroscivoc/5375c411-6db9-40ed-a854-6554102a587b' ;
+                            
+
+                                skos:exactMatch 'http://id.nlm.nih.gov/mesh/D003880' ;
+                            
+
+        dct:identifier 'FHT5992' .
+    
+
+        term:FHT5554 rdf:type owl:NamedIndividual, fresh:HealthTheme ;
+            skos:prefLabel 'Endocrinologie'@fr , 'Endocrinology'@en ;
+        
+
+            skos:definition 'Spécialité médicale concernant le métabolisme, la physiologie et les troubles du système endocrinien.'@fr, 'A medical specialty concerned with the metabolism, physiology, and disorders of the endocrine system.'@en ;
+        
+
+                                skos:exactMatch 'http://data.europa.eu/8mn/euroscivoc/d1dd1bac-5313-4ab3-837f-4acd3ec521a7' ;
+                            
+
+                                skos:exactMatch 'http://id.nlm.nih.gov/mesh/D004704' ;
+                            
+
+        dct:identifier 'FHT5554' .
+    
+
+        term:FHT2954 rdf:type owl:NamedIndividual, fresh:HealthTheme ;
+            skos:prefLabel 'Ethique médicale'@fr , 'Medical ethics'@en ;
+        
+
+            skos:definition 'Domaine d\'étude sur les principes de déontologie du médecin, les relations avec les patients et les confrères, ainsi que les actions du médecin dans les soins aux patients et les relations interpersonnelles avec les familles des patients.'@fr, 'The field of study focused on the principles of professional conduct of the physician, relations with patients and fellow practitioners, as well as actions of the physician in patient care and interpersonal relations with patient families.'@en ;
+        
+
+                                skos:exactMatch 'http://data.europa.eu/8mn/euroscivoc/cbb6f86d-b5c6-4649-9b06-3712653ca459' ;
+                            
+
+                                skos:exactMatch 'http://id.nlm.nih.gov/mesh/D004989' ;
+                            
+
+        dct:identifier 'FHT2954' .
+    
+
+        term:FHT2800 rdf:type owl:NamedIndividual, fresh:HealthTheme ;
+            skos:prefLabel 'Gastroentérologie'@fr , 'Gastroenterology'@en ;
+        
+
+            skos:definition 'Spécialité médicale concernant l\'étude de la physiologie et des maladies du système digestif.'@fr, 'A medical specialty concerned with the study of the physiology and diseases of the digestive system.'@en ;
+        
+
+                                skos:exactMatch 'http://data.europa.eu/8mn/euroscivoc/a3898340-a42d-4f5e-a822-1de204a9a867' ;
+                            
+
+                                skos:exactMatch 'http://id.nlm.nih.gov/mesh/D005762' ;
+                            
+
+        dct:identifier 'FHT2800' .
+    
+
+        term:FHT5098 rdf:type owl:NamedIndividual, fresh:HealthTheme ;
+            skos:prefLabel 'Génétique médicale'@fr , 'Medical genetics'@en ;
+        
+
+            skos:definition 'Spécialité médicale qui étudie l’hérédité chez l’homme et les causes génétiques des maladies, leur caractère héréditaire, leur transmission au fil des générations et leurs variations.'@fr, 'A medical specialty that studies heredity in humans and the genetic causes of diseases, their hereditary nature, their transmission across generations, and their variations.'@en ;
+        
+
+                                skos:exactMatch 'http://data.europa.eu/8mn/euroscivoc/8e2d297f-5880-4d7a-969d-79026aa0779c' ;
+                            
+
+                                skos:exactMatch 'http://id.nlm.nih.gov/mesh/D005823' ;
+                            
+
+        dct:identifier 'FHT5098' .
+    
+
+        term:FHT7111 rdf:type owl:NamedIndividual, fresh:HealthTheme ;
+            skos:prefLabel 'Gériatrie'@fr , 'Geriatrics'@en ;
+        
+
+            skos:definition 'Branche de la médecine concernant les aspects physiologiques et pathologiques des personnes âgées, y compris les problèmes cliniques de sénescence et de sénilité.'@fr, 'The branch of medicine concerned with the physiological and pathological aspects of the aged, including the clinical problems of senescence and senility.'@en ;
+        
+
+                                skos:exactMatch 'http://data.europa.eu/8mn/euroscivoc/d37e4d8c-a978-40c7-ba4f-eee841851073' ;
+                            
+
+                                skos:exactMatch 'http://id.nlm.nih.gov/mesh/D005853' ;
+                            
+
+        dct:identifier 'FHT7111' .
+    
+
+        term:FHT1042 rdf:type owl:NamedIndividual, fresh:HealthTheme ;
+            skos:prefLabel 'Gynécologie et obstétrique'@fr , 'Gynaecology and obstetrics'@en ;
+        
+
+            skos:definition 'Spécialité médicale et chirurgicale concernant la physiologie et les troubles principalement du tractus génital féminin, ainsi que de l\'endocrinologie féminine et de la physiologie de la reproduction. / Spécialité médicale et chirurgicale concernant la gestion et les soins des femmes pendant la grossesse, la parturition et le puerpérium.'@fr, 'A medical-surgical specialty concerned with the physiology and disorders primarily of the female genital tract, as well as female endocrinology and reproductive physiology. / A medical-surgical specialty concerned with management and care of women during pregnancy, parturition, and the puerperium.'@en ;
+        
+
+                                skos:narrowMatch 'http://data.europa.eu/8mn/euroscivoc/7de64596-5b0d-4977-8f98-b982ff2ec17d' ;
+                            
+
+                                skos:narrowMatch 'http://data.europa.eu/8mn/euroscivoc/284ca20c-beb4-4abe-99fa-ef4513358bad' ;
+                            
+
+                                skos:narrowMatch 'http://id.nlm.nih.gov/mesh/D006176' ;
+                            
+
+                                skos:narrowMatch 'http://id.nlm.nih.gov/mesh/D009774' ;
+                            
+
+        dct:identifier 'FHT1042' .
+    
+
+        term:FHT4966 rdf:type owl:NamedIndividual, fresh:HealthTheme ;
+            skos:prefLabel 'Hématologie'@fr , 'Hematology'@en ;
+        
+
+            skos:definition 'Spécialité médicale concernant la morphologie, la physiologie et la pathologie du sang et des tissus de formation sanguine.'@fr, 'A medical specialty concerned with morphology, physiology, and pathology of the blood and blood-forming tissues.'@en ;
+        
+
+            skos:exactMatch 'http://data.europa.eu/8mn/euroscivoc/9239f328-78c9-40a5-a0b9-8e66fd9b6245' ;
+            
+
+            skos:narrowMatch 'http://id.nlm.nih.gov/mesh/D006402' ;
+        
+
+        dct:identifier 'FHT4966' .
+    
+
+        term:FHT5264 rdf:type owl:NamedIndividual, fresh:HealthTheme ;
+            skos:prefLabel 'Hépatologie'@fr , 'Hepatology'@en ;
+        
+
+            skos:definition 'Branche de la médecine qui traite du foie et de ses affections.'@fr, 'The branch of medicine that deals with the liver and its disorders.'@en ;
+        
+
+            skos:exactMatch 'http://data.europa.eu/8mn/euroscivoc/27c456a1-051a-42f6-b52a-3beff0487da7' ;
+            
+
+        dct:identifier 'FHT5264' .
+    
+
+        term:FHT6387 rdf:type owl:NamedIndividual, fresh:HealthTheme ;
+            skos:prefLabel 'Immunologie médicale'@fr , 'Clinical immunology'@en ;
+        
+
+            skos:definition 'Branche de la médecine prenant en charge et explorant les maladies liées à un dysfonctionnement du système immunitaire.'@fr, 'A branch of medicine that treats and studies diseases related to immune system dysfunction.'@en ;
+        
+
+            skos:exactMatch 'http://data.europa.eu/8mn/euroscivoc/7a3cf568-46ba-4840-be8f-f22fc030139f' ;
+            
+
+            skos:broadtMatch 'http://id.nlm.nih.gov/mesh/D000486' ;
+        
+
+        dct:identifier 'FHT6387' .
+    
+
+        term:FHT4835 rdf:type owl:NamedIndividual, fresh:HealthTheme ;
+            skos:prefLabel 'Infectiologie'@fr , 'Infectious disease medicine'@en ;
+        
+
+            skos:definition 'Branche de la médecine concernant le diagnostic et le traitement des maladies infectieuses.'@fr, 'The branch of medicine concerned with the diagnosis and treatment of infectious diseases.'@en ;
+        
+
+                                skos:exactMatch 'http://data.europa.eu/8mn/euroscivoc/fa2ceeab-3b2f-45e9-9243-e5a8005b98de' ;
+                            
+
+                                skos:exactMatch 'http://id.nlm.nih.gov/mesh/D055552' ;
+                            
+
+        dct:identifier 'FHT4835' .
+    
+
+        term:FHT9030 rdf:type owl:NamedIndividual, fresh:HealthTheme ;
+            skos:prefLabel 'Médecine complémentaire et intégrative'@fr , 'Integrative and complementary medicine'@en ;
+        
+
+            skos:definition 'La médecine complémentaire et intégrative comprend des pratiques thérapeutiques qui ne sont actuellement pas considérées comme faisant partie intégrante de la pratique médicale allopathique conventionnelle.'@fr, 'Complementary and Integrative Medicine includes therapeutic practices which are not currently considered an integral part of conventional allopathic medical practice.'@en ;
+        
+
+            skos:exactMatch 'http://data.europa.eu/8mn/euroscivoc/c3c03909-fc4b-4082-9de2-3a105efcb1aa' ;
+            
+
+        dct:identifier 'FHT9030' .
+    
+
+        term:FHT8595 rdf:type owl:NamedIndividual, fresh:HealthTheme ;
+            skos:prefLabel 'Médecine d’urgence'@fr , 'Emergency medicine'@en ;
+        
+
+            skos:definition 'Branche de la médecine concernant l\'évaluation et le traitement initial des problèmes médicaux urgents et émergents, tels que ceux causés par les accidents, les traumatismes, la maladie soudaine, l\'empoisonnement ou les catastrophes. Des soins médicaux d\'urgence peuvent être fournis à l\'hôpital ou sur des sites à l\'extérieur du centre médical.'@fr, 'The branch of medicine concerned with the evaluation and initial treatment of urgent and emergent medical problems, such as those caused by accidents, trauma, sudden illness, poisoning, or disasters. Emergency medical care can be provided at the hospital or at sites outside the medical facility.'@en ;
+        
+
+                                skos:exactMatch 'http://data.europa.eu/8mn/euroscivoc/5e1591e2-d02b-436c-8216-6b8912eee467' ;
+                            
+
+                                skos:exactMatch 'http://id.nlm.nih.gov/mesh/D004635' ;
+                            
+
+        dct:identifier 'FHT8595' .
+    
+
+        term:FHT2605 rdf:type owl:NamedIndividual, fresh:HealthTheme ;
+            skos:prefLabel 'Médecine générale'@fr , 'General medicine'@en ;
+        
+
+            skos:definition 'Spécialité médicale fournissant les soins en première intention, dans une approche globale, continue et coordonnée, à travers les âges et les spécialités.'@fr, 'Medical specialty providing primary care, using a comprehensive, continuous and coordinated approach, across all ages and specialties.'@en ;
+        
+
+            skos:exactMatch 'http://data.europa.eu/8mn/euroscivoc/4b9f8efb-68dd-45a1-b04c-d23d457d6898' ;
+            
+
+            skos:closeMatch 'http://id.nlm.nih.gov/mesh/D058006' ;
+        
+
+        dct:identifier 'FHT2605' .
+    
+
+        term:FHT3518 rdf:type owl:NamedIndividual, fresh:HealthTheme ;
+            skos:prefLabel 'Médecine interne'@fr , 'Internal medicine'@en ;
+        
+
+            skos:definition 'Spécialité médicale concernant diagnostic et le traitement de nombreuses maladies auto-immunes inflammatoires, systémiques (qui atteignent plusieurs organes) et orphelines.'@fr, 'Medical specialty concerning the diagnosis and treatment of numerous inflammatory, systemic (affecting multiple organs) and orphan autoimmune diseases.'@en ;
+        
+
+                                skos:exactMatch 'http://data.europa.eu/8mn/euroscivoc/0d45044a-74d5-4bd7-b920-b92af3388576 ' ;
+                            
+
+                                skos:exactMatch 'http://id.nlm.nih.gov/mesh/D007388' ;
+                            
+
+                skos:relatedMatch 'http://data.europa.eu/8mn/euroscivoc/f0844378-9f30-4873-b19b-5bff8c184a36' ;
+            
+
+        dct:identifier 'FHT3518' .
+    
+
+        term:FHT4634 rdf:type owl:NamedIndividual, fresh:HealthTheme ;
+            skos:prefLabel 'Médecine physique et de réadaptation'@fr , 'Physical and Rehabilitation Medicine'@en ;
+        
+
+            skos:definition 'Spécialité médicale qui traite des affections qui compromettent la mobilité du patient, par le biais des soins de rééducation et de réadaptation nécessaires après une intervention chirurgicale ou une maladie, visant à prévenir ou réduire les conséquences fonctionnelles physiques, psychologiques, sociales et économiques des déficiences et des incapacités.'@fr, 'A medical specialty that treats conditions that compromise a patient\'s mobility through the rehabilitation and recovery care required after surgery or illness, with the aim of preventing or reducing the physical, psychological, social and economic consequences of impairments and disabilities.'@en ;
+        
+
+            skos:exactMatch 'http://id.nlm.nih.gov/mesh/D010810' ;
+            
+
+                skos:relatedMatch 'http://data.europa.eu/8mn/euroscivoc/38e57437-b2cc-4d26-a46e-c5b639c01e5f' ;
+            
+
+        dct:identifier 'FHT4634' .
+    
+
+        term:FHT9149 rdf:type owl:NamedIndividual, fresh:HealthTheme ;
+            skos:prefLabel 'Médecine régénérative'@fr , 'Regenerative medicine'@en ;
+        
+
+            skos:definition 'Domaine de médecine concernant le développement et l\'utilisation de stratégies visant à réparer ou remplacer des organes, des tissus et des cellules endommagés, malades ou métaboliquement déficients. Elle mobilise des thérapies innovantes telles que transplantation cellulaire et cellules souches, organes artificiels et organes et tissus bioartificiels, etc.'@fr, 'A field of medicine concerned with developing and using strategies aimed at repair or replacement of damaged, diseased, or metabolically deficient organs, tissues, and cells via tissue engineering; cell transplantation; and artificial organs and bioartificial organs and tissues.'@en ;
+        
+
+            skos:exactMatch 'http://id.nlm.nih.gov/mesh/D044968' ;
+            
+
+                skos:relatedMatch 'http://data.europa.eu/8mn/euroscivoc/495b214f-06c8-45b9-a5d2-64e2df5dc2e3' ;
+            
+
+        dct:identifier 'FHT9149' .
+    
+
+        term:FHT5830 rdf:type owl:NamedIndividual, fresh:HealthTheme ;
+            skos:prefLabel 'Médecine tropicale'@fr , 'Tropical medicine'@en ;
+        
+
+            skos:definition 'Branche de la médecine concernant les maladies prévalentes dans les régions tropicales et subtropicales. Elle s’intéresse principalement aux pathologies infectieuses (souvent épidémiques), nutritionnelles, et plus rarement génétiques, en tenant compte des spécificités environnementales (réservoirs, vecteurs), des déséquilibres alimentaires, des limites de l’offre médicale, ainsi que des conditions de vie et des facteurs socioculturels locaux.'@fr, 'The branch of medicine concerned with diseases prevalent in tropical and subtropical regions. It focuses primarily on infectious (often epidemic) and nutritional diseases, and more rarely genetic diseases, taking into account environmental specificities (reservoirs, vectors), dietary imbalances, limitations in medical care, as well as local living conditions and sociocultural factors. '@en ;
+        
+
+                                skos:exactMatch 'http://data.europa.eu/8mn/euroscivoc/4cec15e9-0570-49e3-91d7-cebe00d0fadf' ;
+                            
+
+                                skos:exactMatch 'http://id.nlm.nih.gov/mesh/D014330' ;
+                            
+
+        dct:identifier 'FHT5830' .
+    
+
+        term:FHT3469 rdf:type owl:NamedIndividual, fresh:HealthTheme ;
+            skos:prefLabel 'Néphrologie'@fr , 'Nephrology'@en ;
+        
+
+            skos:definition 'Spécialité médicale concernant l\'anatomie, la physiologie et la pathologie du rein.'@fr, 'A medical specialty concerned with the anatomy, physiology, and pathology of the kidney.'@en ;
+        
+
+                                skos:exactMatch 'http://data.europa.eu/8mn/euroscivoc/3961e9d2-ab3b-451b-b246-20fc0ec3b0c4' ;
+                            
+
+                                skos:exactMatch 'http://id.nlm.nih.gov/mesh/D009398' ;
+                            
+
+        dct:identifier 'FHT3469' .
+    
+
+        term:FHT5486 rdf:type owl:NamedIndividual, fresh:HealthTheme ;
+            skos:prefLabel 'Neurologie'@fr , 'Neurology'@en ;
+        
+
+            skos:definition 'Spécialité médicale concernant l\'étude des structures, des fonctions et des maladies du système nerveux.'@fr, 'A medical specialty concerned with the study of the structures, functions, and diseases of the nervous system.'@en ;
+        
+
+                                skos:exactMatch 'http://data.europa.eu/8mn/euroscivoc/c4793dfe-e80e-49dd-9fcc-a1a742de1b25' ;
+                            
+
+                                skos:exactMatch 'http://id.nlm.nih.gov/mesh/D009462' ;
+                            
+
+            skos:closeMatch 'http://data.europa.eu/8mn/euroscivoc/00a5c4f4-b7ee-41a4-bcdf-3a02e6be1660' ;
+        
+
+        dct:identifier 'FHT5486' .
+    
+
+        term:FHT2394 rdf:type owl:NamedIndividual, fresh:HealthTheme ;
+            skos:prefLabel 'Nutrition et diététique'@fr , 'Nutrition and dietetics'@en ;
+        
+
+            skos:definition 'Etude des processus nutritionnels ainsi que les composantes de la nourriture, leurs actions, leur interaction et leur équilibre par rapport à la santé et aux maladies.'@fr, 'The study of nutrition processes as well as the components of food, their actions, interaction, and balance in relation to health and disease.'@en ;
+        
+
+                                skos:narrowMatch 'http://data.europa.eu/8mn/euroscivoc/71cd7e43-dbf6-420f-8338-b444439e4e41' ;
+                            
+
+                                skos:narrowMatch 'http://data.europa.eu/8mn/euroscivoc/8190a2e4-d944-4a7e-bb2f-adb488442622' ;
+                            
+
+                                skos:narrowMatch 'http://id.nlm.nih.gov/mesh/D052756' ;
+                            
+
+        dct:identifier 'FHT2394' .
+    
+
+        term:FHT9042 rdf:type owl:NamedIndividual, fresh:HealthTheme ;
+            skos:prefLabel 'Odontologie'@fr , 'Dentistry'@en ;
+        
+
+            skos:definition 'Branche de la médecine concernant les dents, la cavité orale et les structures associées, ainsi que le diagnostic et le traitement de leurs maladies, y compris la prévention et la restauration de tissus défectueux et manquants.'@fr, 'The branch of medicine concerned with the teeth, oral cavity, and associated structures, and the diagnosis and treatment of their diseases including prevention and the restoration of defective and missing tissue.'@en ;
+        
+
+                                skos:exactMatch 'http://data.europa.eu/8mn/euroscivoc/5754a839-d714-4849-9789-e831eb4af6f1' ;
+                            
+
+                                skos:exactMatch 'http://id.nlm.nih.gov/mesh/D003813' ;
+                            
+
+        dct:identifier 'FHT9042' .
+    
+
+        term:FHT7299 rdf:type owl:NamedIndividual, fresh:HealthTheme ;
+            skos:prefLabel 'Oncologie'@fr , 'Oncology'@en ;
+        
+
+            skos:definition 'Spécialité médicale consacrée à l’étude, au diagnostic et au traitement des maladies cancéreuses.'@fr, 'Medical specialty dedicated to the study, diagnosis and treatment of cancerous diseases.'@en ;
+        
+
+                                skos:exactMatch 'http://data.europa.eu/8mn/euroscivoc/5784b7f1-c7ce-49d9-9f38-aebcda0ff41d' ;
+                            
+
+                                skos:exactMatch 'http://id.nlm.nih.gov/mesh/D008495' ;
+                            
+
+        dct:identifier 'FHT7299' .
+    
+
+        term:FHT6839 rdf:type owl:NamedIndividual, fresh:HealthTheme ;
+            skos:prefLabel 'Ophtalmologie'@fr , 'Ophthalmology'@en ;
+        
+
+            skos:definition 'Spécialité médicale concernant la structure et la fonction de l\'œil et le traitement médical et chirurgical de ses défauts et maladies.'@fr, 'A medical specialty concerned with the structure and function of the eye and the medical and surgical treatment of its defects and diseases.'@en ;
+        
+
+                                skos:exactMatch 'http://data.europa.eu/8mn/euroscivoc/621ef1ce-2ebd-43d9-a6c7-ecd962d27269' ;
+                            
+
+                                skos:exactMatch 'http://id.nlm.nih.gov/mesh/D009885' ;
+                            
+
+        dct:identifier 'FHT6839' .
+    
+
+        term:FHT7276 rdf:type owl:NamedIndividual, fresh:HealthTheme ;
+            skos:prefLabel 'Orthopédie et traumatologie'@fr , 'Orthopaedics and traumatology'@en ;
+        
+
+            skos:definition 'Spécialité qui utilise des méthodes médicales, chirurgicales et physiques pour traiter et corriger les déformations, les maladies et les blessures du système squelettique, de ses articulations et des structures associées. / Spécialité médicale qui traite et des blessures ainsi que l\'invalidité et les troubles qui en résultent des traumatismes physiques.'@fr, 'A specialty which utilizes medical, surgical, and physical methods to treat and correct deformities, diseases, and injuries to the skeletal system, its articulations, and associated structures. / The medical specialty which deals with injuries as well as resulting disability and disorders from physical traumas.'@en ;
+        
+
+                                skos:narrowMatch 'http://data.europa.eu/8mn/euroscivoc/c4538836-ae58-4941-b544-50f53e979e20' ;
+                            
+
+                                skos:narrowMatch 'http://id.nlm.nih.gov/mesh/D009985' ;
+                            
+
+                                skos:narrowMatch 'http://id.nlm.nih.gov/mesh/D014194' ;
+                            
+
+        dct:identifier 'FHT7276' .
+    
+
+        term:FHT5932 rdf:type owl:NamedIndividual, fresh:HealthTheme ;
+            skos:prefLabel 'Oto-rhino-laryngologie'@fr , 'Otolaryngology'@en ;
+        
+
+            skos:definition 'Spécialité médicale concernant l\'étude et le traitement des troubles de l\'oreille, du nez et de la gorge.'@fr, 'A medical specialty concerned with the study and treatment of disorders of the ear, nose, and throat.'@en ;
+        
+
+                                skos:exactMatch 'http://data.europa.eu/8mn/euroscivoc/9c3a57c5-68bd-4ee7-a9cc-aa8ba07bde94' ;
+                            
+
+                                skos:exactMatch 'http://id.nlm.nih.gov/mesh/D010036' ;
+                            
+
+        dct:identifier 'FHT5932' .
+    
+
+        term:FHT8044 rdf:type owl:NamedIndividual, fresh:HealthTheme ;
+            skos:prefLabel 'Pédiatrie'@fr , 'Paediatrics'@en ;
+        
+
+            skos:definition 'Spécialité médicale concernant le maintien en santé et les soins médicaux aux enfants de la naissance à l\'adolescence. '@fr, 'A medical specialty concerned with maintaining health and providing medical care to children from birth to adolescence.'@en ;
+        
+
+                                skos:exactMatch 'http://data.europa.eu/8mn/euroscivoc/bf8aaaac-ddee-41cd-bb8a-c5a63de3fcbd' ;
+                            
+
+                                skos:exactMatch 'http://id.nlm.nih.gov/mesh/D010372' ;
+                            
+
+        dct:identifier 'FHT8044' .
+    
+
+        term:FHT9236 rdf:type owl:NamedIndividual, fresh:HealthTheme ;
+            skos:prefLabel 'Pneumologie'@fr , 'Pulmonary medicine'@en ;
+        
+
+            skos:definition 'Spécialité médicale concernant l\'étude du système respiratoire ainsi que du diagnostic et du traitement des maladies et défauts des poumons et de l\'arbre bronchique.'@fr, 'A medical specialty concerned with the study of the respiratory system. It is especially concerned with diagnosis and treatment of diseases and defects of the lungs and bronchial tree.'@en ;
+        
+
+                                skos:exactMatch 'http://data.europa.eu/8mn/euroscivoc/f6e18c52-6087-4662-904c-5c4b8174e40e' ;
+                            
+
+                                skos:exactMatch 'http://id.nlm.nih.gov/mesh/D015272' ;
+                            
+
+        dct:identifier 'FHT9236' .
+    
+
+        term:FHT6766 rdf:type owl:NamedIndividual, fresh:HealthTheme ;
+            skos:prefLabel 'Psychiatrie'@fr , 'Psychiatry'@en ;
+        
+
+            skos:definition 'Spécialité médicale qui traite de l\'origine, du diagnostic, de la prévention et du traitement des troubles mentaux.'@fr, 'A medical specialty concerned with the origin, diagnosis, prevention, and treatment of mental disorders.'@en ;
+        
+
+                                skos:exactMatch 'http://data.europa.eu/8mn/euroscivoc/3de50dee-da1c-4791-a386-56bca24a5fed' ;
+                            
+
+                                skos:exactMatch 'http://id.nlm.nih.gov/mesh/D011570' ;
+                            
+
+        dct:identifier 'FHT6766' .
+    
+
+        term:FHT5807 rdf:type owl:NamedIndividual, fresh:HealthTheme ;
+            skos:prefLabel 'Radiologie et médecine nucléaire'@fr , 'Radiology and nuclear medicine'@en ;
+        
+
+            skos:definition 'Spécialité médicale concernant l\'utilisation des rayons X et d\'autres formes d\'énergie rayonnante dans le diagnostic et le traitement de la maladie. / Domaine spécialisé de la radiologie concernant l\'utilisation diagnostique, thérapeutique et d\'investigation des composés radioactifs.'@fr, 'A medical specialty concerned with the use of x-ray and other forms of radiant energy in the diagnosis and treatment of disease. / A specialty field of radiology concerned with diagnostic, therapeutic, and investigative use of radioactive compounds.'@en ;
+        
+
+                                skos:narrowMatch 'http://data.europa.eu/8mn/euroscivoc/b469121d-9e7d-478a-890c-56c73607a917' ;
+                            
+
+                                skos:narrowMatch 'http://id.nlm.nih.gov/mesh/D011871' ;
+                            
+
+                                skos:narrowMatch 'http://id.nlm.nih.gov/mesh/D009683' ;
+                            
+
+        dct:identifier 'FHT5807' .
+    
+
+        term:FHT6308 rdf:type owl:NamedIndividual, fresh:HealthTheme ;
+            skos:prefLabel 'Rhumatologie'@fr , 'Rheumatology'@en ;
+        
+
+            skos:definition 'Spécialité médicale concernant l\'étude des processus inflammatoires ou dégénératifs et du désordre métabolique des structures du tissu conjonctif, ce qui concerne une variété de troubles de l\'appareil locomoteur, tels que l\'arthrite.'@fr, 'A medical specialty concerned with the study of inflammatory or degenerative processes and metabolic derangement of connective tissue structures which pertain to a variety of musculoskeletal disorders, such as arthritis.'@en ;
+        
+
+                                skos:exactMatch 'http://data.europa.eu/8mn/euroscivoc/bfb0bafd-7894-45ba-84fc-ddab5fd6c537' ;
+                            
+
+                                skos:exactMatch 'http://id.nlm.nih.gov/mesh/D012219' ;
+                            
+
+        dct:identifier 'FHT6308' .
+    
+
+        term:FHT9410 rdf:type owl:NamedIndividual, fresh:HealthTheme ;
+            skos:prefLabel 'Santé publique, environnementale et du travail'@fr , 'Public, environmental and occupational health'@en ;
+        
+
+            skos:definition 'Domaine d’étude visant à prévenir les maladies, promouvoir la santé et protéger les populations face aux risques sanitaires d’origine collective, environnementale ou professionnelle, en analysant le rôle des facteurs environnementaux dans les effets néfastes sur la santé humaine et les moyens de les reconnaître et de les prévenir.'@fr, 'A field of study aimed at preventing disease, promoting health and protecting populations from collective, environmental or occupational health risks by analysing the role of environmental factors in adverse effects on human health and ways of recognising and preventing them.'@en ;
+        
+
+                                skos:narrowMatch 'http://data.europa.eu/8mn/euroscivoc/b533acc2-aff1-4c65-80ca-5d5bee865ba9' ;
+                            
+
+                                skos:narrowMatch 'http://id.nlm.nih.gov/mesh/D004778' ;
+                            
+
+        dct:identifier 'FHT9410' .
+    
+
+        term:FHT4398 rdf:type owl:NamedIndividual, fresh:HealthTheme ;
+            skos:prefLabel 'Sciences du sport et de la condition physique'@fr , 'Sports medicine'@en ;
+        
+
+            skos:definition 'Spécialité médicale concernant la forme physique et le diagnostic et traitement des blessures subies dans les activités sportives.'@fr, 'A medical specialty concerned concerned with physical fitness and the diagnosis and treatment of injuries sustained in exercise and sports activities.'@en ;
+        
+
+            skos:exactMatch 'http://data.europa.eu/8mn/euroscivoc/ff9e9276-586f-44d1-a309-368cbd77bdcb' ;
+            
+
+            skos:narrowMatch 'http://id.nlm.nih.gov/mesh/D013178' ;
+        
+
+        dct:identifier 'FHT4398' .
+    
+
+        term:FHT3470 rdf:type owl:NamedIndividual, fresh:HealthTheme ;
+            skos:prefLabel 'Sciences et services de santé '@fr , 'Health care sciences and services'@en ;
+        
+
+            skos:definition 'Etude de la fourniture, de l\'organisation, de l\'évaluation et de la distribution de services de santé à la population.'@fr, 'A study of the provision, organisation, evaluation and distribution of health services to the population.'@en ;
+        
+
+                                skos:narrowMatch 'http://data.europa.eu/8mn/euroscivoc/99e6da50-737b-41fa-9ad3-50f4152e79f6' ;
+                            
+
+                                skos:narrowMatch 'http://data.europa.eu/8mn/euroscivoc/8beec404-182b-4d02-a005-3d30761e3b0c' ;
+                            
+
+                                skos:narrowMatch 'http://id.nlm.nih.gov/mesh/D003695' ;
+                            
+
+        dct:identifier 'FHT3470' .
+    
+
+        term:FHT7651 rdf:type owl:NamedIndividual, fresh:HealthTheme ;
+            skos:prefLabel 'Sciences infirmières'@fr , 'Nursing'@en ;
+        
+
+            skos:definition 'Domaine des soins infirmiers concernant la promotion, l\'entretien et la restauration de la santé.'@fr, 'The field of nursing care concerned with the promotion, maintenance, and restoration of health.'@en ;
+        
+
+                                skos:exactMatch 'http://data.europa.eu/8mn/euroscivoc/79c581d5-f4f7-47b5-b582-ee6e88ee1815' ;
+                            
+
+                                skos:exactMatch 'http://id.nlm.nih.gov/mesh/D009729' ;
+                            
+
+        dct:identifier 'FHT7651' .
+    
+
+        term:FHT5711 rdf:type owl:NamedIndividual, fresh:HealthTheme ;
+            skos:prefLabel 'Transplantation'@fr , 'Transplantation'@en ;
+        
+
+            skos:definition 'Spécialité médicale et chirurgicale concernant la transplantation d\'organes.'@fr, 'A medical-surgical specialty concerned with organ transplantation.'@en ;
+        
+
+            skos:exactMatch 'http://data.europa.eu/8mn/euroscivoc/71137b04-547d-4329-8db3-251df3e84589' ;
+            
+
+        dct:identifier 'FHT5711' .
+    
+
+        term:FHT6212 rdf:type owl:NamedIndividual, fresh:HealthTheme ;
+            skos:prefLabel 'Vénérologie'@fr , 'Venereology'@en ;
+        
+
+            skos:definition 'Branche de la médecine qui traite des maladies transmissibles sexuellement.'@fr, 'The branch of medicine concerned with sexually transmitted diseases.'@en ;
+        
+
+                                skos:exactMatch 'http://data.europa.eu/8mn/euroscivoc/cb061cc1-dd52-46a4-a8fe-065838d5b44a' ;
+                            
+
+                                skos:exactMatch 'http://id.nlm.nih.gov/mesh/D014686' ;
+                            
+
+        dct:identifier 'FHT6212' .
+    
+
+        term:FHT8403 rdf:type owl:NamedIndividual, fresh:HealthTheme ;
+            skos:prefLabel 'Autre'@fr , 'Other'@en ;
+        
+
+            skos:definition 'À utiliser lorsque la spécialité est connue, mais introuvable dans la liste.'@fr, 'Use when the theme is known but cannot be found in the list.'@en ;
+        
+
+        dct:identifier 'FHT8403' .
+    

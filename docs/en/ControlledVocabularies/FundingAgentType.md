@@ -7,7 +7,7 @@ hide:
 
 >_Applies to the elements **[`FundingAgentType`](../VariablesDictionnary/Section_2.md) and [`SponsorType`](../VariablesDictionnary/Section_2.md)**_  
 
->_Download in **[`TTL/RDF`](.../../ttl/OrganisationType.ttl)**_  
+>_Download in **[`TTL/RDF`](../../ttl/OrganisationType.ttl)**_  
 
 <table>
   <tr BGCOLOR="#00a6e2">

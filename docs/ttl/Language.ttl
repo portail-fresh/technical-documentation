@@ -1,6 +1,7 @@
 @prefix dct: <http://purl.org/dc/terms/> .
     @prefix eur: <http://data.europa.eu/8mn/euroscivoc/> .
-    @prefix fresh: <https://portail-fresh.fr/> .
+    @prefix fresh: <https://purl.org/fresh/> .
+    @prefix term: <https://purl.org/fresh/terminologies/> .
     @prefix mesh: <http://id.nlm.nih.gov/mesh/> .
     @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
     @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
@@ -15,7 +16,7 @@
 
     fresh:Language rdf:type owl:Class ;
         rdfs:subClassOf fresh:terminologies ;
-        dct:identifier fresh:FLG ;
+        dct:identifier term:FLG ;
         dct:title 'Langue'@fr , 'Language'@en ;
         dct:description 'Concepts utilisés pour décrire les champs OriginLang et VersionLang du schéma de métadonnées FReSH.'@fr , 'Terms used to describe the fields OriginLang and VersionLang in the FReSH metadata schema.'@en ;
         dct:creator fresh: ;
@@ -39,3 +40,16 @@
 
 
             
+        term:FLG5933 rdf:type owl:NamedIndividual, fresh:Language ;
+            skos:prefLabel 'Français'@fr , 'French'@en ;
+        
+
+        dct:identifier 'FLG5933' .
+    
+
+        term:FLG9023 rdf:type owl:NamedIndividual, fresh:Language ;
+            skos:prefLabel 'Anglais'@fr , 'English'@en ;
+        
+
+        dct:identifier 'FLG9023' .
+    

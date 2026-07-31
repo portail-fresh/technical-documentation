@@ -6,7 +6,7 @@ hide:
 # Document Type
 
 >_Applies to the element **[`DocumentType`](../VariablesDictionnary/Section_4.md)**_  
->_Download in **[`TTL/RDF`](.../../ttl/DocumentType.ttl)**_
+>_Download in **[`TTL/RDF`](../../ttl/DocumentType.ttl)**_
 
 <table>
   <tr BGCOLOR="#00a6e2">

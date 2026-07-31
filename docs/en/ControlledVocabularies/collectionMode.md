@@ -8,7 +8,7 @@ hide:
 The method used to collect data.  
 
 >_Applies to the element **[`CollectionMode`](../VariablesDictionnary/Section_4.md)**_  
->_Download in **[`TTL/RDF`](.../../ttl/CollectionMode.ttl)**_
+>_Download in **[`TTL/RDF`](../../ttl/CollectionMode.ttl)**_
 
 
 <table>

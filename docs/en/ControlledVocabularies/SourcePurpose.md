@@ -8,7 +8,7 @@ hide:
 Purpose of using the source in the study.  
 
 >_Applies to the element **[`SourcePurpose`](../VariablesDictionnary/Section_4.md)**_  
->_Download in **[`TTL/RDF`](.../../ttl/SourcePurpose.ttl)**_
+>_Download in **[`TTL/RDF`](../../ttl/SourcePurpose.ttl)**_
 
 <table>
   <tr BGCOLOR="#00a6e2">
