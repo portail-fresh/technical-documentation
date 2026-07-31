@@ -1,6 +1,7 @@
 @prefix dct: <http://purl.org/dc/terms/> .
     @prefix eur: <http://data.europa.eu/8mn/euroscivoc/> .
-    @prefix fresh: <https://portail-fresh.fr/> .
+    @prefix fresh: <https://purl.org/fresh/> .
+    @prefix term: <https://purl.org/fresh/terminologies/> .
     @prefix mesh: <http://id.nlm.nih.gov/mesh/> .
     @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
     @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
@@ -15,7 +16,7 @@
 
     fresh:PlannedSampleSize rdf:type owl:Class ;
         rdfs:subClassOf fresh:terminologies ;
-        dct:identifier fresh:FPS ;
+        dct:identifier term:FPS ;
         dct:title 'Nombre prévu de participants'@fr , 'Expected number of participants'@en ;
         dct:description 'Concepts utilisés pour décrire le champ PlannedSampleSize du schéma de métadonnées FReSH.'@fr , 'Terms used to describe the field PlannedSampleSize in the FReSH metadata schema.'@en ;
         dct:creator fresh: ;
@@ -34,3 +35,37 @@
 
 
             
+        term:FPS5792 rdf:type owl:NamedIndividual, fresh:PlannedSampleSize ;
+            skos:prefLabel '< 500 individus'@fr , '< 500 individuals'@en ;
+        
+
+        dct:identifier 'FPS5792' .
+    
+
+        term:FPS3139 rdf:type owl:NamedIndividual, fresh:PlannedSampleSize ;
+            skos:prefLabel '[500-1000[ individus'@fr , '[500-1000[ individuals'@en ;
+        
+
+        dct:identifier 'FPS3139' .
+    
+
+        term:FPS8915 rdf:type owl:NamedIndividual, fresh:PlannedSampleSize ;
+            skos:prefLabel '[1000-10000[ individus'@fr , '[1000-10000[ individuals'@en ;
+        
+
+        dct:identifier 'FPS8915' .
+    
+
+        term:FPS3980 rdf:type owl:NamedIndividual, fresh:PlannedSampleSize ;
+            skos:prefLabel '[10000-20000[ individus'@fr , '[10000-20000[ individuals'@en ;
+        
+
+        dct:identifier 'FPS3980' .
+    
+
+        term:FPS7458 rdf:type owl:NamedIndividual, fresh:PlannedSampleSize ;
+            skos:prefLabel '>= 20000 individus'@fr , '>= 20000 individuals'@en ;
+        
+
+        dct:identifier 'FPS7458' .
+    

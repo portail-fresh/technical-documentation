@@ -1,6 +1,7 @@
 @prefix dct: <http://purl.org/dc/terms/> .
     @prefix eur: <http://data.europa.eu/8mn/euroscivoc/> .
-    @prefix fresh: <https://portail-fresh.fr/> .
+    @prefix fresh: <https://purl.org/fresh/> .
+    @prefix term: <https://purl.org/fresh/terminologies/> .
     @prefix mesh: <http://id.nlm.nih.gov/mesh/> .
     @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
     @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
@@ -15,7 +16,7 @@
 
     fresh:Provenance rdf:type owl:Class ;
         rdfs:subClassOf fresh:terminologies ;
-        dct:identifier fresh:FPV ;
+        dct:identifier term:FPV ;
         dct:title 'Provenance de l\'étude'@fr , 'Study provenance'@en ;
         dct:description 'Concepts utilisés pour décrire le champ Provenance du schéma de métadonnées FReSH.'@fr , 'Terms used to describe the field Provenance in the FReSH metadata schema.'@en ;
         dct:creator fresh: ;
@@ -34,3 +35,32 @@
 
 
             
+        term:FPV4669 rdf:type owl:NamedIndividual, fresh:Provenance ;
+            skos:prefLabel 'PEF (Portail Epidémiologie France)'@fr , 'PEF (Epidemiology France Portal)'@en ;
+        
+
+            skos:definition 'Catalogue des bases de données individuelles en santé en France (https://epidemiologie-france.aviesan.fr/).'@fr, 'Catalogue of the individual health databases in France (https://epidemiologie-france.aviesan.fr/en).'@en ;
+        
+
+        dct:identifier 'FPV4669' .
+    
+
+        term:FPV4434 rdf:type owl:NamedIndividual, fresh:Provenance ;
+            skos:prefLabel 'Clinical Trials'@fr , 'Clinical Trials'@en ;
+        
+
+            skos:definition 'Site web et base de données en ligne consacrés aux études cliniques et aux informations relatives à leurs résultats.  (https://clinicaltrials.gov/)'@fr, 'Website and online database of clinical research studies and information about their results (https://clinicaltrials.gov/).'@en ;
+        
+
+        dct:identifier 'FPV4434' .
+    
+
+        term:FPV1809 rdf:type owl:NamedIndividual, fresh:Provenance ;
+            skos:prefLabel 'FReSH (France Recherche en Santé Humaine)'@fr , 'FReSH (France Recherche en Santé Humaine)'@en ;
+        
+
+            skos:definition 'Portail recensant les collectes de données individuelles relatives à la santé réalisées dans le cadre de la recherche française. '@fr, 'Portal listing individual health data collections carried out as part of French research. '@en ;
+        
+
+        dct:identifier 'FPV1809' .
+    

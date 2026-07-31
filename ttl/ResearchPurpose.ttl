@@ -1,6 +1,7 @@
 @prefix dct: <http://purl.org/dc/terms/> .
     @prefix eur: <http://data.europa.eu/8mn/euroscivoc/> .
-    @prefix fresh: <https://portail-fresh.fr/> .
+    @prefix fresh: <https://purl.org/fresh/> .
+    @prefix term: <https://purl.org/fresh/terminologies/> .
     @prefix mesh: <http://id.nlm.nih.gov/mesh/> .
     @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
     @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
@@ -15,7 +16,7 @@
 
     fresh:ResearchPurpose rdf:type owl:Class ;
         rdfs:subClassOf fresh:terminologies ;
-        dct:identifier fresh:FRP ;
+        dct:identifier term:FRP ;
         dct:title 'Objectif principal de la recherche'@fr , 'Research Purpose'@en ;
         dct:description 'Concepts utilisés pour décrire le champ ResearchPurpose du schéma de métadonnées FReSH.'@fr , 'Terms used to describe the field ResearchPurpose in the FReSH metadata schema.'@en ;
         dct:creator fresh: ;
@@ -34,3 +35,92 @@
 
 
             
+        term:FRP6609 rdf:type owl:NamedIndividual, fresh:ResearchPurpose ;
+            skos:prefLabel 'Traitement'@fr , 'Treatment'@en ;
+        
+
+            skos:definition 'Intervention visant à évaluer le traitement d\'une maladie, d\'un syndrome ou d\'un état pathologique.'@fr, 'Intervention for evaluating the treatment of a disease, syndrome, or condition.'@en ;
+        
+
+        dct:identifier 'FRP6609' .
+    
+
+        term:FRP5390 rdf:type owl:NamedIndividual, fresh:ResearchPurpose ;
+            skos:prefLabel 'Recherche sur les services de santé'@fr , 'Health Services Research'@en ;
+        
+
+            skos:definition 'Intervention visant à évaluer la prestation, les processus, la gestion, l\'organisation ou le financement des soins de santé.'@fr, 'Intervention for evaluating the delivery, processes, management, organization, or financing of healthcare.'@en ;
+        
+
+        dct:identifier 'FRP5390' .
+    
+
+        term:FRP4609 rdf:type owl:NamedIndividual, fresh:ResearchPurpose ;
+            skos:prefLabel 'Prévention'@fr , 'Prevention'@en ;
+        
+
+            skos:definition 'Intervention visant à évaluer la prévention du développement d\'une maladie ou d\'un problème de santé spécifique.'@fr, 'Intervention for evaluating the prevention of the development of a specific disease or health condition.'@en ;
+        
+
+        dct:identifier 'FRP4609' .
+    
+
+        term:FRP2666 rdf:type owl:NamedIndividual, fresh:ResearchPurpose ;
+            skos:prefLabel 'Recherche fondamentale'@fr , 'Basic Science'@en ;
+        
+
+            skos:definition 'Intervention visant à étudier le mécanisme d’action fondamental (par exemple, la physiologie ou la biomécanique d’une intervention).'@fr, 'Intervention for examining the basic mechanism of action (for example, physiology or biomechanics of an intervention).'@en ;
+        
+
+        dct:identifier 'FRP2666' .
+    
+
+        term:FRP7944 rdf:type owl:NamedIndividual, fresh:ResearchPurpose ;
+            skos:prefLabel 'Diagnostic'@fr , 'Diagnostic'@en ;
+        
+
+            skos:definition 'Intervention visant à évaluer l\'identification une maladie ou un problème de santé.'@fr, 'Intervention for evaluating the identification of a disease or health condition.'@en ;
+        
+
+        dct:identifier 'FRP7944' .
+    
+
+        term:FRP1390 rdf:type owl:NamedIndividual, fresh:ResearchPurpose ;
+            skos:prefLabel 'Faisabilité des dispositifs'@fr , 'Device Feasability'@en ;
+        
+
+            skos:definition 'Intervention visant à tester la faisabilité d’un dispositif ou d’un prototype dans un petit essai clinique (souvent moins de 10 participants), sans mesurer les effets sur la santé, afin de confirmer la conception et les spécifications avant un essai complet.'@fr, 'Intervention for evaluating the feasibility of a device or prototype in a small clinical trial (usually less than 10 participants), without assessing health outcomes, to confirm design and specifications before a full trial.'@en ;
+        
+
+        dct:identifier 'FRP1390' .
+    
+
+        term:FRP5493 rdf:type owl:NamedIndividual, fresh:ResearchPurpose ;
+            skos:prefLabel 'Soins de soutien'@fr , 'Supportive Care'@en ;
+        
+
+            skos:definition 'Intervention visant à évaluer la possibilité de maximiser le confort, minimiser les effets secondaires ou atténuer le déclin de la santé ou des fonctions du participant.'@fr, 'Intervention for evaluating the possibility of maximising comfort, minimizing side effects, or mitigating against a decline in the participant\'s health or function.'@en ;
+        
+
+        dct:identifier 'FRP5493' .
+    
+
+        term:FRP2373 rdf:type owl:NamedIndividual, fresh:ResearchPurpose ;
+            skos:prefLabel 'Dépistage'@fr , 'Screening'@en ;
+        
+
+            skos:definition 'Intervention visant à évaluer l\'identification d\'une affection, ou les facteurs de risque d\'une affection, chez des personnes qui ne sont pas encore connues comme présentant cette maladie ou ces facteurs de risque.'@fr, 'Intervention for evaluating the identification a condition, or risk factors for a condition, in people who are not yet known to have the condition or risk factor.'@en ;
+        
+
+        dct:identifier 'FRP2373' .
+    
+
+        term:FRP9823 rdf:type owl:NamedIndividual, fresh:ResearchPurpose ;
+            skos:prefLabel 'Autre'@fr , 'Other'@en ;
+        
+
+            skos:definition 'Toute autre finalité de recherche ne correspondant pas aux catégories précédentes.'@fr, 'Any other research purpose not covered by the above categories.'@en ;
+        
+
+        dct:identifier 'FRP9823' .
+    

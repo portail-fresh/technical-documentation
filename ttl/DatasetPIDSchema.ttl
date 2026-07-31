@@ -1,6 +1,7 @@
 @prefix dct: <http://purl.org/dc/terms/> .
     @prefix eur: <http://data.europa.eu/8mn/euroscivoc/> .
-    @prefix fresh: <https://portail-fresh.fr/> .
+    @prefix fresh: <https://purl.org/fresh/> .
+    @prefix term: <https://purl.org/fresh/terminologies/> .
     @prefix mesh: <http://id.nlm.nih.gov/mesh/> .
     @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
     @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
@@ -15,7 +16,7 @@
 
     fresh:DatasetPIDSchema rdf:type owl:Class ;
         rdfs:subClassOf fresh:terminologies ;
-        dct:identifier fresh:FDS ;
+        dct:identifier term:FDS ;
         dct:title 'Type d\'identifiant du jeu de données'@fr , 'Identifier type of the dataset'@en ;
         dct:description 'Concepts utilisés pour décrire le champ DatasetPIDSchema du schéma de métadonnées FReSH.'@fr , 'Terms used to describe the field DatasetPIDSchema in the FReSH metadata schema.'@en ;
         dct:creator fresh: ;
@@ -34,3 +35,32 @@
 
 
             
+        term:FDS1444 rdf:type owl:NamedIndividual, fresh:DatasetPIDSchema ;
+            skos:prefLabel 'DOI'@fr , 'DOI'@en ;
+        
+
+            skos:definition 'Digital Object Identifier - Lien permanent ou persistant attribué à une ressource numérique, généralement géré par des agences DOI comme CrossRef ou DataCite, pour en faciliter la localisation et la citation.'@fr, 'Digital Object Identifier - Permanent or persistent link assigned to a digital resource, usually managed by DOI agencies such as CrossRef or DataCite, to facilitate its location and citation.'@en ;
+        
+
+        dct:identifier 'FDS1444' .
+    
+
+        term:FDS1570 rdf:type owl:NamedIndividual, fresh:DatasetPIDSchema ;
+            skos:prefLabel 'Handle'@fr , 'Handle'@en ;
+        
+
+            skos:definition 'Identifiant persistant attribué àune ressource numérique, géré par le Handle System (CNRI).'@fr, 'Persistent identifier assigned to a digital resource, managed by the Handle System (CNRI).'@en ;
+        
+
+        dct:identifier 'FDS1570' .
+    
+
+        term:FDS6835 rdf:type owl:NamedIndividual, fresh:DatasetPIDSchema ;
+            skos:prefLabel 'Autre'@fr , 'Other'@en ;
+        
+
+            skos:definition 'À utiliser lorsque le type d\'identifiant est connu, mais introuvable dans la liste.'@fr, 'Used when the identifier type is known but cannot be found in the list.'@en ;
+        
+
+        dct:identifier 'FDS6835' .
+    

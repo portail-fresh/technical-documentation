@@ -1,30 +1,143 @@
 @prefix dct: <http://purl.org/dc/terms/> .
-@prefix fresh: <https://purl.org/fresh/> .
-@prefix term: <https://purl.org/fresh/terminologies/> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix pav: <http://purl.org/pav/> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+    @prefix eur: <http://data.europa.eu/8mn/euroscivoc/> .
+    @prefix fresh: <https://purl.org/fresh/> .
+    @prefix term: <https://purl.org/fresh/terminologies/> .
+    @prefix mesh: <http://id.nlm.nih.gov/mesh/> .
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+    @prefix vocab: <https://portail-fresh.fr/vocab/> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix pav: <http://purl.org/pav/> .
+    @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+    fresh:terminologies rdf:type owl:Class . 
 
 
-fresh:terminologies rdf:type owl:Class .
-
-fresh:Age rdf:type owl:Class ;
-    rdfs:subClassOf fresh:terminologies ;
-    dct:identifier term:FAG ;
-    dct:title 'Age'@fr, 'Age'@en ;
-    dct:description 'Concepts utilisés pour décrire le champ Age du schéma de métadonnées FReSH.'@fr, 'Concepts utilisés pour décrire le champ Age du schéma de métadonnées FReSH.'@en ;
-    dct:creator fresh: ;
-    pav:createdOn "2026-01-05"^^xsd:date ;
-    pav:lastUpdatedOn '2026-04-07' ;
-    fresh:metadataConcerned 'Age' ;
-    dct:license 'https://creativecommons.org/licenses/by-nc-sa/4.0/' .
+    fresh:Age rdf:type owl:Class ;
+        rdfs:subClassOf fresh:terminologies ;
+        dct:identifier term:FAG ;
+        dct:title 'Age'@fr , 'Age'@en ;
+        dct:description 'Concepts utilisés pour décrire le champ Age du schéma de métadonnées FReSH.'@fr , 'Concepts utilisés pour décrire le champ Age du schéma de métadonnées FReSH.'@en ;
+        dct:creator fresh: ;
+        pav:createdOn "2026-01-05"^^xsd:date ;
+        pav:lastUpdatedOn '2026-04-07' ;
 
 
-fresh:FAG1646 rdf:type owl:NamedIndividual, fresh:Age ;
-    skos:exactMatch <http://id.nlm.nih.gov/mesh/D007231> ;
-    skos:exactMatch <http://id.nlm.nih.gov/mesh/D000293> ;
-    dct:identifier fresh:FAG1646 ;
-    skos:prefLabel "Infant, Newborn (birth to 28 days)"@en , "Nouveau-né (naissance à 28j)"@fr .
+    
+ 
+        fresh:metadataConcerned 'Age';
+
+
+        
+ 
+        dct:license 'https://creativecommons.org/licenses/by-nc-sa/4.0/' .
+
+
+            
+        term:FAG1350 rdf:type owl:NamedIndividual, fresh:Age ;
+            skos:prefLabel 'Prénatal'@fr , 'Prenatal'@en ;
+        
+
+        dct:identifier 'FAG1350' .
+    
+
+        term:FAG5352 rdf:type owl:NamedIndividual, fresh:Age ;
+            skos:prefLabel 'Nouveau-né (naissance à 28j)'@fr , 'Infant, Newborn (birth to 28 days)'@en ;
+        
+
+            skos:exactMatch 'http://id.nlm.nih.gov/mesh/D007231' ;
+            
+
+        dct:identifier 'FAG5352' .
+    
+
+        term:FAG8437 rdf:type owl:NamedIndividual, fresh:Age ;
+            skos:prefLabel 'Nourrisson (28j à 2 ans)'@fr , 'Infant (28 days to 2 years)'@en ;
+        
+
+            skos:exactMatch 'http://id.nlm.nih.gov/mesh/D007223' ;
+            
+
+        dct:identifier 'FAG8437' .
+    
+
+        term:FAG9579 rdf:type owl:NamedIndividual, fresh:Age ;
+            skos:prefLabel 'Petite enfance (2 à 5 ans)'@fr , 'Child, Preschool (2 to 5 years)'@en ;
+        
+
+            skos:exactMatch 'http://id.nlm.nih.gov/mesh/D002675' ;
+            
+
+        dct:identifier 'FAG9579' .
+    
+
+        term:FAG2806 rdf:type owl:NamedIndividual, fresh:Age ;
+            skos:prefLabel 'Enfance (6 à 12 ans)'@fr , 'Child (6 to 12 years)'@en ;
+        
+
+            skos:exactMatch 'http://id.nlm.nih.gov/mesh/D002648' ;
+            
+
+        dct:identifier 'FAG2806' .
+    
+
+        term:FAG2098 rdf:type owl:NamedIndividual, fresh:Age ;
+            skos:prefLabel 'Adolescence (13 à 18 ans)'@fr , 'Adolescent (13 to 18 years)'@en ;
+        
+
+            skos:exactMatch 'http://id.nlm.nih.gov/mesh/D000293' ;
+            
+
+        dct:identifier 'FAG2098' .
+    
+
+        term:FAG4659 rdf:type owl:NamedIndividual, fresh:Age ;
+            skos:prefLabel 'Adulte (19 à 24 ans)'@fr , 'Young Adult (19 to 24 years)'@en ;
+        
+
+            skos:exactMatch 'http://id.nlm.nih.gov/mesh/D055815' ;
+            
+
+        dct:identifier 'FAG4659' .
+    
+
+        term:FAG1646 rdf:type owl:NamedIndividual, fresh:Age ;
+            skos:prefLabel 'Adulte (25 à 44 ans)'@fr , 'Adult (25 to 44 years)'@en ;
+        
+
+            skos:exactMatch 'http://id.nlm.nih.gov/mesh/D000328' ;
+            
+
+        dct:identifier 'FAG1646' .
+    
+
+        term:FAG7390 rdf:type owl:NamedIndividual, fresh:Age ;
+            skos:prefLabel 'Adulte (45 à 64 ans)'@fr , 'Middle Aged (45 to 64 years)'@en ;
+        
+
+            skos:exactMatch 'http://id.nlm.nih.gov/mesh/D008875' ;
+            
+
+        dct:identifier 'FAG7390' .
+    
+
+        term:FAG4840 rdf:type owl:NamedIndividual, fresh:Age ;
+            skos:prefLabel 'Personne âgée (65 à 79 ans)'@fr , 'Aged (65 to 79 years)'@en ;
+        
+
+            skos:exactMatch 'http://id.nlm.nih.gov/mesh/D000368' ;
+            
+
+        dct:identifier 'FAG4840' .
+    
+
+        term:FAG4994 rdf:type owl:NamedIndividual, fresh:Age ;
+            skos:prefLabel 'Grand âge (80 ans et plus)'@fr , 'Aged, 80 and over (80 years and more)'@en ;
+        
+
+            skos:exactMatch 'http://id.nlm.nih.gov/mesh/D000369' ;
+            
+
+        dct:identifier 'FAG4994' .
+    

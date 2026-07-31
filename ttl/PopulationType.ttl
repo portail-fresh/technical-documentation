@@ -1,6 +1,7 @@
 @prefix dct: <http://purl.org/dc/terms/> .
     @prefix eur: <http://data.europa.eu/8mn/euroscivoc/> .
-    @prefix fresh: <https://portail-fresh.fr/> .
+    @prefix fresh: <https://purl.org/fresh/> .
+    @prefix term: <https://purl.org/fresh/terminologies/> .
     @prefix mesh: <http://id.nlm.nih.gov/mesh/> .
     @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
     @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
@@ -15,7 +16,7 @@
 
     fresh:PopulationType rdf:type owl:Class ;
         rdfs:subClassOf fresh:terminologies ;
-        dct:identifier fresh:FPT ;
+        dct:identifier term:FPT ;
         dct:title 'Type de population'@fr , 'Population Type'@en ;
         dct:description 'Concepts utilisés pour décrire le champ PopulationType du schéma de métadonnées FReSH.'@fr , 'Terms used to describe the field PopulationType in the FReSH metadata schema.'@en ;
         dct:creator fresh: ;
@@ -34,3 +35,42 @@
 
 
             
+        term:FPT2781 rdf:type owl:NamedIndividual, fresh:PopulationType ;
+            skos:prefLabel 'Population générale'@fr , 'General population'@en ;
+        
+
+            skos:definition 'Ensemble des individus d\'un territoire donné, indépendamment de leur état de santé ou de leur recours aux soins.'@fr, 'All individuals in a given area, regardless of their state of health or their use of healthcare.'@en ;
+        
+
+        dct:identifier 'FPT2781' .
+    
+
+        term:FPT4254 rdf:type owl:NamedIndividual, fresh:PopulationType ;
+            skos:prefLabel 'Patients'@fr , 'Patients population'@en ;
+        
+
+            skos:definition 'Personnes ayant reçu un diagnostic médical et faisant l’objet d’un suivi ou d’une prise en charge dans le cadre du système de soins, qu’il soit ambulatoire ou hospitalier.'@fr, 'People who have received a medical diagnosis and are subject to follow-up or care within the healthcare system, whether outpatient or inpatient.'@en ;
+        
+
+        dct:identifier 'FPT4254' .
+    
+
+        term:FPT5451 rdf:type owl:NamedIndividual, fresh:PopulationType ;
+            skos:prefLabel 'Personnes en situation de handicap'@fr , 'People with disabilities'@en ;
+        
+
+            skos:definition 'Personnes qui présentent des incapacités physiques, mentales, intellectuelles ou sensorielles durables qui limitent leur activité ou restreignent leur participation à la vie en société participation sur la base de l’égalité avec les autres.'@fr, 'Individuals with long-term physical, mental, intellectual, or sensory disabilities that limit their activity or restrict their participation in society on an equal basis with others.'@en ;
+        
+
+        dct:identifier 'FPT5451' .
+    
+
+        term:FPT7356 rdf:type owl:NamedIndividual, fresh:PopulationType ;
+            skos:prefLabel 'Autre'@fr , 'Other'@en ;
+        
+
+            skos:definition 'À utiliser lorsque le type de population est connu, mais introuvable dans la liste.'@fr, 'Use when the population type is known but cannot be found in the list.'@en ;
+        
+
+        dct:identifier 'FPT7356' .
+    

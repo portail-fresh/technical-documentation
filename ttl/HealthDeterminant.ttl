@@ -1,6 +1,7 @@
 @prefix dct: <http://purl.org/dc/terms/> .
     @prefix eur: <http://data.europa.eu/8mn/euroscivoc/> .
-    @prefix fresh: <https://portail-fresh.fr/> .
+    @prefix fresh: <https://purl.org/fresh/> .
+    @prefix term: <https://purl.org/fresh/terminologies/> .
     @prefix mesh: <http://id.nlm.nih.gov/mesh/> .
     @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
     @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
@@ -15,7 +16,7 @@
 
     fresh:HealthDeterminant rdf:type owl:Class ;
         rdfs:subClassOf fresh:terminologies ;
-        dct:identifier fresh:FHD ;
+        dct:identifier term:FHD ;
         dct:title 'Déterminants de santé'@fr , 'Health Determinant'@en ;
         dct:description 'Concepts utilisés pour décrire le champ HealthDeterminant du schéma de métadonnées FReSH.'@fr , 'Terms used to describe the field HealthDeterminant in the FReSH metadata schema.'@en ;
         dct:creator fresh: ;
@@ -34,3 +35,339 @@
 
 
             
+        term:FHD1624 rdf:type owl:NamedIndividual, fresh:HealthDeterminant ;
+            skos:prefLabel 'Déterminants socio-démographiques et économiques'@fr , 'Socio-demographic and economic determinants'@en ;
+        
+
+            skos:definition 'Facteurs liés à l\'environnement social et économique des personnes participant à l\'étude.'@fr, 'Factors related to the social and economic environment of the study participants.'@en ;
+        
+
+        dct:identifier 'FHD1624' .
+    
+
+        term:FHD7164 rdf:type owl:NamedIndividual, fresh:HealthDeterminant ;
+            skos:prefLabel 'Déterminants socio-démographiques et économiques : Emploi'@fr , 'Socio-demographic and economic determinants: Employment'@en ;
+        
+
+            skos:definition 'Situation d’activité professionnelle, incluant statut et le type d\'emploi, le secteur d\'activité et conditions de travail.'@fr, 'Professional activity situation, including employment status and type of job, sector of activity, and working conditions.'@en ;
+        
+
+        dct:identifier 'FHD7164' .
+    
+
+        term:FHD8197 rdf:type owl:NamedIndividual, fresh:HealthDeterminant ;
+            skos:prefLabel 'Déterminants socio-démographiques et économiques : Revenu'@fr , 'Socio-demographic and economic determinants: Income'@en ;
+        
+
+            skos:definition 'Niveau de revenu.'@fr, 'Income level.'@en ;
+        
+
+        dct:identifier 'FHD8197' .
+    
+
+        term:FHD9559 rdf:type owl:NamedIndividual, fresh:HealthDeterminant ;
+            skos:prefLabel 'Déterminants socio-démographiques et économiques : Logement'@fr , 'Socio-demographic and economic determinants: Housing'@en ;
+        
+
+            skos:definition 'Conditions matérielles de logement.'@fr, 'Material conditions of housing.'@en ;
+        
+
+        dct:identifier 'FHD9559' .
+    
+
+        term:FHD6471 rdf:type owl:NamedIndividual, fresh:HealthDeterminant ;
+            skos:prefLabel 'Déterminants socio-démographiques et économiques : Niveau d\'études'@fr , 'Socio-demographic and economic determinants: Education level'@en ;
+        
+
+            skos:definition 'Degré de formation atteint par un individu, généralement mesuré par le plus haut diplôme obtenu.'@fr, 'Level of education attained by an individual, generally measured by the highest qualification obtained.'@en ;
+        
+
+        dct:identifier 'FHD6471' .
+    
+
+        term:FHD7020 rdf:type owl:NamedIndividual, fresh:HealthDeterminant ;
+            skos:prefLabel 'Déterminants socio-démographiques et économiques : Situation familiale'@fr , 'Socio-demographic and economic determinants: Family situation'@en ;
+        
+
+            skos:definition 'Configuration du foyer ou du ménage, liens familiaux.'@fr, 'Household or family configuration, family ties.'@en ;
+        
+
+        dct:identifier 'FHD7020' .
+    
+
+        term:FHD7708 rdf:type owl:NamedIndividual, fresh:HealthDeterminant ;
+            skos:prefLabel 'Déterminants socio-démographiques et économiques : Genre'@fr , 'Socio-demographic and economic determinants: Gender'@en ;
+        
+
+            skos:definition 'Rôles déterminés socialement par les comportements, les activités et les attributs qu’une société considère comme appropriés pour les hommes et les femmes (https://www.who.int/fr/news-room/fact-sheets/detail/gender)'@fr, 'Roles determined socially by the behaviours, activities and attributes that a society considers appropriate for men and women (https://www.who.int/fr/news-room/fact-sheets/detail/gender)'@en ;
+        
+
+        dct:identifier 'FHD7708' .
+    
+
+        term:FHD3308 rdf:type owl:NamedIndividual, fresh:HealthDeterminant ;
+            skos:prefLabel 'Déterminants socio-démographiques et économiques : Age'@fr , 'Socio-demographic and economic determinants: Age'@en ;
+        
+
+            skos:definition 'Caractéristique démographique indiquant le nombre d’années vécues par une personne, influençant ses rôles et interactions sociales, ses responsabilités et ses ressources économiques.'@fr, 'A demographic characteristic indicating the number of years a person has lived, influencing their social roles and interactions, responsibilities and economic resources.'@en ;
+        
+
+        dct:identifier 'FHD3308' .
+    
+
+        term:FHD5890 rdf:type owl:NamedIndividual, fresh:HealthDeterminant ;
+            skos:prefLabel 'Déterminants socio-démographiques et économiques : Autre'@fr , 'Socio-demographic and economic determinants: Other'@en ;
+        
+
+            skos:definition 'Tout autre facteur socio-économique ne figurant pas dans les catégories précédentes.'@fr, 'Other socioeconomic factors not included in the previous categories.'@en ;
+        
+
+        dct:identifier 'FHD5890' .
+    
+
+        term:FHD1261 rdf:type owl:NamedIndividual, fresh:HealthDeterminant ;
+            skos:prefLabel 'Déterminants environnementaux'@fr , 'Environmental determinants'@en ;
+        
+
+            skos:definition 'Facteurs liés à l\'environnement physique des personnes participant à l\'étude.'@fr, 'Factors related to the physical environment of the study participants.'@en ;
+        
+
+        dct:identifier 'FHD1261' .
+    
+
+        term:FHD4756 rdf:type owl:NamedIndividual, fresh:HealthDeterminant ;
+            skos:prefLabel 'Déterminants environnementaux : Qualité de l\'air'@fr , 'Environmental determinants: Air quality'@en ;
+        
+
+            skos:definition 'Ensemble des caractéristiques de l’air ambiant (extérieur ou intérieur), mesurées en fonction de la présence de polluants.'@fr, 'All characteristics of ambient air (outdoor or indoor), measured in terms of the presence of pollutants.'@en ;
+        
+
+        dct:identifier 'FHD4756' .
+    
+
+        term:FHD8793 rdf:type owl:NamedIndividual, fresh:HealthDeterminant ;
+            skos:prefLabel 'Déterminants environnementaux : Qualité de l\'eau'@fr , 'Environmental determinants: Water quality'@en ;
+        
+
+            skos:definition 'Caractéristiques physiques, chimiques et microbiologiques de l’eau, qu’elle soit destinée à la consommation humaine, à un usage domestique, ou présente dans l’environnement.'@fr, 'Physical, chemical and microbiological characteristics of water, whether intended for human consumption, domestic use, or present in the environment.'@en ;
+        
+
+        dct:identifier 'FHD8793' .
+    
+
+        term:FHD8320 rdf:type owl:NamedIndividual, fresh:HealthDeterminant ;
+            skos:prefLabel 'Déterminants environnementaux : Climat'@fr , 'Environmental determinants: Climate'@en ;
+        
+
+            skos:definition 'Conditions météorologiques moyennes observées sur une période prolongée dans une région donnée. '@fr, 'Average weather conditions observed over an extensiv period in a given region. '@en ;
+        
+
+        dct:identifier 'FHD8320' .
+    
+
+        term:FHD2169 rdf:type owl:NamedIndividual, fresh:HealthDeterminant ;
+            skos:prefLabel 'Déterminants environnementaux : Autre'@fr , 'Environmental determinants: Other'@en ;
+        
+
+            skos:definition 'Tout autre facteur environnemental ne figurant pas dans les catégories précédentes.'@fr, 'Any other environmental factor not included in the previous categories.'@en ;
+        
+
+        dct:identifier 'FHD2169' .
+    
+
+        term:FHD2204 rdf:type owl:NamedIndividual, fresh:HealthDeterminant ;
+            skos:prefLabel 'Déterminants liés au système de santé'@fr , 'Healthcare system determinants'@en ;
+        
+
+            skos:definition 'Facteurs relatifs à l’organisation, à l’accessibilité, à la qualité et à l’utilisation des services de santé par les personnes participant à l’étude. '@fr, 'Factors related to the organisation, accessibility, quality and use of health services by study participants. '@en ;
+        
+
+        dct:identifier 'FHD2204' .
+    
+
+        term:FHD5923 rdf:type owl:NamedIndividual, fresh:HealthDeterminant ;
+            skos:prefLabel 'Déterminants liés au système de santé : Accès aux soins'@fr , 'Healthcare system determinants: Access to care'@en ;
+        
+
+            skos:definition 'Disponibilité, proximité et accessibilité financière des soins.'@fr, 'Availability, proximity, and affordability of healthcare.'@en ;
+        
+
+        dct:identifier 'FHD5923' .
+    
+
+        term:FHD5552 rdf:type owl:NamedIndividual, fresh:HealthDeterminant ;
+            skos:prefLabel 'Déterminants liés au système de santé : Qualité des soins'@fr , 'Healthcare system determinants: Quality of care'@en ;
+        
+
+            skos:definition 'Niveau de performance et de sécurité des services de santé.'@fr, 'Performance and safety level of healthcare services.'@en ;
+        
+
+        dct:identifier 'FHD5552' .
+    
+
+        term:FHD9877 rdf:type owl:NamedIndividual, fresh:HealthDeterminant ;
+            skos:prefLabel 'Déterminants liés au système de santé : Consommation des soins'@fr , 'Healthcare system determinants: Use of care'@en ;
+        
+
+            skos:definition 'Fréquence et type d’utilisation des services de santé.'@fr, 'Frequency and type of healthcare service use.'@en ;
+        
+
+        dct:identifier 'FHD9877' .
+    
+
+        term:FHD3763 rdf:type owl:NamedIndividual, fresh:HealthDeterminant ;
+            skos:prefLabel 'Déterminants liés au système de santé : Autre'@fr , 'Healthcare system determinants: Other'@en ;
+        
+
+            skos:definition 'Tout autre facteur lié au système de santé ne figurant pas dans les catégories précédentes.'@fr, 'Any other factor related to the healthcare system not included in the previous categories.'@en ;
+        
+
+        dct:identifier 'FHD3763' .
+    
+
+        term:FHD4659 rdf:type owl:NamedIndividual, fresh:HealthDeterminant ;
+            skos:prefLabel 'Déterminants comportementaux'@fr , 'Behavioral determinants'@en ;
+        
+
+            skos:definition 'Facteurs liés aux comportements individuels des personnes participant à l\'étude.'@fr, 'Factor related to individual behavior of the study participants.'@en ;
+        
+
+        dct:identifier 'FHD4659' .
+    
+
+        term:FHD7735 rdf:type owl:NamedIndividual, fresh:HealthDeterminant ;
+            skos:prefLabel 'Déterminants comportementaux : Addiction'@fr , 'Behavioral determinants: Addiction'@en ;
+        
+
+            skos:definition 'Comportement incontrôlable lié à un besoin excessif de consommer une substance ou de répéter un acte, entraînant une dépendance physique et émotionnelle.'@fr, 'Uncontrollable behaviour linked to an excessive need to consume a substance or repeat an act, leading to physical and emotional dependence.'@en ;
+        
+
+        dct:identifier 'FHD7735' .
+    
+
+        term:FHD9955 rdf:type owl:NamedIndividual, fresh:HealthDeterminant ;
+            skos:prefLabel 'Déterminants comportementaux : Alimentation'@fr , 'Behavioral determinants: Eating habits'@en ;
+        
+
+            skos:definition 'Comportements alimentaires et régime alimentaire.'@fr, 'Feeding behavior and diet.'@en ;
+        
+
+        dct:identifier 'FHD9955' .
+    
+
+        term:FHD1859 rdf:type owl:NamedIndividual, fresh:HealthDeterminant ;
+            skos:prefLabel 'Déterminants comportementaux : Activité physique'@fr , 'Behavioral determinants: Physical activity'@en ;
+        
+
+            skos:definition 'Niveau et régularité d\'activité physique pratiquée.'@fr, 'Level and regularity of physical activity.'@en ;
+        
+
+        dct:identifier 'FHD1859' .
+    
+
+        term:FHD4541 rdf:type owl:NamedIndividual, fresh:HealthDeterminant ;
+            skos:prefLabel 'Déterminants comportementaux : Littératie en santé'@fr , 'Behavioral determinants: Health literacy'@en ;
+        
+
+            skos:definition 'Capacité à comprendre et utiliser les informations liées à la santé.'@fr, 'Ability to understand and use health-related information.'@en ;
+        
+
+        dct:identifier 'FHD4541' .
+    
+
+        term:FHD1085 rdf:type owl:NamedIndividual, fresh:HealthDeterminant ;
+            skos:prefLabel 'Déterminants comportementaux : Hygiène'@fr , 'Behavioral determinants: Hygiene'@en ;
+        
+
+            skos:definition 'Ensemble des pratiques visant à préserver la santé et prévenir les maladies, notamment par la propreté.'@fr, 'Practices that maintain health and prevent disease, especially through cleanliness.'@en ;
+        
+
+        dct:identifier 'FHD1085' .
+    
+
+        term:FHD8610 rdf:type owl:NamedIndividual, fresh:HealthDeterminant ;
+            skos:prefLabel 'Déterminants comportementaux : Pratiques sexuelles'@fr , 'Behavioral determinants: Sexual practice'@en ;
+        
+
+            skos:definition 'Comportements liés à la sexualité.'@fr, 'Behaviours related to sexuality.'@en ;
+        
+
+        dct:identifier 'FHD8610' .
+    
+
+        term:FHD8373 rdf:type owl:NamedIndividual, fresh:HealthDeterminant ;
+            skos:prefLabel 'Déterminants comportementaux : Comportements à risque'@fr , 'Behavioral determinants: Risk behavior'@en ;
+        
+
+            skos:definition 'Actions ou habitudes susceptibles de nuire à la santé (ex. : conduite à risque).'@fr, 'Actions or habits that may be harmful to health (e.g., risky driving).'@en ;
+        
+
+        dct:identifier 'FHD8373' .
+    
+
+        term:FHD4305 rdf:type owl:NamedIndividual, fresh:HealthDeterminant ;
+            skos:prefLabel 'Déterminants comportementaux : Autre'@fr , 'Behavioral determinants: Other'@en ;
+        
+
+            skos:definition 'Tout autre comportement influençant la santé ne figurant pas dans les catégories précédentes.'@fr, 'Any other health-related behavior not included in the previous categories.'@en ;
+        
+
+        dct:identifier 'FHD4305' .
+    
+
+        term:FHD7064 rdf:type owl:NamedIndividual, fresh:HealthDeterminant ;
+            skos:prefLabel 'Déterminants biologiques'@fr , 'Biological determinants'@en ;
+        
+
+            skos:definition 'Facteurs liés aux caractéristiques biologiques des personnes participant à l\'étude.'@fr, 'Factor related to biological characteristics of the study participants.'@en ;
+        
+
+        dct:identifier 'FHD7064' .
+    
+
+        term:FHD1224 rdf:type owl:NamedIndividual, fresh:HealthDeterminant ;
+            skos:prefLabel 'Déterminants biologiques : Prédisposition génétique'@fr , 'Biological determinants: Genetic predisposition'@en ;
+        
+
+            skos:definition 'Caractéristiques héréditaires d’une personne qui augmentent sa vulnérabilité à certaines maladies ou affections.'@fr, 'Hereditary characteristics of a person that increase their vulnerability to certain diseases or conditions.'@en ;
+        
+
+        dct:identifier 'FHD1224' .
+    
+
+        term:FHD6631 rdf:type owl:NamedIndividual, fresh:HealthDeterminant ;
+            skos:prefLabel 'Déterminants biologiques : Viellissement'@fr , 'Biological determinants: Aging'@en ;
+        
+
+        dct:identifier 'FHD6631' .
+    
+
+        term:FHD5526 rdf:type owl:NamedIndividual, fresh:HealthDeterminant ;
+            skos:prefLabel 'Déterminants biologiques : Sexe'@fr , 'Biological determinants: Sex'@en ;
+        
+
+            skos:definition 'Caractéristiques biologiques et physiologiques qui différencient les hommes des femmes (définition de l\'OMS - https://www.who.int/fr/news-room/fact-sheets/detail/women-s-health)'@fr, 'Biological and physiological characteristics that differentiate men from women (WHO definition - https://www.who.int/fr/news-room/fact-sheets/detail/women-s-health)'@en ;
+        
+
+        dct:identifier 'FHD5526' .
+    
+
+        term:FHD7008 rdf:type owl:NamedIndividual, fresh:HealthDeterminant ;
+            skos:prefLabel 'Déterminants biologiques : Autre'@fr , 'Biological determinants: Other'@en ;
+        
+
+            skos:definition 'Autre caractéristique biologique ne figurant pas dans les catégories précédentes.'@fr, 'Any other biological characteristic not included in the previous categories.'@en ;
+        
+
+        dct:identifier 'FHD7008' .
+    
+
+        term:FHD3661 rdf:type owl:NamedIndividual, fresh:HealthDeterminant ;
+            skos:prefLabel 'Autre'@fr , 'Other'@en ;
+        
+
+            skos:definition 'À utiliser lorsque le déterminant est connu, mais introuvable dans la liste.'@fr, 'Use when the determinant is known but cannot be found in the list.'@en ;
+        
+
+        dct:identifier 'FHD3661' .
+    

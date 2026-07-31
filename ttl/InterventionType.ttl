@@ -1,6 +1,7 @@
 @prefix dct: <http://purl.org/dc/terms/> .
     @prefix eur: <http://data.europa.eu/8mn/euroscivoc/> .
-    @prefix fresh: <https://portail-fresh.fr/> .
+    @prefix fresh: <https://purl.org/fresh/> .
+    @prefix term: <https://purl.org/fresh/terminologies/> .
     @prefix mesh: <http://id.nlm.nih.gov/mesh/> .
     @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
     @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
@@ -15,7 +16,7 @@
 
     fresh:InterventionType rdf:type owl:Class ;
         rdfs:subClassOf fresh:terminologies ;
-        dct:identifier fresh:FIT ;
+        dct:identifier term:FIT ;
         dct:title 'Type de facteur ou d\'exposition'@fr , 'Factor/Exposure Type'@en ;
         dct:description 'Concepts utilisés pour décrire le champ InterventionType du schéma de métadonnées FReSH.'@fr , 'Terms used to describe the field InterventionType in the FReSH metadata schema.'@en ;
         dct:creator fresh: ;
@@ -34,3 +35,122 @@
 
 
             
+        term:FIT5206 rdf:type owl:NamedIndividual, fresh:InterventionType ;
+            skos:prefLabel 'Médicament'@fr , 'Drug'@en ;
+        
+
+            skos:definition 'Administration d\'une substance chimique destinée à prévenir, traiter ou diagnostiquer une maladie.'@fr, 'Administration of a chemical substance or formulation intended to prevent, treat or diagnose a disease.'@en ;
+        
+
+        dct:identifier 'FIT5206' .
+    
+
+        term:FIT2785 rdf:type owl:NamedIndividual, fresh:InterventionType ;
+            skos:prefLabel 'Dispositif médical'@fr , 'Device'@en ;
+        
+
+            skos:definition 'Utilisation d\'un dispositif médical pour diagnostiquer, traiter ou prévenir une affection.'@fr, 'Use of a medical device to diagnose, treat, or prevent a condition.'@en ;
+        
+
+        dct:identifier 'FIT2785' .
+    
+
+        term:FIT2257 rdf:type owl:NamedIndividual, fresh:InterventionType ;
+            skos:prefLabel 'Biologique-vaccin'@fr , 'Biological-Vaccine'@en ;
+        
+
+            skos:definition 'Administration d\'un produits dérivés de sources biologiques (ex.anticorps, cellules, vaccins) destinée à prévenir, traiter ou diagnostiquer une maladie.'@fr, 'Administration of a product derived from biological sources (e.g. antibodies, cells, vaccines) intended to prevent, treat or diagnose a disease.'@en ;
+        
+
+        dct:identifier 'FIT2257' .
+    
+
+        term:FIT6850 rdf:type owl:NamedIndividual, fresh:InterventionType ;
+            skos:prefLabel 'Procédure-chirurgie'@fr , 'Procedure-Surgery'@en ;
+        
+
+            skos:definition 'Réalisation d\'une intervention médicale ou chirurgicale à des fins thérapeutiques ou diagnostiques.'@fr, 'Performing a medical or surgical procedure for therapeutic or diagnostic purposes.'@en ;
+        
+
+        dct:identifier 'FIT6850' .
+    
+
+        term:FIT1599 rdf:type owl:NamedIndividual, fresh:InterventionType ;
+            skos:prefLabel 'Radiation'@fr , 'Radiation'@en ;
+        
+
+            skos:definition 'Utilisation de rayonnements ionisants ou non ionisants pour diagnostiquer ou traiter une maladie.'@fr, 'Use of ionising or non-ionising radiation to diagnose or treat disease.'@en ;
+        
+
+        dct:identifier 'FIT1599' .
+    
+
+        term:FIT5205 rdf:type owl:NamedIndividual, fresh:InterventionType ;
+            skos:prefLabel 'Comportementale'@fr , 'Behavioral'@en ;
+        
+
+            skos:definition 'Intervention visant à modifier le comportement ou le mode de vie, comme psychotérapie, l’éducation ou le coaching.'@fr, 'Intervention aimed at changing behaviour, such as psychotherapy, education or coaching.'@en ;
+        
+
+        dct:identifier 'FIT5205' .
+    
+
+        term:FIT3699 rdf:type owl:NamedIndividual, fresh:InterventionType ;
+            skos:prefLabel 'Génétique'@fr , 'Genetic'@en ;
+        
+
+            skos:definition 'Utilisation de thérapies géniques, de thérapies par cellules souches ou d\'approches utilisant l\'ADN recombinant.'@fr, 'Use of gene therapies, stem cell interventions, or recombinant DNA approaches.'@en ;
+        
+
+        dct:identifier 'FIT3699' .
+    
+
+        term:FIT5827 rdf:type owl:NamedIndividual, fresh:InterventionType ;
+            skos:prefLabel 'Complément alimentaire'@fr , 'Dietary Supplement'@en ;
+        
+
+            skos:definition 'Administration de vitamines, minéraux ou autres produits nutritionnels pour modifier l’état de santé.'@fr, 'Administering vitamins, minerals, or other nutritional products to affect health outcomes.'@en ;
+        
+
+        dct:identifier 'FIT5827' .
+    
+
+        term:FIT4535 rdf:type owl:NamedIndividual, fresh:InterventionType ;
+            skos:prefLabel 'Test diagnostic'@fr , 'Diagnostic Test'@en ;
+        
+
+            skos:definition 'Réalisation de tests, d\'examens d\'imagerie ou d\'analyses en laboratoire afin de détecter, diagnostiquer ou surveiller un état pathologique.'@fr, 'Performing tests, imaging, or laboratory assays to detect, diagnose, or monitor a condition.'@en ;
+        
+
+        dct:identifier 'FIT4535' .
+    
+
+        term:FIT9216 rdf:type owl:NamedIndividual, fresh:InterventionType ;
+            skos:prefLabel 'Combinaison'@fr , 'Combination Product'@en ;
+        
+
+            skos:definition 'Intervention combinant deux ou plusieurs types (ex. combinaison d\'un médicament et d\'un dispositif, d\'un produit biologique et d\'un dispositif, etc).'@fr, 'Intervention combining two or more types (e.g., combination of a drug and a device, a biological product and a device, etc.).'@en ;
+        
+
+        dct:identifier 'FIT9216' .
+    
+
+        term:FIT6141 rdf:type owl:NamedIndividual, fresh:InterventionType ;
+            skos:prefLabel 'Santé publique'@fr , 'Public Health'@en ;
+        
+
+            skos:definition 'Mesures mises en place pour la protection contre un risque sanitaire ou pour la promotion de la santé auprès de la population.'@fr, 'Measures implemented to protect against health risks or to promote health among the population.'@en ;
+        
+
+        dct:identifier 'FIT6141' .
+    
+
+        term:FIT5042 rdf:type owl:NamedIndividual, fresh:InterventionType ;
+            skos:prefLabel 'Autre'@fr , 'Other'@en ;
+        
+
+            skos:definition 'À utiliser lorsque le type d\'intervention est connu, mais introuvable dans la liste.'@fr, 'Used when the intervention type is known but cannot be found in the list.'@en ;
+        
+
+        dct:identifier 'FIT5042' .
+    

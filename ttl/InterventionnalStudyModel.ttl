@@ -1,0 +1,86 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+    @prefix eur: <http://data.europa.eu/8mn/euroscivoc/> .
+    @prefix fresh: <https://purl.org/fresh/> .
+    @prefix term: <https://purl.org/fresh/terminologies/> .
+    @prefix mesh: <http://id.nlm.nih.gov/mesh/> .
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+    @prefix vocab: <https://portail-fresh.fr/vocab/> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix pav: <http://purl.org/pav/> .
+    @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+    fresh:terminologies rdf:type owl:Class . 
+
+
+    fresh:InterventionnalStudyModel rdf:type owl:Class ;
+        rdfs:subClassOf fresh:terminologies ;
+        dct:identifier term:FIS ;
+        dct:title 'Etude interventionnelle : Schéma d’intervention'@fr , 'Interventional Study : Intervention model'@en ;
+        dct:description 'Concepts utilisés pour décrire le champ InterventionnalStudyModel du schéma de métadonnées FReSH.'@fr , 'Terms used to describe the field InterventionnalStudyModel in the FReSH metadata schema.'@en ;
+        dct:creator fresh: ;
+        pav:createdOn "2026-01-05"^^xsd:date ;
+        pav:lastUpdatedOn '2026-04-07' ;
+
+
+    
+ 
+        fresh:metadataConcerned 'InterventionnalStudyModel';
+
+
+        
+ 
+        dct:license 'https://creativecommons.org/licenses/by-nc-sa/4.0/' .
+
+
+            
+        term:FIS3146 rdf:type owl:NamedIndividual, fresh:InterventionnalStudyModel ;
+            skos:prefLabel 'Simple bras'@fr , 'Single Group'@en ;
+        
+
+            skos:definition 'Etude à bras unique : tous les participants reçoivent la même intervention.'@fr, 'Study with a single arm: all participants receive the same intervention.'@en ;
+        
+
+        dct:identifier 'FIS3146' .
+    
+
+        term:FIS3503 rdf:type owl:NamedIndividual, fresh:InterventionnalStudyModel ;
+            skos:prefLabel 'Groupes parallèles'@fr , 'Parallel'@en ;
+        
+
+            skos:definition 'Deux ou plus de groupes distincts de participants reçoivent différentes interventions, généralement attribuées de manière randomisée, et restent dans le même groupe pendant toute la durée de l’étude.'@fr, 'Two or more distinct groups of participants receive different interventions, usually assigned randomly, and remain in the same group for the study duration.'@en ;
+        
+
+        dct:identifier 'FIS3503' .
+    
+
+        term:FIS9793 rdf:type owl:NamedIndividual, fresh:InterventionnalStudyModel ;
+            skos:prefLabel 'Schéma croisé'@fr , 'Crossover'@en ;
+        
+
+            skos:definition 'Les participants reçoivent l\'une des deux (ou plusieurs) interventions alternatives pendant la phase initiale de l\'étude et reçoivent l\'autre intervention pendant la deuxième phase de l\'étude, dans un ordre prédéterminé.'@fr, 'Participants receive one of two (or more) alternative interventions during the initial phase of the study and receive the other intervention during the second phase of the study, in a pre-determined sequence.'@en ;
+        
+
+        dct:identifier 'FIS9793' .
+    
+
+        term:FIS8294 rdf:type owl:NamedIndividual, fresh:InterventionnalStudyModel ;
+            skos:prefLabel 'Plan factoriel'@fr , 'Factorial'@en ;
+        
+
+            skos:definition 'Deux interventions ou plus, chacune seule et en combinaison, sont évaluées en parallèle par rapport à un groupe témoin.'@fr, 'Two or more interventions, each alone and in combination, are evaluated in parallel against a control group.'@en ;
+        
+
+        dct:identifier 'FIS8294' .
+    
+
+        term:FIS1512 rdf:type owl:NamedIndividual, fresh:InterventionnalStudyModel ;
+            skos:prefLabel 'Séquentiel'@fr , 'Sequential'@en ;
+        
+
+            skos:definition 'Les groupes de participants sont répartis pour recevoir des interventions en fonction des étapes préalables atteintes dans l\'étude, comme dans certaines études à doses croissantes et à conception adaptative.'@fr, 'Groups of participants are assigned to receive interventions based on prior milestones being reached in the study, such as in some dose escalation and adaptive design studies.'@en ;
+        
+
+        dct:identifier 'FIS1512' .
+    

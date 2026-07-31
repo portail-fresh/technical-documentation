@@ -1,6 +1,7 @@
 @prefix dct: <http://purl.org/dc/terms/> .
     @prefix eur: <http://data.europa.eu/8mn/euroscivoc/> .
-    @prefix fresh: <https://portail-fresh.fr/> .
+    @prefix fresh: <https://purl.org/fresh/> .
+    @prefix term: <https://purl.org/fresh/terminologies/> .
     @prefix mesh: <http://id.nlm.nih.gov/mesh/> .
     @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
     @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
@@ -15,7 +16,7 @@
 
     fresh:ConformityDeclaration rdf:type owl:Class ;
         rdfs:subClassOf fresh:terminologies ;
-        dct:identifier fresh:FCD ;
+        dct:identifier term:FCD ;
         dct:title 'Déclaration de conformité'@fr , 'Declaration of conformity'@en ;
         dct:description 'Concepts utilisés pour décrire le champ ConformityDeclaration du schéma de métadonnées FReSH.'@fr , 'Terms used to describe the field ConformityDeclaration in the FReSH metadata schema.'@en ;
         dct:creator fresh: ;
@@ -34,3 +35,42 @@
 
 
             
+        term:FCD3001 rdf:type owl:NamedIndividual, fresh:ConformityDeclaration ;
+            skos:prefLabel 'MR-001'@fr , 'MR-001'@en ;
+        
+
+            skos:definition 'Procédure simplifiée établie par la CNIL encadrant le traitement de données de santé réalisé dans le cadre de la recherche interventionnelle nécessitant le consentement de la personne concernée.'@fr, 'Simplified procedure adopted by the CNIL for the processing of personal health data within the context of an interventional study requiring patient consent.'@en ;
+        
+
+        dct:identifier 'FCD3001' .
+    
+
+        term:FCD9950 rdf:type owl:NamedIndividual, fresh:ConformityDeclaration ;
+            skos:prefLabel 'MR-002'@fr , 'MR-002'@en ;
+        
+
+            skos:definition 'Procédure simplifiée établie par la CNIL encadrant le traitement de données de santé effectué dans le cadre d\'une recherche non interventionnelle de perfomances concernant les dispositifs médicaux de diagnostic in vitro.'@fr, 'Simplified procedure adopted by the CNIL for the processing of personal health data within the context of non-interventional performance research concerning in vitro diagnostic medical devices.'@en ;
+        
+
+        dct:identifier 'FCD9950' .
+    
+
+        term:FCD4191 rdf:type owl:NamedIndividual, fresh:ConformityDeclaration ;
+            skos:prefLabel 'MR-003'@fr , 'MR-003'@en ;
+        
+
+            skos:definition 'Procédure simplifiée établie par la CNIL encadrant le traitement de données de santé réalisé dans le cadre d\'une recherche non interventionnelle sans recueil du consentement (non-opposition).'@fr, 'Simplified procedure adopted by the CNIL for the processing of personal health data within the context of a non-interventional study where patient consent is not required.'@en ;
+        
+
+        dct:identifier 'FCD4191' .
+    
+
+        term:FCD4741 rdf:type owl:NamedIndividual, fresh:ConformityDeclaration ;
+            skos:prefLabel 'MR-004'@fr , 'MR-004'@en ;
+        
+
+            skos:definition 'Procédure simplifiée établie par la CNIL encadrant le traitement de données de santé pour une recherche n\'impliquant pas la personne humaine (réutilisation de données).'@fr, 'Simplified procedure adopted by the CNIL for the processing of personal health data within the context of an observational study (studies reusing health data already collected in the context of care or research).'@en ;
+        
+
+        dct:identifier 'FCD4741' .
+    

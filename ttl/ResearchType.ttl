@@ -1,6 +1,7 @@
 @prefix dct: <http://purl.org/dc/terms/> .
     @prefix eur: <http://data.europa.eu/8mn/euroscivoc/> .
-    @prefix fresh: <https://portail-fresh.fr/> .
+    @prefix fresh: <https://purl.org/fresh/> .
+    @prefix term: <https://purl.org/fresh/terminologies/> .
     @prefix mesh: <http://id.nlm.nih.gov/mesh/> .
     @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
     @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
@@ -15,7 +16,7 @@
 
     fresh:ResearchType rdf:type owl:Class ;
         rdfs:subClassOf fresh:terminologies ;
-        dct:identifier fresh:FRT ;
+        dct:identifier term:FRT ;
         dct:title 'Modèle d\'étude'@fr , 'Study Type'@en ;
         dct:description 'Concepts utilisés pour décrire le champ ResearchType du schéma de métadonnées FReSH.'@fr , 'Terms used to describe the field ResearchType in the FReSH metadata schema.'@en ;
         dct:creator fresh: ;
@@ -34,3 +35,22 @@
 
 
             
+        term:FRT6550 rdf:type owl:NamedIndividual, fresh:ResearchType ;
+            skos:prefLabel 'Etude observationnelle'@fr , 'Observational Study'@en ;
+        
+
+            skos:definition 'Une recherche dans laquelle les investigateurs n’interviennent pas activement sur les participants ou le contexte étudié, mais observent, décrivent et analysent des situations existantes. Elle peut porter sur des données issues de soins courants, d’enquêtes, de registres, d’observations de comportements ou d’environnements, sans introduire de modification volontaire du réel.'@fr, 'Research in which the investigators do not actively intervene with participants or the study context, but rather observe, describe, and analyze existing situations. It may involve data from routine care, surveys, registries, or observations of behaviors or environments, without introducing any deliberate changes to reality.'@en ;
+        
+
+        dct:identifier 'FRT6550' .
+    
+
+        term:FRT8264 rdf:type owl:NamedIndividual, fresh:ResearchType ;
+            skos:prefLabel 'Etude interventionnelle (expérimentale)'@fr , 'Interventional Study'@en ;
+        
+
+            skos:definition 'Une recherche dans laquelle les investigateurs réalisent une action ou une modification intentionnelle dans un groupe cible (ex. : traitement médical, programme de prévention, changement organisationnel, action éducative ou sociale), dans le but d’en évaluer les effets sur la santé, les comportements, ou les pratiques liés à la santé.'@fr, 'Research in which investigators carry out an intentional action or change in a target group (e.g., medical treatment, prevention program, organizational change, educational or social action) with the aim of evaluating its effects on health, behaviors, or health-related practices.'@en ;
+        
+
+        dct:identifier 'FRT8264' .
+    

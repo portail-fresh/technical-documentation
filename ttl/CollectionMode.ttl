@@ -1,6 +1,7 @@
 @prefix dct: <http://purl.org/dc/terms/> .
     @prefix eur: <http://data.europa.eu/8mn/euroscivoc/> .
-    @prefix fresh: <https://portail-fresh.fr/> .
+    @prefix fresh: <https://purl.org/fresh/> .
+    @prefix term: <https://purl.org/fresh/terminologies/> .
     @prefix mesh: <http://id.nlm.nih.gov/mesh/> .
     @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
     @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
@@ -15,7 +16,7 @@
 
     fresh:CollectionMode rdf:type owl:Class ;
         rdfs:subClassOf fresh:terminologies ;
-        dct:identifier fresh:FCM ;
+        dct:identifier term:FCM ;
         dct:title 'Mode de collecte'@fr , 'Collection Mode'@en ;
         dct:description 'Concepts utilisés pour décrire le champ CollectionMode du schéma de métadonnées FReSH.'@fr , 'Terms used to describe the field CollectionMode in the FReSH metadata schema.'@en ;
         dct:creator fresh: ;
@@ -34,3 +35,184 @@
 
 
             
+        term:FCM5875 rdf:type owl:NamedIndividual, fresh:CollectionMode ;
+            skos:prefLabel 'Examens et tests '@fr , 'Measurements and tests'@en ;
+        
+
+            skos:definition 'Évaluer des propriétés ou des caractéristiques spécifiques en appliquant des standards préétablis et / ou des instruments ou des techniques spécialisés. '@fr, 'Assessing specific properties (or characteristics) by applying pre-established standards and/or specialized instruments or techniques.'@en ;
+        
+
+            skos:exactMatch 'http://rdf-vocabulary.ddialliance.org/cv/ModeOfCollection/4.0.3/38ceaa4' ;
+            
+
+        dct:identifier 'FCM5875' .
+    
+
+        term:FCM5690 rdf:type owl:NamedIndividual, fresh:CollectionMode ;
+            skos:prefLabel 'Tests éducatifs / évaluation des connaissances en santé (littératie, autogestion, interprétation d’informations médicales...)'@fr , 'Educational tests/assessment of health knowledge (literacy, self-management, interpretation of medical information, etc.)'@en ;
+        
+
+            skos:definition 'Évaluation de connaissances, de compétences, d\'aptitudes, ou de résultats scolaires au moyen de mesures ou tests spécialisés. Par exemple, l\'évaluation des connaissances ou des compétences d\'un patient par le biais de tests structurés (autogestion d\'une pathologie chronique, capacité à interpréter des informations relatives à la santé, etc)'@fr, 'Assessment of knowledge, skills, aptitude, or educational achievement by means of specialized measures or tests.  For example, assessing a patient\'s knowledge or skills through structured tests (self-management of a chronic condition, ability to interpret health-related information, etc.).'@en ;
+        
+
+            skos:exactMatch 'http://rdf-vocabulary.ddialliance.org/cv/ModeOfCollection/4.0.3/4b9776b' ;
+            
+
+        dct:identifier 'FCM5690' .
+    
+
+        term:FCM1593 rdf:type owl:NamedIndividual, fresh:CollectionMode ;
+            skos:prefLabel 'Mesures physiques/biologiques (tension artérielle, poids, biochimie, imagerie...)'@fr , 'Physical/biological measurements (blood pressure, weight, biochemistry, imaging, etc.)'@en ;
+        
+
+            skos:definition 'Évaluation des propriétés physiques, par exemple, des résultats d\'examens cliniques (e. g. palpation, auscultation), mesures cliniques et tests de laboratoire comme analyse de sang, pression sanguine, rythme cardiaque ou poids et taille du corps.  Les résultats peuvent être enregistrés dans un dossier patient ou dans un CRF/eCRF.'@fr, 'Assessment of physical properties, for example, findings from hands-on medical examination (e.g., palpation or auscultation), clinical measurements and lab tests like blood analysis, blood pressure, heart rate or body weight and height. The results of these tests can be recorded in a patient file or in a CRF/eCRF.'@en ;
+        
+
+            skos:exactMatch 'http://rdf-vocabulary.ddialliance.org/cv/ModeOfCollection/4.0.3/c2a25a6' ;
+            
+
+        dct:identifier 'FCM1593' .
+    
+
+        term:FCM1030 rdf:type owl:NamedIndividual, fresh:CollectionMode ;
+            skos:prefLabel 'Tests psychologiques/échelles cliniques (dépression, cognition, qualité de vie...)'@fr , 'Psychological tests/clinical scales (depression, cognition, quality of life, etc.)'@en ;
+        
+
+            skos:definition 'Évaluation des traits de personnalités ou de réponses psychologiques / comportementales au moyen de mesures ou tests spécialisés.'@fr, 'Assessment of personality traits or psychological/behavioral responses by means of specialized measures or tests.'@en ;
+        
+
+            skos:exactMatch 'http://rdf-vocabulary.ddialliance.org/cv/ModeOfCollection/4.0.3/27daf03' ;
+            
+
+        dct:identifier 'FCM1030' .
+    
+
+        term:FCM2231 rdf:type owl:NamedIndividual, fresh:CollectionMode ;
+            skos:prefLabel 'Entretien avec le participant (dont clinique)'@fr , 'Interview with the participant (including clinical)'@en ;
+        
+
+            skos:definition 'Un échange programmé entre deux (ou plusieurs) personnes - l(es) enquêteur(s) et l(es) enquêté(s) - dans lequel des informations sont obtenus par l(es) enquêteur(s) auprès d(es) enquêté(s). Par exemple, l\'infirmière pose des questions au patient sur ses symptômes lors de sa visite à la clinique et saisit ses réponses. Ces informations peuvent être saisies directement dans un CRF/eCRF.'@fr, 'A pre-planned communication between two (or more) people - the interviewer(s) and the interviewee(s) - in which information is obtained by the interviewer(s) from the interviewee(s). For example, nurse asks patient symptom questions during clinic visit and enters answers. These informaions can be entered directly into a CRF/eCRF.'@en ;
+        
+
+            skos:exactMatch 'http://rdf-vocabulary.ddialliance.org/cv/ModeOfCollection/4.0.3/cb20d17' ;
+            
+
+        dct:identifier 'FCM2231' .
+    
+
+        term:FCM3652 rdf:type owl:NamedIndividual, fresh:CollectionMode ;
+            skos:prefLabel 'Questionnaire auto-administré'@fr , 'Self-administered questionnaire'@en ;
+        
+
+            skos:definition 'Méthode de collecte de données dans laquelle l\'enquêté lit ou écoute les questions et saisit les réponses par lui-même ; aucun enquêteur n\'est présent, ou participe à l\'administration du questionnaire. Par exemple, avant leur visite à l\'hôpital les patients remplissent un questionnaire pré-consultation recensant leurs antécédents et traitements en cours.'@fr, 'Data collection method in which the respondent reads or listens to the questions, and enters the responses by him/herself; no live interviewer is present, or participates in the questionnaire administration. For example, before their visit to the hospital, patients fill out a pre-consultation questionnaire listing their medical history and current treatments.'@en ;
+        
+
+            skos:exactMatch 'http://rdf-vocabulary.ddialliance.org/cv/ModeOfCollection/4.0.3/35e4248' ;
+            
+
+        dct:identifier 'FCM3652' .
+    
+
+        term:FCM3176 rdf:type owl:NamedIndividual, fresh:CollectionMode ;
+            skos:prefLabel 'Expérimentation / essai'@fr , 'Experiment / trial'@en ;
+        
+
+            skos:definition 'Méthode de recherche impliquant la manipulation d\'une partie ou de toutes les variables indépendantes incluses dans les hypothèses.'@fr, 'Research method involving the manipulation of some or all of the independent variables included in the hypotheses.'@en ;
+        
+
+            skos:exactMatch 'http://rdf-vocabulary.ddialliance.org/cv/ModeOfCollection/4.0.3/05aeba4' ;
+            
+
+        dct:identifier 'FCM3176' .
+    
+
+        term:FCM6958 rdf:type owl:NamedIndividual, fresh:CollectionMode ;
+            skos:prefLabel 'Experimentation en laboratoire (conditions contrôlées)'@fr , 'Laboratory experimentation (controlled conditions)'@en ;
+        
+
+            skos:definition 'Une expérimentation conduite dans une configuration physique contrôlée, créée artificiellement, dans laquelle un chercheur manipule une ou plusieurs variables indépendantes et mesure son / leur effet sur la variable dépendante. Par exemple, les tests de physiologie d\'exercice menées dans un environnement contrôlé, tandis que les chercheurs surveillent la fréquence cardiaque, la consommation d\'oxygène, etc.'@fr, 'An experiment conducted in a controlled, artificially created physical setting, in which a researcher manipulates one or several independent variables and measures its/their effect on the dependent variable. For example, exercise physiology tests conducted in a controlled environment, while researchers monitor heart rate, oxygen consumption, etc.'@en ;
+        
+
+            skos:exactMatch 'http://rdf-vocabulary.ddialliance.org/cv/ModeOfCollection/4.0.3/28a60a6' ;
+            
+
+        dct:identifier 'FCM6958' .
+    
+
+        term:FCM8943 rdf:type owl:NamedIndividual, fresh:CollectionMode ;
+            skos:prefLabel 'Experimentation sur le terrain (intervention clinique ou de santé publique)'@fr , 'Field experimentation (clinical or public health intervention)'@en ;
+        
+
+            skos:definition 'Une expérimentation conduite dans une configuration naturelle, non contrôlée, dans laquelle le chercheur manipule une ou plusieurs variables indépendantes. Les études cliniques sont un exemple d\'expérimentations sur le terrain. Un essai clinique interventionnel en est un exemple.'@fr, 'An experiment conducted in a natural, uncontrolled setting, in which the researcher manipulates one or several independent variables. Intervention/clinical studies are one example of field experiments. One such example is an interventional clinical trial.'@en ;
+        
+
+            skos:exactMatch 'http://rdf-vocabulary.ddialliance.org/cv/ModeOfCollection/4.0.3/5ff61de' ;
+            
+
+        dct:identifier 'FCM8943' .
+    
+
+        term:FCM2356 rdf:type owl:NamedIndividual, fresh:CollectionMode ;
+            skos:prefLabel 'Expérimentation en ligne à l\'aide des outils numériques'@fr , 'Online experimentation using digital tools'@en ;
+        
+
+            skos:definition 'Une expérience en ligne dans laquelle des matériaux sont programmés pour créer des situations ou des événements artificiels contrôlés. Les participants interagissent à distance avec ces matériaux, ce qui permet d\'étudier leur comportement ou leurs réactions dans un environnement numérique distribué.'@fr, 'A web-based experiment in which materials are programmed to create controlled, artificial situations or events. Participants interact with these materials remotely, allowing the study of behavior or responses from participants in a distributed digital environment.'@en ;
+        
+
+            skos:exactMatch 'http://rdf-vocabulary.ddialliance.org/cv/ModeOfCollection/4.0.3/ed0d083' ;
+            
+
+        dct:identifier 'FCM2356' .
+    
+
+        term:FCM3300 rdf:type owl:NamedIndividual, fresh:CollectionMode ;
+            skos:prefLabel 'Enregistrement (audio, vidéo, électrophysiologique, imagerie)'@fr , 'Recording (audio, video, electrophysiological, imaging)'@en ;
+        
+
+            skos:definition 'Enregistrement par des moyens mécaniques ou électroniques, sous une forme qui permet que les informations soient récupérées et / ou reproduites. L\'imagerie médicale en est un exemple.'@fr, 'Registering by mechanical or electronic means, in a form that allows the information to be retrieved and/or reproduced. One such example is medical imaging.'@en ;
+        
+
+            skos:exactMatch 'http://rdf-vocabulary.ddialliance.org/cv/ModeOfCollection/4.0.3/c5564d2' ;
+            
+
+        dct:identifier 'FCM3300' .
+    
+
+        term:FCM5311 rdf:type owl:NamedIndividual, fresh:CollectionMode ;
+            skos:prefLabel 'Observation (clinique ou comportementale)'@fr , 'Observation (clinical or behavioural)'@en ;
+        
+
+            skos:definition 'Méthode de recherche qui consiste à collecter des données au fur et à mesure qu\'elle se produisent (par exemple, observation de comportements, d’événements, de l\'évolution d\'un état ou d\'une maladie, etc.), sans tentative de manipuler aucune des variables indépendantes. Un clinicien observe la démarche d\'un patient et la consigne directement dans le CRF.'@fr, 'Research method that involves collecting data as they occur (for example, observing behaviors, events, development of condition or disease, etc.), without attempting to manipulate any of the independent variables. A clinician observes a patient’s gait and records it directly into the CRF.'@en ;
+        
+
+            skos:exactMatch 'http://rdf-vocabulary.ddialliance.org/cv/ModeOfCollection/4.0.3/c680d43' ;
+            
+
+        dct:identifier 'FCM5311' .
+    
+
+        term:FCM8390 rdf:type owl:NamedIndividual, fresh:CollectionMode ;
+            skos:prefLabel 'Transcription et saisie d’informations dans un enregistrement structuré'@fr , 'Converting or copying information into a structured record'@en ;
+        
+
+            skos:definition 'Processus consistant à capturer des informations issues de sources orales (entretiens, consultations) ou écrites (dossiers patients, notes) et à les transférer dans un document ou une base de données écrite ou numérique, comme un formulaire de recueil de données. Par exemple, copier des informations provenant de dossiers médicaux dans un CRF/eCRF.'@fr, 'The process of capturing information from spoken sources (e.g., interviews, consultations) or written sources (e.g., patient records, notes) and transferring it into a written or digital record, such as a case report form or database. For example, copying information from medical records into a CRF/eCRF.'@en ;
+        
+
+            skos:exactMatch 'http://rdf-vocabulary.ddialliance.org/cv/ModeOfCollection/4.0.3/df9aac3' ;
+            
+
+        dct:identifier 'FCM8390' .
+    
+
+        term:FCM3481 rdf:type owl:NamedIndividual, fresh:CollectionMode ;
+            skos:prefLabel 'Autre'@fr , 'Other'@en ;
+        
+
+            skos:definition 'A utiliser si le mode de collecte est connu, mais pas présent dans la liste.'@fr, 'Use if the mode of data collection is known, but not found in the list above.'@en ;
+        
+
+            skos:exactMatch 'http://rdf-vocabulary.ddialliance.org/cv/ModeOfCollection/4.0.3/6311ae1' ;
+            
+
+        dct:identifier 'FCM3481' .
+    

@@ -1,6 +1,7 @@
 @prefix dct: <http://purl.org/dc/terms/> .
     @prefix eur: <http://data.europa.eu/8mn/euroscivoc/> .
-    @prefix fresh: <https://portail-fresh.fr/> .
+    @prefix fresh: <https://purl.org/fresh/> .
+    @prefix term: <https://purl.org/fresh/terminologies/> .
     @prefix mesh: <http://id.nlm.nih.gov/mesh/> .
     @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
     @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
@@ -15,7 +16,7 @@
 
     fresh:SourceType rdf:type owl:Class ;
         rdfs:subClassOf fresh:terminologies ;
-        dct:identifier fresh:FST ;
+        dct:identifier term:FST ;
         dct:title 'Type de source'@fr , 'Source type'@en ;
         dct:description 'Concepts utilisés pour décrire le champ SourceType du schéma de métadonnées FReSH.'@fr , 'Terms used to describe the field SourceType in the FReSH metadata schema.'@en ;
         dct:creator fresh: ;
@@ -34,3 +35,82 @@
 
 
             
+        term:FST5341 rdf:type owl:NamedIndividual, fresh:SourceType ;
+            skos:prefLabel 'Dossier du patient'@fr , 'Clinical source: Clinical record'@en ;
+        
+
+            skos:definition 'L’ensemble structuré et évolutif des informations concernant la prise en charge du patient, recueillies par les professionnels de santé, quels que soient les secteurs et modes d’intervention. (Source : Guide de certification des établissements de santé, HAS)'@fr, 'The structured and evolving set of information concerning patient care, collected by healthcare professionals, regardless of sector or mode of intervention.'@en ;
+        
+
+        dct:identifier 'FST5341' .
+    
+
+        term:FST2045 rdf:type owl:NamedIndividual, fresh:SourceType ;
+            skos:prefLabel 'Source des données paracliniques'@fr , 'Paraclinical source'@en ;
+        
+
+            skos:definition 'Dispositifs, systèmes ou structures qui produisent, enregistrent ou centralisent les résultats d’examens médicaux réalisés en appui au diagnostic ou au suivi d’un patient, mais en dehors de l’examen clinique direct (par ex. Laboratoire de biologie médicale, plateau technique d\'imagerie, unité d\'explorations fonctionnelles, SI du stockage d\'imagerie, appareils médicaux connectés, etc.)'@fr, 'Devices, systems or structures that produce, record or centralise the results of medical examinations carried out to support the diagnosis or follow-up of a patient, outside of direct clinical examination (e.g. medical biology laboratory, imaging technical platform, functional exploration unit, imaging storage IS, connected medical devices, etc.).'@en ;
+        
+
+        dct:identifier 'FST2045' .
+    
+
+        term:FST4290 rdf:type owl:NamedIndividual, fresh:SourceType ;
+            skos:prefLabel 'Biobanque'@fr , 'Biobank'@en ;
+        
+
+            skos:definition 'Collections structurées d\'échantillons biologiques, associées à des données pertinentes et gérées conformément aux normes professionnelles, conçues pour recevoir, stocker, traiter et/ou distribuer des échantillons destinés à la recherche ou aux soins de santé.'@fr, 'Structured collections of biological specimens, linked to relevant data and managed in compliance with professional standards, which are designed to receive, store, process, and/or distribute samples for use in research or healthcare.'@en ;
+        
+
+        dct:identifier 'FST4290' .
+    
+
+        term:FST1479 rdf:type owl:NamedIndividual, fresh:SourceType ;
+            skos:prefLabel 'Registre'@fr , 'Registry'@en ;
+        
+
+            skos:definition 'Recueil continu de données individuelles portant sur un ou plusieurs événements de santé, visant l’exhaustivité dans une population géographiquement définie, à des fins de recherche et/ou de santé publique.'@fr, 'A continuous collection of individual-level data on one or more health events, aiming for exhaustiveness within a geographically defined population, for research and/or public health purposes.'@en ;
+        
+
+        dct:identifier 'FST1479' .
+    
+
+        term:FST4816 rdf:type owl:NamedIndividual, fresh:SourceType ;
+            skos:prefLabel 'Base administrative'@fr , 'Administrative database'@en ;
+        
+
+            skos:definition 'Bases de données contenant les informations issues de procédures administratives courantes (par ex. registres d\'état civil, recensement de la population, données fiscales, etc.)'@fr, 'Databases containing information from routine administrative procedures (e.g. civil status registers, population census, tax data, etc.)'@en ;
+        
+
+        dct:identifier 'FST4816' .
+    
+
+        term:FST3568 rdf:type owl:NamedIndividual, fresh:SourceType ;
+            skos:prefLabel 'Base médico-administrative'@fr , 'Medico-administrative database'@en ;
+        
+
+            skos:definition 'Bases de données produites par des acteurs du système de santé (établissements de santé, assurance maladie, etc.) à des fins administratives ou de gestion (actes médicaux, séjours hospitalier, consommations de soins, etc.)'@fr, 'Databases produced by healthcare system actors (healthcare institutions, health insurance providers, etc.) for administrative or management purposes (medical procedures, hospital stays, healthcare consumption, etc.)'@en ;
+        
+
+        dct:identifier 'FST3568' .
+    
+
+        term:FST9054 rdf:type owl:NamedIndividual, fresh:SourceType ;
+            skos:prefLabel 'Données collectées dans le cadre d\'une recherche'@fr , 'Research data'@en ;
+        
+
+            skos:definition 'Données préexistantes déjà collectées dans le cadre d’un projet de recherche, suivant un protocole spécifique, pour répondre aux objectifs scientifiques d’une étude. Ces données sont structurées, documentées et ont été recueillies de manière standardisée, notamment au moyen de cahiers d’observation (CRF ou eCRF).'@fr, 'Pre-existing data already collected as part of a research project, following a specific protocol, to meet the scientific objectives of a study. These data are structured, documented and have been collected in a standardised manner, in particular using observation notebooks (CRF or eCRF).'@en ;
+        
+
+        dct:identifier 'FST9054' .
+    
+
+        term:FST2863 rdf:type owl:NamedIndividual, fresh:SourceType ;
+            skos:prefLabel 'Autre'@fr , 'Other'@en ;
+        
+
+            skos:definition 'À utiliser lorsque la source de données est connue, mais introuvable dans la liste.'@fr, 'Use when the data source is known but cannot be found in the list.'@en ;
+        
+
+        dct:identifier 'FST2863' .
+    
