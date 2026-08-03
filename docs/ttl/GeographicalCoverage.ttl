@@ -1,0 +1,2525 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+    @prefix eur: <http://data.europa.eu/8mn/euroscivoc/> .
+    @prefix fresh: <https://purl.org/fresh/> .
+    @prefix term: <https://purl.org/fresh/terminologies/> .
+    @prefix mesh: <http://id.nlm.nih.gov/mesh/> .
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+    @prefix vocab: <https://portail-fresh.fr/vocab/> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix pav: <http://purl.org/pav/> .
+    @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+    fresh:terminologies rdf:type owl:Class .
+
+
+    fresh:GeographicalCoverage rdf:type owl:Class ;
+        rdfs:subClassOf fresh:terminologies ;
+        dct:identifier term:FGC ;
+        dct:title 'Champ géographique'@fr , 'Geographical coverage'@en ;
+        dct:description 'Concepts utilisés pour décrire le champ Nation du schéma de métadonnées FReSH.'@fr , 'Terms used to describe the field Nation in the FReSH metadata schema.'@en ;
+        dct:creator fresh: ;
+        pav:createdOn "2026-01-05"^^xsd:date ;
+        pav:lastUpdatedOn '2026-04-07' ;
+
+
+
+
+        fresh:metadataConcerned 'Nation';
+
+
+
+
+        dct:license 'https://creativecommons.org/licenses/by-nc-sa/4.0/' .
+
+
+
+        term:FGC4624 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Géorgie'@fr , 'Georgia'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:GE' ;
+
+
+        dct:identifier 'FGC4624' .
+    
+
+        term:FGC2806 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Bénin'@fr , 'Benin'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:BJ' ;
+
+
+        dct:identifier 'FGC2806' .
+    
+
+        term:FGC6714 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Djibouti'@fr , 'Djibouti'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:DJ' ;
+
+
+        dct:identifier 'FGC6714' .
+    
+
+        term:FGC2438 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Salomon, îles'@fr , 'Solomon islands'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:SB' ;
+
+
+        dct:identifier 'FGC2438' .
+    
+
+        term:FGC2392 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Togo'@fr , 'Togo'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:TG' ;
+
+
+        dct:identifier 'FGC2392' .
+    
+
+        term:FGC3010 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Nigéria'@fr , 'Nigeria'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:NG' ;
+
+
+        dct:identifier 'FGC3010' .
+    
+
+        term:FGC8918 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Ghana'@fr , 'Ghana'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:GH' ;
+
+
+        dct:identifier 'FGC8918' .
+    
+
+        term:FGC6023 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Jersey'@fr , 'Jersey'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:JE' ;
+
+
+        dct:identifier 'FGC6023' .
+    
+
+        term:FGC1246 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Åland, îles'@fr , 'Åland islands'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:AX' ;
+
+
+        dct:identifier 'FGC1246' .
+    
+
+        term:FGC6580 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Palaos'@fr , 'Palau'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:PW' ;
+
+
+        dct:identifier 'FGC6580' .
+    
+
+        term:FGC4254 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Gambie'@fr , 'Gambia'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:GM' ;
+
+
+        dct:identifier 'FGC4254' .
+    
+
+        term:FGC5620 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Equateur'@fr , 'Ecuador'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:EC' ;
+
+
+        dct:identifier 'FGC5620' .
+    
+
+        term:FGC4118 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Chili'@fr , 'Chile'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:CL' ;
+
+
+        dct:identifier 'FGC4118' .
+    
+
+        term:FGC4609 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Namibie'@fr , 'Namibia'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:NA' ;
+
+
+        dct:identifier 'FGC4609' .
+    
+
+        term:FGC2787 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Guinée-bissau'@fr , 'Guinea-bissau'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:GW' ;
+
+
+        dct:identifier 'FGC2787' .
+    
+
+        term:FGC4007 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Saint-marin'@fr , 'San marino'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:SM' ;
+
+
+        dct:identifier 'FGC4007' .
+    
+
+        term:FGC1519 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Liechtenstein'@fr , 'Liechtenstein'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:LI' ;
+
+
+        dct:identifier 'FGC1519' .
+    
+
+        term:FGC8547 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Tadjikistan'@fr , 'Tajikistan'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:TJ' ;
+
+
+        dct:identifier 'FGC8547' .
+    
+
+        term:FGC5853 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Centrafricaine, république'@fr , 'Central african republic'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:CF' ;
+
+
+        dct:identifier 'FGC5853' .
+    
+
+        term:FGC3487 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Italie'@fr , 'Italy'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:IT' ;
+
+
+        dct:identifier 'FGC3487' .
+    
+
+        term:FGC8865 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Azerbaïdjan'@fr , 'Azerbaijan'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:AZ' ;
+
+
+        dct:identifier 'FGC8865' .
+    
+
+        term:FGC5443 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Chine'@fr , 'China'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:CN' ;
+
+
+        dct:identifier 'FGC5443' .
+    
+
+        term:FGC7007 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Botswana'@fr , 'Botswana'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:BW' ;
+
+
+        dct:identifier 'FGC7007' .
+    
+
+        term:FGC5129 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Chypre'@fr , 'Cyprus'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:CY' ;
+
+
+        dct:identifier 'FGC5129' .
+    
+
+        term:FGC2268 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Slovénie'@fr , 'Slovenia'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:SI' ;
+
+
+        dct:identifier 'FGC2268' .
+    
+
+        term:FGC6437 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Sahara occidental'@fr , 'Western sahara'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:EH' ;
+
+
+        dct:identifier 'FGC6437' .
+    
+
+        term:FGC7071 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Afrique du sud'@fr , 'South africa'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:ZA' ;
+
+
+        dct:identifier 'FGC7071' .
+    
+
+        term:FGC9810 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Zimbabwe'@fr , 'Zimbabwe'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:ZW' ;
+
+
+        dct:identifier 'FGC9810' .
+    
+
+        term:FGC7577 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Iles vierges britanniques'@fr , 'Virgin islands, british'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:VG' ;
+
+
+        dct:identifier 'FGC7577' .
+    
+
+        term:FGC3162 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Lao, république démocratique populaire'@fr , 'Lao people\'s democratic republic'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:LA' ;
+
+
+        dct:identifier 'FGC3162' .
+    
+
+        term:FGC6773 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Guernesey'@fr , 'Guernsey'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:GG' ;
+
+
+        dct:identifier 'FGC6773' .
+    
+
+        term:FGC5801 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Guatemala'@fr , 'Guatemala'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:GT' ;
+
+
+        dct:identifier 'FGC5801' .
+    
+
+        term:FGC4057 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Roumanie'@fr , 'Romania'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:RO' ;
+
+
+        dct:identifier 'FGC4057' .
+    
+
+        term:FGC8146 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Norvège'@fr , 'Norway'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:NO' ;
+
+
+        dct:identifier 'FGC8146' .
+    
+
+        term:FGC2674 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Monaco'@fr , 'Monaco'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:MC' ;
+
+
+        dct:identifier 'FGC2674' .
+    
+
+        term:FGC3561 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Uruguay'@fr , 'Uruguay'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:UY' ;
+
+
+        dct:identifier 'FGC3561' .
+    
+
+        term:FGC2097 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Dominique'@fr , 'Dominica'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:DM' ;
+
+
+        dct:identifier 'FGC2097' .
+    
+
+        term:FGC4977 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Porto rico'@fr , 'Puerto rico'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:PR' ;
+
+
+        dct:identifier 'FGC4977' .
+    
+
+        term:FGC8347 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Nicaragua'@fr , 'Nicaragua'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:NI' ;
+
+
+        dct:identifier 'FGC8347' .
+    
+
+        term:FGC5878 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Albanie'@fr , 'Albania'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:AL' ;
+
+
+        dct:identifier 'FGC5878' .
+    
+
+        term:FGC3733 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Hong kong'@fr , 'Hong kong'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:HK' ;
+
+
+        dct:identifier 'FGC3733' .
+    
+
+        term:FGC6639 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Curaçao'@fr , 'Curaçao'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:CW' ;
+
+
+        dct:identifier 'FGC6639' .
+    
+
+        term:FGC4844 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Géorgie du sud-et-les îles sandwich du sud'@fr , 'South georgia and the south sandwich islands'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:GS' ;
+
+
+        dct:identifier 'FGC4844' .
+    
+
+        term:FGC6331 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Bermudes'@fr , 'Bermuda'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:BM' ;
+
+
+        dct:identifier 'FGC6331' .
+    
+
+        term:FGC7924 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Congo, la république démocratique du'@fr , 'Congo, the democratic republic of the'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:CD' ;
+
+
+        dct:identifier 'FGC7924' .
+    
+
+        term:FGC1487 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Bangladesh'@fr , 'Bangladesh'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:BD' ;
+
+
+        dct:identifier 'FGC1487' .
+    
+
+        term:FGC5882 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Pérou'@fr , 'Peru'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:PE' ;
+
+
+        dct:identifier 'FGC5882' .
+    
+
+        term:FGC2467 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Océan indien, territoire britannique de l\''@fr , 'British indian ocean territory'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:IO' ;
+
+
+        dct:identifier 'FGC2467' .
+    
+
+        term:FGC3537 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Etats-unis'@fr , 'United states'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:US' ;
+
+
+        dct:identifier 'FGC3537' .
+    
+
+        term:FGC4360 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Martinique'@fr , 'Martinique'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:MQ' ;
+
+
+        dct:identifier 'FGC4360' .
+    
+
+        term:FGC6027 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Burundi'@fr , 'Burundi'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:BI' ;
+
+
+        dct:identifier 'FGC6027' .
+    
+
+        term:FGC1018 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Niué'@fr , 'Niue'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:NU' ;
+
+
+        dct:identifier 'FGC1018' .
+    
+
+        term:FGC7618 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Gibraltar'@fr , 'Gibraltar'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:GI' ;
+
+
+        dct:identifier 'FGC7618' .
+    
+
+        term:FGC1631 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Cook, ïles'@fr , 'Cook islands'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:CK' ;
+
+
+        dct:identifier 'FGC1631' .
+    
+
+        term:FGC1996 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Saint-kitts-et-nevis'@fr , 'Saint kitts and nevis'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:KN' ;
+
+
+        dct:identifier 'FGC1996' .
+    
+
+        term:FGC7050 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Russie, fédération de'@fr , 'Russian federation'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:RU' ;
+
+
+        dct:identifier 'FGC7050' .
+    
+
+        term:FGC1936 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Libéria'@fr , 'Liberia'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:LR' ;
+
+
+        dct:identifier 'FGC1936' .
+    
+
+        term:FGC6019 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Dominicaine, république'@fr , 'Dominican republic'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:DO' ;
+
+
+        dct:identifier 'FGC6019' .
+    
+
+        term:FGC4800 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Bonaire, saint-eustache et saba'@fr , 'Bonaire, sint eustatius and saba'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:BQ' ;
+
+
+        dct:identifier 'FGC4800' .
+    
+
+        term:FGC6849 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Serbie'@fr , 'Serbia'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:RS' ;
+
+
+        dct:identifier 'FGC6849' .
+    
+
+        term:FGC1576 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Mozambique'@fr , 'Mozambique'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:MZ' ;
+
+
+        dct:identifier 'FGC1576' .
+    
+
+        term:FGC6205 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Svalbard et île jan mayen'@fr , 'Svalbard and jan mayen'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:SJ' ;
+
+
+        dct:identifier 'FGC6205' .
+    
+
+        term:FGC3691 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Mexique'@fr , 'Mexico'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:MX' ;
+
+
+        dct:identifier 'FGC3691' .
+    
+
+        term:FGC9930 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Sénégal'@fr , 'Senegal'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:SN' ;
+
+
+        dct:identifier 'FGC9930' .
+    
+
+        term:FGC1145 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Taïwan, province de chine'@fr , 'Taiwan, province of china'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:TW' ;
+
+
+        dct:identifier 'FGC1145' .
+    
+
+        term:FGC8925 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Oman'@fr , 'Oman'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:OM' ;
+
+
+        dct:identifier 'FGC8925' .
+    
+
+        term:FGC8083 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Haïti'@fr , 'Haiti'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:HT' ;
+
+
+        dct:identifier 'FGC8083' .
+    
+
+        term:FGC2900 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Niger'@fr , 'Niger'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:NE' ;
+
+
+        dct:identifier 'FGC2900' .
+    
+
+        term:FGC5600 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Myanmar'@fr , 'Myanmar'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:MM' ;
+
+
+        dct:identifier 'FGC5600' .
+    
+
+        term:FGC6865 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Panama'@fr , 'Panama'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:PA' ;
+
+
+        dct:identifier 'FGC6865' .
+    
+
+        term:FGC7829 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Sainte-lucie'@fr , 'Saint lucia'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:LC' ;
+
+
+        dct:identifier 'FGC7829' .
+    
+
+        term:FGC6546 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Antigua-et-barbuda'@fr , 'Antigua and barbuda'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:AG' ;
+
+
+        dct:identifier 'FGC6546' .
+    
+
+        term:FGC5405 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Qatar'@fr , 'Qatar'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:QA' ;
+
+
+        dct:identifier 'FGC5405' .
+    
+
+        term:FGC6579 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Samoa'@fr , 'Samoa'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:WS' ;
+
+
+        dct:identifier 'FGC6579' .
+    
+
+        term:FGC2166 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Sri lanka'@fr , 'Sri lanka'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:LK' ;
+
+
+        dct:identifier 'FGC2166' .
+    
+
+        term:FGC4189 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Grenade'@fr , 'Grenada'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:GD' ;
+
+
+        dct:identifier 'FGC4189' .
+    
+
+        term:FGC2849 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Guyana'@fr , 'Guyana'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:GY' ;
+
+
+        dct:identifier 'FGC2849' .
+    
+
+        term:FGC1738 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Nauru'@fr , 'Nauru'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:NR' ;
+
+
+        dct:identifier 'FGC1738' .
+    
+
+        term:FGC5695 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Malte'@fr , 'Malta'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:MT' ;
+
+
+        dct:identifier 'FGC5695' .
+    
+
+        term:FGC3466 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Lituanie'@fr , 'Lithuania'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:LT' ;
+
+
+        dct:identifier 'FGC3466' .
+    
+
+        term:FGC8473 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Bulgarie'@fr , 'Bulgaria'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:BG' ;
+
+
+        dct:identifier 'FGC8473' .
+    
+
+        term:FGC7891 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Cuba'@fr , 'Cuba'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:CU' ;
+
+
+        dct:identifier 'FGC7891' .
+    
+
+        term:FGC3793 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Eswatini'@fr , 'Eswatini'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:SZ' ;
+
+
+        dct:identifier 'FGC3793' .
+    
+
+        term:FGC2878 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Fidji'@fr , 'Fiji'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:FJ' ;
+
+
+        dct:identifier 'FGC2878' .
+    
+
+        term:FGC7310 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Canada'@fr , 'Canada'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:CA' ;
+
+
+        dct:identifier 'FGC7310' .
+    
+
+        term:FGC5230 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Iraq'@fr , 'Iraq'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:IQ' ;
+
+
+        dct:identifier 'FGC5230' .
+    
+
+        term:FGC2157 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Soudan du sud'@fr , 'South sudan'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:SS' ;
+
+
+        dct:identifier 'FGC2157' .
+    
+
+        term:FGC7619 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Lettonie'@fr , 'Latvia'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:LV' ;
+
+
+        dct:identifier 'FGC7619' .
+    
+
+        term:FGC7740 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Sierra leone'@fr , 'Sierra leone'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:SL' ;
+
+
+        dct:identifier 'FGC7740' .
+    
+
+        term:FGC3605 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Corée, république populaire démocratique de'@fr , 'Korea, democratic people\'s republic of'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:KP' ;
+
+
+        dct:identifier 'FGC3605' .
+    
+
+        term:FGC8897 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Guadeloupe'@fr , 'Guadeloupe'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:GP' ;
+
+
+        dct:identifier 'FGC8897' .
+    
+
+        term:FGC3552 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Syrienne, république arabe'@fr , 'Syrian arab republic'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:SY' ;
+
+
+        dct:identifier 'FGC3552' .
+    
+
+        term:FGC3896 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Autriche'@fr , 'Austria'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:AT' ;
+
+
+        dct:identifier 'FGC3896' .
+    
+
+        term:FGC9150 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Christmas, île'@fr , 'Christmas island'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:CX' ;
+
+
+        dct:identifier 'FGC9150' .
+    
+
+        term:FGC9155 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Maroc'@fr , 'Morocco'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:MA' ;
+
+
+        dct:identifier 'FGC9155' .
+    
+
+        term:FGC5731 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Polynésie française'@fr , 'French polynesia'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:PF' ;
+
+
+        dct:identifier 'FGC5731' .
+    
+
+        term:FGC8098 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Saint-pierre-et-miquelon'@fr , 'Saint pierre and miquelon'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:PM' ;
+
+
+        dct:identifier 'FGC8098' .
+    
+
+        term:FGC1472 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'France'@fr , 'France'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:FR' ;
+
+
+        dct:identifier 'FGC1472' .
+    
+
+        term:FGC4470 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Mongolie'@fr , 'Mongolia'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:MN' ;
+
+
+        dct:identifier 'FGC4470' .
+    
+
+        term:FGC4001 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Allemagne'@fr , 'Germany'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:DE' ;
+
+
+        dct:identifier 'FGC4001' .
+    
+
+        term:FGC4116 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Gabon'@fr , 'Gabon'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:GA' ;
+
+
+        dct:identifier 'FGC4116' .
+    
+
+        term:FGC9433 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Saint-martin (partie néerlandaise)'@fr , 'Sint maarten (dutch part)'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:SX' ;
+
+
+        dct:identifier 'FGC9433' .
+    
+
+        term:FGC9909 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Papouasie-nouvelle-guinée'@fr , 'Papua new guinea'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:PG' ;
+
+
+        dct:identifier 'FGC9909' .
+    
+
+        term:FGC5495 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Trinité-et-tobago'@fr , 'Trinidad and tobago'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:TT' ;
+
+
+        dct:identifier 'FGC5495' .
+    
+
+        term:FGC7065 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Mauritanie'@fr , 'Mauritania'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:MR' ;
+
+
+        dct:identifier 'FGC7065' .
+    
+
+        term:FGC8236 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Jordanie'@fr , 'Jordan'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:JO' ;
+
+
+        dct:identifier 'FGC8236' .
+    
+
+        term:FGC9588 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Kenya'@fr , 'Kenya'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:KE' ;
+
+
+        dct:identifier 'FGC9588' .
+    
+
+        term:FGC8811 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Liban'@fr , 'Lebanon'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:LB' ;
+
+
+        dct:identifier 'FGC8811' .
+    
+
+        term:FGC3991 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Andorre'@fr , 'Andorra'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:AD' ;
+
+
+        dct:identifier 'FGC3991' .
+    
+
+        term:FGC2736 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Tuvalu'@fr , 'Tuvalu'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:TV' ;
+
+
+        dct:identifier 'FGC2736' .
+    
+
+        term:FGC5844 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Royaume-uni'@fr , 'United kingdom'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:GB' ;
+
+
+        dct:identifier 'FGC5844' .
+    
+
+        term:FGC8244 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'El salvador'@fr , 'El salvador'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:SV' ;
+
+
+        dct:identifier 'FGC8244' .
+    
+
+        term:FGC2212 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Paraguay'@fr , 'Paraguay'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:PY' ;
+
+
+        dct:identifier 'FGC2212' .
+    
+
+        term:FGC9699 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Tchèque, république'@fr , 'Czech republic'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:CZ' ;
+
+
+        dct:identifier 'FGC9699' .
+    
+
+        term:FGC8062 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Comores'@fr , 'Comoros'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:KM' ;
+
+
+        dct:identifier 'FGC8062' .
+    
+
+        term:FGC5604 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Israël'@fr , 'Israel'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:IL' ;
+
+
+        dct:identifier 'FGC5604' .
+    
+
+        term:FGC3926 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Ethiopie'@fr , 'Ethiopia'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:ET' ;
+
+
+        dct:identifier 'FGC3926' .
+    
+
+        term:FGC9161 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Angola'@fr , 'Angola'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:AO' ;
+
+
+        dct:identifier 'FGC9161' .
+    
+
+        term:FGC5196 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Seychelles'@fr , 'Seychelles'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:SC' ;
+
+
+        dct:identifier 'FGC5196' .
+    
+
+        term:FGC9041 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Luxembourg'@fr , 'Luxembourg'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:LU' ;
+
+
+        dct:identifier 'FGC9041' .
+    
+
+        term:FGC2251 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Grèce'@fr , 'Greece'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:GR' ;
+
+
+        dct:identifier 'FGC2251' .
+    
+
+        term:FGC2252 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Sao tomé-et-principe'@fr , 'Sao tome and principe'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:ST' ;
+
+
+        dct:identifier 'FGC2252' .
+    
+
+        term:FGC6747 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Somalie'@fr , 'Somalia'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:SO' ;
+
+
+        dct:identifier 'FGC6747' .
+    
+
+        term:FGC6363 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Vanuatu'@fr , 'Vanuatu'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:VU' ;
+
+
+        dct:identifier 'FGC6363' .
+    
+
+        term:FGC7320 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Hongrie'@fr , 'Hungary'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:HU' ;
+
+
+        dct:identifier 'FGC7320' .
+    
+
+        term:FGC8659 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Iles vierges des états-unis'@fr , 'Virgin islands, u.s.'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:VI' ;
+
+
+        dct:identifier 'FGC8659' .
+    
+
+        term:FGC8177 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Egypte'@fr , 'Egypt'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:EG' ;
+
+
+        dct:identifier 'FGC8177' .
+    
+
+        term:FGC1033 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Suède'@fr , 'Sweden'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:SE' ;
+
+
+        dct:identifier 'FGC1033' .
+    
+
+        term:FGC6998 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Viet nam'@fr , 'Viet nam'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:VN' ;
+
+
+        dct:identifier 'FGC6998' .
+    
+
+        term:FGC1540 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Samoa américaines'@fr , 'American samoa'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:AS' ;
+
+
+        dct:identifier 'FGC1540' .
+    
+
+        term:FGC3951 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Saint-vincent-et-les grenadines'@fr , 'Saint vincent and the grenadines'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:VC' ;
+
+
+        dct:identifier 'FGC3951' .
+    
+
+        term:FGC4568 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Inde'@fr , 'India'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:IN' ;
+
+
+        dct:identifier 'FGC4568' .
+    
+
+        term:FGC4117 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Costa rica'@fr , 'Costa rica'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:CR' ;
+
+
+        dct:identifier 'FGC4117' .
+    
+
+        term:FGC7926 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Australie'@fr , 'Australia'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:AU' ;
+
+
+        dct:identifier 'FGC7926' .
+    
+
+        term:FGC4895 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Cocos (keeling), îles'@fr , 'Cocos (keeling) islands'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:CC' ;
+
+
+        dct:identifier 'FGC4895' .
+    
+
+        term:FGC9868 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Malawi'@fr , 'Malawi'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:MW' ;
+
+
+        dct:identifier 'FGC9868' .
+    
+
+        term:FGC9185 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Turquie'@fr , 'Turkey'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:TR' ;
+
+
+        dct:identifier 'FGC9185' .
+    
+
+        term:FGC4763 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Slovaquie'@fr , 'Slovakia'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:SK' ;
+
+
+        dct:identifier 'FGC4763' .
+    
+
+        term:FGC7787 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Bosnie-herzégovine'@fr , 'Bosnia and herzegovina'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:BA' ;
+
+
+        dct:identifier 'FGC7787' .
+    
+
+        term:FGC8080 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Zambie'@fr , 'Zambia'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:ZM' ;
+
+
+        dct:identifier 'FGC8080' .
+    
+
+        term:FGC9836 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Caïmans, îles'@fr , 'Cayman islands'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:KY' ;
+
+
+        dct:identifier 'FGC9836' .
+    
+
+        term:FGC4354 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Palestinien occupé, territoire'@fr , 'Palestinian territory, occupied'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:PS' ;
+
+
+        dct:identifier 'FGC4354' .
+    
+
+        term:FGC1666 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Bhoutan'@fr , 'Bhutan'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:BT' ;
+
+
+        dct:identifier 'FGC1666' .
+    
+
+        term:FGC9995 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Népal'@fr , 'Nepal'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:NP' ;
+
+
+        dct:identifier 'FGC9995' .
+    
+
+        term:FGC3519 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Libye'@fr , 'Libya'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:LY' ;
+
+
+        dct:identifier 'FGC3519' .
+    
+
+        term:FGC8055 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Anguilla'@fr , 'Anguilla'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:AI' ;
+
+
+        dct:identifier 'FGC8055' .
+    
+
+        term:FGC1399 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Mali'@fr , 'Mali'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:ML' ;
+
+
+        dct:identifier 'FGC1399' .
+    
+
+        term:FGC5436 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Turques-et-Caïques, îles'@fr , 'Turks and caicos islands'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:TC' ;
+
+
+        dct:identifier 'FGC5436' .
+    
+
+        term:FGC5553 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Terres australes françaises'@fr , 'French southern territories'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:TF' ;
+
+
+        dct:identifier 'FGC5553' .
+    
+
+        term:FGC7480 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Argentine'@fr , 'Argentina'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:AR' ;
+
+
+        dct:identifier 'FGC7480' .
+    
+
+        term:FGC3933 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Venezuela, république bolivarienne du'@fr , 'Venezuela, bolivarian republic of'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:VE' ;
+
+
+        dct:identifier 'FGC3933' .
+    
+
+        term:FGC8494 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Cambodge'@fr , 'Cambodia'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:KH' ;
+
+
+        dct:identifier 'FGC8494' .
+    
+
+        term:FGC6182 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Jamaïque'@fr , 'Jamaica'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:JM' ;
+
+
+        dct:identifier 'FGC6182' .
+    
+
+        term:FGC5271 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Congo'@fr , 'Congo'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:CG' ;
+
+
+        dct:identifier 'FGC5271' .
+    
+
+        term:FGC4876 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Suriname'@fr , 'Suriname'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:SR' ;
+
+
+        dct:identifier 'FGC4876' .
+    
+
+        term:FGC8919 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Espagne'@fr , 'Spain'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:ES' ;
+
+
+        dct:identifier 'FGC8919' .
+    
+
+        term:FGC8486 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Thaïlande'@fr , 'Thailand'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:TH' ;
+
+
+        dct:identifier 'FGC8486' .
+    
+
+        term:FGC4255 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Ouganda'@fr , 'Uganda'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:UG' ;
+
+
+        dct:identifier 'FGC4255' .
+    
+
+        term:FGC4535 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Rwanda'@fr , 'Rwanda'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:RW' ;
+
+
+        dct:identifier 'FGC4535' .
+    
+
+        term:FGC7263 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Brésil'@fr , 'Brazil'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:BR' ;
+
+
+        dct:identifier 'FGC7263' .
+    
+
+        term:FGC9878 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Indonésie'@fr , 'Indonesia'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:ID' ;
+
+
+        dct:identifier 'FGC9878' .
+    
+
+        term:FGC8107 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Islande'@fr , 'Iceland'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:IS' ;
+
+
+        dct:identifier 'FGC8107' .
+    
+
+        term:FGC6239 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Honduras'@fr , 'Honduras'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:HN' ;
+
+
+        dct:identifier 'FGC6239' .
+    
+
+        term:FGC1187 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Danemark'@fr , 'Denmark'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:DK' ;
+
+
+        dct:identifier 'FGC1187' .
+    
+
+        term:FGC4281 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Emirats arabes unis'@fr , 'United arab emirates'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:AE' ;
+
+
+        dct:identifier 'FGC4281' .
+    
+
+        term:FGC4892 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Norfolk, île'@fr , 'Norfolk island'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:NF' ;
+
+
+        dct:identifier 'FGC4892' .
+    
+
+        term:FGC6081 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Guam'@fr , 'Guam'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:GU' ;
+
+
+        dct:identifier 'FGC6081' .
+    
+
+        term:FGC4040 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Pologne'@fr , 'Poland'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:PL' ;
+
+
+        dct:identifier 'FGC4040' .
+    
+
+        term:FGC1789 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Mayotte'@fr , 'Mayotte'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:YT' ;
+
+
+        dct:identifier 'FGC1789' .
+    
+
+        term:FGC1586 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Groenland'@fr , 'Greenland'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:GL' ;
+
+
+        dct:identifier 'FGC1586' .
+    
+
+        term:FGC7485 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Kirghizistan'@fr , 'Kyrgyzstan'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:KG' ;
+
+
+        dct:identifier 'FGC7485' .
+    
+
+        term:FGC5588 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Ouzbékistan'@fr , 'Uzbekistan'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:UZ' ;
+
+
+        dct:identifier 'FGC5588' .
+    
+
+        term:FGC2983 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Belgique'@fr , 'Belgium'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:BE' ;
+
+
+        dct:identifier 'FGC2983' .
+    
+
+        term:FGC9681 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Brunei darussalam'@fr , 'Brunei darussalam'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:BN' ;
+
+
+        dct:identifier 'FGC9681' .
+    
+
+        term:FGC4862 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Bouvet, île'@fr , 'Bouvet island'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:BV' ;
+
+
+        dct:identifier 'FGC4862' .
+    
+
+        term:FGC7832 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Bahamas'@fr , 'Bahamas'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:BS' ;
+
+
+        dct:identifier 'FGC7832' .
+    
+
+        term:FGC3102 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Guinée'@fr , 'Guinea'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:GN' ;
+
+
+        dct:identifier 'FGC3102' .
+    
+
+        term:FGC2845 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Turkménistan'@fr , 'Turkmenistan'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:TM' ;
+
+
+        dct:identifier 'FGC2845' .
+    
+
+        term:FGC1766 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Monténégro'@fr , 'Montenegro'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:ME' ;
+
+
+        dct:identifier 'FGC1766' .
+    
+
+        term:FGC2750 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Singapour'@fr , 'Singapore'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:SG' ;
+
+
+        dct:identifier 'FGC2750' .
+    
+
+        term:FGC9708 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Marshall, îles'@fr , 'Marshall islands'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:MH' ;
+
+
+        dct:identifier 'FGC9708' .
+    
+
+        term:FGC6522 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Montserrat'@fr , 'Montserrat'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:MS' ;
+
+
+        dct:identifier 'FGC6522' .
+    
+
+        term:FGC4025 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Macao'@fr , 'Macao'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:MO' ;
+
+
+        dct:identifier 'FGC4025' .
+    
+
+        term:FGC2977 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Guyane française'@fr , 'French guiana'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:GF' ;
+
+
+        dct:identifier 'FGC2977' .
+    
+
+        term:FGC8149 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Kiribati'@fr , 'Kiribati'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:KI' ;
+
+
+        dct:identifier 'FGC8149' .
+    
+
+        term:FGC9337 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Heard-et-îles macdonald, île'@fr , 'Heard island and mcdonald islands'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:HM' ;
+
+
+        dct:identifier 'FGC9337' .
+    
+
+        term:FGC7313 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Cameroun'@fr , 'Cameroon'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:CM' ;
+
+
+        dct:identifier 'FGC7313' .
+    
+
+        term:FGC8036 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Mariannes du nord, îles'@fr , 'Northern mariana islands'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:MP' ;
+
+
+        dct:identifier 'FGC8036' .
+    
+
+        term:FGC1281 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Lesotho'@fr , 'Lesotho'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:LS' ;
+
+
+        dct:identifier 'FGC1281' .
+    
+
+        term:FGC8337 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Réunion'@fr , 'Réunion'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:RE' ;
+
+
+        dct:identifier 'FGC8337' .
+    
+
+        term:FGC1557 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Afghanistan'@fr , 'Afghanistan'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:AF' ;
+
+
+        dct:identifier 'FGC1557' .
+    
+
+        term:FGC6863 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Bolivie, l\'état plurinational de'@fr , 'Bolivia, plurinational state of'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:BO' ;
+
+
+        dct:identifier 'FGC6863' .
+    
+
+        term:FGC6158 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Croatie'@fr , 'Croatia'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:HR' ;
+
+
+        dct:identifier 'FGC6158' .
+    
+
+        term:FGC5403 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Tanzanie, république-unie de'@fr , 'Tanzania, united republic of'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:TZ' ;
+
+
+        dct:identifier 'FGC5403' .
+    
+
+        term:FGC8448 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Iles mineures éloignées des états-unis'@fr , 'United states minor outlying islands'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:UM' ;
+
+
+        dct:identifier 'FGC8448' .
+    
+
+        term:FGC6627 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Pitcairn'@fr , 'Pitcairn'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:PN' ;
+
+
+        dct:identifier 'FGC6627' .
+    
+
+        term:FGC2583 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Barbade'@fr , 'Barbados'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:BB' ;
+
+
+        dct:identifier 'FGC2583' .
+    
+
+        term:FGC2639 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Portugal'@fr , 'Portugal'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:PT' ;
+
+
+        dct:identifier 'FGC2639' .
+    
+
+        term:FGC7851 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Guinée équatoriale'@fr , 'Equatorial guinea'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:GQ' ;
+
+
+        dct:identifier 'FGC7851' .
+    
+
+        term:FGC3675 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Colombie'@fr , 'Colombia'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:CO' ;
+
+
+        dct:identifier 'FGC3675' .
+    
+
+        term:FGC8799 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Ile de man'@fr , 'Isle of man'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:IM' ;
+
+
+        dct:identifier 'FGC8799' .
+    
+
+        term:FGC4120 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Erythrée'@fr , 'Eritrea'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:ER' ;
+
+
+        dct:identifier 'FGC4120' .
+    
+
+        term:FGC8248 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Pays-bas'@fr , 'Netherlands'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:NL' ;
+
+
+        dct:identifier 'FGC8248' .
+    
+
+        term:FGC1674 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Moldova, république de'@fr , 'Moldova, republic of'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:MD' ;
+
+
+        dct:identifier 'FGC1674' .
+    
+
+        term:FGC4665 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Micronésie, états fédérés de'@fr , 'Micronesia, federated states of'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:FM' ;
+
+
+        dct:identifier 'FGC4665' .
+    
+
+        term:FGC5549 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Sainte-héléne, ascension et tristan da cunha'@fr , 'Saint helena, ascension and tristan da cunha'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:SH' ;
+
+
+        dct:identifier 'FGC5549' .
+    
+
+        term:FGC6713 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Algérie'@fr , 'Algeria'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:DZ' ;
+
+
+        dct:identifier 'FGC6713' .
+    
+
+        term:FGC8118 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Aruba'@fr , 'Aruba'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:AW' ;
+
+
+        dct:identifier 'FGC8118' .
+    
+
+        term:FGC3638 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Madagascar'@fr , 'Madagascar'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:MG' ;
+
+
+        dct:identifier 'FGC3638' .
+    
+
+        term:FGC5078 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Bélarus'@fr , 'Belarus'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:BY' ;
+
+
+        dct:identifier 'FGC5078' .
+    
+
+        term:FGC6210 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Saint-siège (Etat de la cité du vatican)'@fr , 'Holy see (vatican city state)'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:VA' ;
+
+
+        dct:identifier 'FGC6210' .
+    
+
+        term:FGC7666 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Ukraine'@fr , 'Ukraine'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:UA' ;
+
+
+        dct:identifier 'FGC7666' .
+    
+
+        term:FGC2006 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Cap-vert'@fr , 'Cape verde'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:CV' ;
+
+
+        dct:identifier 'FGC2006' .
+    
+
+        term:FGC9472 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Saint-martin (partie française)'@fr , 'Saint martin (french part)'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:MF' ;
+
+
+        dct:identifier 'FGC9472' .
+    
+
+        term:FGC3917 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Belize'@fr , 'Belize'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:BZ' ;
+
+
+        dct:identifier 'FGC3917' .
+    
+
+        term:FGC9721 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Pakistan'@fr , 'Pakistan'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:PK' ;
+
+
+        dct:identifier 'FGC9721' .
+    
+
+        term:FGC1791 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Burkina faso'@fr , 'Burkina faso'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:BF' ;
+
+
+        dct:identifier 'FGC1791' .
+    
+
+        term:FGC5609 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Tonga'@fr , 'Tonga'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:TO' ;
+
+
+        dct:identifier 'FGC5609' .
+    
+
+        term:FGC3723 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Suisse'@fr , 'Switzerland'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:CH' ;
+
+
+        dct:identifier 'FGC3723' .
+    
+
+        term:FGC1022 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Tokelau'@fr , 'Tokelau'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:TK' ;
+
+
+        dct:identifier 'FGC1022' .
+    
+
+        term:FGC9545 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Corée, république de'@fr , 'Korea, republic of'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:KR' ;
+
+
+        dct:identifier 'FGC9545' .
+    
+
+        term:FGC8732 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Tchad'@fr , 'Chad'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:TD' ;
+
+
+        dct:identifier 'FGC8732' .
+    
+
+        term:FGC3798 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Philippines'@fr , 'Philippines'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:PH' ;
+
+
+        dct:identifier 'FGC3798' .
+    
+
+        term:FGC6181 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Féroé, îles'@fr , 'Faroe islands'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:FO' ;
+
+
+        dct:identifier 'FGC6181' .
+    
+
+        term:FGC1122 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Finlande'@fr , 'Finland'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:FI' ;
+
+
+        dct:identifier 'FGC1122' .
+    
+
+        term:FGC1453 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Belize; China; Allemagne; Italie; France; Japon; Corée, république populaire démocratique de; Taiwan, Province of China; Russie, fédération de; Espagne; Royaume-Uni; Etats-Unis'@fr , 'New zealand'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:NZ' ;
+
+
+        dct:identifier 'FGC1453' .
+    
+
+        term:FGC1703 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Saint-barthélemy'@fr , 'Saint barthélemy'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:BL' ;
+
+
+        dct:identifier 'FGC1703' .
+    
+
+        term:FGC8117 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Falkland, îles (malvinas)'@fr , 'Falkland islands (malvinas)'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:FK' ;
+
+
+        dct:identifier 'FGC8117' .
+    
+
+        term:FGC8594 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Arabie saoudite'@fr , 'Saudi arabia'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:SA' ;
+
+
+        dct:identifier 'FGC8594' .
+    
+
+        term:FGC3731 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Antarctique'@fr , 'Antarctica'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:AQ' ;
+
+
+        dct:identifier 'FGC3731' .
+    
+
+        term:FGC8171 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Tunisie'@fr , 'Tunisia'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:TN' ;
+
+
+        dct:identifier 'FGC8171' .
+    
+
+        term:FGC9464 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Japon'@fr , 'Japan'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:JP' ;
+
+
+        dct:identifier 'FGC9464' .
+    
+
+        term:FGC8110 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Irlande'@fr , 'Ireland'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:IE' ;
+
+
+        dct:identifier 'FGC8110' .
+    
+
+        term:FGC1317 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Yémen'@fr , 'Yemen'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:YE' ;
+
+
+        dct:identifier 'FGC1317' .
+    
+
+        term:FGC8536 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Maurice'@fr , 'Mauritius'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:MU' ;
+
+
+        dct:identifier 'FGC8536' .
+    
+
+        term:FGC3358 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Nouvelle-calédonie'@fr , 'New caledonia'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:NC' ;
+
+
+        dct:identifier 'FGC3358' .
+    
+
+        term:FGC3607 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Koweït'@fr , 'Kuwait'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:KW' ;
+
+
+        dct:identifier 'FGC3607' .
+    
+
+        term:FGC1285 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Soudan'@fr , 'Sudan'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:SD' ;
+
+
+        dct:identifier 'FGC1285' .
+    
+
+        term:FGC6879 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Wallis et futuna'@fr , 'Wallis and futuna'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:WF' ;
+
+
+        dct:identifier 'FGC6879' .
+    
+
+        term:FGC2686 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Kazakhstan'@fr , 'Kazakhstan'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:KZ' ;
+
+
+        dct:identifier 'FGC2686' .
+    
+
+        term:FGC1165 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Iran, république islamique d\''@fr , 'Iran, islamic republic of'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:IR' ;
+
+
+        dct:identifier 'FGC1165' .
+    
+
+        term:FGC4992 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Malaisie'@fr , 'Malaysia'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:MY' ;
+
+
+        dct:identifier 'FGC4992' .
+    
+
+        term:FGC5461 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Côte d\'ivoire'@fr , 'Côte d\'ivoire'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:CI' ;
+
+
+        dct:identifier 'FGC5461' .
+    
+
+        term:FGC5849 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Timor-leste'@fr , 'Timor-leste'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:TL' ;
+
+
+        dct:identifier 'FGC5849' .
+    
+
+        term:FGC6640 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Macédoine, l\'ex-république yougoslave de'@fr , 'Macedonia, the former yugoslav republic of'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:MK' ;
+
+
+        dct:identifier 'FGC6640' .
+    
+
+        term:FGC4200 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Bahreïn'@fr , 'Bahrain'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:BH' ;
+
+
+        dct:identifier 'FGC4200' .
+    
+
+        term:FGC6440 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Arménie'@fr , 'Armenia'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:AM' ;
+
+
+        dct:identifier 'FGC6440' .
+    
+
+        term:FGC9445 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Maldives'@fr , 'Maldives'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:MV' ;
+
+
+        dct:identifier 'FGC9445' .
+    
+
+        term:FGC9331 rdf:type owl:NamedIndividual, fresh:GeographicalCoverage ;
+            skos:prefLabel 'Estonie'@fr , 'Estonia'@en ;
+
+
+            skos:exactMatch 'https://www.iso.org/obp/ui/#iso:code:3166:EE' ;
+
+
+        dct:identifier 'FGC9331' .
