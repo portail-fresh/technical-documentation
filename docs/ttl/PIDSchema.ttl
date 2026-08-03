@@ -36,7 +36,7 @@
 
             
         term:FOP6821 rdf:type owl:NamedIndividual, fresh:PIDSchema ;
-            skos:prefLabel 'SIRENE'@fr , 'SIRENE'@en ;
+            skos:prefLabel 'SIREN'@fr , 'SIREN'@en ;
         
 
             skos:definition 'Système national d’identification et du répertoire des entreprises et de leurs établissements (https://sirene.fr/sirene/public/accueil)'@fr, 'Computer system for the business and establishment register (https://sirene.fr/sirene/public/accueil)'@en ;
