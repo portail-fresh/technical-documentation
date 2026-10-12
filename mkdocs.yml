@@ -10,6 +10,7 @@ nav:
 
   - Français :
     - Documentation technique: fr/DocumentationTechnique.md
+    - API GET: fr/API_get.md
     - Dictionnaire des variables :
       - Présentation : fr/DictionnaireVariables/DictionnaireVariables.md
       - Sections:
@@ -24,6 +25,7 @@ nav:
       
   - English :
     - Technical Documentation : en/TechnicalDocumentation.md
+    - API GET: en/API_GET.md
     - Variable dictionnary:
       - Introduction: en/VariablesDictionnary/VariablesDictionnary.md
       - Sections:

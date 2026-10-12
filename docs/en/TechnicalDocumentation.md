@@ -6,8 +6,13 @@ hide:
 # Technical Documentation
 ![Logo](../assets/logocouleur.jpg){ align=right }
 
+* [API GET Access](API_GET.md)  
+  _Access to the GET API of the FReSH catalogue._
+
+---
+
 * [Variables Dictionnary](VariablesDictionnary/VariablesDictionnary.md)  
-  _Description of the elements of the FReSH model.._
+  _Description of the elements of the FReSH model._
 
 ---
 
