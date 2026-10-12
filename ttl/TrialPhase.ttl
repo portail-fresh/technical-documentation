@@ -76,7 +76,7 @@
     
 
         term:FTR8897 rdf:type owl:NamedIndividual, fresh:TrialPhase ;
-            skos:prefLabel 'nan'@fr , 'nan'@en ;
+            skos:prefLabel 'NA'@fr , 'NA'@en ;
         
 
             skos:definition 'Non applicable'@fr, 'Not applicable'@en ;

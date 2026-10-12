@@ -36,7 +36,7 @@
 
             
         term:FAU6589 rdf:type owl:NamedIndividual, fresh:AllocationUnit ;
-            skos:prefLabel 'Individuelle'@fr , 'Individuelle'@en ;
+            skos:prefLabel 'Individuelle'@fr , 'Individual'@en ;
         
 
             skos:definition 'Intervention attribuée au niveau individuel.'@fr, 'Individual-level intervention.'@en ;
